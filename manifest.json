@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-04T20:41:10+08:00",
- "notes": "初版：收錄 10 部作品共 3,427 張卡",
+ "updated_at": "2026-08-04T12:49:38+08:00",
+ "notes": "Card tables for the WSDeckBuilder update feed",
  "sets": [
   {
    "title_code": "BD/W54",
