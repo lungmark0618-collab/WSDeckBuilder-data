@@ -1,0 +1,67 @@
+{
+ "schema_version": 1,
+ "updated_at": "2026-08-04T20:41:10+08:00",
+ "notes": "初版：收錄 10 部作品共 3,427 張卡",
+ "sets": [
+  {
+   "title_code": "BD/W54",
+   "file": "bdgbp_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bdgbp_cards.json"
+  },
+  {
+   "title_code": "BRD/W139",
+   "file": "brd_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/brd_cards.json"
+  },
+  {
+   "title_code": "BTR",
+   "file": "btr_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/btr_cards.json"
+  },
+  {
+   "title_code": "CSM",
+   "file": "csm_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/csm_cards.json"
+  },
+  {
+   "title_code": "HOL",
+   "file": "hol_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/hol_cards.json"
+  },
+  {
+   "title_code": "BD/W125",
+   "file": "mygo_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mygo_cards.json"
+  },
+  {
+   "title_code": "NIK",
+   "file": "nik_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nik_cards.json"
+  },
+  {
+   "title_code": "OVL",
+   "file": "ovl_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ovl_cards.json"
+  },
+  {
+   "title_code": "SFN",
+   "file": "sfn_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sfn_cards.json"
+  },
+  {
+   "title_code": "UMA",
+   "file": "uma_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/uma_cards.json"
+  }
+ ]
+}
