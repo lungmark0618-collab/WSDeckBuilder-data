@@ -1,8 +1,14 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-05T09:31:03+08:00",
- "notes": "新增間諜家家酒、輝夜姬想讓人告白、關於我轉生變成史萊姆這檔事（719 張）",
+ "updated_at": "2026-08-09T23:30:01+08:00",
+ "notes": "新增學園偶像大師、我推的孩子、世界計畫、碧藍航線、莉可麗絲（1583 張）",
  "sets": [
+  {
+   "title_code": "AZL",
+   "file": "azl_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/azl_cards.json"
+  },
   {
    "title_code": "BD/W54",
    "file": "bdgbp_cards.json",
@@ -28,6 +34,12 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/csm_cards.json"
   },
   {
+   "title_code": "GIM",
+   "file": "gim_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
+  },
+  {
    "title_code": "HOL",
    "file": "hol_cards.json",
    "data_version": 1,
@@ -38,6 +50,12 @@
    "file": "kgl_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kgl_cards.json"
+  },
+  {
+   "title_code": "LRC",
+   "file": "lrc_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
   },
   {
    "title_code": "BD/W125",
@@ -52,10 +70,22 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nik_cards.json"
   },
   {
+   "title_code": "OSK",
+   "file": "osk_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/osk_cards.json"
+  },
+  {
    "title_code": "OVL",
    "file": "ovl_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ovl_cards.json"
+  },
+  {
+   "title_code": "PJS",
+   "file": "pjs_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
   },
   {
    "title_code": "SFN",
