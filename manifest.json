@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-09T23:30:01+08:00",
- "notes": "新增學園偶像大師、我推的孩子、世界計畫、碧藍航線、莉可麗絲（1583 張）",
+ "updated_at": "2026-08-10T09:42:10+08:00",
+ "notes": "五部新作品補上中文譯文（卡名約四成、能力文字約五成）",
  "sets": [
   {
    "title_code": "AZL",
    "file": "azl_cards.json",
-   "data_version": 1,
+   "data_version": 2,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/azl_cards.json"
   },
   {
@@ -36,7 +36,7 @@
   {
    "title_code": "GIM",
    "file": "gim_cards.json",
-   "data_version": 1,
+   "data_version": 2,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
   },
   {
@@ -54,7 +54,7 @@
   {
    "title_code": "LRC",
    "file": "lrc_cards.json",
-   "data_version": 1,
+   "data_version": 2,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
   },
   {
@@ -72,7 +72,7 @@
   {
    "title_code": "OSK",
    "file": "osk_cards.json",
-   "data_version": 1,
+   "data_version": 2,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/osk_cards.json"
   },
   {
@@ -84,7 +84,7 @@
   {
    "title_code": "PJS",
    "file": "pjs_cards.json",
-   "data_version": 1,
+   "data_version": 2,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
   },
   {
