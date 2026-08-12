@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-10T09:42:10+08:00",
- "notes": "五部新作品補上中文譯文（卡名約四成、能力文字約五成）",
+ "updated_at": "2026-08-12T09:48:36+08:00",
+ "notes": "補上世界計畫能力文字譯文（有效覆蓋率 65% → 72%）",
  "sets": [
   {
    "title_code": "AZL",
@@ -84,7 +84,7 @@
   {
    "title_code": "PJS",
    "file": "pjs_cards.json",
-   "data_version": 2,
+   "data_version": 3,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
   },
   {
