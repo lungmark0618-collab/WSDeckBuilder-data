@@ -1,12 +1,13 @@
 # WSDeckBuilder 卡表資料
 
-[WSDeckBuilder](https://github.com/lungmark0618-collab/WSDeckBuilder) 這個 iOS App
+[WSDeckBuilder](https://github.com/lungmark0618-collab/WSDeckBuilder-ios) 這個 iOS App
 的線上更新資料源。**這個 repo 只是我自己手機的資料來源，不是給人使用的專案。**
 
 ```
-cards/          各作品卡表（App 逐部比對 data_version，只下載有變動的）
-manifest.json   版本目錄，由 CI 自動產生，不要手改
-tools/          產生與檢查 manifest 的腳本
+cards/             各作品卡表（App 逐部比對 data_version，只下載有變動的）
+manifest.json      卡表版本目錄，由 CI 自動產生，不要手改
+announcements.json 開發者通知（App 右上角鈴鐺），手動編輯，不用重新上架
+tools/             產生與檢查 manifest 的腳本、加通知的小工具
 ```
 
 ## 著作權
