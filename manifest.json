@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-13T09:41:37+08:00",
- "notes": "Add a developer-to-user notification feed",
+ "updated_at": "2026-08-13T09:44:13+08:00",
+ "notes": "補上通知功能（鈴鐺會顯示紅點或未讀數）",
  "sets": [
   {
    "title_code": "AZL",
