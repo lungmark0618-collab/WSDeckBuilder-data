@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-12T09:48:36+08:00",
- "notes": "補上世界計畫能力文字譯文（有效覆蓋率 65% → 72%）",
+ "updated_at": "2026-08-13T09:41:37+08:00",
+ "notes": "Add a developer-to-user notification feed",
  "sets": [
   {
    "title_code": "AZL",
