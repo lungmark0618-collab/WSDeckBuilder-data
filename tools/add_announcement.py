@@ -5,6 +5,9 @@
     python3 tools/add_announcement.py "標題" "內容，可以寫長一點"
 
 加完直接檢查一下 announcements.json 再 push——這支腳本不會自動 commit。
+
+這個目錄底下的 .py 改動也會觸發 manifest CI 重新產生，commit 標題請務必寫中文，
+不然會變成使用者在 App 設定裡看到的更新說明（notes 直接取 commit 標題）。
 """
 import argparse
 import datetime
