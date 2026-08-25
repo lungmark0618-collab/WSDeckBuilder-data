@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-24T15:42:08+08:00",
- "notes": "補上五部作品能力文字譯文第二批",
+ "updated_at": "2026-08-25T13:11:01+08:00",
+ "notes": "補上五部作品能力文字譯文第三批",
  "sets": [
   {
    "title_code": "AZL",
    "file": "azl_cards.json",
-   "data_version": 4,
+   "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/azl_cards.json"
   },
   {
@@ -36,7 +36,7 @@
   {
    "title_code": "GIM",
    "file": "gim_cards.json",
-   "data_version": 4,
+   "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
   },
   {
@@ -54,7 +54,7 @@
   {
    "title_code": "LRC",
    "file": "lrc_cards.json",
-   "data_version": 5,
+   "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
   },
   {
@@ -72,7 +72,7 @@
   {
    "title_code": "OSK",
    "file": "osk_cards.json",
-   "data_version": 3,
+   "data_version": 4,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/osk_cards.json"
   },
   {
@@ -84,7 +84,7 @@
   {
    "title_code": "PJS",
    "file": "pjs_cards.json",
-   "data_version": 6,
+   "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
   },
   {
