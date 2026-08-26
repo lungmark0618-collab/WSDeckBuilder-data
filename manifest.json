@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-26T07:44:57+08:00",
- "notes": "補完學園偶像大師並更新芙莉蓮第二彈",
+ "updated_at": "2026-08-26T09:19:32+08:00",
+ "notes": "補完莉可麗絲能力文字譯文",
  "sets": [
   {
    "title_code": "AZL",
@@ -54,7 +54,7 @@
   {
    "title_code": "LRC",
    "file": "lrc_cards.json",
-   "data_version": 7,
+   "data_version": 10,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
   },
   {
