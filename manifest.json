@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-25T13:11:01+08:00",
- "notes": "補上五部作品能力文字譯文第三批",
+ "updated_at": "2026-08-26T07:44:57+08:00",
+ "notes": "補完學園偶像大師並更新芙莉蓮第二彈",
  "sets": [
   {
    "title_code": "AZL",
@@ -36,7 +36,7 @@
   {
    "title_code": "GIM",
    "file": "gim_cards.json",
-   "data_version": 5,
+   "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
   },
   {
@@ -90,7 +90,7 @@
   {
    "title_code": "SFN",
    "file": "sfn_cards.json",
-   "data_version": 1,
+   "data_version": 4,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sfn_cards.json"
   },
   {
