@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T10:58:16+08:00",
- "notes": "補完第二批小型作品譯文並更新校驗通過卡表",
+ "updated_at": "2026-08-28T11:04:39+08:00",
+ "notes": "補完成為神的那一天譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -60,7 +60,7 @@
   {
    "title_code": "DBG",
    "file": "dbg_cards.json",
-   "data_version": 8,
+   "data_version": 16,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dbg_cards.json"
   },
   {
