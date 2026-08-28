@@ -1,8 +1,20 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-27T17:17:08+08:00",
- "notes": "新增十部隨機作品卡表與初版譯文",
+ "updated_at": "2026-08-28T09:48:01+08:00",
+ "notes": "新增第二批十部隨機作品卡表與初版譯文",
  "sets": [
+  {
+   "title_code": "AMG",
+   "file": "amg_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/amg_cards.json"
+  },
+  {
+   "title_code": "AOT",
+   "file": "aot_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/aot_cards.json"
+  },
   {
    "title_code": "AZL",
    "file": "azl_cards.json",
@@ -46,10 +58,28 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/csm_cards.json"
   },
   {
+   "title_code": "DBG",
+   "file": "dbg_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dbg_cards.json"
+  },
+  {
    "title_code": "DDM",
    "file": "ddm_cards.json",
    "data_version": 3,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ddm_cards.json"
+  },
+  {
+   "title_code": "Dds",
+   "file": "dds_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dds_cards.json"
+  },
+  {
+   "title_code": "EV",
+   "file": "ev_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ev_cards.json"
   },
   {
    "title_code": "GBS",
@@ -62,6 +92,12 @@
    "file": "gim_cards.json",
    "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
+  },
+  {
+   "title_code": "GST",
+   "file": "gst_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gst_cards.json"
   },
   {
    "title_code": "GT",
@@ -94,6 +130,12 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
   },
   {
+   "title_code": "LSS",
+   "file": "lss_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lss_cards.json"
+  },
+  {
    "title_code": "MB",
    "file": "mb_cards.json",
    "data_version": 3,
@@ -116,6 +158,12 @@
    "file": "nik_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nik_cards.json"
+  },
+  {
+   "title_code": "NK",
+   "file": "nk_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nk_cards.json"
   },
   {
    "title_code": "OSK",
@@ -154,6 +202,12 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/spy_cards.json"
   },
   {
+   "title_code": "TRV",
+   "file": "trv_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/trv_cards.json"
+  },
+  {
    "title_code": "TSK",
    "file": "tsk_cards.json",
    "data_version": 1,
@@ -170,6 +224,12 @@
    "file": "vr_cards.json",
    "data_version": 3,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/vr_cards.json"
+  },
+  {
+   "title_code": "Woo",
+   "file": "woo_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/woo_cards.json"
   }
  ]
 }
