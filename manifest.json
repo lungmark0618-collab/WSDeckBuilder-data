@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T11:12:51+08:00",
- "notes": "補完甘神家的連理枝譯文",
+ "updated_at": "2026-08-28T11:14:32+08:00",
+ "notes": "補完進擊的巨人譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -12,7 +12,7 @@
   {
    "title_code": "AOT",
    "file": "aot_cards.json",
-   "data_version": 8,
+   "data_version": 10,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/aot_cards.json"
   },
   {
