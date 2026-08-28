@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T11:14:32+08:00",
- "notes": "補完進擊的巨人譯文",
+ "updated_at": "2026-08-28T11:18:45+08:00",
+ "notes": "補完 Love Live Sunshine 譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -132,7 +132,7 @@
   {
    "title_code": "LSS",
    "file": "lss_cards.json",
-   "data_version": 8,
+   "data_version": 11,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lss_cards.json"
   },
   {
