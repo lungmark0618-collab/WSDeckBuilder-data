@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T11:04:39+08:00",
- "notes": "補完成為神的那一天譯文",
+ "updated_at": "2026-08-28T11:09:19+08:00",
+ "notes": "補完 Disney100 譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -72,7 +72,7 @@
   {
    "title_code": "Dds",
    "file": "dds_cards.json",
-   "data_version": 9,
+   "data_version": 11,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dds_cards.json"
   },
   {
