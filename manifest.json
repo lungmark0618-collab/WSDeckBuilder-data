@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T11:18:45+08:00",
- "notes": "補完 Love Live Sunshine 譯文",
+ "updated_at": "2026-08-28T18:32:26+08:00",
+ "notes": "補完第三批三部作品譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -48,7 +48,7 @@
   {
    "title_code": "CGS",
    "file": "cgs_cards.json",
-   "data_version": 3,
+   "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/cgs_cards.json"
   },
   {
@@ -102,7 +102,7 @@
   {
    "title_code": "GT",
    "file": "gt_cards.json",
-   "data_version": 3,
+   "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gt_cards.json"
   },
   {
@@ -222,7 +222,7 @@
   {
    "title_code": "VR",
    "file": "vr_cards.json",
-   "data_version": 3,
+   "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/vr_cards.json"
   },
   {
