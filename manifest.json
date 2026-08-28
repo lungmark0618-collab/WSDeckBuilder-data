@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T11:09:19+08:00",
- "notes": "補完 Disney100 譯文",
+ "updated_at": "2026-08-28T11:11:04+08:00",
+ "notes": "補完東京復仇者譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -204,7 +204,7 @@
   {
    "title_code": "TRV",
    "file": "trv_cards.json",
-   "data_version": 10,
+   "data_version": 12,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/trv_cards.json"
   },
   {
