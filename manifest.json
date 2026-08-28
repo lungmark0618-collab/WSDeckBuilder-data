@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T18:32:26+08:00",
- "notes": "補完第三批三部作品譯文",
+ "updated_at": "2026-08-28T18:37:17+08:00",
+ "notes": "補完第三批舊系列譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -42,7 +42,7 @@
   {
    "title_code": "CC",
    "file": "cc_cards.json",
-   "data_version": 3,
+   "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/cc_cards.json"
   },
   {
@@ -138,7 +138,7 @@
   {
    "title_code": "MB",
    "file": "mb_cards.json",
-   "data_version": 3,
+   "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mb_cards.json"
   },
   {
@@ -186,7 +186,7 @@
   {
    "title_code": "PT",
    "file": "pt_cards.json",
-   "data_version": 3,
+   "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pt_cards.json"
   },
   {
