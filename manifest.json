@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-28T18:54:50+08:00",
- "notes": "補完第三批其餘四部作品譯文",
+ "updated_at": "2026-08-29T07:41:46+08:00",
+ "notes": "補完碧藍航線譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -18,7 +18,7 @@
   {
    "title_code": "AZL",
    "file": "azl_cards.json",
-   "data_version": 5,
+   "data_version": 20,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/azl_cards.json"
   },
   {
