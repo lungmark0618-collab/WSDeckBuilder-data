@@ -68,6 +68,11 @@ def main():
         version = meta.get("data_version", 1)
         sets.append({
             "title_code": meta["title_code"],
+            # 通知／設定頁要顯示中文名稱時用——本地端第一次看到這部作品時
+            # （還沒下載過卡表）沒有別的地方查得到譯名，只能靠 manifest 帶著走，
+            # 不然新作品的通知只能顯示代號（如「新增了 AMG」而不是「新增了
+            # 賽馬娘」）
+            "title_name_zh": meta.get("title_name_zh", meta["title_code"]),
             "file": name,
             "data_version": version,
             "url": urljoin(base, name),
