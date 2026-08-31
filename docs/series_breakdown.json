@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-08-31T17:38:24+08:00",
+  "schema_version": 2,
+  "generated_at": "2026-09-01T00:14:38+08:00",
   "purpose": "Provide product-code breakdowns so the app can group one WS title into separate releases/boosters without changing translation files.",
   "grouping_rule": "Use card id or printing id. Product code is the substring before the final hyphen and card number, e.g. SFN/S108-001 -> SFN/S108.",
-  "display_name_note": "suggested_display_name intentionally includes the product code. Friendly labels like 第一彈/第二彈 should be a separate manual mapping against official product names because card-code order is not always release order.",
+  "display_name_note": "suggested_display_name now uses the primary official WS expansion name matched from the official card list API. official_expansions keeps all official names under the same product code, such as TD plus booster products.",
   "trait_policy": "Trait names inside 《》 remain Japanese in translations for physical-card lookup.",
   "sets": [
     {
@@ -17,7 +17,7 @@
       "products": [
         {
           "product_code": "AMG/W121",
-          "suggested_display_name": "甘神家的連理枝（AMG/W121）",
+          "suggested_display_name": "甘神家的連理枝（甘神さんちの縁結び）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 121,
           "printing_count": 264,
@@ -27,7 +27,48 @@
             "AMG/W121-T01",
             "AMG/W121-T02",
             "AMG/W121-T03"
-          ]
+          ],
+          "official_display_name_jp": "甘神さんちの縁結び",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "甘神さんちの縁結び",
+            "[TD]甘神さんちの縁結び",
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 512,
+              "official_name_jp": "甘神さんちの縁結び",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 411,
+              "matched_card_count_in_official_expansion": 218,
+              "official_expansion_total_cards": 218,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 500,
+              "official_name_jp": "[TD]甘神さんちの縁結び",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 399,
+              "matched_card_count_in_official_expansion": 41,
+              "official_expansion_total_cards": 41,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 5,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -42,7 +83,7 @@
       "products": [
         {
           "product_code": "AOT/S35",
-          "suggested_display_name": "進擊的巨人（AOT/S35）",
+          "suggested_display_name": "進擊的巨人（進撃の巨人）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 138,
           "printing_count": 169,
@@ -52,11 +93,52 @@
             "AOT/S35-P03",
             "AOT/S35-P04",
             "AOT/S35-T01"
-          ]
+          ],
+          "official_display_name_jp": "進撃の巨人",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "進撃の巨人",
+            "2015年度トライアルデッキ【S】",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 149,
+              "official_name_jp": "進撃の巨人",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 41,
+              "matched_card_count_in_official_expansion": 139,
+              "official_expansion_total_cards": 139,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 138,
+              "official_name_jp": "2015年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 93,
+              "matched_card_count_in_official_expansion": 26,
+              "official_expansion_total_cards": 105,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 4,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "AOT/S50",
-          "suggested_display_name": "進擊的巨人（AOT/S50）",
+          "suggested_display_name": "進擊的巨人（ブースターパック 「進撃の巨人」Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 109,
           "printing_count": 155,
@@ -66,7 +148,37 @@
             "AOT/S50-P03",
             "AOT/S50-P04",
             "AOT/S50-P05"
-          ]
+          ],
+          "official_display_name_jp": "ブースターパック 「進撃の巨人」Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ブースターパック 「進撃の巨人」Vol.2",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 207,
+              "official_name_jp": "ブースターパック 「進撃の巨人」Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 69,
+              "matched_card_count_in_official_expansion": 146,
+              "official_expansion_total_cards": 146,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 9,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -81,7 +193,7 @@
       "products": [
         {
           "product_code": "AZL/S102",
-          "suggested_display_name": "碧藍航線（AZL/S102）",
+          "suggested_display_name": "碧藍航線（アズールレーン）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 241,
           "printing_count": 467,
@@ -91,11 +203,52 @@
             "AZL/S102-P03",
             "AZL/S102-T01",
             "AZL/S102-T02"
-          ]
+          ],
+          "official_display_name_jp": "アズールレーン",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "アズールレーン",
+            "[TD]アズールレーン",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 410,
+              "official_name_jp": "アズールレーン",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 311,
+              "matched_card_count_in_official_expansion": 298,
+              "official_expansion_total_cards": 298,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 409,
+              "official_name_jp": "[TD]アズールレーン",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 310,
+              "matched_card_count_in_official_expansion": 164,
+              "official_expansion_total_cards": 164,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 5,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "AZL/S119",
-          "suggested_display_name": "碧藍航線（AZL/S119）",
+          "suggested_display_name": "碧藍航線（アズールレーン Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 134,
           "printing_count": 316,
@@ -105,7 +258,37 @@
             "AZL/S119-P03",
             "AZL/S119-001",
             "AZL/S119-002"
-          ]
+          ],
+          "official_display_name_jp": "アズールレーン Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "アズールレーン Vol.2",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 499,
+              "official_name_jp": "アズールレーン Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 398,
+              "matched_card_count_in_official_expansion": 311,
+              "official_expansion_total_cards": 311,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 5,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -120,7 +303,7 @@
       "products": [
         {
           "product_code": "BD/W54",
-          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W54）",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（バンドリ！ ガールズバンドパーティ！）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 234,
           "printing_count": 430,
@@ -130,11 +313,107 @@
             "BD/W54-P03",
             "BD/W54-P04",
             "BD/W54-P05"
-          ]
+          ],
+          "official_display_name_jp": "バンドリ！ ガールズバンドパーティ！",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "バンドリ！ ガールズバンドパーティ！",
+            "BanG Dream!",
+            "[TD+]バンドリ！ ガールズバンドパーティ！ ［Roselia］",
+            "[TD+]バンドリ！ ガールズバンドパーティ！ ［Pastel＊Palettes］",
+            "[TD+]バンドリ！ ガールズバンドパーティ！ ［Afterglow］",
+            "[TD+]バンドリ！ ガールズバンドパーティ！ ［ハロー、ハッピーワールド！］",
+            "[TD+]バンドリ！ ガールズバンドパーティ！［Poppin’Party］",
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 213,
+              "official_name_jp": "バンドリ！ ガールズバンドパーティ！",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 75,
+              "matched_card_count_in_official_expansion": 268,
+              "official_expansion_total_cards": 268,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 196,
+              "official_name_jp": "BanG Dream!",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 93,
+              "matched_card_count_in_official_expansion": 2,
+              "official_expansion_total_cards": 164,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 212,
+              "official_name_jp": "[TD+]バンドリ！ ガールズバンドパーティ！ ［Roselia］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 74,
+              "matched_card_count_in_official_expansion": 26,
+              "official_expansion_total_cards": 26,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 218,
+              "official_name_jp": "[TD+]バンドリ！ ガールズバンドパーティ！ ［Pastel＊Palettes］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 78,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 224,
+              "official_name_jp": "[TD+]バンドリ！ ガールズバンドパーティ！ ［Afterglow］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 83,
+              "matched_card_count_in_official_expansion": 26,
+              "official_expansion_total_cards": 26,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 230,
+              "official_name_jp": "[TD+]バンドリ！ ガールズバンドパーティ！ ［ハロー、ハッピーワールド！］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 85,
+              "matched_card_count_in_official_expansion": 26,
+              "official_expansion_total_cards": 26,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 246,
+              "official_name_jp": "[TD+]バンドリ！ ガールズバンドパーティ！［Poppin’Party］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 102,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 28,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "BD/W63",
-          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W63）",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（「バンドリ！ ガールズバンドパーティ！」Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 127,
           "printing_count": 280,
@@ -144,11 +423,41 @@
             "BD/W63-P03",
             "BD/W63-P04",
             "BD/W63-P05"
-          ]
+          ],
+          "official_display_name_jp": "「バンドリ！ ガールズバンドパーティ！」Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "「バンドリ！ ガールズバンドパーティ！」Vol.2",
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 255,
+              "official_name_jp": "「バンドリ！ ガールズバンドパーティ！」Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 112,
+              "matched_card_count_in_official_expansion": 250,
+              "official_expansion_total_cards": 250,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 30,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "BD/W73",
-          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W73）",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（「BanG Dream!」Vol.2）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 144,
           "printing_count": 357,
@@ -158,11 +467,52 @@
             "BD/W73-P03",
             "BD/W73-P04",
             "BD/W73-P05"
-          ]
+          ],
+          "official_display_name_jp": "「BanG Dream!」Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "「BanG Dream!」Vol.2",
+            "[TD+]BanG Dream!［RAISE A SUILEN］",
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 286,
+              "official_name_jp": "「BanG Dream!」Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 143,
+              "matched_card_count_in_official_expansion": 276,
+              "official_expansion_total_cards": 276,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 282,
+              "official_name_jp": "[TD+]BanG Dream!［RAISE A SUILEN］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 139,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 54,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "BD/W95",
-          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W95）",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（バンドリ！ ガールズバンドパーティ！ 5th Anniversary）",
           "sort_index_by_card_code": 4,
           "unique_card_count": 208,
           "printing_count": 351,
@@ -172,11 +522,52 @@
             "BD/W95-P03",
             "BD/W95-P04",
             "BD/W95-P05"
-          ]
+          ],
+          "official_display_name_jp": "バンドリ！ ガールズバンドパーティ！ 5th Anniversary",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "バンドリ！ ガールズバンドパーティ！ 5th Anniversary",
+            "[ID]バンドリ！ ガールズバンドパーティ！ 5th Anniversary",
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 382,
+              "official_name_jp": "バンドリ！ ガールズバンドパーティ！ 5th Anniversary",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 274,
+              "matched_card_count_in_official_expansion": 259,
+              "official_expansion_total_cards": 259,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 381,
+              "official_name_jp": "[ID]バンドリ！ ガールズバンドパーティ！ 5th Anniversary",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 273,
+              "matched_card_count_in_official_expansion": 14,
+              "official_expansion_total_cards": 14,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 78,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "BD/WE34",
-          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/WE34）",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（Morfonica×RAISE A SUILEN）",
           "sort_index_by_card_code": 5,
           "unique_card_count": 70,
           "printing_count": 97,
@@ -186,7 +577,37 @@
             "BD/WE34-T03",
             "BD/WE34-T04",
             "BD/WE34-T05"
-          ]
+          ],
+          "official_display_name_jp": "Morfonica×RAISE A SUILEN",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "Morfonica×RAISE A SUILEN",
+            "[TD+]バンドリ！ ガールズバンドパーティ！［Morfonica］"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 336,
+              "official_name_jp": "Morfonica×RAISE A SUILEN",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 192,
+              "matched_card_count_in_official_expansion": 70,
+              "official_expansion_total_cards": 70,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 334,
+              "official_name_jp": "[TD+]バンドリ！ ガールズバンドパーティ！［Morfonica］",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 190,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -201,7 +622,7 @@
       "products": [
         {
           "product_code": "BM/S15",
-          "suggested_display_name": "物語系列（BM/S15）",
+          "suggested_display_name": "物語系列（化物語）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 127,
           "printing_count": 144,
@@ -211,7 +632,48 @@
             "BM/S15-108",
             "BM/S15-109",
             "BM/S15-110"
-          ]
+          ],
+          "official_display_name_jp": "化物語",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "化物語",
+            "2011年度トライアルデッキ【S】",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 60,
+              "official_name_jp": "化物語",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 13,
+              "matched_card_count_in_official_expansion": 117,
+              "official_expansion_total_cards": 117,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 55,
+              "official_name_jp": "2011年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 97,
+              "matched_card_count_in_official_expansion": 19,
+              "official_expansion_total_cards": 98,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 8,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -226,7 +688,7 @@
       "products": [
         {
           "product_code": "BRD/W139",
-          "suggested_display_name": "棕色塵埃2（BRD/W139）",
+          "suggested_display_name": "棕色塵埃2（ブラウンダスト2）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 140,
           "printing_count": 304,
@@ -236,7 +698,48 @@
             "BRD/W139-103",
             "BRD/W139-104",
             "BRD/W139-105"
-          ]
+          ],
+          "official_display_name_jp": "ブラウンダスト2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ブラウンダスト2",
+            "[TD]ブラウンダスト2",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 558,
+              "official_name_jp": "ブラウンダスト2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 454,
+              "matched_card_count_in_official_expansion": 230,
+              "official_expansion_total_cards": 230,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 559,
+              "official_name_jp": "[TD]ブラウンダスト2",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 455,
+              "matched_card_count_in_official_expansion": 38,
+              "official_expansion_total_cards": 38,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 7,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -251,7 +754,7 @@
       "products": [
         {
           "product_code": "BTR/W107",
-          "suggested_display_name": "孤獨搖滾！（BTR/W107）",
+          "suggested_display_name": "孤獨搖滾！（ぼっち・ざ・ろっく！）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 126,
           "printing_count": 252,
@@ -261,7 +764,37 @@
             "BTR/W107-T01",
             "BTR/W107-T02",
             "BTR/W107-T03"
-          ]
+          ],
+          "official_display_name_jp": "ぼっち・ざ・ろっく！",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ぼっち・ざ・ろっく！",
+            "[TD]ぼっち・ざ・ろっく！"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 444,
+              "official_name_jp": "ぼっち・ざ・ろっく！",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 344,
+              "matched_card_count_in_official_expansion": 207,
+              "official_expansion_total_cards": 207,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 443,
+              "official_name_jp": "[TD]ぼっち・ざ・ろっく！",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 343,
+              "matched_card_count_in_official_expansion": 42,
+              "official_expansion_total_cards": 42,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -276,7 +809,7 @@
       "products": [
         {
           "product_code": "CC/S48",
-          "suggested_display_name": "鎖鏈戰記 ～赫克瑟塔斯之光～（CC/S48）",
+          "suggested_display_name": "鎖鏈戰記 ～赫克瑟塔斯之光～（チェインクロニクル ～ヘクセイタスの閃～）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 129,
           "printing_count": 164,
@@ -286,7 +819,48 @@
             "CC/S48-P03",
             "CC/S48-T01",
             "CC/S48-T02"
-          ]
+          ],
+          "official_display_name_jp": "チェインクロニクル ～ヘクセイタスの閃～",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "チェインクロニクル ～ヘクセイタスの閃～",
+            "[TD+]チェインクロニクル ～ヘクセイタスの閃～",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 193,
+              "official_name_jp": "チェインクロニクル ～ヘクセイタスの閃～",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 90,
+              "matched_card_count_in_official_expansion": 139,
+              "official_expansion_total_cards": 139,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 188,
+              "official_name_jp": "[TD+]チェインクロニクル ～ヘクセイタスの閃～",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 59,
+              "matched_card_count_in_official_expansion": 22,
+              "official_expansion_total_cards": 22,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 3,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -301,7 +875,7 @@
       "products": [
         {
           "product_code": "CGS/WS01",
-          "suggested_display_name": "卡片遊戲什麼子（CGS/WS01）",
+          "suggested_display_name": "卡片遊戲什麼子（カードゲームしよ子）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 59,
           "printing_count": 82,
@@ -311,11 +885,41 @@
             "CGS/WS01-P03",
             "CGS/WS01-P04",
             "CGS/WS01-P05"
-          ]
+          ],
+          "official_display_name_jp": "カードゲームしよ子",
+          "official_display_category_jp": "その他商品",
+          "official_display_category_zh": "其他商品",
+          "official_product_names_jp": [
+            "カードゲームしよ子",
+            "PRカード【WSサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 164,
+              "official_name_jp": "カードゲームしよ子",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 48,
+              "matched_card_count_in_official_expansion": 25,
+              "official_expansion_total_cards": 25,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 11,
+              "official_name_jp": "PRカード【WSサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 999,
+              "matched_card_count_in_official_expansion": 57,
+              "official_expansion_total_cards": 102,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "SI/WPR",
-          "suggested_display_name": "卡片遊戲什麼子（SI/WPR）",
+          "suggested_display_name": "卡片遊戲什麼子（PRカード【Wサイド】）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 9,
           "printing_count": 9,
@@ -325,7 +929,26 @@
             "SI/WPR-003",
             "SI/WPR-004",
             "SI/WPR-005"
-          ]
+          ],
+          "official_display_name_jp": "PRカード【Wサイド】",
+          "official_display_category_jp": "PRカード",
+          "official_display_category_zh": "PR卡",
+          "official_product_names_jp": [
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": null,
+              "official_expansion_total_cards": null,
+              "source": "official_cardlist_detailByNoJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -340,7 +963,7 @@
       "products": [
         {
           "product_code": "CN/SE02",
-          "suggested_display_name": "CANAAN（CN/SE02）",
+          "suggested_display_name": "CANAAN（CANAAN）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 28,
           "printing_count": 28,
@@ -350,7 +973,37 @@
             "CN/SE02-02",
             "CN/SE02-03",
             "CN/SE02-04"
-          ]
+          ],
+          "official_display_name_jp": "CANAAN",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "CANAAN",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 31,
+              "official_name_jp": "CANAAN",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 2,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 1,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -365,7 +1018,7 @@
       "products": [
         {
           "product_code": "CSM/S96",
-          "suggested_display_name": "鏈鋸人（CSM/S96）",
+          "suggested_display_name": "鏈鋸人（チェンソーマン）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 127,
           "printing_count": 198,
@@ -375,7 +1028,48 @@
             "CSM/S96-103",
             "CSM/S96-104",
             "CSM/S96-105"
-          ]
+          ],
+          "official_display_name_jp": "チェンソーマン",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "チェンソーマン",
+            "[TD]チェンソーマン",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 428,
+              "official_name_jp": "チェンソーマン",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 328,
+              "matched_card_count_in_official_expansion": 148,
+              "official_expansion_total_cards": 148,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 422,
+              "official_name_jp": "[TD]チェンソーマン",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 323,
+              "matched_card_count_in_official_expansion": 41,
+              "official_expansion_total_cards": 41,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 9,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -390,7 +1084,7 @@
       "products": [
         {
           "product_code": "DBG/W87",
-          "suggested_display_name": "成為神的那一天（DBG/W87）",
+          "suggested_display_name": "成為神的那一天（神様になった日）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 127,
           "printing_count": 167,
@@ -400,7 +1094,37 @@
             "DBG/W87-P03",
             "DBG/W87-T01",
             "DBG/W87-T02"
-          ]
+          ],
+          "official_display_name_jp": "神様になった日",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "神様になった日",
+            "[TD+]神様になった日"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 342,
+              "official_name_jp": "神様になった日",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 197,
+              "matched_card_count_in_official_expansion": 139,
+              "official_expansion_total_cards": 139,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 341,
+              "official_name_jp": "[TD+]神様になった日",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 196,
+              "matched_card_count_in_official_expansion": 25,
+              "official_expansion_total_cards": 25,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -415,7 +1139,7 @@
       "products": [
         {
           "product_code": "DDM/S88",
-          "suggested_display_name": "在地下城尋求邂逅是否搞錯了什麼（DDM/S88）",
+          "suggested_display_name": "在地下城尋求邂逅是否搞錯了什麼（ダンジョンに出会いを求めるのは間違っているだろうか）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 125,
           "printing_count": 168,
@@ -425,11 +1149,52 @@
             "DDM/S88-T01",
             "DDM/S88-T02",
             "DDM/S88-T03"
-          ]
+          ],
+          "official_display_name_jp": "ダンジョンに出会いを求めるのは間違っているだろうか",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ダンジョンに出会いを求めるのは間違っているだろうか",
+            "[TD+]ダンジョンに出会いを求めるのは間違っているだろうか",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 367,
+              "official_name_jp": "ダンジョンに出会いを求めるのは間違っているだろうか",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 223,
+              "matched_card_count_in_official_expansion": 139,
+              "official_expansion_total_cards": 139,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 364,
+              "official_name_jp": "[TD+]ダンジョンに出会いを求めるのは間違っているだろうか",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 220,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 2,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "GA10/S131",
-          "suggested_display_name": "在地下城尋求邂逅是否搞錯了什麼（GA10/S131）",
+          "suggested_display_name": "在地下城尋求邂逅是否搞錯了什麼（GA文庫）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 33,
           "printing_count": 69,
@@ -439,7 +1204,48 @@
             "GA10/S131-004",
             "GA10/S131-011",
             "GA10/S131-012"
-          ]
+          ],
+          "official_display_name_jp": "GA文庫",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "GA文庫",
+            "[TD]GA文庫",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 554,
+              "official_name_jp": "GA文庫",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 450,
+              "matched_card_count_in_official_expansion": 53,
+              "official_expansion_total_cards": 327,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 555,
+              "official_name_jp": "[TD]GA文庫",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 451,
+              "matched_card_count_in_official_expansion": 13,
+              "official_expansion_total_cards": 46,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 3,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -454,7 +1260,7 @@
       "products": [
         {
           "product_code": "Dds/S104",
-          "suggested_display_name": "Disney100（Dds/S104）",
+          "suggested_display_name": "Disney100（Disney100）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 112,
           "printing_count": 200,
@@ -464,11 +1270,41 @@
             "Dds/S104-104",
             "Dds/S104-105",
             "Dds/S104-106"
-          ]
+          ],
+          "official_display_name_jp": "Disney100",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "Disney100",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 420,
+              "official_name_jp": "Disney100",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 321,
+              "matched_card_count_in_official_expansion": 170,
+              "official_expansion_total_cards": 200,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 30,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "Dmv/S104",
-          "suggested_display_name": "Disney100（Dmv/S104）",
+          "suggested_display_name": "Disney100（Disney100）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 3,
           "printing_count": 6,
@@ -476,7 +1312,26 @@
             "Dmv/S104-053",
             "Dmv/S104-058",
             "Dmv/S104-074"
-          ]
+          ],
+          "official_display_name_jp": "Disney100",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "Disney100"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 420,
+              "official_name_jp": "Disney100",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 321,
+              "matched_card_count_in_official_expansion": 6,
+              "official_expansion_total_cards": 200,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -491,7 +1346,7 @@
       "products": [
         {
           "product_code": "EV/S12",
-          "suggested_display_name": "福音戰士新劇場版（EV/S12）",
+          "suggested_display_name": "福音戰士新劇場版（ヱヴァンゲリヲン新劇場版）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 124,
           "printing_count": 140,
@@ -501,7 +1356,48 @@
             "EV/S12-108",
             "EV/S12-109",
             "EV/S12-110"
-          ]
+          ],
+          "official_display_name_jp": "ヱヴァンゲリヲン新劇場版",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ヱヴァンゲリヲン新劇場版",
+            "2010年度トライアルデッキ【S】",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 49,
+              "official_name_jp": "ヱヴァンゲリヲン新劇場版",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 11,
+              "matched_card_count_in_official_expansion": 116,
+              "official_expansion_total_cards": 116,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 42,
+              "official_name_jp": "2010年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 98,
+              "matched_card_count_in_official_expansion": 19,
+              "official_expansion_total_cards": 76,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 5,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -516,7 +1412,7 @@
       "products": [
         {
           "product_code": "FH/SE03",
-          "suggested_display_name": "Fate/hollow ataraxia（FH/SE03）",
+          "suggested_display_name": "Fate/hollow ataraxia（Fate/hollow ataraxia）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 51,
           "printing_count": 96,
@@ -526,7 +1422,37 @@
             "FH/SE03-048",
             "FH/SE03-049",
             "FH/SE03-050"
-          ]
+          ],
+          "official_display_name_jp": "Fate/hollow ataraxia",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "Fate/hollow ataraxia",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 33,
+              "official_name_jp": "Fate/hollow ataraxia",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 3,
+              "matched_card_count_in_official_expansion": 90,
+              "official_expansion_total_cards": 90,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 6,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -541,7 +1467,7 @@
       "products": [
         {
           "product_code": "GA04/S131",
-          "suggested_display_name": "哥布林殺手（GA04/S131）",
+          "suggested_display_name": "哥布林殺手（GA文庫）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 7,
           "printing_count": 15,
@@ -551,11 +1477,30 @@
             "GA04/S131-084",
             "GA04/S131-098",
             "GA04/S131-100"
-          ]
+          ],
+          "official_display_name_jp": "GA文庫",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "GA文庫"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 554,
+              "official_name_jp": "GA文庫",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 450,
+              "matched_card_count_in_official_expansion": 15,
+              "official_expansion_total_cards": 327,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "GBS/S63",
-          "suggested_display_name": "哥布林殺手（GBS/S63）",
+          "suggested_display_name": "哥布林殺手（ゴブリンスレイヤー）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 129,
           "printing_count": 163,
@@ -565,7 +1510,48 @@
             "GBS/S63-P03",
             "GBS/S63-T01",
             "GBS/S63-T02"
-          ]
+          ],
+          "official_display_name_jp": "ゴブリンスレイヤー",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ゴブリンスレイヤー",
+            "[TD+]ゴブリンスレイヤー",
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 260,
+              "official_name_jp": "ゴブリンスレイヤー",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 117,
+              "matched_card_count_in_official_expansion": 133,
+              "official_expansion_total_cards": 133,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 258,
+              "official_name_jp": "[TD+]ゴブリンスレイヤー",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 115,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 3,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -580,7 +1566,7 @@
       "products": [
         {
           "product_code": "GIM/W124",
-          "suggested_display_name": "學園偶像大師（GIM/W124）",
+          "suggested_display_name": "學園偶像大師（学園アイドルマスター）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 138,
           "printing_count": 335,
@@ -590,7 +1576,48 @@
             "GIM/W124-P03",
             "GIM/W124-P04",
             "GIM/W124-P05"
-          ]
+          ],
+          "official_display_name_jp": "学園アイドルマスター",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "学園アイドルマスター",
+            "THE IDOLM@STER M@STER EXPO開催記念カードセット",
+            "[TD]学園アイドルマスター"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 514,
+              "official_name_jp": "学園アイドルマスター",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 413,
+              "matched_card_count_in_official_expansion": 272,
+              "official_expansion_total_cards": 272,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 496,
+              "official_name_jp": "THE IDOLM@STER M@STER EXPO開催記念カードセット",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 395,
+              "matched_card_count_in_official_expansion": 1,
+              "official_expansion_total_cards": 5,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 513,
+              "official_name_jp": "[TD]学園アイドルマスター",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 412,
+              "matched_card_count_in_official_expansion": 39,
+              "official_expansion_total_cards": 39,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -605,7 +1632,7 @@
       "products": [
         {
           "product_code": "GST/SE22",
-          "suggested_display_name": "超爆裂異次元紙牌戰鬥 Gigant Shooter 司（GST/SE22）",
+          "suggested_display_name": "超爆裂異次元紙牌戰鬥 Gigant Shooter 司（超爆裂異次元メンコバトル ギガントシューター つかさ）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 33,
           "printing_count": 37,
@@ -615,7 +1642,26 @@
             "GST/SE22-P03",
             "GST/SE22-01",
             "GST/SE22-02"
-          ]
+          ],
+          "official_display_name_jp": "超爆裂異次元メンコバトル ギガントシューター つかさ",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "超爆裂異次元メンコバトル ギガントシューター つかさ"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 126,
+              "official_name_jp": "超爆裂異次元メンコバトル ギガントシューター つかさ",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 23,
+              "matched_card_count_in_official_expansion": 34,
+              "official_expansion_total_cards": 34,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -630,7 +1676,7 @@
       "products": [
         {
           "product_code": "GT/W29",
-          "suggested_display_name": "穿透幻影的太陽（GT/W29）",
+          "suggested_display_name": "穿透幻影的太陽（幻影ヲ駆ケル太陽）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 129,
           "printing_count": 148,
@@ -640,7 +1686,37 @@
             "GT/W29-108",
             "GT/W29-109",
             "GT/W29-P01"
-          ]
+          ],
+          "official_display_name_jp": "幻影ヲ駆ケル太陽",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "幻影ヲ駆ケル太陽",
+            "2013年度トライアルデッキ【W】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 106,
+              "official_name_jp": "幻影ヲ駆ケル太陽",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 27,
+              "matched_card_count_in_official_expansion": 118,
+              "official_expansion_total_cards": 118,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 88,
+              "official_name_jp": "2013年度トライアルデッキ【W】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 95,
+              "matched_card_count_in_official_expansion": 21,
+              "official_expansion_total_cards": 107,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -655,7 +1731,7 @@
       "products": [
         {
           "product_code": "HLL/WE28",
-          "suggested_display_name": "雛邏輯 ～from Luck ＆ Logic～（HLL/WE28）",
+          "suggested_display_name": "雛邏輯 ～from Luck ＆ Logic～（「ひなろじ ～from Luck ＆ Logic～」Vol.1）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 58,
           "printing_count": 68,
@@ -665,11 +1741,30 @@
             "HLL/WE28-P02",
             "HLL/WE28-P03",
             "HLL/WE28-P04"
-          ]
+          ],
+          "official_display_name_jp": "「ひなろじ ～from Luck ＆ Logic～」Vol.1",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "「ひなろじ ～from Luck ＆ Logic～」Vol.1"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 210,
+              "official_name_jp": "「ひなろじ ～from Luck ＆ Logic～」Vol.1",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 73,
+              "matched_card_count_in_official_expansion": 60,
+              "official_expansion_total_cards": 60,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "HLL/WE29",
-          "suggested_display_name": "雛邏輯 ～from Luck ＆ Logic～（HLL/WE29）",
+          "suggested_display_name": "雛邏輯 ～from Luck ＆ Logic～（「ひなろじ ～from Luck ＆ Logic～」Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 51,
           "printing_count": 63,
@@ -679,7 +1774,26 @@
             "HLL/WE29-02",
             "HLL/WE29-03",
             "HLL/WE29-04"
-          ]
+          ],
+          "official_display_name_jp": "「ひなろじ ～from Luck ＆ Logic～」Vol.2",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "「ひなろじ ～from Luck ＆ Logic～」Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 215,
+              "official_name_jp": "「ひなろじ ～from Luck ＆ Logic～」Vol.2",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 77,
+              "matched_card_count_in_official_expansion": 62,
+              "official_expansion_total_cards": 62,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -694,7 +1808,7 @@
       "products": [
         {
           "product_code": "HOL/W91",
-          "suggested_display_name": "hololive（HOL/W91）",
+          "suggested_display_name": "hololive（ホロライブプロダクション）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 310,
           "printing_count": 614,
@@ -704,11 +1818,107 @@
             "HOL/W91-P04",
             "HOL/W91-P05",
             "HOL/W91-P06"
-          ]
+          ],
+          "official_display_name_jp": "ホロライブプロダクション",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ホロライブプロダクション",
+            "[TD+]ホロライブプロダクション ホロライブ0期生",
+            "[TD+]ホロライブプロダクション ホロライブ1期生",
+            "[TD+]ホロライブプロダクション ホロライブ2期生",
+            "[TD+]ホロライブプロダクション ホロライブゲーマーズ",
+            "[TD+]ホロライブプロダクション ホロライブ3期生",
+            "[TD+]ホロライブプロダクション ホロライブ4期生",
+            "[TD+]ホロライブプロダクション ホロライブ5期生"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 357,
+              "official_name_jp": "ホロライブプロダクション",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 208,
+              "matched_card_count_in_official_expansion": 350,
+              "official_expansion_total_cards": 350,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 350,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブ0期生",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 201,
+              "matched_card_count_in_official_expansion": 38,
+              "official_expansion_total_cards": 38,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 351,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブ1期生",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 202,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 36,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 352,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブ2期生",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 203,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 36,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 353,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブゲーマーズ",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 204,
+              "matched_card_count_in_official_expansion": 38,
+              "official_expansion_total_cards": 38,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 354,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブ3期生",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 205,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 36,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 355,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブ4期生",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 206,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 36,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 356,
+              "official_name_jp": "[TD+]ホロライブプロダクション ホロライブ5期生",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 207,
+              "matched_card_count_in_official_expansion": 38,
+              "official_expansion_total_cards": 38,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "HOL/W104",
-          "suggested_display_name": "hololive（HOL/W104）",
+          "suggested_display_name": "hololive（ホロライブプロダクション Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 166,
           "printing_count": 417,
@@ -718,11 +1928,30 @@
             "HOL/W104-P03",
             "HOL/W104-P04",
             "HOL/W104-P06"
-          ]
+          ],
+          "official_display_name_jp": "ホロライブプロダクション Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ホロライブプロダクション Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 419,
+              "official_name_jp": "ホロライブプロダクション Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 320,
+              "matched_card_count_in_official_expansion": 407,
+              "official_expansion_total_cards": 407,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "HOL/WE36",
-          "suggested_display_name": "hololive（HOL/WE36）",
+          "suggested_display_name": "hololive（プレミアムブースター ホロライブプロダクション）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 54,
           "printing_count": 160,
@@ -732,11 +1961,30 @@
             "HOL/WE36-02",
             "HOL/WE36-03",
             "HOL/WE36-04"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター ホロライブプロダクション",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター ホロライブプロダクション"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 383,
+              "official_name_jp": "プレミアムブースター ホロライブプロダクション",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 275,
+              "matched_card_count_in_official_expansion": 159,
+              "official_expansion_total_cards": 159,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "HOL/WE44",
-          "suggested_display_name": "hololive（HOL/WE44）",
+          "suggested_display_name": "hololive（プレミアムブースター ホロライブプロダクション Summer Collection）",
           "sort_index_by_card_code": 4,
           "unique_card_count": 67,
           "printing_count": 173,
@@ -746,11 +1994,30 @@
             "HOL/WE44-P03",
             "HOL/WE44-P04",
             "HOL/WE44-P05"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター ホロライブプロダクション Summer Collection",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター ホロライブプロダクション Summer Collection"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 464,
+              "official_name_jp": "プレミアムブースター ホロライブプロダクション Summer Collection",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 364,
+              "matched_card_count_in_official_expansion": 159,
+              "official_expansion_total_cards": 159,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "HOL/WE45",
-          "suggested_display_name": "hololive（HOL/WE45）",
+          "suggested_display_name": "hololive（プレミアムセット ホロライブプロダクション feat.ヴァイスシュヴァルツアンバサダー）",
           "sort_index_by_card_code": 5,
           "unique_card_count": 34,
           "printing_count": 34,
@@ -760,7 +2027,26 @@
             "HOL/WE45-P03",
             "HOL/WE45-P04",
             "HOL/WE45-P05"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムセット ホロライブプロダクション feat.ヴァイスシュヴァルツアンバサダー",
+          "official_display_category_jp": "その他商品",
+          "official_display_category_zh": "其他商品",
+          "official_product_names_jp": [
+            "プレミアムセット ホロライブプロダクション feat.ヴァイスシュヴァルツアンバサダー"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 465,
+              "official_name_jp": "プレミアムセット ホロライブプロダクション feat.ヴァイスシュヴァルツアンバサダー",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 365,
+              "matched_card_count_in_official_expansion": 34,
+              "official_expansion_total_cards": 34,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -775,7 +2061,7 @@
       "products": [
         {
           "product_code": "KGL/S79",
-          "suggested_display_name": "輝夜姬想讓人告白（KGL/S79）",
+          "suggested_display_name": "輝夜姬想讓人告白（かぐや様は告らせたい～天才たちの恋愛頭脳戦～）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 125,
           "printing_count": 171,
@@ -785,11 +2071,41 @@
             "KGL/S79-T01",
             "KGL/S79-T02",
             "KGL/S79-T03"
-          ]
+          ],
+          "official_display_name_jp": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+            "[TD+]かぐや様は告らせたい～天才たちの恋愛頭脳戦～"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 317,
+              "official_name_jp": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 174,
+              "matched_card_count_in_official_expansion": 144,
+              "official_expansion_total_cards": 144,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 316,
+              "official_name_jp": "[TD+]かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 173,
+              "matched_card_count_in_official_expansion": 25,
+              "official_expansion_total_cards": 25,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "KGL/S95",
-          "suggested_display_name": "輝夜姬想讓人告白（KGL/S95）",
+          "suggested_display_name": "輝夜姬想讓人告白（かぐや様は告らせたい？～天才たちの恋愛頭脳戦～）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 113,
           "printing_count": 172,
@@ -799,7 +2115,26 @@
             "KGL/S95-P03",
             "KGL/S95-P04",
             "KGL/S95-P05"
-          ]
+          ],
+          "official_display_name_jp": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 394,
+              "official_name_jp": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 295,
+              "matched_card_count_in_official_expansion": 158,
+              "official_expansion_total_cards": 158,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -814,7 +2149,7 @@
       "products": [
         {
           "product_code": "LH/SE20",
-          "suggested_display_name": "記錄的地平線（LH/SE20）",
+          "suggested_display_name": "記錄的地平線（ログ・ホライズン）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 75,
           "printing_count": 78,
@@ -824,11 +2159,41 @@
             "LH/SE20-P03",
             "LH/SE20-P04",
             "LH/SE20-P05"
-          ]
+          ],
+          "official_display_name_jp": "ログ・ホライズン",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "ログ・ホライズン",
+            "2014年度トライアルデッキ【S】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 118,
+              "official_name_jp": "ログ・ホライズン",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 21,
+              "matched_card_count_in_official_expansion": 53,
+              "official_expansion_total_cards": 53,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 112,
+              "official_name_jp": "2014年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 94,
+              "matched_card_count_in_official_expansion": 20,
+              "official_expansion_total_cards": 130,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LH/SP02",
-          "suggested_display_name": "記錄的地平線（LH/SP02）",
+          "suggested_display_name": "記錄的地平線（パワーアップセット ログ・ホライズン）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 9,
           "printing_count": 17,
@@ -838,7 +2203,26 @@
             "LH/SP02-02",
             "LH/SP02-03",
             "LH/SP02-04"
-          ]
+          ],
+          "official_display_name_jp": "パワーアップセット ログ・ホライズン",
+          "official_display_category_jp": "その他商品",
+          "official_display_category_zh": "其他商品",
+          "official_product_names_jp": [
+            "パワーアップセット ログ・ホライズン"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 165,
+              "official_name_jp": "パワーアップセット ログ・ホライズン",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 47,
+              "matched_card_count_in_official_expansion": 16,
+              "official_expansion_total_cards": 16,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -853,7 +2237,7 @@
       "products": [
         {
           "product_code": "LRC/W105",
-          "suggested_display_name": "莉可麗絲（LRC/W105）",
+          "suggested_display_name": "莉可麗絲（リコリス・リコイル）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 136,
           "printing_count": 208,
@@ -863,11 +2247,41 @@
             "LRC/W105-103",
             "LRC/W105-104",
             "LRC/W105-105"
-          ]
+          ],
+          "official_display_name_jp": "リコリス・リコイル",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "リコリス・リコイル",
+            "[TD]リコリス・リコイル"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 426,
+              "official_name_jp": "リコリス・リコイル",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 326,
+              "matched_card_count_in_official_expansion": 143,
+              "official_expansion_total_cards": 143,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 427,
+              "official_name_jp": "[TD]リコリス・リコイル",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 327,
+              "matched_card_count_in_official_expansion": 41,
+              "official_expansion_total_cards": 41,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LRC/WE47",
-          "suggested_display_name": "莉可麗絲（LRC/WE47）",
+          "suggested_display_name": "莉可麗絲（プレミアムブースター リコリス・リコイル）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 55,
           "printing_count": 118,
@@ -877,7 +2291,26 @@
             "LRC/WE47-02",
             "LRC/WE47-03",
             "LRC/WE47-04"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター リコリス・リコイル",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター リコリス・リコイル"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 491,
+              "official_name_jp": "プレミアムブースター リコリス・リコイル",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 390,
+              "matched_card_count_in_official_expansion": 116,
+              "official_expansion_total_cards": 116,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -892,7 +2325,7 @@
       "products": [
         {
           "product_code": "LSS/W45",
-          "suggested_display_name": "Love Live! Sunshine!!（LSS/W45）",
+          "suggested_display_name": "Love Live! Sunshine!!（ラブライブ！サンシャイン!!）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 140,
           "printing_count": 177,
@@ -902,11 +2335,41 @@
             "LSS/W45-P03",
             "LSS/W45-P04",
             "LSS/W45-P05"
-          ]
+          ],
+          "official_display_name_jp": "ラブライブ！サンシャイン!!",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ラブライブ！サンシャイン!!",
+            "2016年度トライアルデッキ【W】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 179,
+              "official_name_jp": "ラブライブ！サンシャイン!!",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 53,
+              "matched_card_count_in_official_expansion": 136,
+              "official_expansion_total_cards": 136,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 175,
+              "official_name_jp": "2016年度トライアルデッキ【W】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 91,
+              "matched_card_count_in_official_expansion": 32,
+              "official_expansion_total_cards": 64,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LSS/W53",
-          "suggested_display_name": "Love Live! Sunshine!!（LSS/W53）",
+          "suggested_display_name": "Love Live! Sunshine!!（「ラブライブ！サンシャイン!!」Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 131,
           "printing_count": 181,
@@ -916,11 +2379,41 @@
             "LSS/W53-P03",
             "LSS/W53-P04",
             "LSS/W53-P05"
-          ]
+          ],
+          "official_display_name_jp": "「ラブライブ！サンシャイン!!」Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "「ラブライブ！サンシャイン!!」Vol.2",
+            "[TD+]ラブライブ！サンシャイン!!"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 225,
+              "official_name_jp": "「ラブライブ！サンシャイン!!」Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 84,
+              "matched_card_count_in_official_expansion": 141,
+              "official_expansion_total_cards": 141,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 208,
+              "official_name_jp": "[TD+]ラブライブ！サンシャイン!!",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 72,
+              "matched_card_count_in_official_expansion": 33,
+              "official_expansion_total_cards": 33,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LSS/W69",
-          "suggested_display_name": "Love Live! Sunshine!!（LSS/W69）",
+          "suggested_display_name": "Love Live! Sunshine!!（ラブライブ！サンシャイン!! feat.スクールアイドルフェスティバル～6th Anniversary～）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 114,
           "printing_count": 214,
@@ -930,11 +2423,30 @@
             "LSS/W69-001",
             "LSS/W69-002",
             "LSS/W69-003"
-          ]
+          ],
+          "official_display_name_jp": "ラブライブ！サンシャイン!! feat.スクールアイドルフェスティバル～6th Anniversary～",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ラブライブ！サンシャイン!! feat.スクールアイドルフェスティバル～6th Anniversary～"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 273,
+              "official_name_jp": "ラブライブ！サンシャイン!! feat.スクールアイドルフェスティバル～6th Anniversary～",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 130,
+              "matched_card_count_in_official_expansion": 212,
+              "official_expansion_total_cards": 212,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LSS/WE27",
-          "suggested_display_name": "Love Live! Sunshine!!（LSS/WE27）",
+          "suggested_display_name": "Love Live! Sunshine!!（ラブライブ！サンシャイン!!）",
           "sort_index_by_card_code": 4,
           "unique_card_count": 88,
           "printing_count": 97,
@@ -944,11 +2456,41 @@
             "LSS/WE27-P03",
             "LSS/WE27-01",
             "LSS/WE27-02"
-          ]
+          ],
+          "official_display_name_jp": "ラブライブ！サンシャイン!!",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "ラブライブ！サンシャイン!!",
+            "[その他]ラブライブ！サンシャイン!! ラバーマット＆ヴァイスシュヴァルツおためしデッキセット"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 197,
+              "official_name_jp": "ラブライブ！サンシャイン!!",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 64,
+              "matched_card_count_in_official_expansion": 72,
+              "official_expansion_total_cards": 72,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 203,
+              "official_name_jp": "[その他]ラブライブ！サンシャイン!! ラバーマット＆ヴァイスシュヴァルツおためしデッキセット",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 68,
+              "matched_card_count_in_official_expansion": 22,
+              "official_expansion_total_cards": 22,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LSS/WE38",
-          "suggested_display_name": "Love Live! Sunshine!!（LSS/WE38）",
+          "suggested_display_name": "Love Live! Sunshine!!（プレミアムブースター ラブライブ！スクフェスシリーズ感謝祭 2022）",
           "sort_index_by_card_code": 5,
           "unique_card_count": 10,
           "printing_count": 28,
@@ -958,11 +2500,30 @@
             "LSS/WE38-005",
             "LSS/WE38-009",
             "LSS/WE38-016"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター ラブライブ！スクフェスシリーズ感謝祭 2022",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター ラブライブ！スクフェスシリーズ感謝祭 2022"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 401,
+              "official_name_jp": "プレミアムブースター ラブライブ！スクフェスシリーズ感謝祭 2022",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 302,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 117,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "LSS/WE39",
-          "suggested_display_name": "Love Live! Sunshine!!（LSS/WE39）",
+          "suggested_display_name": "Love Live! Sunshine!!（プレミアムブースター ラブライブ！スクフェスシリーズ10th Anniversary）",
           "sort_index_by_card_code": 6,
           "unique_card_count": 19,
           "printing_count": 55,
@@ -972,11 +2533,30 @@
             "LSS/WE39-005",
             "LSS/WE39-007",
             "LSS/WE39-009"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター ラブライブ！スクフェスシリーズ10th Anniversary",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター ラブライブ！スクフェスシリーズ10th Anniversary"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 421,
+              "official_name_jp": "プレミアムブースター ラブライブ！スクフェスシリーズ10th Anniversary",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 322,
+              "matched_card_count_in_official_expansion": 54,
+              "official_expansion_total_cards": 180,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "SIS/W109",
-          "suggested_display_name": "Love Live! Sunshine!!（SIS/W109）",
+          "suggested_display_name": "Love Live! Sunshine!!（ラブライブ！スクールアイドルフェスティバル2 MIRACLE LIVE!）",
           "sort_index_by_card_code": 7,
           "unique_card_count": 35,
           "printing_count": 69,
@@ -986,7 +2566,26 @@
             "SIS/W109-P03",
             "SIS/W109-001",
             "SIS/W109-004"
-          ]
+          ],
+          "official_display_name_jp": "ラブライブ！スクールアイドルフェスティバル2 MIRACLE LIVE!",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ラブライブ！スクールアイドルフェスティバル2 MIRACLE LIVE!"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 448,
+              "official_name_jp": "ラブライブ！スクールアイドルフェスティバル2 MIRACLE LIVE!",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 348,
+              "matched_card_count_in_official_expansion": 65,
+              "official_expansion_total_cards": 280,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1001,7 +2600,7 @@
       "products": [
         {
           "product_code": "KK/SPR",
-          "suggested_display_name": "MELTY BLOOD／空之境界（KK/SPR）",
+          "suggested_display_name": "MELTY BLOOD／空之境界（PRカード【Sサイド】）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 7,
           "printing_count": 7,
@@ -1011,11 +2610,30 @@
             "KK/SPR-003",
             "KK/SPR-004",
             "KK/SPR-005"
-          ]
+          ],
+          "official_display_name_jp": "PRカード【Sサイド】",
+          "official_display_category_jp": "PRカード",
+          "official_display_category_zh": "PR卡",
+          "official_product_names_jp": [
+            "PRカード【Sサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 13,
+              "official_name_jp": "PRカード【Sサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": null,
+              "official_expansion_total_cards": null,
+              "source": "official_cardlist_detailByNoJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "MB/S10",
-          "suggested_display_name": "MELTY BLOOD／空之境界（MB/S10）",
+          "suggested_display_name": "MELTY BLOOD／空之境界（MELTY BLOOD）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 124,
           "printing_count": 140,
@@ -1025,7 +2643,37 @@
             "MB/S10-108",
             "MB/S10-109",
             "MB/S10-110"
-          ]
+          ],
+          "official_display_name_jp": "MELTY BLOOD",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "MELTY BLOOD",
+            "2010年度トライアルデッキ【S】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 48,
+              "official_name_jp": "MELTY BLOOD",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 10,
+              "matched_card_count_in_official_expansion": 116,
+              "official_expansion_total_cards": 116,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 42,
+              "official_name_jp": "2010年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 98,
+              "matched_card_count_in_official_expansion": 18,
+              "official_expansion_total_cards": 76,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1040,7 +2688,7 @@
       "products": [
         {
           "product_code": "MDE/SE45",
-          "suggested_display_name": "超時空要塞系列（MDE/SE45）",
+          "suggested_display_name": "超時空要塞系列（プレミアムブースター マクロスΔ）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 64,
           "printing_count": 155,
@@ -1050,11 +2698,30 @@
             "MDE/SE45-P03",
             "MDE/SE45-P04",
             "MDE/SE45-01"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター マクロスΔ",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター マクロスΔ"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 458,
+              "official_name_jp": "プレミアムブースター マクロスΔ",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 358,
+              "matched_card_count_in_official_expansion": 150,
+              "official_expansion_total_cards": 150,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "MF/S13",
-          "suggested_display_name": "超時空要塞系列（MF/S13）",
+          "suggested_display_name": "超時空要塞系列（劇場版マクロスＦ）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 131,
           "printing_count": 148,
@@ -1064,7 +2731,37 @@
             "MF/S13-108",
             "MF/S13-109",
             "MF/S13-110"
-          ]
+          ],
+          "official_display_name_jp": "劇場版マクロスＦ",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "劇場版マクロスＦ",
+            "2011年度トライアルデッキ【S】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 61,
+              "official_name_jp": "劇場版マクロスＦ",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 14,
+              "matched_card_count_in_official_expansion": 117,
+              "official_expansion_total_cards": 117,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 55,
+              "official_name_jp": "2011年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 97,
+              "matched_card_count_in_official_expansion": 19,
+              "official_expansion_total_cards": 98,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1079,7 +2776,7 @@
       "products": [
         {
           "product_code": "BD/W125",
-          "suggested_display_name": "MyGO!!!!!（BD/W125）",
+          "suggested_display_name": "MyGO!!!!!（MyGO!!!!! × Ave Mujica）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 178,
           "printing_count": 352,
@@ -1089,11 +2786,52 @@
             "BD/W125-P03",
             "BD/W125-P04",
             "BD/W125-P05"
-          ]
+          ],
+          "official_display_name_jp": "MyGO!!!!! × Ave Mujica",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "MyGO!!!!! × Ave Mujica",
+            "[TD] BanG Dream! [Ave Mujica]",
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 506,
+              "official_name_jp": "MyGO!!!!! × Ave Mujica",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 405,
+              "matched_card_count_in_official_expansion": 246,
+              "official_expansion_total_cards": 246,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 505,
+              "official_name_jp": "[TD] BanG Dream! [Ave Mujica]",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 404,
+              "matched_card_count_in_official_expansion": 44,
+              "official_expansion_total_cards": 44,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": 62,
+              "official_expansion_total_cards": 500,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "BD/WE42",
-          "suggested_display_name": "MyGO!!!!!（BD/WE42）",
+          "suggested_display_name": "MyGO!!!!!（プレミアムブースター バンドリ！ ガールズバンドパーティ！ Countdown Collection）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 249,
           "printing_count": 409,
@@ -1103,7 +2841,37 @@
             "BD/WE42-P03",
             "BD/WE42-P04",
             "BD/WE42-P05"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター バンドリ！ ガールズバンドパーティ！ Countdown Collection",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター バンドリ！ ガールズバンドパーティ！ Countdown Collection",
+            "[TDP]BanG Dream! [MyGO!!!!!]"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 440,
+              "official_name_jp": "プレミアムブースター バンドリ！ ガールズバンドパーティ！ Countdown Collection",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 340,
+              "matched_card_count_in_official_expansion": 245,
+              "official_expansion_total_cards": 245,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 442,
+              "official_name_jp": "[TDP]BanG Dream! [MyGO!!!!!]",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 342,
+              "matched_card_count_in_official_expansion": 50,
+              "official_expansion_total_cards": 50,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1118,7 +2886,7 @@
       "products": [
         {
           "product_code": "NIK/S117",
-          "suggested_display_name": "勝利女神：妮姬（NIK/S117）",
+          "suggested_display_name": "勝利女神：妮姬（勝利の女神：NIKKE）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 151,
           "printing_count": 355,
@@ -1128,7 +2896,37 @@
             "NIK/S117-P03",
             "NIK/S117-P04",
             "NIK/S117-P05"
-          ]
+          ],
+          "official_display_name_jp": "勝利の女神：NIKKE",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "勝利の女神：NIKKE",
+            "[TD]勝利の女神：NIKKE"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 494,
+              "official_name_jp": "勝利の女神：NIKKE",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 393,
+              "matched_card_count_in_official_expansion": 289,
+              "official_expansion_total_cards": 289,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 493,
+              "official_name_jp": "[TD]勝利の女神：NIKKE",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 392,
+              "matched_card_count_in_official_expansion": 49,
+              "official_expansion_total_cards": 49,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1143,7 +2941,7 @@
       "products": [
         {
           "product_code": "NK/W30",
-          "suggested_display_name": "偽戀（NK/W30）",
+          "suggested_display_name": "偽戀（ニセコイ）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 139,
           "printing_count": 156,
@@ -1153,11 +2951,41 @@
             "NK/W30-103",
             "NK/W30-104",
             "NK/W30-105"
-          ]
+          ],
+          "official_display_name_jp": "ニセコイ",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ニセコイ",
+            "2014年度トライアルデッキ【W】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 122,
+              "official_name_jp": "ニセコイ",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 31,
+              "matched_card_count_in_official_expansion": 117,
+              "official_expansion_total_cards": 117,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 111,
+              "official_name_jp": "2014年度トライアルデッキ【W】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 94,
+              "matched_card_count_in_official_expansion": 19,
+              "official_expansion_total_cards": 68,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "NK/WE22",
-          "suggested_display_name": "偽戀（NK/WE22）",
+          "suggested_display_name": "偽戀（ニセコイ:）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 38,
           "printing_count": 41,
@@ -1167,7 +2995,26 @@
             "NK/WE22-01",
             "NK/WE22-02",
             "NK/WE22-03"
-          ]
+          ],
+          "official_display_name_jp": "ニセコイ:",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "ニセコイ:"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 147,
+              "official_name_jp": "ニセコイ:",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 38,
+              "matched_card_count_in_official_expansion": 39,
+              "official_expansion_total_cards": 39,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1182,7 +3029,7 @@
       "products": [
         {
           "product_code": "NS/W04",
-          "suggested_display_name": "魔法少女奈葉StrikerS（NS/W04）",
+          "suggested_display_name": "魔法少女奈葉StrikerS（なのはStrikerS）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 129,
           "printing_count": 145,
@@ -1192,7 +3039,37 @@
             "NS/W04-003",
             "NS/W04-004",
             "NS/W04-005"
-          ]
+          ],
+          "official_display_name_jp": "なのはStrikerS",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "なのはStrikerS",
+            "2008年度トライアルデッキ【W】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 6,
+              "official_name_jp": "なのはStrikerS",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 4,
+              "matched_card_count_in_official_expansion": 116,
+              "official_expansion_total_cards": 116,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 8,
+              "official_name_jp": "2008年度トライアルデッキ【W】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 100,
+              "matched_card_count_in_official_expansion": 20,
+              "official_expansion_total_cards": 80,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1207,7 +3084,7 @@
       "products": [
         {
           "product_code": "OSK/S107",
-          "suggested_display_name": "【我推的孩子】（OSK/S107）",
+          "suggested_display_name": "【我推的孩子】（【推しの子】）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 137,
           "printing_count": 263,
@@ -1217,11 +3094,41 @@
             "OSK/S107-P03",
             "OSK/S107-P04",
             "OSK/S107-P05"
-          ]
+          ],
+          "official_display_name_jp": "【推しの子】",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "【推しの子】",
+            "[TD]【推しの子】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 454,
+              "official_name_jp": "【推しの子】",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 354,
+              "matched_card_count_in_official_expansion": 210,
+              "official_expansion_total_cards": 210,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 453,
+              "official_name_jp": "[TD]【推しの子】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 353,
+              "matched_card_count_in_official_expansion": 40,
+              "official_expansion_total_cards": 40,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "OSK/S121",
-          "suggested_display_name": "【我推的孩子】（OSK/S121）",
+          "suggested_display_name": "【我推的孩子】（【推しの子】Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 104,
           "printing_count": 226,
@@ -1231,11 +3138,30 @@
             "OSK/S121-P03",
             "OSK/S121-001",
             "OSK/S121-002"
-          ]
+          ],
+          "official_display_name_jp": "【推しの子】Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "【推しの子】Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 504,
+              "official_name_jp": "【推しの子】Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 403,
+              "matched_card_count_in_official_expansion": 220,
+              "official_expansion_total_cards": 220,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "OSK/S133",
-          "suggested_display_name": "【我推的孩子】（OSK/S133）",
+          "suggested_display_name": "【我推的孩子】（【推しの子】Vol.3）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 122,
           "printing_count": 253,
@@ -1245,7 +3171,26 @@
             "OSK/S133-103",
             "OSK/S133-104",
             "OSK/S133-105"
-          ]
+          ],
+          "official_display_name_jp": "【推しの子】Vol.3",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "【推しの子】Vol.3"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 562,
+              "official_name_jp": "【推しの子】Vol.3",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 458,
+              "matched_card_count_in_official_expansion": 219,
+              "official_expansion_total_cards": 219,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1260,7 +3205,7 @@
       "products": [
         {
           "product_code": "OVL/S62",
-          "suggested_display_name": "OVERLORD（OVL/S62）",
+          "suggested_display_name": "OVERLORD（オーバーロード）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 128,
           "printing_count": 172,
@@ -1270,11 +3215,41 @@
             "OVL/S62-T01",
             "OVL/S62-T02",
             "OVL/S62-T03"
-          ]
+          ],
+          "official_display_name_jp": "オーバーロード",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "オーバーロード",
+            "[TD+]オーバーロード"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 254,
+              "official_name_jp": "オーバーロード",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 111,
+              "matched_card_count_in_official_expansion": 143,
+              "official_expansion_total_cards": 143,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 253,
+              "official_name_jp": "[TD+]オーバーロード",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 110,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "OVL/S99",
-          "suggested_display_name": "OVERLORD（OVL/S99）",
+          "suggested_display_name": "OVERLORD（オーバーロード Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 109,
           "printing_count": 152,
@@ -1284,11 +3259,30 @@
             "OVL/S99-001",
             "OVL/S99-002",
             "OVL/S99-003"
-          ]
+          ],
+          "official_display_name_jp": "オーバーロード Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "オーバーロード Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 404,
+              "official_name_jp": "オーバーロード Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 305,
+              "matched_card_count_in_official_expansion": 149,
+              "official_expansion_total_cards": 149,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "OVL/SE51",
-          "suggested_display_name": "OVERLORD（OVL/SE51）",
+          "suggested_display_name": "OVERLORD（劇場版「オーバーロード」聖王国編）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 63,
           "printing_count": 141,
@@ -1298,11 +3292,30 @@
             "OVL/SE51-01",
             "OVL/SE51-02",
             "OVL/SE51-03"
-          ]
+          ],
+          "official_display_name_jp": "劇場版「オーバーロード」聖王国編",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "劇場版「オーバーロード」聖王国編"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 515,
+              "official_name_jp": "劇場版「オーバーロード」聖王国編",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 414,
+              "matched_card_count_in_official_expansion": 136,
+              "official_expansion_total_cards": 136,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "OVL/SE54",
-          "suggested_display_name": "OVERLORD（OVL/SE54）",
+          "suggested_display_name": "OVERLORD（プレミアムブースター 原作 オーバーロード）",
           "sort_index_by_card_code": 4,
           "unique_card_count": 85,
           "printing_count": 160,
@@ -1312,7 +3325,26 @@
             "OVL/SE54-P03",
             "OVL/SE54-01",
             "OVL/SE54-02"
-          ]
+          ],
+          "official_display_name_jp": "プレミアムブースター 原作 オーバーロード",
+          "official_display_category_jp": "プレミアムブースター",
+          "official_display_category_zh": "Premium Booster",
+          "official_product_names_jp": [
+            "プレミアムブースター 原作 オーバーロード"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 535,
+              "official_name_jp": "プレミアムブースター 原作 オーバーロード",
+              "product_category_jp": "プレミアムブースター",
+              "product_category_zh": "Premium Booster",
+              "priority": 432,
+              "matched_card_count_in_official_expansion": 154,
+              "official_expansion_total_cards": 154,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1327,7 +3359,7 @@
       "products": [
         {
           "product_code": "PJS/S91",
-          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/S91）",
+          "suggested_display_name": "世界計畫 繽紛舞台！（プロジェクトセカイ カラフルステージ！ feat. 初音ミク）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 252,
           "printing_count": 398,
@@ -1337,11 +3369,85 @@
             "PJS/S91-P03",
             "PJS/S91-P04",
             "PJS/S91-P05"
-          ]
+          ],
+          "official_display_name_jp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+            "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク Leo/need",
+            "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク MORE MORE JUMP！",
+            "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vivid BAD SQUAD",
+            "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク ワンダーランズ×ショウタイム",
+            "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク 25時、ナイトコードで。"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 380,
+              "official_name_jp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 272,
+              "matched_card_count_in_official_expansion": 218,
+              "official_expansion_total_cards": 218,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 375,
+              "official_name_jp": "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク Leo/need",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 267,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 23,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 376,
+              "official_name_jp": "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク MORE MORE JUMP！",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 268,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 23,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 377,
+              "official_name_jp": "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vivid BAD SQUAD",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 269,
+              "matched_card_count_in_official_expansion": 24,
+              "official_expansion_total_cards": 24,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 378,
+              "official_name_jp": "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク ワンダーランズ×ショウタイム",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 270,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 23,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 379,
+              "official_name_jp": "[TD+]プロジェクトセカイ カラフルステージ！ feat. 初音ミク 25時、ナイトコードで。",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 271,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 23,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "PJS/S109",
-          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/S109）",
+          "suggested_display_name": "世界計畫 繽紛舞台！（プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 117,
           "printing_count": 213,
@@ -1351,11 +3457,30 @@
             "PJS/S109-114",
             "PJS/S109-115",
             "PJS/S109-116"
-          ]
+          ],
+          "official_display_name_jp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 455,
+              "official_name_jp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 355,
+              "matched_card_count_in_official_expansion": 205,
+              "official_expansion_total_cards": 205,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "PJS/S125",
-          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/S125）",
+          "suggested_display_name": "世界計畫 繽紛舞台！（プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.3）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 121,
           "printing_count": 271,
@@ -1365,11 +3490,30 @@
             "PJS/S125-P03",
             "PJS/S125-P04",
             "PJS/S125-001"
-          ]
+          ],
+          "official_display_name_jp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.3",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.3"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 536,
+              "official_name_jp": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク Vol.3",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 433,
+              "matched_card_count_in_official_expansion": 265,
+              "official_expansion_total_cards": 265,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "PJS/SE49",
-          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/SE49）",
+          "suggested_display_name": "世界計畫 繽紛舞台！（コレクションパック プロジェクトセカイ カラフルステージ！ feat. 初音ミク）",
           "sort_index_by_card_code": 4,
           "unique_card_count": 26,
           "printing_count": 26,
@@ -1379,7 +3523,26 @@
             "PJS/SE49-003",
             "PJS/SE49-004",
             "PJS/SE49-005"
-          ]
+          ],
+          "official_display_name_jp": "コレクションパック プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+          "official_display_category_jp": "その他商品",
+          "official_display_category_zh": "其他商品",
+          "official_product_names_jp": [
+            "コレクションパック プロジェクトセカイ カラフルステージ！ feat. 初音ミク"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 498,
+              "official_name_jp": "コレクションパック プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 397,
+              "matched_card_count_in_official_expansion": 26,
+              "official_expansion_total_cards": 26,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1394,7 +3557,7 @@
       "products": [
         {
           "product_code": "PT/W07",
-          "suggested_display_name": "Phantom -Requiem for the Phantom-（PT/W07）",
+          "suggested_display_name": "Phantom -Requiem for the Phantom-（Phantom -requiem for the phantom-）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 131,
           "printing_count": 146,
@@ -1404,7 +3567,37 @@
             "PT/W07-105",
             "PT/W07-106",
             "PT/W07-107"
-          ]
+          ],
+          "official_display_name_jp": "Phantom -requiem for the phantom-",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "Phantom -requiem for the phantom-",
+            "2009年度トライアルデッキ【W】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 32,
+              "official_name_jp": "Phantom -requiem for the phantom-",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 7,
+              "matched_card_count_in_official_expansion": 115,
+              "official_expansion_total_cards": 115,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 15,
+              "official_name_jp": "2009年度トライアルデッキ【W】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 99,
+              "matched_card_count_in_official_expansion": 19,
+              "official_expansion_total_cards": 74,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1419,7 +3612,7 @@
       "products": [
         {
           "product_code": "SFN/S108",
-          "suggested_display_name": "葬送的芙莉蓮（SFN/S108）",
+          "suggested_display_name": "葬送的芙莉蓮（葬送のフリーレン）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 136,
           "printing_count": 273,
@@ -1429,11 +3622,41 @@
             "SFN/S108-P03",
             "SFN/S108-P04",
             "SFN/S108-P05"
-          ]
+          ],
+          "official_display_name_jp": "葬送のフリーレン",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "葬送のフリーレン",
+            "[TD]葬送のフリーレン"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 466,
+              "official_name_jp": "葬送のフリーレン",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 366,
+              "matched_card_count_in_official_expansion": 223,
+              "official_expansion_total_cards": 223,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 456,
+              "official_name_jp": "[TD]葬送のフリーレン",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 356,
+              "matched_card_count_in_official_expansion": 41,
+              "official_expansion_total_cards": 41,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "SFN/S128",
-          "suggested_display_name": "葬送的芙莉蓮（SFN/S128）",
+          "suggested_display_name": "葬送的芙莉蓮（葬送のフリーレン 新装版）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 111,
           "printing_count": 238,
@@ -1443,11 +3666,30 @@
             "SFN/S128-003",
             "SFN/S128-004",
             "SFN/S128-005"
-          ]
+          ],
+          "official_display_name_jp": "葬送のフリーレン 新装版",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "葬送のフリーレン 新装版"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 545,
+              "official_name_jp": "葬送のフリーレン 新装版",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 442,
+              "matched_card_count_in_official_expansion": 238,
+              "official_expansion_total_cards": 238,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "SFN/S136",
-          "suggested_display_name": "葬送的芙莉蓮（SFN/S136）",
+          "suggested_display_name": "葬送的芙莉蓮（葬送のフリーレン Vol.2）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 101,
           "printing_count": 252,
@@ -1457,7 +3699,26 @@
             "SFN/S136-002",
             "SFN/S136-003",
             "SFN/S136-004"
-          ]
+          ],
+          "official_display_name_jp": "葬送のフリーレン Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "葬送のフリーレン Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 563,
+              "official_name_jp": "葬送のフリーレン Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 459,
+              "matched_card_count_in_official_expansion": 249,
+              "official_expansion_total_cards": 249,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1472,7 +3733,7 @@
       "products": [
         {
           "product_code": "Snk/W62",
-          "suggested_display_name": "角川Sneaker文庫（Snk/W62）",
+          "suggested_display_name": "角川Sneaker文庫（角川スニーカー文庫）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 14,
           "printing_count": 21,
@@ -1482,17 +3743,66 @@
             "Snk/W62-T17",
             "Snk/W62-T19",
             "Snk/W62-005"
-          ]
+          ],
+          "official_display_name_jp": "角川スニーカー文庫",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "角川スニーカー文庫",
+            "[TD+]角川スニーカー文庫"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 259,
+              "official_name_jp": "角川スニーカー文庫",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 116,
+              "matched_card_count_in_official_expansion": 17,
+              "official_expansion_total_cards": 159,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 257,
+              "official_name_jp": "[TD+]角川スニーカー文庫",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 114,
+              "matched_card_count_in_official_expansion": 3,
+              "official_expansion_total_cards": 29,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "Snk/W123",
-          "suggested_display_name": "角川Sneaker文庫（Snk/W123）",
+          "suggested_display_name": "角川Sneaker文庫（角川スニーカー文庫 Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 1,
           "printing_count": 2,
           "sample_card_ids": [
             "Snk/W123-015"
-          ]
+          ],
+          "official_display_name_jp": "角川スニーカー文庫 Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "角川スニーカー文庫 Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 510,
+              "official_name_jp": "角川スニーカー文庫 Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 409,
+              "matched_card_count_in_official_expansion": 2,
+              "official_expansion_total_cards": 333,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1507,7 +3817,7 @@
       "products": [
         {
           "product_code": "SPY/S106",
-          "suggested_display_name": "間諜家家酒（SPY/S106）",
+          "suggested_display_name": "間諜家家酒（SPY×FAMILY）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 129,
           "printing_count": 205,
@@ -1517,7 +3827,37 @@
             "SPY/S106-T01",
             "SPY/S106-T02",
             "SPY/S106-T03"
-          ]
+          ],
+          "official_display_name_jp": "SPY×FAMILY",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "SPY×FAMILY",
+            "[TD]SPY×FAMILY"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 433,
+              "official_name_jp": "SPY×FAMILY",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 333,
+              "matched_card_count_in_official_expansion": 159,
+              "official_expansion_total_cards": 159,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 432,
+              "official_name_jp": "[TD]SPY×FAMILY",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 332,
+              "matched_card_count_in_official_expansion": 43,
+              "official_expansion_total_cards": 43,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1532,7 +3872,7 @@
       "products": [
         {
           "product_code": "Sst/W62",
-          "suggested_display_name": "新妹魔王的契約者（Sst/W62）",
+          "suggested_display_name": "新妹魔王的契約者（角川スニーカー文庫）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 14,
           "printing_count": 22,
@@ -1542,11 +3882,41 @@
             "Sst/W62-T06",
             "Sst/W62-T09",
             "Sst/W62-056"
-          ]
+          ],
+          "official_display_name_jp": "角川スニーカー文庫",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "角川スニーカー文庫",
+            "[TD+]角川スニーカー文庫"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 259,
+              "official_name_jp": "角川スニーカー文庫",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 116,
+              "matched_card_count_in_official_expansion": 16,
+              "official_expansion_total_cards": 159,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 257,
+              "official_name_jp": "[TD+]角川スニーカー文庫",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 114,
+              "matched_card_count_in_official_expansion": 5,
+              "official_expansion_total_cards": 29,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "Sst/W123",
-          "suggested_display_name": "新妹魔王的契約者（Sst/W123）",
+          "suggested_display_name": "新妹魔王的契約者（角川スニーカー文庫 Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 5,
           "printing_count": 13,
@@ -1556,7 +3926,26 @@
             "Sst/W123-079",
             "Sst/W123-089",
             "Sst/W123-091"
-          ]
+          ],
+          "official_display_name_jp": "角川スニーカー文庫 Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "角川スニーカー文庫 Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 510,
+              "official_name_jp": "角川スニーカー文庫 Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 409,
+              "matched_card_count_in_official_expansion": 13,
+              "official_expansion_total_cards": 333,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1571,7 +3960,7 @@
       "products": [
         {
           "product_code": "Ssy/W62",
-          "suggested_display_name": "涼宮春日的憂鬱（Ssy/W62）",
+          "suggested_display_name": "涼宮春日的憂鬱（角川スニーカー文庫）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 19,
           "printing_count": 31,
@@ -1581,11 +3970,41 @@
             "Ssy/W62-T08",
             "Ssy/W62-T13",
             "Ssy/W62-T20"
-          ]
+          ],
+          "official_display_name_jp": "角川スニーカー文庫",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "角川スニーカー文庫",
+            "[TD+]角川スニーカー文庫"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 259,
+              "official_name_jp": "角川スニーカー文庫",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 116,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 159,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 257,
+              "official_name_jp": "[TD+]角川スニーカー文庫",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 114,
+              "matched_card_count_in_official_expansion": 6,
+              "official_expansion_total_cards": 29,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "Ssy/W123",
-          "suggested_display_name": "涼宮春日的憂鬱（Ssy/W123）",
+          "suggested_display_name": "涼宮春日的憂鬱（角川スニーカー文庫 Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 20,
           "printing_count": 47,
@@ -1595,7 +4014,37 @@
             "Ssy/W123-T03",
             "Ssy/W123-T07",
             "Ssy/W123-T08"
-          ]
+          ],
+          "official_display_name_jp": "角川スニーカー文庫 Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "角川スニーカー文庫 Vol.2",
+            "[TD]角川スニーカー文庫 Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 510,
+              "official_name_jp": "角川スニーカー文庫 Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 409,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 333,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 509,
+              "official_name_jp": "[TD]角川スニーカー文庫 Vol.2",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 408,
+              "matched_card_count_in_official_expansion": 8,
+              "official_expansion_total_cards": 40,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1610,7 +4059,7 @@
       "products": [
         {
           "product_code": "TF/S32",
-          "suggested_display_name": "火星異種（TF/S32）",
+          "suggested_display_name": "火星異種（テラフォーマーズ）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 125,
           "printing_count": 149,
@@ -1620,7 +4069,37 @@
             "TF/S32-103",
             "TF/S32-104",
             "TF/S32-P01"
-          ]
+          ],
+          "official_display_name_jp": "テラフォーマーズ",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "テラフォーマーズ",
+            "2014年度トライアルデッキ【S】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 135,
+              "official_name_jp": "テラフォーマーズ",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 35,
+              "matched_card_count_in_official_expansion": 120,
+              "official_expansion_total_cards": 120,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 112,
+              "official_name_jp": "2014年度トライアルデッキ【S】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 94,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 130,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1635,7 +4114,7 @@
       "products": [
         {
           "product_code": "TRV/S92",
-          "suggested_display_name": "東京復仇者（TRV/S92）",
+          "suggested_display_name": "東京復仇者（東京リベンジャーズ）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 128,
           "printing_count": 193,
@@ -1645,7 +4124,37 @@
             "TRV/S92-T01",
             "TRV/S92-T02",
             "TRV/S92-T03"
-          ]
+          ],
+          "official_display_name_jp": "東京リベンジャーズ",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "東京リベンジャーズ",
+            "[TD+]東京リベンジャーズ"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 389,
+              "official_name_jp": "東京リベンジャーズ",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 291,
+              "matched_card_count_in_official_expansion": 158,
+              "official_expansion_total_cards": 158,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 388,
+              "official_name_jp": "[TD+]東京リベンジャーズ",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 290,
+              "matched_card_count_in_official_expansion": 32,
+              "official_expansion_total_cards": 32,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1660,7 +4169,7 @@
       "products": [
         {
           "product_code": "TSK/S70",
-          "suggested_display_name": "關於我轉生變成史萊姆這檔事（TSK/S70）",
+          "suggested_display_name": "關於我轉生變成史萊姆這檔事（転生したらスライムだった件）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 128,
           "printing_count": 165,
@@ -1670,11 +4179,41 @@
             "TSK/S70-P03",
             "TSK/S70-T01",
             "TSK/S70-T02"
-          ]
+          ],
+          "official_display_name_jp": "転生したらスライムだった件",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "転生したらスライムだった件",
+            "[TD+]転生したらスライムだった件"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 283,
+              "official_name_jp": "転生したらスライムだった件",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 140,
+              "matched_card_count_in_official_expansion": 135,
+              "official_expansion_total_cards": 135,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 281,
+              "official_name_jp": "[TD+]転生したらスライムだった件",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 138,
+              "matched_card_count_in_official_expansion": 27,
+              "official_expansion_total_cards": 27,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "TSK/S82",
-          "suggested_display_name": "關於我轉生變成史萊姆這檔事（TSK/S82）",
+          "suggested_display_name": "關於我轉生變成史萊姆這檔事（転生したらスライムだった件 Vol.2）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 109,
           "printing_count": 137,
@@ -1684,11 +4223,30 @@
             "TSK/S82-002",
             "TSK/S82-003",
             "TSK/S82-004"
-          ]
+          ],
+          "official_display_name_jp": "転生したらスライムだった件 Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "転生したらスライムだった件 Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 333,
+              "official_name_jp": "転生したらスライムだった件 Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 189,
+              "matched_card_count_in_official_expansion": 136,
+              "official_expansion_total_cards": 136,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "TSK/S101",
-          "suggested_display_name": "關於我轉生變成史萊姆這檔事（TSK/S101）",
+          "suggested_display_name": "關於我轉生變成史萊姆這檔事（転生したらスライムだった件 Vol.3）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 115,
           "printing_count": 174,
@@ -1698,7 +4256,26 @@
             "TSK/S101-P04",
             "TSK/S101-P05",
             "TSK/S101-P06"
-          ]
+          ],
+          "official_display_name_jp": "転生したらスライムだった件 Vol.3",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "転生したらスライムだった件 Vol.3"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 412,
+              "official_name_jp": "転生したらスライムだった件 Vol.3",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 313,
+              "matched_card_count_in_official_expansion": 156,
+              "official_expansion_total_cards": 156,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1713,7 +4290,7 @@
       "products": [
         {
           "product_code": "UMA/W106",
-          "suggested_display_name": "賽馬娘（UMA/W106）",
+          "suggested_display_name": "賽馬娘（ウマ娘 プリティーダービー）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 195,
           "printing_count": 405,
@@ -1723,11 +4300,52 @@
             "UMA/W106-038",
             "UMA/W106-039",
             "UMA/W106-075"
-          ]
+          ],
+          "official_display_name_jp": "ウマ娘 プリティーダービー",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ウマ娘 プリティーダービー",
+            "[TD]ウマ娘 プリティーダービー 第1R",
+            "[TD]ウマ娘 プリティーダービー 第2R"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 431,
+              "official_name_jp": "ウマ娘 プリティーダービー",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 331,
+              "matched_card_count_in_official_expansion": 310,
+              "official_expansion_total_cards": 310,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 429,
+              "official_name_jp": "[TD]ウマ娘 プリティーダービー 第1R",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 329,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 36,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 430,
+              "official_name_jp": "[TD]ウマ娘 プリティーダービー 第2R",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 330,
+              "matched_card_count_in_official_expansion": 36,
+              "official_expansion_total_cards": 36,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "UMA/W119",
-          "suggested_display_name": "賽馬娘（UMA/W119）",
+          "suggested_display_name": "賽馬娘（劇場版『ウマ娘 プリティーダービー 新時代の扉』）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 102,
           "printing_count": 203,
@@ -1737,11 +4355,30 @@
             "UMA/W119-001",
             "UMA/W119-002",
             "UMA/W119-003"
-          ]
+          ],
+          "official_display_name_jp": "劇場版『ウマ娘 プリティーダービー 新時代の扉』",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "劇場版『ウマ娘 プリティーダービー 新時代の扉』"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 486,
+              "official_name_jp": "劇場版『ウマ娘 プリティーダービー 新時代の扉』",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 385,
+              "matched_card_count_in_official_expansion": 200,
+              "official_expansion_total_cards": 200,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "UMA/W134",
-          "suggested_display_name": "賽馬娘（UMA/W134）",
+          "suggested_display_name": "賽馬娘（アニメ『ウマ娘 シンデレラグレイ』）",
           "sort_index_by_card_code": 3,
           "unique_card_count": 113,
           "printing_count": 229,
@@ -1751,7 +4388,26 @@
             "UMA/W134-P03",
             "UMA/W134-P04",
             "UMA/W134-P05"
-          ]
+          ],
+          "official_display_name_jp": "アニメ『ウマ娘 シンデレラグレイ』",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "アニメ『ウマ娘 シンデレラグレイ』"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 540,
+              "official_name_jp": "アニメ『ウマ娘 シンデレラグレイ』",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 437,
+              "matched_card_count_in_official_expansion": 215,
+              "official_expansion_total_cards": 215,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1766,17 +4422,36 @@
       "products": [
         {
           "product_code": "VA/WE30",
-          "suggested_display_name": "Visual Arts（VA/WE30）",
+          "suggested_display_name": "Visual Arts（ダ・カーポ vs リトルバスターズ！）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 1,
           "printing_count": 1,
           "sample_card_ids": [
             "VA/WE30-55"
-          ]
+          ],
+          "official_display_name_jp": "ダ・カーポ vs リトルバスターズ！",
+          "official_display_category_jp": "エクストラブースター",
+          "official_display_category_zh": "Extra Booster",
+          "official_product_names_jp": [
+            "ダ・カーポ vs リトルバスターズ！"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 222,
+              "official_name_jp": "ダ・カーポ vs リトルバスターズ！",
+              "product_category_jp": "エクストラブースター",
+              "product_category_zh": "Extra Booster",
+              "priority": 82,
+              "matched_card_count_in_official_expansion": null,
+              "official_expansion_total_cards": null,
+              "source": "official_cardlist_detailByNoJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         },
         {
           "product_code": "VA/WPR",
-          "suggested_display_name": "Visual Arts（VA/WPR）",
+          "suggested_display_name": "Visual Arts（PRカード【Wサイド】）",
           "sort_index_by_card_code": 2,
           "unique_card_count": 38,
           "printing_count": 38,
@@ -1786,7 +4461,26 @@
             "VA/WPR-P03",
             "VA/WPR-P04",
             "VA/WPR-P05"
-          ]
+          ],
+          "official_display_name_jp": "PRカード【Wサイド】",
+          "official_display_category_jp": "PRカード",
+          "official_display_category_zh": "PR卡",
+          "official_product_names_jp": [
+            "PRカード【Wサイド】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 12,
+              "official_name_jp": "PRカード【Wサイド】",
+              "product_category_jp": "PRカード",
+              "product_category_zh": "PR卡",
+              "priority": 1,
+              "matched_card_count_in_official_expansion": null,
+              "official_expansion_total_cards": null,
+              "source": "official_cardlist_detailByNoJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1801,7 +4495,7 @@
       "products": [
         {
           "product_code": "VR/W22",
-          "suggested_display_name": "Vividred Operation（VR/W22）",
+          "suggested_display_name": "Vividred Operation（ビビッドレッド・オペレーション）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 131,
           "printing_count": 149,
@@ -1811,7 +4505,37 @@
             "VR/W22-108",
             "VR/W22-109",
             "VR/W22-110"
-          ]
+          ],
+          "official_display_name_jp": "ビビッドレッド・オペレーション",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "ビビッドレッド・オペレーション",
+            "2013年度トライアルデッキ【W】"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 97,
+              "official_name_jp": "ビビッドレッド・オペレーション",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 24,
+              "matched_card_count_in_official_expansion": 118,
+              "official_expansion_total_cards": 118,
+              "source": "official_cardlist_searchJson"
+            },
+            {
+              "official_expansion_id": 88,
+              "official_name_jp": "2013年度トライアルデッキ【W】",
+              "product_category_jp": "トライアルデッキ",
+              "product_category_zh": "預組牌組",
+              "priority": 95,
+              "matched_card_count_in_official_expansion": 20,
+              "official_expansion_total_cards": 107,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     },
@@ -1826,7 +4550,7 @@
       "products": [
         {
           "product_code": "Woo/SE19",
-          "suggested_display_name": "兔寶的悲慘日常（Woo/SE19）",
+          "suggested_display_name": "兔寶的悲慘日常（【スペシャルセット】うーさーのその日暮らし）",
           "sort_index_by_card_code": 1,
           "unique_card_count": 24,
           "printing_count": 24,
@@ -1836,9 +4560,34 @@
             "Woo/SE19-002",
             "Woo/SE19-003",
             "Woo/SE19-004"
-          ]
+          ],
+          "official_display_name_jp": "【スペシャルセット】うーさーのその日暮らし",
+          "official_display_category_jp": "その他商品",
+          "official_display_category_zh": "其他商品",
+          "official_product_names_jp": [
+            "【スペシャルセット】うーさーのその日暮らし"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 109,
+              "official_name_jp": "【スペシャルセット】うーさーのその日暮らし",
+              "product_category_jp": "その他商品",
+              "product_category_zh": "其他商品",
+              "priority": 20,
+              "matched_card_count_in_official_expansion": 23,
+              "official_expansion_total_cards": 23,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser"
         }
       ]
     }
+  ],
+  "official_name_sources": [
+    "https://ws-tcg.com/cardlist/",
+    "https://ws-tcg.com/manage/CardListUser/filter-options",
+    "https://ws-tcg.com/manage/CardListUser/searchJson",
+    "https://ws-tcg.com/manage/CardListUser/detailByNoJson"
   ]
 }
