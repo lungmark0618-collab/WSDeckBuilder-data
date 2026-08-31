@@ -1,0 +1,1844 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-31T17:38:24+08:00",
+  "purpose": "Provide product-code breakdowns so the app can group one WS title into separate releases/boosters without changing translation files.",
+  "grouping_rule": "Use card id or printing id. Product code is the substring before the final hyphen and card number, e.g. SFN/S108-001 -> SFN/S108.",
+  "display_name_note": "suggested_display_name intentionally includes the product code. Friendly labels like 第一彈/第二彈 should be a separate manual mapping against official product names because card-code order is not always release order.",
+  "trait_policy": "Trait names inside 《》 remain Japanese in translations for physical-card lookup.",
+  "sets": [
+    {
+      "key": "amg",
+      "title_code": "AMG",
+      "title_name_jp": "甘神さんちの縁結び",
+      "title_name_zh": "甘神家的連理枝",
+      "card_count": 121,
+      "printing_count": 264,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "AMG/W121",
+          "suggested_display_name": "甘神家的連理枝（AMG/W121）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 121,
+          "printing_count": 264,
+          "sample_card_ids": [
+            "AMG/W121-P01",
+            "AMG/W121-P02",
+            "AMG/W121-T01",
+            "AMG/W121-T02",
+            "AMG/W121-T03"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "aot",
+      "title_code": "AOT",
+      "title_name_jp": "進撃の巨人",
+      "title_name_zh": "進擊的巨人",
+      "card_count": 247,
+      "printing_count": 324,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "AOT/S35",
+          "suggested_display_name": "進擊的巨人（AOT/S35）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 138,
+          "printing_count": 169,
+          "sample_card_ids": [
+            "AOT/S35-P01",
+            "AOT/S35-P02",
+            "AOT/S35-P03",
+            "AOT/S35-P04",
+            "AOT/S35-T01"
+          ]
+        },
+        {
+          "product_code": "AOT/S50",
+          "suggested_display_name": "進擊的巨人（AOT/S50）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 109,
+          "printing_count": 155,
+          "sample_card_ids": [
+            "AOT/S50-P01",
+            "AOT/S50-P02",
+            "AOT/S50-P03",
+            "AOT/S50-P04",
+            "AOT/S50-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "azl",
+      "title_code": "AZL",
+      "title_name_jp": "アズールレーン",
+      "title_name_zh": "碧藍航線",
+      "card_count": 375,
+      "printing_count": 783,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "AZL/S102",
+          "suggested_display_name": "碧藍航線（AZL/S102）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 241,
+          "printing_count": 467,
+          "sample_card_ids": [
+            "AZL/S102-P01",
+            "AZL/S102-P02",
+            "AZL/S102-P03",
+            "AZL/S102-T01",
+            "AZL/S102-T02"
+          ]
+        },
+        {
+          "product_code": "AZL/S119",
+          "suggested_display_name": "碧藍航線（AZL/S119）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 134,
+          "printing_count": 316,
+          "sample_card_ids": [
+            "AZL/S119-P01",
+            "AZL/S119-P02",
+            "AZL/S119-P03",
+            "AZL/S119-001",
+            "AZL/S119-002"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bdgbp",
+      "title_code": "BD/W54",
+      "title_name_jp": "BanG Dream! ガールズバンドパーティ！",
+      "title_name_zh": "BanG Dream! 少女樂團派對",
+      "card_count": 783,
+      "printing_count": 1515,
+      "product_count": 5,
+      "products": [
+        {
+          "product_code": "BD/W54",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W54）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 234,
+          "printing_count": 430,
+          "sample_card_ids": [
+            "BD/W54-P01",
+            "BD/W54-P02",
+            "BD/W54-P03",
+            "BD/W54-P04",
+            "BD/W54-P05"
+          ]
+        },
+        {
+          "product_code": "BD/W63",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W63）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 127,
+          "printing_count": 280,
+          "sample_card_ids": [
+            "BD/W63-P01",
+            "BD/W63-P02",
+            "BD/W63-P03",
+            "BD/W63-P04",
+            "BD/W63-P05"
+          ]
+        },
+        {
+          "product_code": "BD/W73",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W73）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 144,
+          "printing_count": 357,
+          "sample_card_ids": [
+            "BD/W73-P01",
+            "BD/W73-P02",
+            "BD/W73-P03",
+            "BD/W73-P04",
+            "BD/W73-P05"
+          ]
+        },
+        {
+          "product_code": "BD/W95",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/W95）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 208,
+          "printing_count": 351,
+          "sample_card_ids": [
+            "BD/W95-P01",
+            "BD/W95-P02",
+            "BD/W95-P03",
+            "BD/W95-P04",
+            "BD/W95-P05"
+          ]
+        },
+        {
+          "product_code": "BD/WE34",
+          "suggested_display_name": "BanG Dream! 少女樂團派對（BD/WE34）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 70,
+          "printing_count": 97,
+          "sample_card_ids": [
+            "BD/WE34-T01",
+            "BD/WE34-T02",
+            "BD/WE34-T03",
+            "BD/WE34-T04",
+            "BD/WE34-T05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bm",
+      "title_code": "BM",
+      "title_name_jp": "化物語",
+      "title_name_zh": "物語系列",
+      "card_count": 127,
+      "printing_count": 144,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "BM/S15",
+          "suggested_display_name": "物語系列（BM/S15）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 144,
+          "sample_card_ids": [
+            "BM/S15-106",
+            "BM/S15-107",
+            "BM/S15-108",
+            "BM/S15-109",
+            "BM/S15-110"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "brd",
+      "title_code": "BRD/W139",
+      "title_name_jp": "ブラウンダスト2",
+      "title_name_zh": "棕色塵埃2",
+      "card_count": 140,
+      "printing_count": 304,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "BRD/W139",
+          "suggested_display_name": "棕色塵埃2（BRD/W139）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 140,
+          "printing_count": 304,
+          "sample_card_ids": [
+            "BRD/W139-101",
+            "BRD/W139-102",
+            "BRD/W139-103",
+            "BRD/W139-104",
+            "BRD/W139-105"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "btr",
+      "title_code": "BTR",
+      "title_name_jp": "ぼっち・ざ・ろっく！",
+      "title_name_zh": "孤獨搖滾！",
+      "card_count": 126,
+      "printing_count": 252,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "BTR/W107",
+          "suggested_display_name": "孤獨搖滾！（BTR/W107）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 126,
+          "printing_count": 252,
+          "sample_card_ids": [
+            "BTR/W107-P01",
+            "BTR/W107-P02",
+            "BTR/W107-T01",
+            "BTR/W107-T02",
+            "BTR/W107-T03"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cc",
+      "title_code": "CC",
+      "title_name_jp": "チェインクロニクル ～ヘクセイタスの閃～",
+      "title_name_zh": "鎖鏈戰記 ～赫克瑟塔斯之光～",
+      "card_count": 129,
+      "printing_count": 164,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "CC/S48",
+          "suggested_display_name": "鎖鏈戰記 ～赫克瑟塔斯之光～（CC/S48）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 129,
+          "printing_count": 164,
+          "sample_card_ids": [
+            "CC/S48-P01",
+            "CC/S48-P02",
+            "CC/S48-P03",
+            "CC/S48-T01",
+            "CC/S48-T02"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cgs",
+      "title_code": "CGS",
+      "title_name_jp": "カードゲームしよ子",
+      "title_name_zh": "卡片遊戲什麼子",
+      "card_count": 68,
+      "printing_count": 91,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "CGS/WS01",
+          "suggested_display_name": "卡片遊戲什麼子（CGS/WS01）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 59,
+          "printing_count": 82,
+          "sample_card_ids": [
+            "CGS/WS01-P01",
+            "CGS/WS01-P02",
+            "CGS/WS01-P03",
+            "CGS/WS01-P04",
+            "CGS/WS01-P05"
+          ]
+        },
+        {
+          "product_code": "SI/WPR",
+          "suggested_display_name": "卡片遊戲什麼子（SI/WPR）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 9,
+          "printing_count": 9,
+          "sample_card_ids": [
+            "SI/WPR-001",
+            "SI/WPR-002",
+            "SI/WPR-003",
+            "SI/WPR-004",
+            "SI/WPR-005"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cn",
+      "title_code": "CN",
+      "title_name_jp": "CANAAN",
+      "title_name_zh": "CANAAN",
+      "card_count": 28,
+      "printing_count": 28,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "CN/SE02",
+          "suggested_display_name": "CANAAN（CN/SE02）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 28,
+          "printing_count": 28,
+          "sample_card_ids": [
+            "CN/SE02-28",
+            "CN/SE02-01",
+            "CN/SE02-02",
+            "CN/SE02-03",
+            "CN/SE02-04"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "csm",
+      "title_code": "CSM",
+      "title_name_jp": "チェンソーマン",
+      "title_name_zh": "鏈鋸人",
+      "card_count": 127,
+      "printing_count": 198,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "CSM/S96",
+          "suggested_display_name": "鏈鋸人（CSM/S96）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 198,
+          "sample_card_ids": [
+            "CSM/S96-101",
+            "CSM/S96-102",
+            "CSM/S96-103",
+            "CSM/S96-104",
+            "CSM/S96-105"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dbg",
+      "title_code": "DBG",
+      "title_name_jp": "神様になった日",
+      "title_name_zh": "成為神的那一天",
+      "card_count": 127,
+      "printing_count": 167,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "DBG/W87",
+          "suggested_display_name": "成為神的那一天（DBG/W87）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 167,
+          "sample_card_ids": [
+            "DBG/W87-P01",
+            "DBG/W87-P02",
+            "DBG/W87-P03",
+            "DBG/W87-T01",
+            "DBG/W87-T02"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ddm",
+      "title_code": "DDM",
+      "title_name_jp": "ダンジョンに出会いを求めるのは間違っているだろうか",
+      "title_name_zh": "在地下城尋求邂逅是否搞錯了什麼",
+      "card_count": 158,
+      "printing_count": 237,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "DDM/S88",
+          "suggested_display_name": "在地下城尋求邂逅是否搞錯了什麼（DDM/S88）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 125,
+          "printing_count": 168,
+          "sample_card_ids": [
+            "DDM/S88-P01",
+            "DDM/S88-P02",
+            "DDM/S88-T01",
+            "DDM/S88-T02",
+            "DDM/S88-T03"
+          ]
+        },
+        {
+          "product_code": "GA10/S131",
+          "suggested_display_name": "在地下城尋求邂逅是否搞錯了什麼（GA10/S131）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 33,
+          "printing_count": 69,
+          "sample_card_ids": [
+            "GA10/S131-P01",
+            "GA10/S131-002",
+            "GA10/S131-004",
+            "GA10/S131-011",
+            "GA10/S131-012"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dds",
+      "title_code": "Dds",
+      "title_name_jp": "Disney100",
+      "title_name_zh": "Disney100",
+      "card_count": 115,
+      "printing_count": 206,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "Dds/S104",
+          "suggested_display_name": "Disney100（Dds/S104）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 112,
+          "printing_count": 200,
+          "sample_card_ids": [
+            "Dds/S104-102",
+            "Dds/S104-103",
+            "Dds/S104-104",
+            "Dds/S104-105",
+            "Dds/S104-106"
+          ]
+        },
+        {
+          "product_code": "Dmv/S104",
+          "suggested_display_name": "Disney100（Dmv/S104）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 3,
+          "printing_count": 6,
+          "sample_card_ids": [
+            "Dmv/S104-053",
+            "Dmv/S104-058",
+            "Dmv/S104-074"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ev",
+      "title_code": "EV",
+      "title_name_jp": "ヱヴァンゲリヲン新劇場版",
+      "title_name_zh": "福音戰士新劇場版",
+      "card_count": 124,
+      "printing_count": 140,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "EV/S12",
+          "suggested_display_name": "福音戰士新劇場版（EV/S12）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 124,
+          "printing_count": 140,
+          "sample_card_ids": [
+            "EV/S12-106",
+            "EV/S12-107",
+            "EV/S12-108",
+            "EV/S12-109",
+            "EV/S12-110"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fh",
+      "title_code": "FH",
+      "title_name_jp": "Fate/hollow ataraxia",
+      "title_name_zh": "Fate/hollow ataraxia",
+      "card_count": 51,
+      "printing_count": 96,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "FH/SE03",
+          "suggested_display_name": "Fate/hollow ataraxia（FH/SE03）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 51,
+          "printing_count": 96,
+          "sample_card_ids": [
+            "FH/SE03-046",
+            "FH/SE03-047",
+            "FH/SE03-048",
+            "FH/SE03-049",
+            "FH/SE03-050"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gbs",
+      "title_code": "GBS",
+      "title_name_jp": "ゴブリンスレイヤー",
+      "title_name_zh": "哥布林殺手",
+      "card_count": 136,
+      "printing_count": 178,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "GA04/S131",
+          "suggested_display_name": "哥布林殺手（GA04/S131）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 7,
+          "printing_count": 15,
+          "sample_card_ids": [
+            "GA04/S131-005",
+            "GA04/S131-079",
+            "GA04/S131-084",
+            "GA04/S131-098",
+            "GA04/S131-100"
+          ]
+        },
+        {
+          "product_code": "GBS/S63",
+          "suggested_display_name": "哥布林殺手（GBS/S63）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 129,
+          "printing_count": 163,
+          "sample_card_ids": [
+            "GBS/S63-P01",
+            "GBS/S63-P02",
+            "GBS/S63-P03",
+            "GBS/S63-T01",
+            "GBS/S63-T02"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gim",
+      "title_code": "GIM",
+      "title_name_jp": "学園アイドルマスター",
+      "title_name_zh": "學園偶像大師",
+      "card_count": 138,
+      "printing_count": 335,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "GIM/W124",
+          "suggested_display_name": "學園偶像大師（GIM/W124）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 138,
+          "printing_count": 335,
+          "sample_card_ids": [
+            "GIM/W124-P01",
+            "GIM/W124-P02",
+            "GIM/W124-P03",
+            "GIM/W124-P04",
+            "GIM/W124-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gst",
+      "title_code": "GST",
+      "title_name_jp": "超爆裂異次元メンコバトル ギガントシューター つかさ",
+      "title_name_zh": "超爆裂異次元紙牌戰鬥 Gigant Shooter 司",
+      "card_count": 33,
+      "printing_count": 37,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "GST/SE22",
+          "suggested_display_name": "超爆裂異次元紙牌戰鬥 Gigant Shooter 司（GST/SE22）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 33,
+          "printing_count": 37,
+          "sample_card_ids": [
+            "GST/SE22-P01",
+            "GST/SE22-P02",
+            "GST/SE22-P03",
+            "GST/SE22-01",
+            "GST/SE22-02"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gt",
+      "title_code": "GT",
+      "title_name_jp": "幻影ヲ駆ケル太陽",
+      "title_name_zh": "穿透幻影的太陽",
+      "card_count": 129,
+      "printing_count": 148,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "GT/W29",
+          "suggested_display_name": "穿透幻影的太陽（GT/W29）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 129,
+          "printing_count": 148,
+          "sample_card_ids": [
+            "GT/W29-106",
+            "GT/W29-107",
+            "GT/W29-108",
+            "GT/W29-109",
+            "GT/W29-P01"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hll",
+      "title_code": "HLL",
+      "title_name_jp": "ひなろじ ～from Luck ＆ Logic～",
+      "title_name_zh": "雛邏輯 ～from Luck ＆ Logic～",
+      "card_count": 109,
+      "printing_count": 131,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "HLL/WE28",
+          "suggested_display_name": "雛邏輯 ～from Luck ＆ Logic～（HLL/WE28）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 58,
+          "printing_count": 68,
+          "sample_card_ids": [
+            "HLL/WE28-51",
+            "HLL/WE28-P01",
+            "HLL/WE28-P02",
+            "HLL/WE28-P03",
+            "HLL/WE28-P04"
+          ]
+        },
+        {
+          "product_code": "HLL/WE29",
+          "suggested_display_name": "雛邏輯 ～from Luck ＆ Logic～（HLL/WE29）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 51,
+          "printing_count": 63,
+          "sample_card_ids": [
+            "HLL/WE29-P01",
+            "HLL/WE29-01",
+            "HLL/WE29-02",
+            "HLL/WE29-03",
+            "HLL/WE29-04"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hol",
+      "title_code": "HOL",
+      "title_name_jp": "ホロライブプロダクション",
+      "title_name_zh": "hololive",
+      "card_count": 631,
+      "printing_count": 1398,
+      "product_count": 5,
+      "products": [
+        {
+          "product_code": "HOL/W91",
+          "suggested_display_name": "hololive（HOL/W91）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 310,
+          "printing_count": 614,
+          "sample_card_ids": [
+            "HOL/W91-P02",
+            "HOL/W91-P03",
+            "HOL/W91-P04",
+            "HOL/W91-P05",
+            "HOL/W91-P06"
+          ]
+        },
+        {
+          "product_code": "HOL/W104",
+          "suggested_display_name": "hololive（HOL/W104）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 166,
+          "printing_count": 417,
+          "sample_card_ids": [
+            "HOL/W104-P01",
+            "HOL/W104-P02",
+            "HOL/W104-P03",
+            "HOL/W104-P04",
+            "HOL/W104-P06"
+          ]
+        },
+        {
+          "product_code": "HOL/WE36",
+          "suggested_display_name": "hololive（HOL/WE36）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 54,
+          "printing_count": 160,
+          "sample_card_ids": [
+            "HOL/WE36-P01",
+            "HOL/WE36-01",
+            "HOL/WE36-02",
+            "HOL/WE36-03",
+            "HOL/WE36-04"
+          ]
+        },
+        {
+          "product_code": "HOL/WE44",
+          "suggested_display_name": "hololive（HOL/WE44）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 67,
+          "printing_count": 173,
+          "sample_card_ids": [
+            "HOL/WE44-P01",
+            "HOL/WE44-P02",
+            "HOL/WE44-P03",
+            "HOL/WE44-P04",
+            "HOL/WE44-P05"
+          ]
+        },
+        {
+          "product_code": "HOL/WE45",
+          "suggested_display_name": "hololive（HOL/WE45）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 34,
+          "printing_count": 34,
+          "sample_card_ids": [
+            "HOL/WE45-P01",
+            "HOL/WE45-P02",
+            "HOL/WE45-P03",
+            "HOL/WE45-P04",
+            "HOL/WE45-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kgl",
+      "title_code": "KGL",
+      "title_name_jp": "かぐや様は告らせたい",
+      "title_name_zh": "輝夜姬想讓人告白",
+      "card_count": 238,
+      "printing_count": 343,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "KGL/S79",
+          "suggested_display_name": "輝夜姬想讓人告白（KGL/S79）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 125,
+          "printing_count": 171,
+          "sample_card_ids": [
+            "KGL/S79-P01",
+            "KGL/S79-P02",
+            "KGL/S79-T01",
+            "KGL/S79-T02",
+            "KGL/S79-T03"
+          ]
+        },
+        {
+          "product_code": "KGL/S95",
+          "suggested_display_name": "輝夜姬想讓人告白（KGL/S95）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 113,
+          "printing_count": 172,
+          "sample_card_ids": [
+            "KGL/S95-P01",
+            "KGL/S95-P02",
+            "KGL/S95-P03",
+            "KGL/S95-P04",
+            "KGL/S95-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lh",
+      "title_code": "LH",
+      "title_name_jp": "ログ・ホライズン",
+      "title_name_zh": "記錄的地平線",
+      "card_count": 84,
+      "printing_count": 95,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "LH/SE20",
+          "suggested_display_name": "記錄的地平線（LH/SE20）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 75,
+          "printing_count": 78,
+          "sample_card_ids": [
+            "LH/SE20-P01",
+            "LH/SE20-P02",
+            "LH/SE20-P03",
+            "LH/SE20-P04",
+            "LH/SE20-P05"
+          ]
+        },
+        {
+          "product_code": "LH/SP02",
+          "suggested_display_name": "記錄的地平線（LH/SP02）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 9,
+          "printing_count": 17,
+          "sample_card_ids": [
+            "LH/SP02-09",
+            "LH/SP02-01",
+            "LH/SP02-02",
+            "LH/SP02-03",
+            "LH/SP02-04"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lrc",
+      "title_code": "LRC",
+      "title_name_jp": "リコリス・リコイル",
+      "title_name_zh": "莉可麗絲",
+      "card_count": 191,
+      "printing_count": 326,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "LRC/W105",
+          "suggested_display_name": "莉可麗絲（LRC/W105）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 136,
+          "printing_count": 208,
+          "sample_card_ids": [
+            "LRC/W105-101",
+            "LRC/W105-102",
+            "LRC/W105-103",
+            "LRC/W105-104",
+            "LRC/W105-105"
+          ]
+        },
+        {
+          "product_code": "LRC/WE47",
+          "suggested_display_name": "莉可麗絲（LRC/WE47）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 55,
+          "printing_count": 118,
+          "sample_card_ids": [
+            "LRC/WE47-P01",
+            "LRC/WE47-01",
+            "LRC/WE47-02",
+            "LRC/WE47-03",
+            "LRC/WE47-04"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lss",
+      "title_code": "LSS",
+      "title_name_jp": "ラブライブ！サンシャイン!!",
+      "title_name_zh": "Love Live! Sunshine!!",
+      "card_count": 537,
+      "printing_count": 821,
+      "product_count": 7,
+      "products": [
+        {
+          "product_code": "LSS/W45",
+          "suggested_display_name": "Love Live! Sunshine!!（LSS/W45）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 140,
+          "printing_count": 177,
+          "sample_card_ids": [
+            "LSS/W45-P01",
+            "LSS/W45-P02",
+            "LSS/W45-P03",
+            "LSS/W45-P04",
+            "LSS/W45-P05"
+          ]
+        },
+        {
+          "product_code": "LSS/W53",
+          "suggested_display_name": "Love Live! Sunshine!!（LSS/W53）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 131,
+          "printing_count": 181,
+          "sample_card_ids": [
+            "LSS/W53-P01",
+            "LSS/W53-P02",
+            "LSS/W53-P03",
+            "LSS/W53-P04",
+            "LSS/W53-P05"
+          ]
+        },
+        {
+          "product_code": "LSS/W69",
+          "suggested_display_name": "Love Live! Sunshine!!（LSS/W69）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 114,
+          "printing_count": 214,
+          "sample_card_ids": [
+            "LSS/W69-P04",
+            "LSS/W69-P05",
+            "LSS/W69-001",
+            "LSS/W69-002",
+            "LSS/W69-003"
+          ]
+        },
+        {
+          "product_code": "LSS/WE27",
+          "suggested_display_name": "Love Live! Sunshine!!（LSS/WE27）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 88,
+          "printing_count": 97,
+          "sample_card_ids": [
+            "LSS/WE27-P01",
+            "LSS/WE27-P02",
+            "LSS/WE27-P03",
+            "LSS/WE27-01",
+            "LSS/WE27-02"
+          ]
+        },
+        {
+          "product_code": "LSS/WE38",
+          "suggested_display_name": "Love Live! Sunshine!!（LSS/WE38）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 10,
+          "printing_count": 28,
+          "sample_card_ids": [
+            "LSS/WE38-P02",
+            "LSS/WE38-002",
+            "LSS/WE38-005",
+            "LSS/WE38-009",
+            "LSS/WE38-016"
+          ]
+        },
+        {
+          "product_code": "LSS/WE39",
+          "suggested_display_name": "Love Live! Sunshine!!（LSS/WE39）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 19,
+          "printing_count": 55,
+          "sample_card_ids": [
+            "LSS/WE39-P03",
+            "LSS/WE39-004",
+            "LSS/WE39-005",
+            "LSS/WE39-007",
+            "LSS/WE39-009"
+          ]
+        },
+        {
+          "product_code": "SIS/W109",
+          "suggested_display_name": "Love Live! Sunshine!!（SIS/W109）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 35,
+          "printing_count": 69,
+          "sample_card_ids": [
+            "SIS/W109-140",
+            "SIS/W109-P01",
+            "SIS/W109-P03",
+            "SIS/W109-001",
+            "SIS/W109-004"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mb",
+      "title_code": "MB",
+      "title_name_jp": "MELTY BLOOD／空の境界",
+      "title_name_zh": "MELTY BLOOD／空之境界",
+      "card_count": 131,
+      "printing_count": 147,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "KK/SPR",
+          "suggested_display_name": "MELTY BLOOD／空之境界（KK/SPR）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 7,
+          "printing_count": 7,
+          "sample_card_ids": [
+            "KK/SPR-001",
+            "KK/SPR-002",
+            "KK/SPR-003",
+            "KK/SPR-004",
+            "KK/SPR-005"
+          ]
+        },
+        {
+          "product_code": "MB/S10",
+          "suggested_display_name": "MELTY BLOOD／空之境界（MB/S10）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 124,
+          "printing_count": 140,
+          "sample_card_ids": [
+            "MB/S10-106",
+            "MB/S10-107",
+            "MB/S10-108",
+            "MB/S10-109",
+            "MB/S10-110"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mf",
+      "title_code": "MF",
+      "title_name_jp": "マクロスシリーズ",
+      "title_name_zh": "超時空要塞系列",
+      "card_count": 195,
+      "printing_count": 303,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "MDE/SE45",
+          "suggested_display_name": "超時空要塞系列（MDE/SE45）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 64,
+          "printing_count": 155,
+          "sample_card_ids": [
+            "MDE/SE45-P01",
+            "MDE/SE45-P02",
+            "MDE/SE45-P03",
+            "MDE/SE45-P04",
+            "MDE/SE45-01"
+          ]
+        },
+        {
+          "product_code": "MF/S13",
+          "suggested_display_name": "超時空要塞系列（MF/S13）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 131,
+          "printing_count": 148,
+          "sample_card_ids": [
+            "MF/S13-106",
+            "MF/S13-107",
+            "MF/S13-108",
+            "MF/S13-109",
+            "MF/S13-110"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mygo",
+      "title_code": "BD/W125",
+      "title_name_jp": "BanG Dream! It's MyGO!!!!!",
+      "title_name_zh": "MyGO!!!!!",
+      "card_count": 427,
+      "printing_count": 761,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "BD/W125",
+          "suggested_display_name": "MyGO!!!!!（BD/W125）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 178,
+          "printing_count": 352,
+          "sample_card_ids": [
+            "BD/W125-P01",
+            "BD/W125-P02",
+            "BD/W125-P03",
+            "BD/W125-P04",
+            "BD/W125-P05"
+          ]
+        },
+        {
+          "product_code": "BD/WE42",
+          "suggested_display_name": "MyGO!!!!!（BD/WE42）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 249,
+          "printing_count": 409,
+          "sample_card_ids": [
+            "BD/WE42-P01",
+            "BD/WE42-P02",
+            "BD/WE42-P03",
+            "BD/WE42-P04",
+            "BD/WE42-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nik",
+      "title_code": "NIK",
+      "title_name_jp": "勝利の女神：NIKKE",
+      "title_name_zh": "勝利女神：妮姬",
+      "card_count": 151,
+      "printing_count": 355,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "NIK/S117",
+          "suggested_display_name": "勝利女神：妮姬（NIK/S117）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 151,
+          "printing_count": 355,
+          "sample_card_ids": [
+            "NIK/S117-P01",
+            "NIK/S117-P02",
+            "NIK/S117-P03",
+            "NIK/S117-P04",
+            "NIK/S117-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nk",
+      "title_code": "NK",
+      "title_name_jp": "ニセコイ",
+      "title_name_zh": "偽戀",
+      "card_count": 177,
+      "printing_count": 197,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "NK/W30",
+          "suggested_display_name": "偽戀（NK/W30）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 139,
+          "printing_count": 156,
+          "sample_card_ids": [
+            "NK/W30-101",
+            "NK/W30-102",
+            "NK/W30-103",
+            "NK/W30-104",
+            "NK/W30-105"
+          ]
+        },
+        {
+          "product_code": "NK/WE22",
+          "suggested_display_name": "偽戀（NK/WE22）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 38,
+          "printing_count": 41,
+          "sample_card_ids": [
+            "NK/WE22-P01",
+            "NK/WE22-P02",
+            "NK/WE22-01",
+            "NK/WE22-02",
+            "NK/WE22-03"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ns",
+      "title_code": "NS",
+      "title_name_jp": "魔法少女リリカルなのはStrikerS",
+      "title_name_zh": "魔法少女奈葉StrikerS",
+      "card_count": 129,
+      "printing_count": 145,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "NS/W04",
+          "suggested_display_name": "魔法少女奈葉StrikerS（NS/W04）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 129,
+          "printing_count": 145,
+          "sample_card_ids": [
+            "NS/W04-001",
+            "NS/W04-002",
+            "NS/W04-003",
+            "NS/W04-004",
+            "NS/W04-005"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "osk",
+      "title_code": "OSK",
+      "title_name_jp": "【推しの子】",
+      "title_name_zh": "【我推的孩子】",
+      "card_count": 363,
+      "printing_count": 742,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "OSK/S107",
+          "suggested_display_name": "【我推的孩子】（OSK/S107）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 137,
+          "printing_count": 263,
+          "sample_card_ids": [
+            "OSK/S107-P01",
+            "OSK/S107-P02",
+            "OSK/S107-P03",
+            "OSK/S107-P04",
+            "OSK/S107-P05"
+          ]
+        },
+        {
+          "product_code": "OSK/S121",
+          "suggested_display_name": "【我推的孩子】（OSK/S121）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 104,
+          "printing_count": 226,
+          "sample_card_ids": [
+            "OSK/S121-P01",
+            "OSK/S121-P02",
+            "OSK/S121-P03",
+            "OSK/S121-001",
+            "OSK/S121-002"
+          ]
+        },
+        {
+          "product_code": "OSK/S133",
+          "suggested_display_name": "【我推的孩子】（OSK/S133）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 122,
+          "printing_count": 253,
+          "sample_card_ids": [
+            "OSK/S133-101",
+            "OSK/S133-102",
+            "OSK/S133-103",
+            "OSK/S133-104",
+            "OSK/S133-105"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ovl",
+      "title_code": "OVL",
+      "title_name_jp": "オーバーロード",
+      "title_name_zh": "OVERLORD",
+      "card_count": 385,
+      "printing_count": 625,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "OVL/S62",
+          "suggested_display_name": "OVERLORD（OVL/S62）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 128,
+          "printing_count": 172,
+          "sample_card_ids": [
+            "OVL/S62-P01",
+            "OVL/S62-P02",
+            "OVL/S62-T01",
+            "OVL/S62-T02",
+            "OVL/S62-T03"
+          ]
+        },
+        {
+          "product_code": "OVL/S99",
+          "suggested_display_name": "OVERLORD（OVL/S99）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 109,
+          "printing_count": 152,
+          "sample_card_ids": [
+            "OVL/S99-P01",
+            "OVL/S99-P02",
+            "OVL/S99-001",
+            "OVL/S99-002",
+            "OVL/S99-003"
+          ]
+        },
+        {
+          "product_code": "OVL/SE51",
+          "suggested_display_name": "OVERLORD（OVL/SE51）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 63,
+          "printing_count": 141,
+          "sample_card_ids": [
+            "OVL/SE51-P01",
+            "OVL/SE51-P02",
+            "OVL/SE51-01",
+            "OVL/SE51-02",
+            "OVL/SE51-03"
+          ]
+        },
+        {
+          "product_code": "OVL/SE54",
+          "suggested_display_name": "OVERLORD（OVL/SE54）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 85,
+          "printing_count": 160,
+          "sample_card_ids": [
+            "OVL/SE54-P01",
+            "OVL/SE54-P02",
+            "OVL/SE54-P03",
+            "OVL/SE54-01",
+            "OVL/SE54-02"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pjs",
+      "title_code": "PJS",
+      "title_name_jp": "プロジェクトセカイ カラフルステージ！ feat.初音ミク",
+      "title_name_zh": "世界計畫 繽紛舞台！",
+      "card_count": 516,
+      "printing_count": 908,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "PJS/S91",
+          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/S91）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 252,
+          "printing_count": 398,
+          "sample_card_ids": [
+            "PJS/S91-P01",
+            "PJS/S91-P02",
+            "PJS/S91-P03",
+            "PJS/S91-P04",
+            "PJS/S91-P05"
+          ]
+        },
+        {
+          "product_code": "PJS/S109",
+          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/S109）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 117,
+          "printing_count": 213,
+          "sample_card_ids": [
+            "PJS/S109-112",
+            "PJS/S109-113",
+            "PJS/S109-114",
+            "PJS/S109-115",
+            "PJS/S109-116"
+          ]
+        },
+        {
+          "product_code": "PJS/S125",
+          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/S125）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 121,
+          "printing_count": 271,
+          "sample_card_ids": [
+            "PJS/S125-P01",
+            "PJS/S125-P02",
+            "PJS/S125-P03",
+            "PJS/S125-P04",
+            "PJS/S125-001"
+          ]
+        },
+        {
+          "product_code": "PJS/SE49",
+          "suggested_display_name": "世界計畫 繽紛舞台！（PJS/SE49）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 26,
+          "printing_count": 26,
+          "sample_card_ids": [
+            "PJS/SE49-001",
+            "PJS/SE49-002",
+            "PJS/SE49-003",
+            "PJS/SE49-004",
+            "PJS/SE49-005"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pt",
+      "title_code": "PT",
+      "title_name_jp": "Phantom -Requiem for the Phantom-",
+      "title_name_zh": "Phantom -Requiem for the Phantom-",
+      "card_count": 131,
+      "printing_count": 146,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "PT/W07",
+          "suggested_display_name": "Phantom -Requiem for the Phantom-（PT/W07）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 131,
+          "printing_count": 146,
+          "sample_card_ids": [
+            "PT/W07-103",
+            "PT/W07-104",
+            "PT/W07-105",
+            "PT/W07-106",
+            "PT/W07-107"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sfn",
+      "title_code": "SFN",
+      "title_name_jp": "葬送のフリーレン",
+      "title_name_zh": "葬送的芙莉蓮",
+      "card_count": 348,
+      "printing_count": 763,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "SFN/S108",
+          "suggested_display_name": "葬送的芙莉蓮（SFN/S108）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 136,
+          "printing_count": 273,
+          "sample_card_ids": [
+            "SFN/S108-P02",
+            "SFN/S108-P01",
+            "SFN/S108-P03",
+            "SFN/S108-P04",
+            "SFN/S108-P05"
+          ]
+        },
+        {
+          "product_code": "SFN/S128",
+          "suggested_display_name": "葬送的芙莉蓮（SFN/S128）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 111,
+          "printing_count": 238,
+          "sample_card_ids": [
+            "SFN/S128-001",
+            "SFN/S128-002",
+            "SFN/S128-003",
+            "SFN/S128-004",
+            "SFN/S128-005"
+          ]
+        },
+        {
+          "product_code": "SFN/S136",
+          "suggested_display_name": "葬送的芙莉蓮（SFN/S136）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 101,
+          "printing_count": 252,
+          "sample_card_ids": [
+            "SFN/S136-P01",
+            "SFN/S136-001",
+            "SFN/S136-002",
+            "SFN/S136-003",
+            "SFN/S136-004"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "snk",
+      "title_code": "Snk",
+      "title_name_jp": "角川スニーカー文庫",
+      "title_name_zh": "角川Sneaker文庫",
+      "card_count": 15,
+      "printing_count": 23,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "Snk/W62",
+          "suggested_display_name": "角川Sneaker文庫（Snk/W62）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 14,
+          "printing_count": 21,
+          "sample_card_ids": [
+            "Snk/W62-003",
+            "Snk/W62-T11",
+            "Snk/W62-T17",
+            "Snk/W62-T19",
+            "Snk/W62-005"
+          ]
+        },
+        {
+          "product_code": "Snk/W123",
+          "suggested_display_name": "角川Sneaker文庫（Snk/W123）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Snk/W123-015"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "spy",
+      "title_code": "SPY",
+      "title_name_jp": "SPY×FAMILY",
+      "title_name_zh": "間諜家家酒",
+      "card_count": 129,
+      "printing_count": 205,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "SPY/S106",
+          "suggested_display_name": "間諜家家酒（SPY/S106）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 129,
+          "printing_count": 205,
+          "sample_card_ids": [
+            "SPY/S106-P01",
+            "SPY/S106-P02",
+            "SPY/S106-T01",
+            "SPY/S106-T02",
+            "SPY/S106-T03"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sst",
+      "title_code": "Sst",
+      "title_name_jp": "新妹魔王の契約者",
+      "title_name_zh": "新妹魔王的契約者",
+      "card_count": 19,
+      "printing_count": 35,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "Sst/W62",
+          "suggested_display_name": "新妹魔王的契約者（Sst/W62）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 14,
+          "printing_count": 22,
+          "sample_card_ids": [
+            "Sst/W62-051",
+            "Sst/W62-T01",
+            "Sst/W62-T06",
+            "Sst/W62-T09",
+            "Sst/W62-056"
+          ]
+        },
+        {
+          "product_code": "Sst/W123",
+          "suggested_display_name": "新妹魔王的契約者（Sst/W123）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 5,
+          "printing_count": 13,
+          "sample_card_ids": [
+            "Sst/W123-067",
+            "Sst/W123-072",
+            "Sst/W123-079",
+            "Sst/W123-089",
+            "Sst/W123-091"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ssy",
+      "title_code": "Ssy",
+      "title_name_jp": "涼宮ハルヒの憂鬱",
+      "title_name_zh": "涼宮春日的憂鬱",
+      "card_count": 39,
+      "printing_count": 78,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "Ssy/W62",
+          "suggested_display_name": "涼宮春日的憂鬱（Ssy/W62）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 19,
+          "printing_count": 31,
+          "sample_card_ids": [
+            "Ssy/W62-050",
+            "Ssy/W62-P01",
+            "Ssy/W62-T08",
+            "Ssy/W62-T13",
+            "Ssy/W62-T20"
+          ]
+        },
+        {
+          "product_code": "Ssy/W123",
+          "suggested_display_name": "涼宮春日的憂鬱（Ssy/W123）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 20,
+          "printing_count": 47,
+          "sample_card_ids": [
+            "Ssy/W123-P03",
+            "Ssy/W123-P04",
+            "Ssy/W123-T03",
+            "Ssy/W123-T07",
+            "Ssy/W123-T08"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tf",
+      "title_code": "TF",
+      "title_name_jp": "テラフォーマーズ",
+      "title_name_zh": "火星異種",
+      "card_count": 125,
+      "printing_count": 149,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "TF/S32",
+          "suggested_display_name": "火星異種（TF/S32）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 125,
+          "printing_count": 149,
+          "sample_card_ids": [
+            "TF/S32-101",
+            "TF/S32-102",
+            "TF/S32-103",
+            "TF/S32-104",
+            "TF/S32-P01"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "trv",
+      "title_code": "TRV",
+      "title_name_jp": "東京リベンジャーズ",
+      "title_name_zh": "東京復仇者",
+      "card_count": 128,
+      "printing_count": 193,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "TRV/S92",
+          "suggested_display_name": "東京復仇者（TRV/S92）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 128,
+          "printing_count": 193,
+          "sample_card_ids": [
+            "TRV/S92-P01",
+            "TRV/S92-P02",
+            "TRV/S92-T01",
+            "TRV/S92-T02",
+            "TRV/S92-T03"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tsk",
+      "title_code": "TSK",
+      "title_name_jp": "転生したらスライムだった件",
+      "title_name_zh": "關於我轉生變成史萊姆這檔事",
+      "card_count": 352,
+      "printing_count": 476,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "TSK/S70",
+          "suggested_display_name": "關於我轉生變成史萊姆這檔事（TSK/S70）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 128,
+          "printing_count": 165,
+          "sample_card_ids": [
+            "TSK/S70-P01",
+            "TSK/S70-P02",
+            "TSK/S70-P03",
+            "TSK/S70-T01",
+            "TSK/S70-T02"
+          ]
+        },
+        {
+          "product_code": "TSK/S82",
+          "suggested_display_name": "關於我轉生變成史萊姆這檔事（TSK/S82）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 109,
+          "printing_count": 137,
+          "sample_card_ids": [
+            "TSK/S82-P01",
+            "TSK/S82-001",
+            "TSK/S82-002",
+            "TSK/S82-003",
+            "TSK/S82-004"
+          ]
+        },
+        {
+          "product_code": "TSK/S101",
+          "suggested_display_name": "關於我轉生變成史萊姆這檔事（TSK/S101）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 115,
+          "printing_count": 174,
+          "sample_card_ids": [
+            "TSK/S101-P02",
+            "TSK/S101-P03",
+            "TSK/S101-P04",
+            "TSK/S101-P05",
+            "TSK/S101-P06"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "uma",
+      "title_code": "UMA",
+      "title_name_jp": "ウマ娘 プリティーダービー",
+      "title_name_zh": "賽馬娘",
+      "card_count": 410,
+      "printing_count": 837,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "UMA/W106",
+          "suggested_display_name": "賽馬娘（UMA/W106）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 195,
+          "printing_count": 405,
+          "sample_card_ids": [
+            "UMA/W106-036",
+            "UMA/W106-037",
+            "UMA/W106-038",
+            "UMA/W106-039",
+            "UMA/W106-075"
+          ]
+        },
+        {
+          "product_code": "UMA/W119",
+          "suggested_display_name": "賽馬娘（UMA/W119）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 102,
+          "printing_count": 203,
+          "sample_card_ids": [
+            "UMA/W119-P01",
+            "UMA/W119-P02",
+            "UMA/W119-001",
+            "UMA/W119-002",
+            "UMA/W119-003"
+          ]
+        },
+        {
+          "product_code": "UMA/W134",
+          "suggested_display_name": "賽馬娘（UMA/W134）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 113,
+          "printing_count": 229,
+          "sample_card_ids": [
+            "UMA/W134-P01",
+            "UMA/W134-P02",
+            "UMA/W134-P03",
+            "UMA/W134-P04",
+            "UMA/W134-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "va",
+      "title_code": "VA",
+      "title_name_jp": "ビジュアルアーツ",
+      "title_name_zh": "Visual Arts",
+      "card_count": 39,
+      "printing_count": 39,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "VA/WE30",
+          "suggested_display_name": "Visual Arts（VA/WE30）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "VA/WE30-55"
+          ]
+        },
+        {
+          "product_code": "VA/WPR",
+          "suggested_display_name": "Visual Arts（VA/WPR）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 38,
+          "printing_count": 38,
+          "sample_card_ids": [
+            "VA/WPR-P01",
+            "VA/WPR-P02",
+            "VA/WPR-P03",
+            "VA/WPR-P04",
+            "VA/WPR-P05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vr",
+      "title_code": "VR",
+      "title_name_jp": "ビビッドレッド・オペレーション",
+      "title_name_zh": "Vividred Operation",
+      "card_count": 131,
+      "printing_count": 149,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "VR/W22",
+          "suggested_display_name": "Vividred Operation（VR/W22）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 131,
+          "printing_count": 149,
+          "sample_card_ids": [
+            "VR/W22-106",
+            "VR/W22-107",
+            "VR/W22-108",
+            "VR/W22-109",
+            "VR/W22-110"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "woo",
+      "title_code": "Woo",
+      "title_name_jp": "うーさーのその日暮らし",
+      "title_name_zh": "兔寶的悲慘日常",
+      "card_count": 24,
+      "printing_count": 24,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "Woo/SE19",
+          "suggested_display_name": "兔寶的悲慘日常（Woo/SE19）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 24,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Woo/SE19-J06",
+            "Woo/SE19-001",
+            "Woo/SE19-002",
+            "Woo/SE19-003",
+            "Woo/SE19-004"
+          ]
+        }
+      ]
+    }
+  ]
+}
