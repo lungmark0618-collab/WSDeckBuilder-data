@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-08-30T05:42:11+08:00",
- "notes": "Merge branch 'main' of https://github.com/lungmark0618-collab/WSDeckBuilder-data",
+ "updated_at": "2026-09-02T00:23:30+08:00",
+ "notes": "新增由新到舊十部作品譯文",
  "sets": [
   {
    "title_code": "AMG",
@@ -9,6 +9,13 @@
    "file": "amg_cards.json",
    "data_version": 10,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/amg_cards.json"
+  },
+  {
+   "title_code": "ANM/W138",
+   "title_name_zh": "anemoi",
+   "file": "anm_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/anm_cards.json"
   },
   {
    "title_code": "AOT",
@@ -88,6 +95,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dbg_cards.json"
   },
   {
+   "title_code": "DDD/S118",
+   "title_name_zh": "膽大黨",
+   "file": "ddd_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ddd_cards.json"
+  },
+  {
    "title_code": "DDM",
    "title_name_zh": "在地下城尋求邂逅是否搞錯了什麼",
    "file": "ddm_cards.json",
@@ -114,6 +128,20 @@
    "file": "fh_cards.json",
    "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/fh_cards.json"
+  },
+  {
+   "title_code": "GA01/S131",
+   "title_name_zh": "GA文庫",
+   "file": "ga_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ga_cards.json"
+  },
+  {
+   "title_code": "GBF/S134",
+   "title_name_zh": "碧藍幻想",
+   "file": "gbf_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gbf_cards.json"
   },
   {
    "title_code": "GBS",
@@ -156,6 +184,20 @@
    "file": "hol_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/hol_cards.json"
+  },
+  {
+   "title_code": "IAS/S61",
+   "title_name_zh": "偶像大師 百萬人演唱會！",
+   "file": "ias_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ias_cards.json"
+  },
+  {
+   "title_code": "IMC/W41",
+   "title_name_zh": "偶像大師 灰姑娘女孩",
+   "file": "imc_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/imc_cards.json"
   },
   {
    "title_code": "KGL",
@@ -249,6 +291,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
   },
   {
+   "title_code": "PRD/W84",
+   "title_name_zh": "動畫 公主連結！Re:Dive",
+   "file": "prd_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/prd_cards.json"
+  },
+  {
    "title_code": "PT",
    "title_name_zh": "Phantom -Requiem for the Phantom-",
    "file": "pt_cards.json",
@@ -256,11 +305,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pt_cards.json"
   },
   {
+   "title_code": "RZ/S46",
+   "title_name_zh": "Re:從零開始的異世界生活",
+   "file": "rz_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rz_cards.json"
+  },
+  {
    "title_code": "SFN",
    "title_name_zh": "葬送的芙莉蓮",
    "file": "sfn_cards.json",
    "data_version": 4,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sfn_cards.json"
+  },
+  {
+   "title_code": "SMP/W60",
+   "title_name_zh": "Summer Pockets",
+   "file": "smp_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/smp_cards.json"
   },
   {
    "title_code": "Snk",
@@ -296,6 +359,13 @@
    "file": "tf_cards.json",
    "data_version": 3,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/tf_cards.json"
+  },
+  {
+   "title_code": "THP/S130",
+   "title_name_zh": "東方Project",
+   "file": "thp_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/thp_cards.json"
   },
   {
    "title_code": "TRV",
