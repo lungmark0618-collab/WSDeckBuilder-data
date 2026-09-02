@@ -1,0 +1,595 @@
+{
+ "items": [
+  {
+   "date": "2026-09-01",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "デッキ構築ルールを更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-08-28",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［アズールレーン Vol.3］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/azl_vol3_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-08-28",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック ［Persona 30th Anniversary］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/p30_wsbp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-08-25",
+   "categories": [
+    "イベント"
+   ],
+   "title_jp": "あつまれ東方ステーション2026 in 秩父 出展情報 更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/events/5251/",
+   "source": "official"
+  },
+  {
+   "date": "2026-08-25",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［葬送のフリーレン Vol.2］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?keyword=&keyword_or=&keyword_not=&keyword_type%5B%5D=all&title_number=&expansion=563&card_kind=&level_s=&level_e=&power_s=&power_e=&color=&soul_s=&soul_e=&cost_s=&cost_e=&trigger=&option_counter=0&option_clock=0&parallel=0&show_page_count=30",
+   "source": "official"
+  },
+  {
+   "date": "2026-08-24",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "総合ルールを更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-08-21",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "プレミアムブースター ［超かぐや姫！］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/cpk_pb/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-31",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック　BanG Dream! [夢限大みゅーたいぷ]　公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/bdy_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-31",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［ガールズ＆パンツァー］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gup_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-31",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［ガールズ＆パンツァー 無限軌道杯］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gup_td_m/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-31",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［ガールズ＆パンツァー 大洗女子学園］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gup_td_o/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-24",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック [葬送のフリーレン Vol.2] 箔押しサインカード公開！",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-22",
+   "categories": [
+    "お知らせ",
+    "商品情報",
+    "大会",
+    "イベント"
+   ],
+   "title_jp": "ブシロードTCG戦略発表会2026 夏 発表内容を掲載！",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/5095/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-21",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=561",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-19",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［ステラソラ］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/sts_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-19",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［ステラソラ］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/sts_td/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-17",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "デッキ構築ルールを更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-07",
+   "categories": [
+    "デッキレシピ"
+   ],
+   "title_jp": "GIRAFULL Weiß Schwarz Cup　松井五段オススメデッキレシピ",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/deckrecipe/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-03",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/bp_rzvol-4/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-03",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official"
+  },
+  {
+   "date": "2026-07-03",
+   "categories": [
+    "お知らせ"
+   ],
+   "title_jp": "全国のGiGOとBanG Dream!STORE にて夢限大みゅーたいぷのPRカードをプレゼント！",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/4914/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-30",
+   "categories": [
+    "お知らせ"
+   ],
+   "title_jp": "ヴァイスシュヴァルツpresents アイドルマスター シンデレラガールズ 15周年記念 POP UP SHOP in Annivroad 特設ページ公開！",
+   "title_zh": null,
+   "url": "https://bushiroad-creative.com/topics/101375/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-30",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［ブラウンダスト2］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=558",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-30",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "トライアルデッキ［ブラウンダスト2］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=559",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-28",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック 葬送のフリーレン Vol.2 箔押しサインカード情報公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-26",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック anemoi 公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/anm_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-24",
+   "categories": [
+    "デッキレシピ"
+   ],
+   "title_jp": "BCF2026 京都会場 入賞者のデッキレシピを掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/deckrecipe/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-24",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "デッキ構築ルールを更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-23",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "トライアルデッキ［グランブルーファンタジー］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=557",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-23",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［グランブルーファンタジー］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=556",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-15",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-12",
+   "categories": [
+    "デッキレシピ"
+   ],
+   "title_jp": "GA文庫 おすすめデッキレシピ掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/deckrecipe/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-10",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［勝利の女神：NIKKE Vol.2］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/nik_bp2/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-09",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "トライアルデッキ＆ブースターパック［GA文庫］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-05",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［葬送のフリーレン Vol.2］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-05",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "デッキ構築ルールを更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-05",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［ブラウンダスト2］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/brd_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-06-05",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［ブラウンダスト2］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/brd_td/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-21",
+   "categories": [],
+   "title_jp": "トライアルデッキ［グランブルーファンタジー］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gbf_td/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-21",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［グランブルーファンタジー］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gbf_bp/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-20",
+   "categories": [
+    "デッキレシピ"
+   ],
+   "title_jp": "BCF2026 北九州会場 入賞者のデッキレシピを掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/deckrecipe/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-19",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "総合ルール更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-13",
+   "categories": [
+    "デッキレシピ"
+   ],
+   "title_jp": "BCF2026 東京会場 入賞者のデッキレシピを掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/deckrecipe/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-07",
+   "categories": [
+    "大会"
+   ],
+   "title_jp": "【開催中】BCF2026（ブシロードカードファイト2026）",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/championship/bcf2026/",
+   "source": "official"
+  },
+  {
+   "date": "2026-05-01",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-30",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［【推しの子】Vol.3］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/osk_bp3/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-30",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］公開",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/bp_rzvol-4/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-28",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "トライアルデッキ［anemoi］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=550",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-24",
+   "categories": [
+    "デッキレシピ"
+   ],
+   "title_jp": "BCF2026 札幌会場 入賞者のデッキレシピを掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/deckrecipe/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-22",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-20",
+   "categories": [
+    "イベント"
+   ],
+   "title_jp": "「東方Project初心者講習会」開催決定",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/events/4273/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-20",
+   "categories": [
+    "お知らせ"
+   ],
+   "title_jp": "ゴールデンウィーク期間中のユーザーサポート窓口につきまして",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/4286/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-20",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-20",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "総合ルール更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-17",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "デッキ構築ルール更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-17",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［anemoi］更新",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/anm_td/",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-17",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "プレミアムブースター［アイドルマスター ミリオンライブ！］掲載",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=549",
+   "source": "official"
+  },
+  {
+   "date": "2026-04-16",
+   "categories": [
+    "お知らせ"
+   ],
+   "title_jp": "ヴァイスシュヴァルツ公式サイトをリニューアル",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/3065/",
+   "source": "official"
+  },
+  {
+   "date": "2026-03-01",
+   "categories": [
+    "お知らせ"
+   ],
+   "title_jp": "2026年4月より商品仕様が変更となります",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/4432/",
+   "source": "official"
+  }
+ ]
+}
