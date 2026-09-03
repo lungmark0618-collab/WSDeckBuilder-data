@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "title_code": "BDY/W135",
+    "title_name_jp": "BanG Dream! [夢限大みゅーたいぷ]",
+    "title_name_zh": "BanG Dream! [夢限大Mewtype]",
+    "generated_at": "2026-09-03T17:55:53+08:00",
+    "schema_version": 1,
+    "card_count": 24,
+    "printing_count": 49,
+    "data_version": 1
+  },
+  "cards": [
+    {
+      "id": "BDY/W135-P01",
+      "printings": [
+        {
+          "id": "BDY/W135-P01",
+          "rarity": "PR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_p01.png",
+          "is_foil": false
+        }
+      ],
+      "name_jp": "Bushiroad EXPO 2026",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 0,
+      "cost": 0,
+      "power": 3000,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "",
+      "source": "booster",
+      "name_zh": "Bushiroad EXPO 2026",
+      "text_zh": "",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-P02",
+      "printings": [
+        {
+          "id": "BDY/W135-P02",
+          "rarity": "PR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_p02.png",
+          "is_foil": false
+        }
+      ],
+      "name_jp": "“In the name of BanG Dream!”仲町あられ",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 2,
+      "cost": 1,
+      "power": 2000,
+      "soul": 1,
+      "trigger": "soul",
+      "traits_jp": [
+        "Anniversary",
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 あなたがこのカードの『助太刀』を使った時、あなたは自分の山札を上から1枚見て、山札の上か下に置く。\n【起】【カウンター】 助太刀3000 レベル2 ［(1) 手札のこのカードを公開し、山札の下に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3000）",
+      "source": "booster",
+      "name_zh": "“In the name of BanG Dream!”仲町あられ",
+      "text_zh": "【自】 你使用此卡的『助太刀』時，你看自己的牌組最上方1張卡，放到牌組最上方或最下方。\n【起】【反擊】 助太刀3000 等級2 〔(1) 手牌的將此卡公開，放到牌組最下方〕 （你選擇1張自己的被正面攻擊的角色，在那個回合中，攻擊力＋3000）",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-P03",
+      "printings": [
+        {
+          "id": "BDY/W135-P03",
+          "rarity": "PR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_p03.png",
+          "is_foil": false
+        }
+      ],
+      "name_jp": "“マーチング・セレモニー”千石ユノ",
+      "card_type": "character",
+      "color": "red",
+      "level": 2,
+      "cost": 1,
+      "power": 1500,
+      "soul": 1,
+      "trigger": "soul",
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【起】【カウンター】 助太刀3500 レベル2 ［(1) 手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋3500）",
+      "source": "booster",
+      "name_zh": "“マーチング・セレモニー”千石ユノ",
+      "text_zh": "【起】【反擊】 助太刀3500 等級2 〔(1) 將手牌的此卡放到休息室〕 （你選擇1張自己的被正面攻擊的角色，在那個回合中，攻擊力＋3500）",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-P04",
+      "printings": [
+        {
+          "id": "BDY/W135-P04",
+          "rarity": "PR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_p04.png",
+          "is_foil": false
+        }
+      ],
+      "name_jp": "アンバサダー活動！　あられ＆ののか",
+      "card_type": "climax",
+      "color": "yellow",
+      "level": null,
+      "cost": null,
+      "power": null,
+      "soul": null,
+      "trigger": "soul2",
+      "traits_jp": [],
+      "text_jp": "【永】 あなたのキャラすべてに、ソウルを＋2。",
+      "source": "booster",
+      "name_zh": "アンバサダー活動！　あられ＆ののか",
+      "text_zh": "【永】 你的所有角色，魂傷＋2。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-P05",
+      "printings": [
+        {
+          "id": "BDY/W135-P05",
+          "rarity": "PR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_p05.png",
+          "is_foil": false
+        }
+      ],
+      "name_jp": "47都道府県制覇の旅 スーパーポジション",
+      "card_type": "event",
+      "color": "yellow",
+      "level": 1,
+      "cost": 1,
+      "power": null,
+      "soul": null,
+      "trigger": null,
+      "traits_jp": [],
+      "text_jp": "あなたは自分の山札を見てCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。",
+      "source": "booster",
+      "name_zh": "47都道府県制覇の旅 スーパーポジション",
+      "text_zh": "你查看自己的牌組，選擇至多1張CX給對手看，加入手牌，將那個牌組洗牌。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T01",
+      "printings": [
+        {
+          "id": "BDY/W135-T01",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t01.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T01R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t01r.png",
+          "is_foil": true
+        },
+        {
+          "id": "BDY/W135-T01SP",
+          "rarity": "SP",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t01sp.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“夢現妄想世界”峰月律",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 0,
+      "cost": 0,
+      "power": 500,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 あなたのCXフェイズの始めに、あなたは自分の《夢限大みゅーたいぷ》のキャラを1枚選び、そのターン中、次の能力を与える。『【自】 このカードがアタックした時、あなたは自分の山札を上から1枚見て、山札の上か控え室に置く。』\n【起】 集中 ［(1) このカードを【レスト】する］ あなたは自分の山札の上から5枚をめくり、控え室に置く。それらのカードのCX1枚につき、あなたは1枚まで引く。",
+      "source": "trial_deck",
+      "name_zh": "“夢想現妄想世界”峰月律",
+      "text_zh": "【自】 你的CX階段開始時，你選擇1張自己的《夢限大みゅーたいぷ》角色，在那個回合中，賦予以下能力。『【自】 此卡攻擊時，你看自己的牌組最上方1張卡，放到牌組最上方或休息室。』\n【起】 集中 〔(1) 將此卡【橫置】〕 你將自己的牌組最上方5張卡翻開，放到休息室。那些卡中每有1張CX，你抽至多1張卡。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T02",
+      "printings": [
+        {
+          "id": "BDY/W135-T02",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t02.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T02R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t02r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“真夜中遊園地”峰月律",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 0,
+      "cost": 0,
+      "power": 2000,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】［あなたの控え室の《音楽》のキャラを1枚クロック置場の下に置く］ アンコールステップの始めに、他のあなたの前列の【レスト】しているキャラがいないなら、あなたはコストを払ってよい。そうしたら、このカードを【レスト】する。\n【自】 あなたのドローフェイズの始めに、他のあなたの前列のキャラがいないなら、そのターン中、このカードのパワーを＋4000。",
+      "source": "trial_deck",
+      "name_zh": "“真夜中遊園地”峰月律",
+      "text_zh": "【自】〔你的休息室的《音楽》的角色1張傷害區的下到放置〕 再演階段的開始時、其他你的前列的【橫置】，存在角色不存在的話、你費用可以支付。如此做的話、的卡【橫置】。\n【自】 你的抽牌階段的開始時、其他你的前列的角色不存在的話、的回合中、的卡的力量＋4000。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T03",
+      "printings": [
+        {
+          "id": "BDY/W135-T03",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t03.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T03R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t03r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“真夜中遊園地”仲町あられ",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 0,
+      "cost": 0,
+      "power": 2500,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 このカードがアタックした時、あなたは自分の山札の上から3枚までを、公開してよい。1枚以上公開したなら、あなたはそれらのカードの《音楽》のキャラを1枚まで選び、手札に加え、残りのカードを控え室に置き、自分の手札を1枚選び、控え室に置く。",
+      "source": "trial_deck",
+      "name_zh": "“真夜中遊園地”仲町あられ",
+      "text_zh": "【自】 的卡攻擊時、你自己的牌組的從上方3張為止、公開可以。1張以上公開的話、你那些卡的卡的《音楽》的角色1張為止選擇、手牌到加入、其餘的卡休息室到放置，、自己的手牌1張選擇、休息室到放置。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T04",
+      "printings": [
+        {
+          "id": "BDY/W135-T04",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t04.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T04R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t04r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“Hi-Vision”仲町あられ",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 1,
+      "cost": 0,
+      "power": 3000,
+      "soul": 1,
+      "trigger": "soul",
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【永】 あなたのターン中、他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。\n【自】 このカードのバトル中、あなたの受けたダメージがキャンセルされた時、あなたはこのカードをストック置場に置いてよい。",
+      "source": "trial_deck",
+      "name_zh": "“Hi-Vision”仲町あられ",
+      "text_zh": "【永】 你的回合中，其他你的《音楽》角色每1張，此卡攻擊力＋1000。\n【自】 此卡戰鬥中，你的受到的傷害被取消時，你可以將此卡放到能量區。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T05",
+      "printings": [
+        {
+          "id": "BDY/W135-T05",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t05.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T05R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t05r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“Hi-Vision”峰月律",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 2,
+      "cost": 0,
+      "power": 6000,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【永】 他のあなたの《音楽》のキャラ1枚につき、このカードのパワーを＋1000。",
+      "source": "trial_deck",
+      "name_zh": "“Hi-Vision”峰月律",
+      "text_zh": "【永】 其他你的《音楽》角色每1張，此卡攻擊力＋1000。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T06",
+      "printings": [
+        {
+          "id": "BDY/W135-T06",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t06.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T06R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t06r.png",
+          "is_foil": true
+        },
+        {
+          "id": "BDY/W135-T06S",
+          "rarity": "SR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t06s.png",
+          "is_foil": true
+        },
+        {
+          "id": "BDY/W135-T06SP",
+          "rarity": "SP",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t06sp.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“夢現妄想世界”仲町あられ",
+      "card_type": "character",
+      "color": "yellow",
+      "level": 3,
+      "cost": 2,
+      "power": 9500,
+      "soul": 2,
+      "trigger": "soul",
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】［手札を1枚控え室に置く］ このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが2枚以上なら、あなたはコストを払ってよい。そうしたら、あなたは自分のクロックを1枚選び、手札に戻す。\n【自】【CXコンボ】［(3) 手札を2枚控え室に置く］ このカードのアタックの終わりに、CX置場に「夢現妄想世界」があるなら、あなたはコストを払ってよい。そうしたら、相手に2ダメージを2回与える。（ダメージキャンセルは発生する）",
+      "source": "trial_deck",
+      "name_zh": "“夢現妄想世界”仲町あられ",
+      "text_zh": "【自】〔將1張手牌放到休息室〕 此卡從手牌被放置到舞台時，若其他你的《音楽》角色有2張以上，你可以支付費用。這麼做了的話，你選擇自己傷害區的1張卡，回到手牌。\n【自】【CX連動】〔(3) 手牌2張休息室到放置〕 的卡的攻擊的終到、CX區到「夢現妄想世界」有的話、你費用可以支付。如此做的話、對手到2傷害2回賦予。（傷害取消發生）",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T07",
+      "printings": [
+        {
+          "id": "BDY/W135-T07",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t07.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T07R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t07r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "コミュ着火Fire!",
+      "card_type": "event",
+      "color": "yellow",
+      "level": 1,
+      "cost": 1,
+      "power": null,
+      "soul": null,
+      "trigger": null,
+      "traits_jp": [],
+      "text_jp": "あなたは自分の山札を見てCXを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。",
+      "source": "trial_deck",
+      "name_zh": "コミュ着火Fire!",
+      "text_zh": "你查看自己的牌組，選擇至多1張CX給對手看，加入手牌，將那個牌組洗牌。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T08",
+      "printings": [
+        {
+          "id": "BDY/W135-T08",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t08.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T08R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t08r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "夢現妄想世界",
+      "card_type": "climax",
+      "color": "yellow",
+      "level": null,
+      "cost": null,
+      "power": null,
+      "soul": null,
+      "trigger": "choice",
+      "traits_jp": [],
+      "text_jp": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（【選】：このカードがトリガーした時、あなたは自分の控え室のトリガーアイコンに【魂】があるキャラを1枚選び、手札に戻すかストック置場に置いてよい）",
+      "source": "trial_deck",
+      "name_zh": "夢想現妄想世界",
+      "text_zh": "【永】 你的所有角色，攻擊力＋1000，魂傷＋1。\n（【箭頭】：此卡觸發時，你可以選擇自己休息室1張觸發圖示有【魂】的角色，回到手牌或放置到能量區）",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T09",
+      "printings": [
+        {
+          "id": "BDY/W135-T09",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t09.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T09R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t09r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "チューニング",
+      "card_type": "climax",
+      "color": "yellow",
+      "level": null,
+      "cost": null,
+      "power": null,
+      "soul": null,
+      "trigger": "soul2",
+      "traits_jp": [],
+      "text_jp": "【永】 あなたのキャラすべてに、ソウルを＋2。",
+      "source": "trial_deck",
+      "name_zh": "チューニング",
+      "text_zh": "【永】 你的所有角色，魂傷＋2。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T10",
+      "printings": [
+        {
+          "id": "BDY/W135-T10",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t10.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T10R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t10r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“真夜中遊園地”宮永ののか",
+      "card_type": "character",
+      "color": "red",
+      "level": 0,
+      "cost": 0,
+      "power": 500,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【永】 あなたのターン中、他のあなたの「“真夜中遊園地”千石ユノ」すべてに、パワーを＋2000。\n【自】 絆／「“真夜中遊園地”千石ユノ」 ［(1)］ （このカードが、手札から舞台またはプレイされて舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室の「“真夜中遊園地”千石ユノ」を1枚選び、手札に戻す）",
+      "source": "trial_deck",
+      "name_zh": "“真夜中遊園地”宮永ののか",
+      "text_zh": "【永】 你的回合中，其他你的「“真夜中遊園地”千石ユノ」全部，攻擊力＋2000。\n【自】 絆／「“真夜中遊園地”千石ユノ」〔(1)〕 （的卡、手牌從舞台或打出舞台到被放置時、你費用可以支付。如此做的話、你自己的休息室的「“真夜中遊園地”千石ユノ」1張選擇、手牌到返回）",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T11",
+      "printings": [
+        {
+          "id": "BDY/W135-T11",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t11.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T11R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t11r.png",
+          "is_foil": true
+        },
+        {
+          "id": "BDY/W135-T11SP",
+          "rarity": "SP",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t11sp.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“夢現妄想世界”千石ユノ",
+      "card_type": "character",
+      "color": "red",
+      "level": 0,
+      "cost": 0,
+      "power": 1000,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【永】 他のあなたの《音楽》のキャラすべてに、パワーを＋500。\n【起】［(2) このカードを【レスト】する］ あなたは自分の控え室のキャラを1枚選び、手札に戻す。",
+      "source": "trial_deck",
+      "name_zh": "“夢現妄想世界”千石ユノ",
+      "text_zh": "【永】 其他你的《音楽》的所有角色，攻擊力＋500。\n【起】〔(2) 將此卡【橫置】〕 你選擇自己休息室的1張角色，回到手牌。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T12",
+      "printings": [
+        {
+          "id": "BDY/W135-T12",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t12.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T12R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t12r.png",
+          "is_foil": true
+        },
+        {
+          "id": "BDY/W135-T12SP",
+          "rarity": "SP",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t12sp.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“夢現妄想世界”藤都子",
+      "card_type": "character",
+      "color": "red",
+      "level": 0,
+      "cost": 0,
+      "power": 1500,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 このカードが【リバース】した時、このカードのバトル相手のレベルが0以下なら、あなたはそのキャラを【リバース】してよい。\n【起】［手札を1枚控え室に置き、このカードを山札の下に置く］ あなたは自分の山札を見て《音楽》のキャラを1枚まで選んで相手に見せ、手札に加え、その山札をシャッフルする。",
+      "source": "trial_deck",
+      "name_zh": "“夢想現妄想世界”藤都子",
+      "text_zh": "【自】 此卡【倒置】時，此卡的戰鬥對手的等級為0以下的話，你可以那張角色【倒置】。\n【起】〔將1張手牌放到休息室，將此卡放到牌組最下方〕 你查看自己的牌組，選擇至多1張《音楽》角色給對手看，加入手牌，將那個牌組洗牌。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T13",
+      "printings": [
+        {
+          "id": "BDY/W135-T13",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t13.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T13R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t13r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“真夜中遊園地”藤都子",
+      "card_type": "character",
+      "color": "red",
+      "level": 1,
+      "cost": 0,
+      "power": 2000,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 あなたがこのカードの『助太刀』を使った時、あなたの《音楽》のキャラがいるなら、あなたは自分のバトル中のキャラを1枚選び、そのターン中、パワーを＋1000。\n【起】【カウンター】 助太刀1000 レベル1 ［手札のこのカードを控え室に置く］ （あなたは自分のフロントアタックされているキャラを1枚選び、そのターン中、パワーを＋1000）",
+      "source": "trial_deck",
+      "name_zh": "“真夜中遊園地”藤都子",
+      "text_zh": "【自】 你使用此卡的『助太刀』時，若你的《音楽》角色存在，你選擇1張自己的戰鬥中的角色，在那個回合中，攻擊力＋1000。\n【起】【反擊】 助太刀1000 等級1 〔將手牌的此卡放到休息室〕 （你選擇1張自己的被正面攻擊的角色，在那個回合中，攻擊力＋1000）",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T14",
+      "printings": [
+        {
+          "id": "BDY/W135-T14",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t14.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T14R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t14r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“Hi-Vision”宮永ののか",
+      "card_type": "character",
+      "color": "red",
+      "level": 1,
+      "cost": 0,
+      "power": 3500,
+      "soul": 1,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【永】 他のあなたの《音楽》のキャラが2枚以上なら、このカードのパワーを＋3000。\n【自】【CXコンボ】 このカードがアタックした時、CX置場に「Hi-Vision」があり、他のあなたの《音楽》のキャラが2枚以上なら、あなたは自分の控え室の《音楽》のキャラを1枚選び、手札に戻してよい。",
+      "source": "trial_deck",
+      "name_zh": "“Hi-Vision”宮永ののか",
+      "text_zh": "【永】 其他你的《音楽》角色有2張以上的話，此卡攻擊力＋3000。\n【自】【CX連動】 此卡攻擊時，若CX區有「Hi-Vision」，且其他你的《音楽》角色有2張以上，你可以選擇自己休息室的1張《音楽》角色，回到手牌。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T15",
+      "printings": [
+        {
+          "id": "BDY/W135-T15",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t15.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T15R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t15r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“真夜中遊園地”千石ユノ",
+      "card_type": "character",
+      "color": "red",
+      "level": 1,
+      "cost": 0,
+      "power": 4500,
+      "soul": 2,
+      "trigger": null,
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "",
+      "source": "trial_deck",
+      "name_zh": "“真夜中遊園地”千石ユノ",
+      "text_zh": "",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T16",
+      "printings": [
+        {
+          "id": "BDY/W135-T16",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t16.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T16R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t16r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“Hi-Vision”藤都子",
+      "card_type": "character",
+      "color": "red",
+      "level": 2,
+      "cost": 1,
+      "power": 3500,
+      "soul": 1,
+      "trigger": "soul",
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【永】 応援 このカードの前のあなたのキャラすべてに、パワーを＋Ｘ。Ｘはそのキャラのレベル×500に等しい。\n【起】［このカードを【レスト】する］ あなたは自分の山札を上から1枚見て、山札の上か控え室に置き、他のあなたの「“夢現妄想世界”仲町あられ」すべてに、そのターン中、パワーを＋1000し、次の能力を与える。『【永】 このカードのバトル中、相手は『助太刀』を手札からプレイできない。』",
+      "source": "trial_deck",
+      "name_zh": "“Hi-Vision”藤都子",
+      "text_zh": "【永】 應援 此卡前面的你的所有角色，攻擊力＋x。x等於那張角色的等級×500。\n【起】〔將此卡【橫置】〕 你看自己的牌組最上方1張卡，放到牌組最上方或休息室，其他你的「“夢現妄想世界”仲町あられ」全部，在那個回合中，攻擊力＋1000，並被賦予以下能力。『【永】 此卡戰鬥中，對手『助太刀』不能從手牌打出。』",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T17",
+      "printings": [
+        {
+          "id": "BDY/W135-T17",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t17.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T17R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t17r.png",
+          "is_foil": true
+        },
+        {
+          "id": "BDY/W135-T17SP",
+          "rarity": "SP",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t17sp.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“夢現妄想世界”宮永ののか",
+      "card_type": "character",
+      "color": "red",
+      "level": 2,
+      "cost": 1,
+      "power": 7000,
+      "soul": 1,
+      "trigger": "soul",
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 このカードが手札から舞台に置かれた時、そのターン中、このカードのパワーを＋Ｘ。Ｘはあなたの《音楽》のキャラの枚数×1000に等しい。\n【自】 このカードが手札から舞台に置かれた時、他のあなたの《音楽》のキャラが4枚以上なら、あなたは自分の控え室の《音楽》のキャラを1枚選び、ストック置場に置いてよい。",
+      "source": "trial_deck",
+      "name_zh": "“夢現妄想世界”宮永ののか",
+      "text_zh": "【自】 此卡從手牌被放置到舞台時，在那個回合中，此卡攻擊力＋x。x等於你的《音楽》角色的張數×1000。\n【自】 此卡從手牌被放置到舞台時，若其他你可以的《音楽》角色有4張以上，你選擇自己休息室的1張《音楽》角色，放到能量區。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T18",
+      "printings": [
+        {
+          "id": "BDY/W135-T18",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t18.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T18R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t18r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "“Hi-Vision”千石ユノ",
+      "card_type": "character",
+      "color": "red",
+      "level": 3,
+      "cost": 2,
+      "power": 10000,
+      "soul": 2,
+      "trigger": "soul",
+      "traits_jp": [
+        "音楽",
+        "夢限大みゅーたいぷ"
+      ],
+      "text_jp": "【自】 このカードが手札から舞台に置かれた時、あなたは自分の山札を上から2枚まで見て、山札の上に好きな順番で置く。\n【自】［他のあなたの舞台のキャラを1枚控え室に置く］ このカードが手札から舞台に置かれた時、あなたはコストを払ってよい。そうしたら、あなたは自分の控え室のCXを1枚選び、手札に戻す。",
+      "source": "trial_deck",
+      "name_zh": "“Hi-Vision”千石ユノ",
+      "text_zh": "【自】 此卡從手牌被放置到舞台時，你看自己的牌組最上方至多2張卡，以任意順序放到牌組最上方。\n【自】〔將1張其他你的舞台的角色放到休息室〕 此卡從手牌被放置到舞台時，你可以支付費用。這麼做了的話，你選擇自己休息室的1張CX，回到手牌。",
+      "translation_status": "machine"
+    },
+    {
+      "id": "BDY/W135-T19",
+      "printings": [
+        {
+          "id": "BDY/W135-T19",
+          "rarity": "TD",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t19.png",
+          "is_foil": false
+        },
+        {
+          "id": "BDY/W135-T19R",
+          "rarity": "RRR",
+          "image_url": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bdy_w135/bdy_w135_t19r.png",
+          "is_foil": true
+        }
+      ],
+      "name_jp": "Hi-Vision",
+      "card_type": "climax",
+      "color": "red",
+      "level": null,
+      "cost": null,
+      "power": null,
+      "soul": null,
+      "trigger": "comeback",
+      "traits_jp": [
+        "―",
+        "―"
+      ],
+      "text_jp": "【永】 あなたのキャラすべてに、パワーを＋1000し、ソウルを＋1。\n（【扉】：このカードがトリガーした時、あなたは自分の控え室のキャラを1枚選び、手札に戻してよい）",
+      "source": "trial_deck",
+      "name_zh": "Hi-Vision",
+      "text_zh": "【永】 你的所有角色，攻擊力＋1000，魂傷＋1。\n（【木門】：判定到這張卡片時，你可以選擇自己休息室的1張角色，回到手牌）",
+      "translation_status": "machine"
+    }
+  ]
+}
