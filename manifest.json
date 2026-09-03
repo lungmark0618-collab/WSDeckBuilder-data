@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-03T10:03:50+08:00",
- "notes": "新增第二批由新到舊十部作品譯文",
+ "updated_at": "2026-09-03T13:50:33+08:00",
+ "notes": "新增第三批由新到舊十部作品譯文",
  "sets": [
   {
    "title_code": "ALL/S76",
@@ -44,6 +44,13 @@
    "file": "bav_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bav_cards.json"
+  },
+  {
+   "title_code": "BD/WE49",
+   "title_name_zh": "BanG Dream! 10th Anniversary",
+   "file": "bd10th_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bd10th_cards.json"
   },
   {
    "title_code": "BD/W54",
@@ -107,6 +114,13 @@
    "file": "csm_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/csm_cards.json"
+  },
+  {
+   "title_code": "DAL/W79",
+   "title_name_zh": "約會大作戰",
+   "file": "dal_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dal_cards.json"
   },
   {
    "title_code": "DBG",
@@ -221,11 +235,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ias_cards.json"
   },
   {
+   "title_code": "IM/S07",
+   "title_name_zh": "偶像大師",
+   "file": "im_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/im_cards.json"
+  },
+  {
    "title_code": "IMC/W41",
    "title_name_zh": "偶像大師 灰姑娘女孩",
    "file": "imc_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/imc_cards.json"
+  },
+  {
+   "title_code": "ISC/S81",
+   "title_name_zh": "偶像大師 閃耀色彩",
+   "file": "isc_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/isc_cards.json"
   },
   {
    "title_code": "Kab/W78",
@@ -240,6 +268,13 @@
    "file": "kgl_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kgl_cards.json"
+  },
+  {
+   "title_code": "KJ8/S123",
+   "title_name_zh": "怪獸8號",
+   "file": "kj8_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kj8_cards.json"
   },
   {
    "title_code": "KMS/W133",
@@ -277,6 +312,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lss_cards.json"
   },
   {
+   "title_code": "MAR/S89",
+   "title_name_zh": "MARVEL",
+   "file": "mar_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mar_cards.json"
+  },
+  {
    "title_code": "MB",
    "title_name_zh": "MELTY BLOOD／空之境界",
    "file": "mb_cards.json",
@@ -289,6 +331,13 @@
    "file": "mf_cards.json",
    "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mf_cards.json"
+  },
+  {
+   "title_code": "MKI/W126",
+   "title_name_zh": "敗北女角太多了！",
+   "file": "mki_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mki_cards.json"
   },
   {
    "title_code": "BD/W125",
@@ -319,6 +368,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ns_cards.json"
   },
   {
+   "title_code": "N1/WE06",
+   "title_name_zh": "魔法少女奈葉",
+   "file": "nta_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nta_cards.json"
+  },
+  {
    "title_code": "OSK",
    "title_name_zh": "【我推的孩子】",
    "file": "osk_cards.json",
@@ -331,6 +387,13 @@
    "file": "ovl_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ovl_cards.json"
+  },
+  {
+   "title_code": "PI/SE18",
+   "title_name_zh": "Fate/kaleid liner 魔法少女☆伊莉雅",
+   "file": "pi_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pi_cards.json"
   },
   {
    "title_code": "PJS",
@@ -352,6 +415,13 @@
    "file": "pt_cards.json",
    "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pt_cards.json"
+  },
+  {
+   "title_code": "PXR/S94",
+   "title_name_zh": "PIXAR",
+   "file": "pxr_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pxr_cards.json"
   },
   {
    "title_code": "RZ/S46",
