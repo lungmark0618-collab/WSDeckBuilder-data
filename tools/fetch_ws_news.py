@@ -42,10 +42,14 @@ def parse_items(html_text: str) -> list[dict]:
             continue
         categories = re.findall(r'<li class="news__itemCatItem">([^<]+)</li>', chunk)
         title_jp = html.unescape(title_m.group(1).strip())
+        # 首頁輪播用縮圖，不是每則都有（部分公告沒配圖），沒有就是 None，
+        # App 端只把有圖的公告放進輪播，不影響清單本身
+        thumb_m = re.search(r'news__itemThumb">\s*<img src="([^"]+)"', chunk)
         items.append({
             "date": date_m.group(1),
             "categories": [html.unescape(c.strip()) for c in categories],
             "title_jp": title_jp,
+            "image_url": html.unescape(thumb_m.group(1)) if thumb_m else None,
             # 套版翻譯（見 translate_ws_news.py）；翻不出來就是 None，
             # App 端會自動退回顯示日文原文，不影響功能
             "title_zh": translate(title_jp),
