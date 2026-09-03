@@ -18,6 +18,8 @@ import sys
 import time
 import urllib.request
 
+from translate_ws_news import translate
+
 BASE_URL = "https://ws-tcg.com/information/"
 UA = "Mozilla/5.0 (compatible; WSDeckBuilderBot/1.0)"
 
@@ -39,11 +41,14 @@ def parse_items(html_text: str) -> list[dict]:
         if not (href_m and date_m and title_m):
             continue
         categories = re.findall(r'<li class="news__itemCatItem">([^<]+)</li>', chunk)
+        title_jp = html.unescape(title_m.group(1).strip())
         items.append({
             "date": date_m.group(1),
             "categories": [html.unescape(c.strip()) for c in categories],
-            "title_jp": html.unescape(title_m.group(1).strip()),
-            "title_zh": None,
+            "title_jp": title_jp,
+            # 套版翻譯（見 translate_ws_news.py）；翻不出來就是 None，
+            # App 端會自動退回顯示日文原文，不影響功能
+            "title_zh": translate(title_jp),
             "url": html.unescape(href_m.group(1)),
             "source": "official",
         })
