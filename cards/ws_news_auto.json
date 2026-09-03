@@ -9,7 +9,8 @@
    "title_jp": "デッキ構築ルールを更新",
    "title_zh": "牌組構築規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-08-28",
@@ -19,7 +20,14 @@
    "title_jp": "ブースターパック［アズールレーン Vol.3］公開",
    "title_zh": "補充包［アズールレーン Vol.3］公開",
    "url": "https://ws-tcg.com/products/azl_vol3_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年12月25日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般125種+平行卡125種以上"
+   ]
   },
   {
    "date": "2026-08-28",
@@ -29,7 +37,14 @@
    "title_jp": "ブースターパック ［Persona 30th Anniversary］公開",
    "title_zh": "補充包［Persona 30th Anniversary］公開",
    "url": "https://ws-tcg.com/products/p30_wsbp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年11月27日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般124種+平行卡124種以上"
+   ]
   },
   {
    "date": "2026-08-25",
@@ -39,7 +54,8 @@
    "title_jp": "あつまれ東方ステーション2026 in 秩父 出展情報 更新",
    "title_zh": "あつまれ東方ステーション2026 in 秩父 參展資訊更新",
    "url": "https://ws-tcg.com/events/5251/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-08-25",
@@ -49,7 +65,8 @@
    "title_jp": "ブースターパック［葬送のフリーレン Vol.2］掲載",
    "title_zh": "補充包［葬送のフリーレン Vol.2］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?keyword=&keyword_or=&keyword_not=&keyword_type%5B%5D=all&title_number=&expansion=563&card_kind=&level_s=&level_e=&power_s=&power_e=&color=&soul_s=&soul_e=&cost_s=&cost_e=&trigger=&option_counter=0&option_clock=0&parallel=0&show_page_count=30",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-08-24",
@@ -59,7 +76,8 @@
    "title_jp": "総合ルールを更新",
    "title_zh": "綜合規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-08-21",
@@ -69,7 +87,14 @@
    "title_jp": "プレミアムブースター ［超かぐや姫！］公開",
    "title_zh": "特別補充包［超かぐや姫！］公開",
    "url": "https://ws-tcg.com/products/cpk_pb/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年12月18日(金)",
+    "單包、4張入、售價 660 日圓（含稅）",
+    "整盒、6包入、售價 3,960 日圓（含稅）",
+    "整箱、30盒入",
+    "卡片種類：一般70種+平行卡70種以上（暫定）"
+   ]
   },
   {
    "date": "2026-07-31",
@@ -79,7 +104,14 @@
    "title_jp": "ブースターパック　BanG Dream! [夢限大みゅーたいぷ]　公開",
    "title_zh": null,
    "url": "https://ws-tcg.com/products/bdy_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年11月13日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般 100種＋平行卡 100種以上（暫定）"
+   ]
   },
   {
    "date": "2026-07-31",
@@ -89,7 +121,14 @@
    "title_jp": "ブースターパック［ガールズ＆パンツァー］公開",
    "title_zh": "補充包［ガールズ＆パンツァー］公開",
    "url": "https://ws-tcg.com/products/gup_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月30日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般114種+平行卡114種以上（暫定）"
+   ]
   },
   {
    "date": "2026-07-31",
@@ -99,7 +138,11 @@
    "title_jp": "トライアルデッキ［ガールズ＆パンツァー 無限軌道杯］公開",
    "title_zh": "試打組［ガールズ＆パンツァー 無限軌道杯］公開",
    "url": "https://ws-tcg.com/products/gup_td_m/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月30日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ]
   },
   {
    "date": "2026-07-31",
@@ -109,7 +152,11 @@
    "title_jp": "トライアルデッキ［ガールズ＆パンツァー 大洗女子学園］公開",
    "title_zh": "試打組［ガールズ＆パンツァー 大洗女子学園］公開",
    "url": "https://ws-tcg.com/products/gup_td_o/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月30日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ]
   },
   {
    "date": "2026-07-24",
@@ -119,7 +166,14 @@
    "title_jp": "ブースターパック [葬送のフリーレン Vol.2] 箔押しサインカード公開！",
    "title_zh": "補充包［葬送のフリーレン Vol.2］燙金簽名卡公開",
    "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年8月28日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡115種"
+   ]
   },
   {
    "date": "2026-07-22",
@@ -132,7 +186,8 @@
    "title_jp": "ブシロードTCG戦略発表会2026 夏 発表内容を掲載！",
    "title_zh": null,
    "url": "https://ws-tcg.com/information/5095/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-07-21",
@@ -142,7 +197,8 @@
    "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］掲載",
    "title_zh": "補充包［「Re:ゼロから始める異世界生活」Vol.4］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=561",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-07-19",
@@ -152,7 +208,14 @@
    "title_jp": "ブースターパック［ステラソラ］公開",
    "title_zh": "補充包［ステラソラ］公開",
    "url": "https://ws-tcg.com/products/sts_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月16日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡100種以上（暫定）"
+   ]
   },
   {
    "date": "2026-07-19",
@@ -162,7 +225,11 @@
    "title_jp": "トライアルデッキ［ステラソラ］公開",
    "title_zh": "試打組［ステラソラ］公開",
    "url": "https://ws-tcg.com/products/sts_td/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月16日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ]
   },
   {
    "date": "2026-07-17",
@@ -172,7 +239,8 @@
    "title_jp": "デッキ構築ルールを更新",
    "title_zh": "牌組構築規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-07-07",
@@ -182,7 +250,8 @@
    "title_jp": "GIRAFULL Weiß Schwarz Cup　松井五段オススメデッキレシピ",
    "title_zh": null,
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-07-03",
@@ -192,7 +261,14 @@
    "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］公開",
    "title_zh": "補充包［「Re:ゼロから始める異世界生活」Vol.4］公開",
    "url": "https://ws-tcg.com/products/bp_rzvol-4/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年7月24日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡118種"
+   ]
   },
   {
    "date": "2026-07-03",
@@ -202,7 +278,8 @@
    "title_jp": "エラッタ更新",
    "title_zh": "勘誤表更新",
    "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-07-03",
@@ -212,7 +289,8 @@
    "title_jp": "全国のGiGOとBanG Dream!STORE にて夢限大みゅーたいぷのPRカードをプレゼント！",
    "title_zh": null,
    "url": "https://ws-tcg.com/information/4914/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-30",
@@ -222,7 +300,8 @@
    "title_jp": "ヴァイスシュヴァルツpresents アイドルマスター シンデレラガールズ 15周年記念 POP UP SHOP in Annivroad 特設ページ公開！",
    "title_zh": "ヴァイスシュヴァルツpresents アイドルマスター シンデレラガールズ 15周年記念 POP UP SHOP in Annivroad 特設頁面公開",
    "url": "https://bushiroad-creative.com/topics/101375/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-30",
@@ -232,7 +311,8 @@
    "title_jp": "ブースターパック［ブラウンダスト2］掲載",
    "title_zh": "補充包［ブラウンダスト2］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=558",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-30",
@@ -242,7 +322,8 @@
    "title_jp": "トライアルデッキ［ブラウンダスト2］掲載",
    "title_zh": "試打組［ブラウンダスト2］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=559",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-28",
@@ -252,7 +333,14 @@
    "title_jp": "ブースターパック 葬送のフリーレン Vol.2 箔押しサインカード情報公開",
    "title_zh": "補充包［葬送のフリーレン Vol.2］燙金簽名卡資訊公開",
    "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年8月28日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡115種"
+   ]
   },
   {
    "date": "2026-06-26",
@@ -262,7 +350,14 @@
    "title_jp": "ブースターパック anemoi 公開",
    "title_zh": null,
    "url": "https://ws-tcg.com/products/anm_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月2日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般 100種＋平行卡 100種以上（暫定）"
+   ]
   },
   {
    "date": "2026-06-24",
@@ -272,7 +367,8 @@
    "title_jp": "BCF2026 京都会場 入賞者のデッキレシピを掲載",
    "title_zh": "BCF2026 京都会場 得獎者牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-24",
@@ -282,7 +378,8 @@
    "title_jp": "デッキ構築ルールを更新",
    "title_zh": "牌組構築規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-23",
@@ -292,7 +389,8 @@
    "title_jp": "トライアルデッキ［グランブルーファンタジー］掲載",
    "title_zh": "試打組［グランブルーファンタジー］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=557",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-23",
@@ -302,7 +400,8 @@
    "title_jp": "ブースターパック［グランブルーファンタジー］掲載",
    "title_zh": "補充包［グランブルーファンタジー］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=556",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-15",
@@ -312,7 +411,8 @@
    "title_jp": "エラッタ更新",
    "title_zh": "勘誤表更新",
    "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-12",
@@ -322,7 +422,8 @@
    "title_jp": "GA文庫 おすすめデッキレシピ掲載",
    "title_zh": "GA文庫 推薦牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-10",
@@ -332,7 +433,14 @@
    "title_jp": "ブースターパック［勝利の女神：NIKKE Vol.2］公開",
    "title_zh": "補充包［勝利の女神：NIKKE Vol.2］公開",
    "url": "https://ws-tcg.com/products/nik_bp2/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年9月19日(土)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般 112種＋平行卡 158種（暫定）"
+   ]
   },
   {
    "date": "2026-06-09",
@@ -342,7 +450,8 @@
    "title_jp": "トライアルデッキ＆ブースターパック［GA文庫］掲載",
    "title_zh": "試打組＆補充包［GA文庫］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-05",
@@ -352,7 +461,14 @@
    "title_jp": "ブースターパック［葬送のフリーレン Vol.2］公開",
    "title_zh": "補充包［葬送のフリーレン Vol.2］公開",
    "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年8月28日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡115種"
+   ]
   },
   {
    "date": "2026-06-05",
@@ -362,7 +478,8 @@
    "title_jp": "デッキ構築ルールを更新",
    "title_zh": "牌組構築規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-06-05",
@@ -372,7 +489,14 @@
    "title_jp": "ブースターパック［ブラウンダスト2］公開",
    "title_zh": "補充包［ブラウンダスト2］公開",
    "url": "https://ws-tcg.com/products/brd_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年7月3日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡100種以上（暫定）"
+   ]
   },
   {
    "date": "2026-06-05",
@@ -382,7 +506,11 @@
    "title_jp": "トライアルデッキ［ブラウンダスト2］公開",
    "title_zh": "試打組［ブラウンダスト2］公開",
    "url": "https://ws-tcg.com/products/brd_td/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年7月3日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ]
   },
   {
    "date": "2026-05-21",
@@ -390,7 +518,11 @@
    "title_jp": "トライアルデッキ［グランブルーファンタジー］公開",
    "title_zh": "試打組［グランブルーファンタジー］公開",
    "url": "https://ws-tcg.com/products/gbf_td/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年6月26日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ]
   },
   {
    "date": "2026-05-21",
@@ -400,7 +532,14 @@
    "title_jp": "ブースターパック［グランブルーファンタジー］公開",
    "title_zh": "補充包［グランブルーファンタジー］公開",
    "url": "https://ws-tcg.com/products/gbf_bp/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年6月26日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般116種+平行卡116種以上（暫定）"
+   ]
   },
   {
    "date": "2026-05-20",
@@ -410,7 +549,8 @@
    "title_jp": "BCF2026 北九州会場 入賞者のデッキレシピを掲載",
    "title_zh": "BCF2026 北九州会場 得獎者牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-05-19",
@@ -420,7 +560,8 @@
    "title_jp": "総合ルール更新",
    "title_zh": "綜合規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-05-13",
@@ -430,7 +571,8 @@
    "title_jp": "BCF2026 東京会場 入賞者のデッキレシピを掲載",
    "title_zh": "BCF2026 東京会場 得獎者牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-05-07",
@@ -440,7 +582,8 @@
    "title_jp": "【開催中】BCF2026（ブシロードカードファイト2026）",
    "title_zh": "【舉辦中】BCF2026（ブシロードカードファイト2026）",
    "url": "https://ws-tcg.com/championship/bcf2026/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-05-01",
@@ -450,7 +593,8 @@
    "title_jp": "エラッタ更新",
    "title_zh": "勘誤表更新",
    "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-30",
@@ -460,7 +604,14 @@
    "title_jp": "ブースターパック［【推しの子】Vol.3］公開",
    "title_zh": "補充包［【推しの子】Vol.3］公開",
    "url": "https://ws-tcg.com/products/osk_bp3/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年8月7日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡119種"
+   ]
   },
   {
    "date": "2026-04-30",
@@ -470,7 +621,14 @@
    "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］公開",
    "title_zh": "補充包［「Re:ゼロから始める異世界生活」Vol.4］公開",
    "url": "https://ws-tcg.com/products/bp_rzvol-4/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年7月24日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡118種"
+   ]
   },
   {
    "date": "2026-04-28",
@@ -480,7 +638,8 @@
    "title_jp": "トライアルデッキ［anemoi］掲載",
    "title_zh": "試打組［anemoi］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=550",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-24",
@@ -490,7 +649,8 @@
    "title_jp": "BCF2026 札幌会場 入賞者のデッキレシピを掲載",
    "title_zh": "BCF2026 札幌会場 得獎者牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-22",
@@ -500,7 +660,8 @@
    "title_jp": "エラッタ更新",
    "title_zh": "勘誤表更新",
    "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-20",
@@ -510,7 +671,8 @@
    "title_jp": "「東方Project初心者講習会」開催決定",
    "title_zh": "「東方Project初心者講習会」 確定舉辦",
    "url": "https://ws-tcg.com/events/4273/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-20",
@@ -520,7 +682,8 @@
    "title_jp": "ゴールデンウィーク期間中のユーザーサポート窓口につきまして",
    "title_zh": null,
    "url": "https://ws-tcg.com/information/4286/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-20",
@@ -530,7 +693,8 @@
    "title_jp": "エラッタ更新",
    "title_zh": "勘誤表更新",
    "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-20",
@@ -540,7 +704,8 @@
    "title_jp": "総合ルール更新",
    "title_zh": "綜合規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-17",
@@ -550,7 +715,8 @@
    "title_jp": "デッキ構築ルール更新",
    "title_zh": "牌組構築規則更新",
    "url": "https://ws-tcg.com/rules/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-17",
@@ -560,7 +726,11 @@
    "title_jp": "トライアルデッキ［anemoi］更新",
    "title_zh": "試打組［anemoi］更新",
    "url": "https://ws-tcg.com/products/anm_td/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年5月1日（金）",
+    "整盒、售價 6,600 日圓（含稅）"
+   ]
   },
   {
    "date": "2026-04-17",
@@ -570,7 +740,8 @@
    "title_jp": "プレミアムブースター［アイドルマスター ミリオンライブ！］掲載",
    "title_zh": "特別補充包［アイドルマスター ミリオンライブ！］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=549",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-04-16",
@@ -580,7 +751,8 @@
    "title_jp": "ヴァイスシュヴァルツ公式サイトをリニューアル",
    "title_zh": null,
    "url": "https://ws-tcg.com/information/3065/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   },
   {
    "date": "2026-03-01",
@@ -590,7 +762,8 @@
    "title_jp": "2026年4月より商品仕様が変更となります",
    "title_zh": null,
    "url": "https://ws-tcg.com/information/4432/",
-   "source": "official"
+   "source": "official",
+   "highlights_zh": []
   }
  ]
 }
