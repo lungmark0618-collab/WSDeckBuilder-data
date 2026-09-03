@@ -1,8 +1,15 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-01T16:27:09+08:00",
- "notes": "新增由新到舊十部作品譯文",
+ "updated_at": "2026-09-03T10:03:50+08:00",
+ "notes": "新增第二批由新到舊十部作品譯文",
  "sets": [
+  {
+   "title_code": "ALL/S76",
+   "title_name_zh": "突擊莉莉",
+   "file": "all_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/all_cards.json"
+  },
   {
    "title_code": "AMG",
    "title_name_zh": "甘神家的連理枝",
@@ -32,11 +39,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/azl_cards.json"
   },
   {
+   "title_code": "BAV/W112",
+   "title_name_zh": "蔚藍檔案",
+   "file": "bav_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bav_cards.json"
+  },
+  {
    "title_code": "BD/W54",
    "title_name_zh": "BanG Dream! 少女樂團派對",
    "file": "bdgbp_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bdgbp_cards.json"
+  },
+  {
+   "title_code": "BDY/W135",
+   "title_name_zh": "BanG Dream! [夢限大Mewtype]",
+   "file": "bdy_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bdy_cards.json"
   },
   {
    "title_code": "BM",
@@ -93,6 +114,13 @@
    "file": "dbg_cards.json",
    "data_version": 16,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dbg_cards.json"
+  },
+  {
+   "title_code": "DC/W01",
+   "title_name_zh": "D.C.＆Dal Segno",
+   "file": "dc_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dc_cards.json"
   },
   {
    "title_code": "DDD/S118",
@@ -200,11 +228,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/imc_cards.json"
   },
   {
+   "title_code": "Kab/W78",
+   "title_name_zh": "Key",
+   "file": "key_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/key_cards.json"
+  },
+  {
    "title_code": "KGL",
    "title_name_zh": "輝夜姬想讓人告白",
    "file": "kgl_cards.json",
    "data_version": 1,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kgl_cards.json"
+  },
+  {
+   "title_code": "KMS/W133",
+   "title_name_zh": "黃金拼圖",
+   "file": "kms_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kms_cards.json"
+  },
+  {
+   "title_code": "KNK/W86",
+   "title_name_zh": "出租女友",
+   "file": "knk_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/knk_cards.json"
   },
   {
    "title_code": "LH",
@@ -312,6 +361,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rz_cards.json"
   },
   {
+   "title_code": "SBY/W64",
+   "title_name_zh": "青春豬頭少年系列",
+   "file": "sby_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sby_cards.json"
+  },
+  {
    "title_code": "SFN",
    "title_name_zh": "葬送的芙莉蓮",
    "file": "sfn_cards.json",
@@ -352,6 +408,13 @@
    "file": "ssy_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ssy_cards.json"
+  },
+  {
+   "title_code": "TAL/S126",
+   "title_name_zh": "Tales of 系列",
+   "file": "tal_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/tal_cards.json"
   },
   {
    "title_code": "TF",
@@ -401,6 +464,13 @@
    "file": "vr_cards.json",
    "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/vr_cards.json"
+  },
+  {
+   "title_code": "VRG/WE52",
+   "title_name_zh": "VIRTUAL GIRL @ WORLD'S END",
+   "file": "vrg_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/vrg_cards.json"
   },
   {
    "title_code": "Woo",
