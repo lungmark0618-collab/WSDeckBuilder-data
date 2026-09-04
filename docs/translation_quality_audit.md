@@ -55,6 +55,15 @@ The bad news: 30 files contain high-risk machine-translation artifacts in effect
 - Remaining kana outside protected `《》` / `「」` fields: 0.
 - Trait names in `《》` and card names in `「」` were left in Japanese.
 
+### 2026-09-04 Common Style Cleanup Pass
+
+- Added `tools/repair_common_translation_style_phrases.py` for repeated awkward phrasing that did not fail the high-risk scan.
+- Repaired 5,347 cards on the first run and 364 additional cards after tightening the remaining safe patterns.
+- Standardized common wording such as `給予對手x點傷害`, `若你的CX區有...`, `若不是則放回原處`, `可以將那張角色...`, `攻擊力＋`, `效果`, `張數`, and `交換`.
+- Normalized visible Chinese terms such as `舞臺` to `舞台`, `卡片` to `卡`, `助立` to `助太刀`, and `濃度` to `集中`.
+- Remaining tracked high-risk pattern hits: 0.
+- Remaining kana outside protected `《》` / `「」` fields: 0.
+
 Remaining high-risk files after the first repair pass:
 
 | File | Series | Remaining High-Risk Cards |
