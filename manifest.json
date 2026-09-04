@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-04T18:11:49+08:00",
- "notes": "translation quality repair pass 2",
+ "updated_at": "2026-09-04T10:14:21+08:00",
+ "notes": "修補第二批高風險譯文用語",
  "sets": [
   {
    "title_code": "ALL/S76",
