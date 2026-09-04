@@ -20,6 +20,7 @@ import re
 import sys
 import time
 import urllib.request
+from typing import Optional
 
 UA = "Mozilla/5.0 (compatible; WSDeckBuilderBot/1.0)"
 
@@ -36,6 +37,14 @@ def _clean(text: str) -> str:
     text = re.sub(r"<br\s*/?>", " ", text)
     text = re.sub(r"<[^>]+>", "", text)
     return html.unescape(text).strip()
+
+
+def extract_detail_image(page_html: str) -> Optional[str]:
+    """商品頁自己的商品視覺圖（包裝盒圖），比公告列表頁的縮圖更大張、
+    更適合放公告詳情頁——使用者說「官網有放大圖的話我們也要有」，
+    這裡就是那張大圖的來源。"""
+    m = re.search(r'products__imgin"><img src="([^"]+)"', page_html)
+    return html.unescape(m.group(1)) if m else None
 
 
 def extract_highlights(page_html: str) -> list[str]:
@@ -89,15 +98,18 @@ def main():
     for item in items:
         if "/products/" not in item["url"]:
             item["highlights_zh"] = []
+            item["detail_image_url"] = None
             continue
         try:
             page = fetch(item["url"])
         except Exception as exc:
             print(f"抓詳情失敗 {item['url']}：{exc}", file=sys.stderr)
             item["highlights_zh"] = []
+            item["detail_image_url"] = None
             continue
         highlights = extract_highlights(page)
         item["highlights_zh"] = highlights
+        item["detail_image_url"] = extract_detail_image(page)
         if highlights:
             enriched += 1
         time.sleep(0.4)  # 對官網客氣一點
