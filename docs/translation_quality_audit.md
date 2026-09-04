@@ -45,6 +45,16 @@ The bad news: 30 files contain high-risk machine-translation artifacts in effect
 - Remaining kana outside protected `《》` / `「」` fields: 0.
 - This pass intentionally did not try to fully rewrite complex effects. The remaining 160 cards should be fixed by retranslation from `text_jp`, not by broader global replacement.
 
+### 2026-09-04 Second Conservative Repair Pass
+
+- Added `tools/repair_remaining_high_risk_translation_phrases.py` for the remaining repeated complex patterns.
+- Repaired the remaining 160 affected cards across the 30 high-risk files.
+- Fixed rules-sensitive wording for Bond, damage-cancel follow-up damage, counter effects that prevent player damage, Clock/Memory stage placement, and effects that prevent returning to hand / moving slots / going to Memory.
+- Reduced the tracked high-risk pattern hits from 169 to 0.
+- Remaining high-risk cards after this pass: 0.
+- Remaining kana outside protected `《》` / `「」` fields: 0.
+- Trait names in `《》` and card names in `「」` were left in Japanese.
+
 Remaining high-risk files after the first repair pass:
 
 | File | Series | Remaining High-Risk Cards |
