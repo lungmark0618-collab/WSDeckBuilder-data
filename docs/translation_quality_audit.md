@@ -71,6 +71,12 @@ The bad news: 30 files contain high-risk machine-translation artifacts in effect
 - Changed `若化為回憶了` to `若此卡放到回憶區的話`.
 - Trait names in `《》` and card names in `「」` were left in Japanese.
 
+### 2026-09-10 Full Memory Wording Cleanup
+
+- Repaired the remaining 18 `化為回憶` hits across `bdgbp_cards.json`, `hol_cards.json`, and `ovl_cards.json`.
+- Standardized the wording to `放到回憶區`, including character, marker, face-down, and prevention clauses.
+- Remaining `化為回憶` hits in all card `text_zh`: 0.
+
 Remaining high-risk files after the first repair pass:
 
 | File | Series | Remaining High-Risk Cards |
