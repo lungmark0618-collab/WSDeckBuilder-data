@@ -64,6 +64,13 @@ The bad news: 30 files contain high-risk machine-translation artifacts in effect
 - Remaining tracked high-risk pattern hits: 0.
 - Remaining kana outside protected `《》` / `「」` fields: 0.
 
+### 2026-09-10 Memory Zone Wording Cleanup
+
+- Repaired 22 memory-zone wording hits across `bdgbp_cards.json`, `hol_cards.json`, and `ovl_cards.json`.
+- Changed `將此卡化為回憶` to `將此卡放到回憶區`.
+- Changed `若化為回憶了` to `若此卡放到回憶區的話`.
+- Trait names in `《》` and card names in `「」` were left in Japanese.
+
 Remaining high-risk files after the first repair pass:
 
 | File | Series | Remaining High-Risk Cards |
