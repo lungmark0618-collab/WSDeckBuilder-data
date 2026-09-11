@@ -1,6 +1,71 @@
 {
  "items": [
   {
+   "date": "2026-09-11",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック [ガールズ＆パンツァー] 箔押しサインカード公開！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182227/gup_bp_1280%C3%97720_a-1024x576.jpg",
+   "title_zh": "補充包［ガールズ＆パンツァー］燙金簽名卡公開",
+   "url": "https://ws-tcg.com/products/gup_bp/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月30日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般114種+平行卡114種以上（暫定）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31184356/bp_gup_box-1024x881.png"
+  },
+  {
+   "date": "2026-09-11",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ [ガールズ＆パンツァー 無限軌道杯] 箔押しサインカード公開！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182227/gup_bp_1280%C3%97720_a-1024x576.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gup_td_m/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月30日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/11170737/td_m_gup_box-scaled-1-682x1024.png"
+  },
+  {
+   "date": "2026-09-11",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ [ガールズ＆パンツァー 大洗女子学園] 箔押しサインカード公開！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182227/gup_bp_1280%C3%97720_a-1024x576.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/gup_td_o/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年10月30日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/11170626/td_o_gup_box-scaled-1-682x1024.png"
+  },
+  {
+   "date": "2026-09-04",
+   "categories": [
+    "お知らせ",
+    "イベント"
+   ],
+   "title_jp": "「ヴァイスシュヴァルツ オンライン」が東京ゲームショウ2026にて試遊展示決定！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/04160935/WSO_TGS_kokuchi_bannar_1-1024x576.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/5345/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
    "date": "2026-09-01",
    "categories": [
     "ルール"
@@ -161,7 +226,7 @@
     "發售日：2026年10月30日(金)",
     "整盒、售價 6,600 日圓（含稅）"
    ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182832/td_m_gup_box-682x1024.png"
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/11170737/td_m_gup_box-scaled-1-682x1024.png"
   },
   {
    "date": "2026-07-31",
@@ -177,7 +242,7 @@
     "發售日：2026年10月30日(金)",
     "整盒、售價 6,600 日圓（含稅）"
    ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182821/td_o_gup_box-682x1024.png"
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/11170626/td_o_gup_box-scaled-1-682x1024.png"
   },
   {
    "date": "2026-07-24",
@@ -842,45 +907,6 @@
     "整盒、售價 6,600 日圓（含稅）"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14135024/td_anemoi.png"
-  },
-  {
-   "date": "2026-04-17",
-   "categories": [
-    "カードリスト"
-   ],
-   "title_jp": "プレミアムブースター［アイドルマスター ミリオンライブ！］掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/03/18174348/3-1024x576.jpg",
-   "title_zh": "特別補充包［アイドルマスター ミリオンライブ！］卡表刊載",
-   "url": "https://ws-tcg.com/cardlist/search/?expansion=549",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-16",
-   "categories": [
-    "お知らせ"
-   ],
-   "title_jp": "ヴァイスシュヴァルツ公式サイトをリニューアル",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/themes/ws-tcg_re/assets/img/common/noimg.jpg",
-   "title_zh": null,
-   "url": "https://ws-tcg.com/information/3065/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-03-01",
-   "categories": [
-    "お知らせ"
-   ],
-   "title_jp": "2026年4月より商品仕様が変更となります",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/themes/ws-tcg_re/assets/img/common/noimg.jpg",
-   "title_zh": null,
-   "url": "https://ws-tcg.com/information/4432/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
   }
  ]
 }
