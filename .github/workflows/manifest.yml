@@ -7,18 +7,27 @@ on:
     branches: [main]
     paths:
       - "cards/*_cards.json"
-      - "tools/*.py"
+      - "tools/make_manifest.py"
+      - "tools/check_cards.py"
+      - "tools/make_translation_announcements.py"
+      - "tools/test_translation_announcements.py"
       - ".github/workflows/manifest.yml"
   workflow_dispatch:
 
 permissions:
   contents: write      # 產生後要 commit 回來
 
+concurrency:
+  group: publish-card-data
+  cancel-in-progress: false
+
 jobs:
   manifest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: 卡表健檢
         run: python3 tools/check_cards.py --resources cards --manifest manifest.json
@@ -36,14 +45,24 @@ jobs:
       - name: 確認產出的 manifest 沒問題
         run: python3 tools/check_cards.py --resources cards --manifest manifest.json
 
+      - name: 產生新系列公告
+        run: |
+          python3 -m unittest discover -s tools -p 'test_translation_announcements.py'
+          python3 tools/make_translation_announcements.py
+
       - name: Commit 回 repo
         run: |
-          if git diff --quiet -- manifest.json; then
+          if git diff --quiet -- manifest.json announcements.json announcement_series.json; then
             echo "manifest 沒有變動，不需要 commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add manifest.json
+          git add manifest.json announcements.json announcement_series.json
           git commit -m "Regenerate manifest [skip ci]"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
