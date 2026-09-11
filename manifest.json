@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-11T10:35:14+08:00",
- "notes": "Automate homepage news updates and preserve valid feeds on failure",
+ "updated_at": "2026-09-11T15:21:28+08:00",
+ "notes": "Publish new series announcements automatically",
  "sets": [
   {
    "title_code": "ALL/S76",
