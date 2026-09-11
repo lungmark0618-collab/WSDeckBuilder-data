@@ -30,3 +30,11 @@ tools/             產生與檢查 manifest 的腳本、加通知的小工具
 日常維護：在 Actions 查看紅色失敗紀錄；官網改版時調整 `tools/fetch_ws_news.py`／`tools/enrich_ws_news.py`，文字修正放在手動公告檔。修改手動公告會自動觸發發布。GitHub 失敗通知依帳號自己的通知設定；公開專案長期沒有活動時 GitHub 可能停用排程，需在 Actions 重新啟用。
 
 App 開啟及返回前景會檢查公告，成功更新後 15 分鐘內不重複下載，失敗後自動請求至少相隔 1 分鐘；手動重新整理可立即重試。未連線會保留快取，商品與公告更新不需要重新發布 App。
+
+## 新系列通知
+
+卡表發布流程比較 manifest.json 與 announcement_series.json，第一次出現的 title_code 自動加入 announcements.json。既有系列的版本更新不重複發布公告；App 仍保留每個系列最新的待下載提醒。基準包含啟用時的舊系列，避免一次公告所有歷史資料。請保留已發布的代碼。
+
+上線代表新系列卡表可下載，不代表已自動驗證所有翻譯完成。手動公告仍可直接維護 announcements.json，每則使用固定且唯一的 id。自動公告使用 data-update-{title_code}-{data_version}，與 App 下載提醒共用識別碼，避免同版本重複顯示。
+
+這是 App 內鈴鐺通知，不是系統推播，也不會自動安裝卡表。未來發布公告不需要重新發布 App。
