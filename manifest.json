@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-10T13:44:24+08:00",
- "notes": "統一回憶區用語",
+ "updated_at": "2026-09-11T10:35:14+08:00",
+ "notes": "Automate homepage news updates and preserve valid feeds on failure",
  "sets": [
   {
    "title_code": "ALL/S76",
