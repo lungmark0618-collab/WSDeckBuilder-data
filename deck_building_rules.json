@@ -1,0 +1,1749 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-12T01:56:24+08:00",
+  "default_same_name_limit": 4,
+  "rules": [
+    {
+      "type": "same_name_limit",
+      "name_jp": "黒い仔山羊",
+      "names_jp": [
+        "黒い仔山羊"
+      ],
+      "limit": 5,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "OVL/S99-047",
+          "file": "ovl_cards.json",
+          "title_code": "OVL",
+          "title_name_zh": "OVERLORD",
+          "name_jp": "黒い仔山羊",
+          "name_zh": "黑色小山羊",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに5枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡，牌組中最多可放入5張。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“調停者”メラクェラ",
+      "names_jp": [
+        "“調停者”メラクェラ"
+      ],
+      "limit": 7,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "RZ/SE35-45",
+          "file": "rz_cards.json",
+          "title_code": "RZ/S46",
+          "title_name_zh": "Re:從零開始的異世界生活",
+          "name_jp": "“調停者”メラクェラ",
+          "name_zh": "“調停者”メラクェラ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに7枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "宇宙のバランス サノス",
+      "names_jp": [
+        "宇宙のバランス サノス"
+      ],
+      "limit": 8,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "MAR/S89-070",
+          "file": "mar_cards.json",
+          "title_code": "MAR/S89",
+          "title_name_zh": "MARVEL",
+          "name_jp": "宇宙のバランス サノス",
+          "name_zh": "宇宙のバランス サノス",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに8枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "羽型のあざ",
+      "names_jp": [
+        "羽型のあざ"
+      ],
+      "limit": 10,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "VR/W22-074",
+          "file": "vr_cards.json",
+          "title_code": "VR",
+          "title_name_zh": "Vividred Operation",
+          "name_jp": "羽型のあざ",
+          "name_zh": "羽型のあざ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに10枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ゴブリン近衛隊",
+      "names_jp": [
+        "ゴブリン近衛隊"
+      ],
+      "limit": 13,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "OVL/S99-086",
+          "file": "ovl_cards.json",
+          "title_code": "OVL",
+          "title_name_zh": "OVERLORD",
+          "name_jp": "ゴブリン近衛隊",
+          "name_zh": "哥布林近衛隊",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに13枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡，牌組中最多可放入13張。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ポンゴとパディータの子どもたち",
+      "names_jp": [
+        "ポンゴとパディータの子どもたち"
+      ],
+      "limit": 15,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "Dds/S104-016",
+          "file": "dds_cards.json",
+          "title_code": "Dds",
+          "title_name_zh": "Disney100",
+          "name_jp": "ポンゴとパディータの子どもたち",
+          "name_zh": "ポンゴとパディータの子どもたち",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに15枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“トリック・オア・トラブル”杉並",
+      "names_jp": [
+        "“トリック・オア・トラブル”杉並"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "DC/W81-006",
+          "file": "dc_cards.json",
+          "title_code": "DC/W01",
+          "title_name_zh": "D.C.＆Dal Segno",
+          "name_jp": "“トリック・オア・トラブル”杉並",
+          "name_zh": "“トリック・オア・トラブル”杉並",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“侵攻”巨人",
+      "names_jp": [
+        "“侵攻”巨人"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "AOT/S35-095",
+          "file": "aot_cards.json",
+          "title_code": "AOT",
+          "title_name_zh": "進擊的巨人",
+          "name_jp": "“侵攻”巨人",
+          "name_zh": "“侵攻”巨人",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 你的牌組中可以有任意數量的與此卡同名的卡。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“害虫の王”テラフォーマー",
+      "names_jp": [
+        "“害虫の王”テラフォーマー"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "TF/S32-T02",
+          "file": "tf_cards.json",
+          "title_code": "TF",
+          "title_name_zh": "火星異種",
+          "name_jp": "“害虫の王”テラフォーマー",
+          "name_zh": "“害虫の王”テラフォーマー",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡卡名相同的卡可以在牌組中放入任意張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“忌むべき存在”テラフォーマー",
+      "names_jp": [
+        "“忌むべき存在”テラフォーマー"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "TF/S32-084",
+          "file": "tf_cards.json",
+          "title_code": "TF",
+          "title_name_zh": "火星異種",
+          "name_jp": "“忌むべき存在”テラフォーマー",
+          "name_zh": "“忌むべき存在”テラフォーマー",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡卡名相同的卡可以在牌組中放入任意張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“捕食”巨人",
+      "names_jp": [
+        "“捕食”巨人"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "AOT/S35-094",
+          "file": "aot_cards.json",
+          "title_code": "AOT",
+          "title_name_zh": "進擊的巨人",
+          "name_jp": "“捕食”巨人",
+          "name_zh": "“捕食”巨人",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 你的牌組中可以有任意數量的與此卡同名的卡。"
+        },
+        {
+          "id": "AOT/S50-095",
+          "file": "aot_cards.json",
+          "title_code": "AOT",
+          "title_name_zh": "進擊的巨人",
+          "name_jp": "“捕食”巨人",
+          "name_zh": "“捕食”巨人",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 你的牌組中可以有任意數量的與此卡同名的卡。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "エクスカベータ",
+      "names_jp": [
+        "エクスカベータ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "ND/W67-088",
+          "file": "nta_cards.json",
+          "title_code": "N1/WE06",
+          "title_name_zh": "魔法少女奈葉",
+          "name_jp": "エクスカベータ",
+          "name_zh": "エクスカベータ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ゴブリン軍楽隊",
+      "names_jp": [
+        "ゴブリン軍楽隊"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "OVL/S99-090",
+          "file": "ovl_cards.json",
+          "title_code": "OVL",
+          "title_name_zh": "OVERLORD",
+          "name_jp": "ゴブリン軍楽隊",
+          "name_zh": "哥布林軍樂隊",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ゴブリン重装甲歩兵団",
+      "names_jp": [
+        "ゴブリン重装甲歩兵団"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "OVL/S99-093",
+          "file": "ovl_cards.json",
+          "title_code": "OVL",
+          "title_name_zh": "OVERLORD",
+          "name_jp": "ゴブリン重装甲歩兵団",
+          "name_zh": "哥布林重裝甲步兵團",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "セルポ星人",
+      "names_jp": [
+        "セルポ星人"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "DDD/S118-086",
+          "file": "ddd_cards.json",
+          "title_code": "DDD/S118",
+          "title_name_zh": "膽大黨",
+          "name_jp": "セルポ星人",
+          "name_zh": "セルポ星人",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "バジュラ（大）",
+      "names_jp": [
+        "バジュラ（大）"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "MF/S13-034",
+          "file": "mf_cards.json",
+          "title_code": "MF",
+          "title_name_zh": "超時空要塞系列",
+          "name_jp": "バジュラ（大）",
+          "name_zh": "バジュラ（大）",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡可以在牌組中放入任意張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "バジュラ（小）",
+      "names_jp": [
+        "バジュラ（小）"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "MF/S13-040",
+          "file": "mf_cards.json",
+          "title_code": "MF",
+          "title_name_zh": "超時空要塞系列",
+          "name_jp": "バジュラ（小）",
+          "name_zh": "バジュラ（小）",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 你的牌組中可以有任意數量的與此卡同名的卡。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "亜人の軍勢",
+      "names_jp": [
+        "亜人の軍勢"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "OVL/SE51-11",
+          "file": "ovl_cards.json",
+          "title_code": "OVL",
+          "title_name_zh": "OVERLORD",
+          "name_jp": "亜人の軍勢",
+          "name_zh": "亞人的軍勢",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "伊吹萃香",
+      "names_jp": [
+        "伊吹萃香"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "THP/S130-T16",
+          "file": "thp_cards.json",
+          "title_code": "THP/S130",
+          "title_name_zh": "東方Project",
+          "name_jp": "伊吹萃香",
+          "name_zh": "伊吹萃香",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "分身体 狂三",
+      "names_jp": [
+        "分身体 狂三"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "DAL/W79-018",
+          "file": "dal_cards.json",
+          "title_code": "DAL/W79",
+          "title_name_zh": "約會大作戰",
+          "name_jp": "分身体 狂三",
+          "name_zh": "分身體 狂三",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "指先",
+      "names_jp": [
+        "指先"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "RZ/S55-015",
+          "file": "rz_cards.json",
+          "title_code": "RZ/S46",
+          "title_name_zh": "Re:從零開始的異世界生活",
+          "name_jp": "指先",
+          "name_zh": "指先",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "泥の英霊",
+      "names_jp": [
+        "泥の英霊"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "PI/SE31-15",
+          "file": "pi_cards.json",
+          "title_code": "PI/SE18",
+          "title_name_zh": "Fate/kaleid liner 魔法少女☆伊莉雅",
+          "name_jp": "泥の英霊",
+          "name_zh": "泥的英霊",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "湖上の氷精 チルノ",
+      "names_jp": [
+        "湖上の氷精 チルノ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "THP/S130-091",
+          "file": "thp_cards.json",
+          "title_code": "THP/S130",
+          "title_name_zh": "東方Project",
+          "name_jp": "湖上の氷精 チルノ",
+          "name_zh": "湖上の氷精 チルノ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "無限の〈ニベルコル〉",
+      "names_jp": [
+        "無限の〈ニベルコル〉"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "DAL/W131-088",
+          "file": "dal_cards.json",
+          "title_code": "DAL/W79",
+          "title_name_zh": "約會大作戰",
+          "name_jp": "無限の〈ニベルコル〉",
+          "name_zh": "無限の〈ニベルコル〉",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "見えざる手",
+      "names_jp": [
+        "見えざる手"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "RZ/S55-008",
+          "file": "rz_cards.json",
+          "title_code": "RZ/S46",
+          "title_name_zh": "Re:從零開始的異世界生活",
+          "name_jp": "見えざる手",
+          "name_zh": "見えざる手",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "豚頭将軍",
+      "names_jp": [
+        "豚頭将軍"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "TSK/S70-022",
+          "file": "tsk_cards.json",
+          "title_code": "TSK",
+          "title_name_zh": "關於我轉生變成史萊姆這檔事",
+          "name_jp": "豚頭将軍",
+          "name_zh": "豚頭將軍",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡卡名相同的卡，可以在牌組中放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "豚頭族",
+      "names_jp": [
+        "豚頭族"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "TSK/S70-019",
+          "file": "tsk_cards.json",
+          "title_code": "TSK",
+          "title_name_zh": "關於我轉生變成史萊姆這檔事",
+          "name_jp": "豚頭族",
+          "name_zh": "豚頭族",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 與此卡卡名相同的卡，可以在牌組中放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "量産型イリス",
+      "names_jp": [
+        "量産型イリス"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "ND/W67-083",
+          "file": "nta_cards.json",
+          "title_code": "N1/WE06",
+          "title_name_zh": "魔法少女奈葉",
+          "name_jp": "量産型イリス",
+          "name_zh": "量産型イリス",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "黒の兵士",
+      "names_jp": [
+        "黒の兵士"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "CC/S48-039",
+          "file": "cc_cards.json",
+          "title_code": "CC",
+          "title_name_zh": "鎖鏈戰記 ～赫克瑟塔斯之光～",
+          "name_jp": "黒の兵士",
+          "name_zh": "黑的兵士",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": "【永】 你的牌組中可以有任意數量的與此卡同名的卡。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "黒水",
+      "names_jp": [
+        "黒水"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "RZ/SE35-46",
+          "file": "rz_cards.json",
+          "title_code": "RZ/S46",
+          "title_name_zh": "Re:從零開始的異世界生活",
+          "name_jp": "黒水",
+          "name_zh": "黑水",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "Beat Eater/Awake Now",
+        "えむ流？ダンスの極意！ 小豆沢こはね"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "PJS/S109-114",
+          "file": "pjs_cards.json",
+          "title_code": "PJS",
+          "title_name_zh": "世界計畫 繽紛舞台！",
+          "name_jp": "えむ流？ダンスの極意！ 小豆沢こはね",
+          "name_zh": "えむ流？ダンスの極意！ 小豆沢こはね",
+          "rule_text_jp": "このカードと同じカード名のカードと、「Beat Eater/Awake Now」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「Beat Eater/Awake Now」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "Change the world！",
+        "世界を変える音"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-105",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "世界を変える音",
+          "name_zh": "改變世界的聲音",
+          "rule_text_jp": "このカードと同じカード名のカードと、「Change the world！」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "』\n【永】 與此卡同卡名的卡與「Change the world！」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "Keep→it up♡ 市川雛菜",
+        "クリアマリンカーム 市川雛菜"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "ISC/SE53-52",
+          "file": "isc_cards.json",
+          "title_code": "ISC/S81",
+          "title_name_zh": "偶像大師 閃耀色彩",
+          "name_jp": "Keep→it up♡ 市川雛菜",
+          "name_zh": "Keep→it up♡ 市川雛菜",
+          "rule_text_jp": "このカードと同じカード名のカードと、「クリアマリンカーム 市川雛菜」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "M@STERS OF IDOL WORLD!!2015",
+        "ザ☆ワイルドストロベリー　萩原雪歩"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE52-70",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ザ☆ワイルドストロベリー　萩原雪歩",
+          "name_zh": "ザ☆ワイルドストロベリー　萩原雪歩",
+          "rule_text_jp": "このカードと同じカード名のカードと、「M@STERS OF IDOL WORLD!!2015」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL あずさ",
+        "ステージへの決意 あずさ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-005",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL あずさ",
+          "name_zh": "ONE FOR ALL あずさ",
+          "rule_text_jp": "このカードと同じカード名のカードと、「ステージへの決意 あずさ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL やよい",
+        "みんなのアイドルやよい"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-008",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL やよい",
+          "name_zh": "ONE FOR ALL やよい",
+          "rule_text_jp": "このカードと同じカード名のカードと、「みんなのアイドルやよい」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 亜美",
+        "輝きの向こう側へ！ 亜美"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-004",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 亜美",
+          "name_zh": "ONE FOR ALL 亞美",
+          "rule_text_jp": "このカードと同じカード名のカードと、「輝きの向こう側へ！ 亜美」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 伊織",
+        "“今を大切に”伊織"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-006",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 伊織",
+          "name_zh": "ONE FOR ALL 伊織",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“今を大切に”伊織」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 千早",
+        "クールでストイック千早"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-012",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 千早",
+          "name_zh": "ONE FOR ALL 千早",
+          "rule_text_jp": "このカードと同じカード名のカードと、「クールでストイック千早」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 小鳥",
+        "朝礼 小鳥"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-001",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 小鳥",
+          "name_zh": "ONE FOR ALL 小鳥",
+          "rule_text_jp": "このカードと同じカード名のカードと、「朝礼 小鳥」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 律子",
+        "頭脳明晰 律子"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-011",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 律子",
+          "name_zh": "ONE FOR ALL 律子",
+          "rule_text_jp": "このカードと同じカード名のカードと、「頭脳明晰 律子」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 春香",
+        "天海 春香"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-007",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 春香",
+          "name_zh": "ONE FOR ALL 春香",
+          "rule_text_jp": "このカードと同じカード名のカードと、「天海 春香」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 真",
+        "スーパーレディ 真"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-014",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 真",
+          "name_zh": "ONE FOR ALL 真",
+          "rule_text_jp": "このカードと同じカード名のカードと、「スーパーレディ 真」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 真美",
+        "輝きの向こう側へ！ 真美"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-003",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 真美",
+          "name_zh": "ONE FOR ALL 真美",
+          "rule_text_jp": "このカードと同じカード名のカードと、「輝きの向こう側へ！ 真美」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 美希",
+        "“今を大切に”美希"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-010",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 美希",
+          "name_zh": "ONE FOR ALL 美希",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“今を大切に”美希」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 貴音",
+        "“今を大切に”貴音"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-013",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 貴音",
+          "name_zh": "ONE FOR ALL 貴音",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“今を大切に”貴音」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 雪歩",
+        "先輩として雪歩"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-002",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 雪歩",
+          "name_zh": "ONE FOR ALL 雪步",
+          "rule_text_jp": "このカードと同じカード名のカードと、「先輩として雪歩」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ONE FOR ALL 響",
+        "“今を大切に”響"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE27-009",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ONE FOR ALL 響",
+          "name_zh": "ONE FOR ALL 響",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“今を大切に”響」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“Astral Harmony”倉田ましろ",
+        "平凡な私でも 倉田ましろ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-100",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "平凡な私でも 倉田ましろ",
+          "name_zh": "即使是平凡的我 倉田真白",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“Astral Harmony”倉田ましろ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「「Astral Harmony」倉田真白」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“Astral Harmony”広町七深",
+        "普通じゃなくても 広町七深"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-016",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "普通じゃなくても 広町七深",
+          "name_zh": "即使不普通也無妨 廣町七深",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“Astral Harmony”広町七深」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「“Astral Harmony”廣町七深」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“Rausch und/and Craziness Ⅱ”湊友希那",
+        "青薔薇の歌姫 湊友希那"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-075",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "青薔薇の歌姫 湊友希那",
+          "name_zh": "青薔薇的歌姬 湊友希那",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“Rausch und/and Craziness Ⅱ”湊友希那」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「“Rausch und/and Craziness Ⅱ”湊友希那」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“ふふん、任せて！”二葉つくし",
+        "自信満々な努力家 二葉つくし"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-079",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "自信満々な努力家 二葉つくし",
+          "name_zh": "自信滿滿的努力家 二葉筑紫",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“ふふん、任せて！”二葉つくし」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「「哼哼，交給我吧！」二葉筑紫」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“キズナの音楽”花園たえ",
+        "ウサギ好き 花園たえ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-087",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "ウサギ好き 花園たえ",
+          "name_zh": "喜歡兔子 花園多惠",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“キズナの音楽”花園たえ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「「羈絆的音樂」花園多惠」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“ナイトメア・オア・クイーン”狂三",
+        "あの時のコースで 狂三"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "DAL/W131-P01",
+          "file": "dal_cards.json",
+          "title_code": "DAL/W79",
+          "title_name_zh": "約會大作戰",
+          "name_jp": "あの時のコースで 狂三",
+          "name_zh": "あの時のコースで 狂三",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“ナイトメア・オア・クイーン”狂三」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“パジャマパーティー”叶星",
+        "庭園の護り人 叶星"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "ALL/S127-P06",
+          "file": "all_cards.json",
+          "title_code": "ALL/S76",
+          "title_name_zh": "突擊莉莉",
+          "name_jp": "庭園の護り人 叶星",
+          "name_zh": "庭園の護り人 叶星",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“パジャマパーティー”叶星」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“ラグナロクブレイカー”はやて",
+        "満身創痍 はやて"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "ND/W67-107",
+          "file": "nta_cards.json",
+          "title_code": "N1/WE06",
+          "title_name_zh": "魔法少女奈葉",
+          "name_jp": "満身創痍 はやて",
+          "name_zh": "満身創痍 はやて",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“ラグナロクブレイカー”はやて」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“世界を彩る役者”瀬田薫",
+        "運命を共に 瀬田薫"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-008",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "運命を共に 瀬田薫",
+          "name_zh": "與命運同行 瀨田薰",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“世界を彩る役者”瀬田薫」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「「妝點世界的演員」瀨田薰」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“受け止めたい思い”青葉モカ",
+        "継続してきた演奏 青葉モカ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-052",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "継続してきた演奏 青葉モカ",
+          "name_zh": "堅持不懈的演奏 青葉摩卡",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“受け止めたい思い”青葉モカ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「「想要接住的心意」青葉摩卡」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“真祖”シャルティア",
+        "ヴァンパイア・ブライド"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "OVL/SE54-48",
+          "file": "ovl_cards.json",
+          "title_code": "OVL",
+          "title_name_zh": "OVERLORD",
+          "name_jp": "“真祖”シャルティア",
+          "name_zh": "「真祖」夏提雅",
+          "rule_text_jp": "このカードと同じカード名のカードと、「ヴァンパイア・ブライド」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同名的卡與「吸血鬼新娘」，牌組中合計最多可放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "“短冊の行方”氷川日菜",
+        "不思議だから大好き 氷川日菜"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-038",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "不思議だから大好き 氷川日菜",
+          "name_zh": "正因不可思議才喜歡 氷川日菜",
+          "rule_text_jp": "このカードと同じカード名のカードと、「“短冊の行方”氷川日菜」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「「短籤的去向」氷川日菜」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "かつて見た星空 星乃一歌",
+        "フロムトーキョー/流星のパルス"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "PJS/S109-116",
+          "file": "pjs_cards.json",
+          "title_code": "PJS",
+          "title_name_zh": "世界計畫 繽紛舞台！",
+          "name_jp": "かつて見た星空 星乃一歌",
+          "name_zh": "かつて見た星空 星乃一歌",
+          "rule_text_jp": "このカードと同じカード名のカードと、「フロムトーキョー/流星のパルス」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「フロムトーキョー/流星のパルス」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ちびひまり",
+        "楽園へようこそ ひまり"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "DS/W81-P04",
+          "file": "dc_cards.json",
+          "title_code": "DC/W01",
+          "title_name_zh": "D.C.＆Dal Segno",
+          "name_jp": "楽園へようこそ ひまり",
+          "name_zh": "楽園へようこそ ひまり",
+          "rule_text_jp": "このカードと同じカード名のカードと、「ちびひまり」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "わたしが一番！ 花海咲季",
+        "夏を満喫するわよ！ 花海咲季"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "GIM/W124-P05",
+          "file": "gim_cards.json",
+          "title_code": "GIM",
+          "title_name_zh": "學園偶像大師",
+          "name_jp": "夏を満喫するわよ！ 花海咲季",
+          "name_zh": "夏を満喫するわよ！ 花海咲季",
+          "rule_text_jp": "このカードと同じカード名のカードと、「わたしが一番！ 花海咲季」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「わたしが一番！ 花海咲季」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "アイノマテリアル/アイスドロップ",
+        "仲間達からの祝福 花里みのり"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "PJS/S109-113",
+          "file": "pjs_cards.json",
+          "title_code": "PJS",
+          "title_name_zh": "世界計畫 繽紛舞台！",
+          "name_jp": "仲間達からの祝福 花里みのり",
+          "name_zh": "仲間達からの祝福 花里みのり",
+          "rule_text_jp": "このカードと同じカード名のカードと、「アイノマテリアル/アイスドロップ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「アイノマテリアル/アイスドロップ」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "イラつくあいつ",
+        "水辺の休憩所"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-104",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "水辺の休憩所",
+          "name_zh": "水邊的休息所",
+          "rule_text_jp": "このカードと同じカード名のカードと、「イラつくあいつ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "』（若不然則放回原處）\n【永】 與此卡同卡名的卡與「令人火大的那傢伙」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "オーバー・マイセルフ 渋谷 凛",
+        "渋谷 凛"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IMC/W115-P02",
+          "file": "imc_cards.json",
+          "title_code": "IMC/W41",
+          "title_name_zh": "偶像大師 灰姑娘女孩",
+          "name_jp": "オーバー・マイセルフ 渋谷 凛",
+          "name_zh": "オーバー・マイセルフ 渋谷 凛",
+          "rule_text_jp": "このカードと同じカード名のカードと、「渋谷 凛」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        },
+        {
+          "id": "IMC/W115-T30",
+          "file": "imc_cards.json",
+          "title_code": "IMC/W41",
+          "title_name_zh": "偶像大師 灰姑娘女孩",
+          "name_jp": "オーバー・マイセルフ 渋谷 凛",
+          "name_zh": "オーバー・マイセルフ 渋谷 凛",
+          "rule_text_jp": "このカードと同じカード名のカードと、「渋谷 凛」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "カナデトモスソラ/再生",
+        "音楽が見せてくれる世界 宵崎奏"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "PJS/S109-115",
+          "file": "pjs_cards.json",
+          "title_code": "PJS",
+          "title_name_zh": "世界計畫 繽紛舞台！",
+          "name_jp": "音楽が見せてくれる世界 宵崎奏",
+          "name_zh": "音楽が見せてくれる世界 宵崎奏",
+          "rule_text_jp": "このカードと同じカード名のカードと、「カナデトモスソラ/再生」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「カナデトモスソラ/再生」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ザ☆ワイルドストロベリー　三浦あずさ",
+        "輝きの向こう側へ！ あずさ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE52-73",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ザ☆ワイルドストロベリー　三浦あずさ",
+          "name_zh": "ザ☆ワイルドストロベリー　三浦あずさ",
+          "rule_text_jp": "このカードと同じカード名のカードと、「輝きの向こう側へ！ あずさ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ザ☆ワイルドストロベリー　星井美希",
+        "輝きの向こう側へ！ 美希"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IM/SE52-64",
+          "file": "im_cards.json",
+          "title_code": "IM/S07",
+          "title_name_zh": "偶像大師",
+          "name_jp": "ザ☆ワイルドストロベリー　星井美希",
+          "name_zh": "ザ☆ワイルドストロベリー　星井美希",
+          "rule_text_jp": "このカードと同じカード名のカードと、「輝きの向こう側へ！ 美希」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ステージ裏での激励 天馬司",
+        "トンデモワンダーズ/Glory Steady Go!"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "PJS/S109-112",
+          "file": "pjs_cards.json",
+          "title_code": "PJS",
+          "title_name_zh": "世界計畫 繽紛舞台！",
+          "name_jp": "ステージ裏での激励 天馬司",
+          "name_zh": "ステージ裏での激励 天馬司",
+          "rule_text_jp": "このカードと同じカード名のカードと、「トンデモワンダーズ/Glory Steady Go!」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「トンデモワンダーズ/Glory Steady Go!」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "スパークドリンク",
+        "超々∞MUGENDAI　エミリー"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IMS/SE55-75",
+          "file": "ias_cards.json",
+          "title_code": "IAS/S61",
+          "title_name_zh": "偶像大師 百萬人演唱會！",
+          "name_jp": "超々∞MUGENDAI　エミリー",
+          "name_zh": "超々∞MUGENDAI　エミリー",
+          "rule_text_jp": "このカードと同じカード名のカードと、「スパークドリンク」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "トロピカルガール たきな",
+        "ファーストリコリス フキ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "LRC/WE47-37",
+          "file": "lrc_cards.json",
+          "title_code": "LRC",
+          "title_name_zh": "莉可麗絲",
+          "name_jp": "トロピカルガール たきな",
+          "name_zh": "トロピカルガール たきな",
+          "rule_text_jp": "このカードと同じカード名のカードと、「ファーストリコリス フキ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「ファーストリコリス フキ」，合計最多可以在牌組中放入4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ハッピーハロウィン♪ 有咲",
+        "素直な笑顔 市ヶ谷有咲"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "BD/WE42-082",
+          "file": "mygo_cards.json",
+          "title_code": "BD/W125",
+          "title_name_zh": "MyGO!!!!!",
+          "name_jp": "素直な笑顔 市ヶ谷有咲",
+          "name_zh": "率直的笑容 市谷有咲",
+          "rule_text_jp": "このカードと同じカード名のカードと、「ハッピーハロウィン♪ 有咲」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": "【永】 與此卡同卡名的卡與「快樂萬聖節♪ 有咲」，合計最多可放入牌組4張。"
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "フラスタ",
+        "超々∞MUGENDAI　伊吹 翼"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IMS/SE55-71",
+          "file": "ias_cards.json",
+          "title_code": "IAS/S61",
+          "title_name_zh": "偶像大師 百萬人演唱會！",
+          "name_jp": "超々∞MUGENDAI　伊吹 翼",
+          "name_zh": "超々∞MUGENDAI　伊吹 翼",
+          "rule_text_jp": "このカードと同じカード名のカードと、「フラスタ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "ホラー大好き 小梅",
+        "ホワイトスノードール 白坂小梅"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IMC/W115-T31",
+          "file": "imc_cards.json",
+          "title_code": "IMC/W41",
+          "title_name_zh": "偶像大師 灰姑娘女孩",
+          "name_jp": "ホワイトスノードール 白坂小梅",
+          "name_zh": "ホワイトスノードール 白坂小梅",
+          "rule_text_jp": "このカードと同じカード名のカードと、「ホラー大好き 小梅」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "メイクミー・キスユー 赤城みりあ",
+        "赤城 みりあ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IMC/W115-T51",
+          "file": "imc_cards.json",
+          "title_code": "IMC/W41",
+          "title_name_zh": "偶像大師 灰姑娘女孩",
+          "name_jp": "メイクミー・キスユー 赤城みりあ",
+          "name_zh": "メイクミー・キスユー 赤城みりあ",
+          "rule_text_jp": "このカードと同じカード名のカードと、「赤城 みりあ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "リバーシブル・トースト 田中摩美々",
+        "紺碧のボーダーライン 白瀬咲耶"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "ISC/SE53-61",
+          "file": "isc_cards.json",
+          "title_code": "ISC/S81",
+          "title_name_zh": "偶像大師 閃耀色彩",
+          "name_jp": "リバーシブル・トースト 田中摩美々",
+          "name_zh": "リバーシブル・トースト 田中摩美々",
+          "rule_text_jp": "このカードと同じカード名のカードと、「紺碧のボーダーライン 白瀬咲耶」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "一切衆生慈恵嘱目装 ガレヲン",
+        "六竜の『金』 ガレヲン"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "GBF/S134-P03",
+          "file": "gbf_cards.json",
+          "title_code": "GBF/S134",
+          "title_name_zh": "碧藍幻想",
+          "name_jp": "一切衆生慈恵嘱目装 ガレヲン",
+          "name_zh": "一切衆生慈恵嘱目装 ガレヲン",
+          "rule_text_jp": "このカードと同じカード名のカードと、「六竜の『金』 ガレヲン」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "北の守護神 ビカラ",
+        "祭夜の子神 ビカラ"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "GBF/S134-P02",
+          "file": "gbf_cards.json",
+          "title_code": "GBF/S134",
+          "title_name_zh": "碧藍幻想",
+          "name_jp": "祭夜の子神 ビカラ",
+          "name_zh": "祭夜の子神 ビカラ",
+          "rule_text_jp": "このカードと同じカード名のカードと、「北の守護神 ビカラ」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "心に秘めた葛藤 音夢",
+        "花より団子 音夢"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "DC/W128-059",
+          "file": "dc_cards.json",
+          "title_code": "DC/W01",
+          "title_name_zh": "D.C.＆Dal Segno",
+          "name_jp": "心に秘めた葛藤 音夢",
+          "name_zh": "心に秘めた葛藤 音夢",
+          "rule_text_jp": "このカードと同じカード名のカードと、「花より団子 音夢」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "木琴占い",
+        "選挙ポスター撮影"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "DC/W128-096",
+          "file": "dc_cards.json",
+          "title_code": "DC/W01",
+          "title_name_zh": "D.C.＆Dal Segno",
+          "name_jp": "選挙ポスター撮影",
+          "name_zh": "選挙ポスター撮影",
+          "rule_text_jp": "このカードと同じカード名のカードと、「木琴占い」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "combined_name_limit",
+      "names_jp": [
+        "覚醒アイテム～Princess～",
+        "超々∞MUGENDAI　春日未来"
+      ],
+      "limit": 4,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "IMS/SE55-76",
+          "file": "ias_cards.json",
+          "title_code": "IAS/S61",
+          "title_name_zh": "偶像大師 百萬人演唱會！",
+          "name_jp": "超々∞MUGENDAI　春日未来",
+          "name_zh": "超々∞MUGENDAI　春日未來",
+          "rule_text_jp": "このカードと同じカード名のカードと、「覚醒アイテム～Princess～」は、デッキに合計4枚まで入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    }
+  ]
+}

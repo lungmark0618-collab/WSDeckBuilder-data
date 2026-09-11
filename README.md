@@ -6,6 +6,8 @@
 ```
 cards/             各作品卡表（App 逐部比對 data_version，只下載有變動的）
 manifest.json      卡表版本目錄，由 CI 自動產生，不要手改
+deck_building_rules.json
+                  組牌限制例外表（同名卡任意張、同名卡最多 N 張、複數卡名合計限制）
 announcements.json 開發者通知（App 右上角鈴鐺），手動編輯，不用重新上架
 tools/             產生與檢查 manifest 的腳本、加通知的小工具
 ```
