@@ -37,9 +37,17 @@ def main():
             dedup[key] = item
     merged = sorted(dedup.values(), key=lambda x: x.get("date", ""), reverse=True)[:MAX_ITEMS]
 
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
+    if not merged:
+        raise ValueError("公告清單為空，拒絕覆蓋已發布資料")
+    for item in merged:
+        if not all(item.get(key) for key in ("date", "title_jp", "url")):
+            raise ValueError("公告缺少必要欄位，拒絕發布")
+        if not item["url"].startswith(("https://", "http://")):
+            raise ValueError("公告網址無效，拒絕發布")
+    with open(OUT_PATH + ".tmp", "w", encoding="utf-8") as f:
         json.dump({"items": merged}, f, ensure_ascii=False, indent=1)
         f.write("\n")
+    os.replace(OUT_PATH + ".tmp", OUT_PATH)
     print(f"合併完成，共 {len(merged)} 則 → {OUT_PATH}")
 
 

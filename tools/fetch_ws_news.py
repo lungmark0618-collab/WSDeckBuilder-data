@@ -17,6 +17,8 @@ import re
 import sys
 import time
 import urllib.request
+from datetime import datetime, timezone
+from urllib.parse import urljoin
 
 from translate_ws_news import translate
 
@@ -49,11 +51,11 @@ def parse_items(html_text: str) -> list[dict]:
             "date": date_m.group(1),
             "categories": [html.unescape(c.strip()) for c in categories],
             "title_jp": title_jp,
-            "image_url": html.unescape(thumb_m.group(1)) if thumb_m else None,
+            "image_url": urljoin(BASE_URL, html.unescape(thumb_m.group(1))) if thumb_m else None,
             # 套版翻譯（見 translate_ws_news.py）；翻不出來就是 None，
             # App 端會自動退回顯示日文原文，不影響功能
             "title_zh": translate(title_jp),
-            "url": html.unescape(href_m.group(1)),
+            "url": urljoin(BASE_URL, html.unescape(href_m.group(1))),
             "source": "official",
         })
     return items
@@ -73,10 +75,10 @@ def main():
             body = fetch(url)
         except Exception as exc:
             print(f"抓第 {page} 頁失敗：{exc}", file=sys.stderr)
-            break
+            raise RuntimeError("抓取未完成，保留已發布公告") from exc
         page_items = parse_items(body)
         if not page_items:
-            break
+            raise RuntimeError(f"第 {page} 頁未解析到公告，可能官網改版；保留已發布公告")
         for item in page_items:
             key = (item["url"], item["date"], item["title_jp"])
             if key in seen_urls_dates:
@@ -88,7 +90,7 @@ def main():
 
     all_items.sort(key=lambda x: x["date"], reverse=True)
     out = {
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S+08:00"),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "items": all_items,
     }
     with open(args.out, "w", encoding="utf-8") as f:

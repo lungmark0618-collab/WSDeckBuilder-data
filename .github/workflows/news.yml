@@ -1,0 +1,45 @@
+name: 更新首頁公告
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'cards/ws_news_manual.json'
+      - 'tools/*ws_news.py'
+      - 'tools/test_ws_news.py'
+      - '.github/workflows/news.yml'
+permissions:
+  contents: write
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 驗證公告處理
+        run: python3 -m unittest discover -s tools -p 'test_ws_news.py'
+      - name: 抓取官方公告
+        run: python3 tools/fetch_ws_news.py --pages 2 --out cards/ws_news_auto.json
+      - name: 補齊商品資訊
+        run: python3 tools/enrich_ws_news.py --in cards/ws_news_auto.json
+      - name: 合併與驗證
+        run: python3 tools/make_ws_news.py
+      - name: 發布有變更的公告
+        run: |
+          if git diff --quiet -- ws_news.json; then
+            echo "公告沒有變動，不需要發布"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cards/ws_news_auto.json ws_news.json
+          git commit -m 'Update homepage news [skip ci]'
+          git push

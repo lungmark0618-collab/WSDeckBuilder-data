@@ -14,6 +14,7 @@
     python3 tools/enrich_ws_news.py --in cards/ws_news_auto.json
 """
 import argparse
+from pathlib import Path
 import html
 import json
 import re
@@ -94,6 +95,9 @@ def main():
     data = json.load(open(args.in_path, encoding="utf-8"))
     items = data["items"]
 
+    published = Path(__file__).resolve().parent.parent / "ws_news.json"
+    previous = json.loads(published.read_text(encoding="utf-8")) if published.exists() else {}
+    previous_by_url = {item["url"]: item for item in previous.get("items", [])}
     enriched = 0
     for item in items:
         if "/products/" not in item["url"]:
@@ -104,8 +108,9 @@ def main():
             page = fetch(item["url"])
         except Exception as exc:
             print(f"抓詳情失敗 {item['url']}：{exc}", file=sys.stderr)
-            item["highlights_zh"] = []
-            item["detail_image_url"] = None
+            old = previous_by_url.get(item["url"], {})
+            item["highlights_zh"] = old.get("highlights_zh", [])
+            item["detail_image_url"] = old.get("detail_image_url")
             continue
         highlights = extract_highlights(page)
         item["highlights_zh"] = highlights
