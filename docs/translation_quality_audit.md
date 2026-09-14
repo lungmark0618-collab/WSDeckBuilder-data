@@ -77,6 +77,14 @@ The bad news: 30 files contain high-risk machine-translation artifacts in effect
 - Standardized the wording to `放到回憶區`, including character, marker, face-down, and prevention clauses.
 - Remaining `化為回憶` hits in all card `text_zh`: 0.
 
+### 2026-09-14 50-Series Wording Cleanup
+
+- Repaired repeated translated wording across 50 selected series with the highest remaining name/text cleanup need.
+- Standardized common effect wording such as `這麼做了的話` to `若如此做了`, `最上方` to `最上面`, `格子` to `格位`, and `打出` to `使用`.
+- Repaired remaining `送入回憶區` wording to `放到回憶區` across all card data files.
+- Repaired fixed marker wording `【永】若有 此卡下方標記` to `【永】 若此卡下方有標記`.
+- Regenerated `manifest.json` and `deck_building_rules.json`.
+
 Remaining high-risk files after the first repair pass:
 
 | File | Series | Remaining High-Risk Cards |
