@@ -1,6 +1,17 @@
 {
  "items": [
   {
+   "date": "2026-09-15",
+   "categories": [],
+   "title_jp": "「ヴァイスシュヴァルツ オンライン」Steamストアページオープン！ウィッシュリスト登録受付も開始！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/15100009/%E3%80%90%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%80%91wso_store_open_bannar_1920x1080_jp-1-1024x576.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/5500/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
    "date": "2026-09-11",
    "categories": [
     "商品情報"
@@ -891,22 +902,6 @@
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
-  },
-  {
-   "date": "2026-04-17",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "トライアルデッキ［anemoi］更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/03/18190221/anemoi-1024x522.jpg",
-   "title_zh": "試打組［anemoi］更新",
-   "url": "https://ws-tcg.com/products/anm_td/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年5月1日（金）",
-    "整盒、售價 6,600 日圓（含稅）"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14135024/td_anemoi.png"
   }
  ]
 }
