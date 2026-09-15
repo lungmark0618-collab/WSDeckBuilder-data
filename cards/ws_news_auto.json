@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-09-15T04:59:36.434116+00:00",
+ "generated_at": "2026-09-15T11:50:22.043039+00:00",
  "items": [
+  {
+   "date": "2026-09-15",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［「勝利の女神：NIKKE Vol.2」］掲載",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/15164909/ws_nik_vol2-1024x576.png",
+   "title_zh": "補充包［「勝利の女神：NIKKE Vol.2」］卡表刊載",
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=564",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-09-15",
    "categories": [],
@@ -886,19 +899,6 @@
    "title_jp": "総合ルール更新",
    "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
    "title_zh": "綜合規則更新",
-   "url": "https://ws-tcg.com/rules/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-17",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "デッキ構築ルール更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "牌組構築規則更新",
    "url": "https://ws-tcg.com/rules/",
    "source": "official",
    "highlights_zh": [],
