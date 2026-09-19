@@ -1,6 +1,57 @@
 {
- "generated_at": "2026-09-16T11:43:07.558504+00:00",
+ "generated_at": "2026-09-19T04:42:35.094444+00:00",
  "items": [
+  {
+   "date": "2026-09-19",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［AEW：Forbidden Door］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/18163935/FD-636%C3%97324-before-1024x576.jpg",
+   "title_zh": "試打組［AEW：Forbidden Door］公開",
+   "url": "https://ws-tcg.com/products/tdfdaew/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年1月15日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/02/10181239/NEWTD_NOW-PRINTING-300x300b.png"
+  },
+  {
+   "date": "2026-09-19",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ［新日本プロレス：Forbidden Door］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/18163935/FD-636%C3%97324-before-1024x576.jpg",
+   "title_zh": "試打組［新日本プロレス：Forbidden Door］公開",
+   "url": "https://ws-tcg.com/products/tdfdnjpw/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年1月15日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/02/10181239/NEWTD_NOW-PRINTING-300x300b.png"
+  },
+  {
+   "date": "2026-09-19",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［新日本プロレス×AEW：Forbidden Door］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/18163935/FD-636%C3%97324-before-1024x576.jpg",
+   "title_zh": "補充包［新日本プロレス×AEW：Forbidden Door］公開",
+   "url": "https://ws-tcg.com/products/bpfd/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年1月15日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般117種+平行卡117種以上（暫定）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/03/30175429/BP_NOW-PRINTING_a-1-1-1.png"
+  },
   {
    "date": "2026-09-15",
    "categories": [
@@ -840,19 +891,6 @@
    "detail_image_url": null
   },
   {
-   "date": "2026-04-22",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "エラッタ更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "勘誤表更新",
-   "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
    "date": "2026-04-20",
    "categories": [
     "イベント"
@@ -874,32 +912,6 @@
    "image_url": "https://ws-tcg.com/wordpress/wp-content/themes/ws-tcg_re/assets/img/common/noimg.jpg",
    "title_zh": null,
    "url": "https://ws-tcg.com/information/4286/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-20",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "エラッタ更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "勘誤表更新",
-   "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-20",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "総合ルール更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "綜合規則更新",
-   "url": "https://ws-tcg.com/rules/",
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
