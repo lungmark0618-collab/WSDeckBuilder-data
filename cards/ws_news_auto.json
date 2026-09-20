@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-09-19T04:42:35.094444+00:00",
+ "generated_at": "2026-09-20T04:58:19.379416+00:00",
  "items": [
+  {
+   "date": "2026-09-20",
+   "categories": [
+    "イベント"
+   ],
+   "title_jp": "「ヴァイスシュヴァルツ オンライン」イベント試遊展示情報",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/20105223/WSO_ivent_shiyuu_kokuchi_bannar_00-1024x576.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/events/5575/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-09-19",
    "categories": [
@@ -899,19 +912,6 @@
    "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/17163037/%E5%88%9D%E5%BF%83%E8%80%85%E8%AC%9B%E7%BF%92%E4%BC%9A-1-1024x576.jpg",
    "title_zh": "「東方Project初心者講習会」 確定舉辦",
    "url": "https://ws-tcg.com/events/4273/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-20",
-   "categories": [
-    "お知らせ"
-   ],
-   "title_jp": "ゴールデンウィーク期間中のユーザーサポート窓口につきまして",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/themes/ws-tcg_re/assets/img/common/noimg.jpg",
-   "title_zh": null,
-   "url": "https://ws-tcg.com/information/4286/",
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
