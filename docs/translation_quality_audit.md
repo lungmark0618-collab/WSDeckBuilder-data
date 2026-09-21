@@ -222,3 +222,12 @@ The safer path is:
 - Trait references inside `《》` were compared with the Japanese source and remain unchanged.
 - Unsafe general-purpose machine translations were rejected after spot checks found proper-name errors; published text uses the WS terminology/rule engine and falls back to the complete Japanese line when uncertain.
 - Removed all occurrences of `化為回憶` and `送入回憶區`; the required wording is `放到回憶區`.
+
+## 2026-09-21 Remaining Official Series Import
+
+- Added all 32 additional title groups that currently contain cards in the official WS card-list API: 4,267 unique cards and 5,076 printings.
+- Four remaining official filter categories (`fd`, `gup`, `cpk`, and `sts`) currently return no cards, so no empty card files were published.
+- All 32 generated files passed structural validation with zero rejected cards and no card-ID overlap with the existing 128 title groups.
+- Trait references inside `《》` were compared with the Japanese source and remain unchanged for physical-card lookup.
+- Unsafe general-purpose machine translations were not used. When the WS terminology/rule engine could not translate a complete effect line safely, the complete Japanese line was retained instead of publishing a misleading partial translation.
+- Confirmed zero occurrences of `化為回憶` and `送入回憶區`; memory-zone wording remains `放到回憶區`.

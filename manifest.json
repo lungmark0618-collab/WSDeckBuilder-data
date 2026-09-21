@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-21T09:51:11+08:00",
- "notes": "新增五十部作品完整卡表與初版譯文",
+ "updated_at": "2026-09-21T18:04:10+08:00",
+ "notes": "新增32部官方現有作品初版譯文（4,267張卡）",
  "sets": [
   {
    "title_code": "5HY/W101",
@@ -51,6 +51,13 @@
    "file": "aot_cards.json",
    "data_version": 13,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/aot_cards.json"
+  },
+  {
+   "title_code": "APO/S53",
+   "title_name_zh": "Fate/Apocrypha",
+   "file": "apo_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/apo_cards.json"
   },
   {
    "title_code": "ARI/S103",
@@ -114,6 +121,13 @@
    "file": "bm_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bm_cards.json"
+  },
+  {
+   "title_code": "BR/SE06",
+   "title_name_zh": "黑岩射手",
+   "file": "br_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/br_cards.json"
   },
   {
    "title_code": "BRD/W139",
@@ -207,6 +221,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dct_cards.json"
   },
   {
+   "title_code": "DD/WE12",
+   "title_name_zh": "DOG DAYS",
+   "file": "dd_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dd_cards.json"
+  },
+  {
    "title_code": "DDD/S118",
    "title_name_zh": "膽大黨",
    "file": "ddd_cards.json",
@@ -228,11 +249,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dds_cards.json"
   },
   {
+   "title_code": "DG/S02",
+   "title_name_zh": "魔界戰記 Disgaea",
+   "file": "dg_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dg_cards.json"
+  },
+  {
    "title_code": "DJ/S97",
    "title_name_zh": "D4DJ",
    "file": "dj_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dj_cards.json"
+  },
+  {
+   "title_code": "DS2/SE16",
+   "title_name_zh": "電視動畫《惡魔倖存者2》",
+   "file": "ds2_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ds2_cards.json"
   },
   {
    "title_code": "EV",
@@ -270,6 +305,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ft_cards.json"
   },
   {
+   "title_code": "FXX/S57",
+   "title_name_zh": "DARLING in the FRANXX",
+   "file": "fxx_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/fxx_cards.json"
+  },
+  {
    "title_code": "GA01/S131",
    "title_name_zh": "GA文庫",
    "file": "ga_cards.json",
@@ -298,11 +340,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gbs_cards.json"
   },
   {
+   "title_code": "GC/S16",
+   "title_name_zh": "罪惡王冠",
+   "file": "gc_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gc_cards.json"
+  },
+  {
    "title_code": "GCR/SE48",
    "title_name_zh": "Girls Band Cry",
    "file": "gcr_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gcr_cards.json"
+  },
+  {
+   "title_code": "GF/W33",
+   "title_name_zh": "女友伴身邊",
+   "file": "gf_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gf_cards.json"
+  },
+  {
+   "title_code": "GG/S23",
+   "title_name_zh": "翠星上的加爾岡緹亞",
+   "file": "gg_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gg_cards.json"
   },
   {
    "title_code": "GGO/S59",
@@ -317,6 +380,13 @@
    "file": "gim_cards.json",
    "data_version": 11,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
+  },
+  {
+   "title_code": "GL/S52",
+   "title_name_zh": "天元突破紅蓮螺巖",
+   "file": "gl_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gl_cards.json"
   },
   {
    "title_code": "GRI/S112",
@@ -345,6 +415,13 @@
    "file": "gu_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gu_cards.json"
+  },
+  {
+   "title_code": "GZL/S54",
+   "title_name_zh": "動畫電影《GODZILLA》",
+   "file": "gzl_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gzl_cards.json"
   },
   {
    "title_code": "HLL",
@@ -417,11 +494,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kf_cards.json"
   },
   {
+   "title_code": "KG/SE07",
+   "title_name_zh": "刀語",
+   "file": "kg_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kg_cards.json"
+  },
+  {
    "title_code": "KGL",
    "title_name_zh": "輝夜姬想讓人告白",
    "file": "kgl_cards.json",
    "data_version": 4,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kgl_cards.json"
+  },
+  {
+   "title_code": "KI/S44",
+   "title_name_zh": "羈絆者",
+   "file": "ki_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ki_cards.json"
   },
   {
    "title_code": "KJ8/S123",
@@ -431,11 +522,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kj8_cards.json"
   },
   {
+   "title_code": "KLK/S27",
+   "title_name_zh": "KILL la KILL",
+   "file": "klk_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/klk_cards.json"
+  },
+  {
    "title_code": "KMD/W96",
    "title_name_zh": "小林家的龍女僕",
    "file": "kmd_cards.json",
    "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kmd_cards.json"
+  },
+  {
+   "title_code": "KMN/W51",
+   "title_name_zh": "動物朋友",
+   "file": "kmn_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kmn_cards.json"
   },
   {
    "title_code": "KMS/W133",
@@ -450,6 +555,13 @@
    "file": "knk_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/knk_cards.json"
+  },
+  {
+   "title_code": "KR/SE30",
+   "title_name_zh": "境界之輪迴",
+   "file": "kr_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kr_cards.json"
   },
   {
    "title_code": "KS/W49",
@@ -501,6 +613,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
   },
   {
+   "title_code": "LS/W05",
+   "title_name_zh": "幸運☆星",
+   "file": "ls_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ls_cards.json"
+  },
+  {
    "title_code": "LSF/WE39",
    "title_name_zh": "Love Live! Superstar!!",
    "file": "lsp_cards.json",
@@ -534,6 +653,13 @@
    "file": "mf_cards.json",
    "data_version": 10,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mf_cards.json"
+  },
+  {
+   "title_code": "MJS/S137",
+   "title_name_zh": "魔法少女的魔女審判",
+   "file": "mjs_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mjs_cards.json"
   },
   {
    "title_code": "MK/S11",
@@ -578,11 +704,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mygo_cards.json"
   },
   {
+   "title_code": "NGL/S58",
+   "title_name_zh": "遊戲人生",
+   "file": "ngl_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ngl_cards.json"
+  },
+  {
    "title_code": "NIK",
    "title_name_zh": "勝利女神：妮姬",
    "file": "nik_cards.json",
    "data_version": 4,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nik_cards.json"
+  },
+  {
+   "title_code": "NJ/WE11",
+   "title_name_zh": "日常",
+   "file": "nj_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nj_cards.json"
   },
   {
    "title_code": "NK",
@@ -604,6 +744,13 @@
    "file": "nta_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nta_cards.json"
+  },
+  {
+   "title_code": "OMS/S41",
+   "title_name_zh": "阿松",
+   "file": "oms_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/oms_cards.json"
   },
   {
    "title_code": "OSK",
@@ -634,6 +781,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pad_cards.json"
   },
   {
+   "title_code": "PD/S22",
+   "title_name_zh": "初音未來 -Project DIVA-",
+   "file": "pd_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pd_cards.json"
+  },
+  {
    "title_code": "PI/SE18",
    "title_name_zh": "Fate/kaleid liner 魔法少女☆伊莉雅",
    "file": "pi_cards.json",
@@ -646,6 +800,13 @@
    "file": "pjs_cards.json",
    "data_version": 24,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
+  },
+  {
+   "title_code": "PP/SE14",
+   "title_name_zh": "PSYCHO-PASS 心靈判官",
+   "file": "pp_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pp_cards.json"
   },
   {
    "title_code": "PRD/W84",
@@ -669,11 +830,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pxr_cards.json"
   },
   {
+   "title_code": "PY/S38",
+   "title_name_zh": "魔法氣泡",
+   "file": "py_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/py_cards.json"
+  },
+  {
    "title_code": "RKN/S115",
    "title_name_zh": "神劍闖江湖 -明治劍客浪漫譚-",
    "file": "rkn_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rkn_cards.json"
+  },
+  {
+   "title_code": "RN/W16",
+   "title_name_zh": "ROBOTICS;NOTES 機器人筆記",
+   "file": "rn_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rn_cards.json"
   },
   {
    "title_code": "RSK/SE44",
@@ -704,6 +879,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sao_cards.json"
   },
   {
+   "title_code": "SB/S06",
+   "title_name_zh": "戰國BASARA",
+   "file": "sb_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sb_cards.json"
+  },
+  {
    "title_code": "SBY/W64",
    "title_name_zh": "青春豬頭少年系列",
    "file": "sby_cards.json",
@@ -725,11 +907,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sg_cards.json"
   },
   {
+   "title_code": "SGS/S37",
+   "title_name_zh": "Schoolgirl Strikers",
+   "file": "sgs_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sgs_cards.json"
+  },
+  {
+   "title_code": "SE/S04",
+   "title_name_zh": "光明系列",
+   "file": "shn_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/shn_cards.json"
+  },
+  {
    "title_code": "Fsh/W120",
    "title_name_zh": "不起眼女主角培育法",
    "file": "shs_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/shs_cards.json"
+  },
+  {
+   "title_code": "SK/WE03",
+   "title_name_zh": "穿越宇宙的少女／舞-HiME＆舞-乙HiME",
+   "file": "skmh_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/skmh_cards.json"
   },
   {
    "title_code": "SKR/S73",
@@ -781,6 +984,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ssy_cards.json"
   },
   {
+   "title_code": "STG/S60",
+   "title_name_zh": "命運石之門",
+   "file": "stg_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/stg_cards.json"
+  },
+  {
    "title_code": "Dsw/S104",
    "title_name_zh": "STAR WARS",
    "file": "sw_cards.json",
@@ -807,6 +1017,13 @@
    "file": "thp_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/thp_cards.json"
+  },
+  {
+   "title_code": "TL/W37",
+   "title_name_zh": "出包王女",
+   "file": "tl_cards.json",
+   "data_version": 1,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/tl_cards.json"
   },
   {
    "title_code": "TRV",
@@ -898,6 +1115,13 @@
    "file": "zls_cards.json",
    "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/zls_cards.json"
+  },
+  {
+   "title_code": "ZM/W03",
+   "title_name_zh": "零之使魔",
+   "file": "zm_cards.json",
+   "data_version": 2,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/zm_cards.json"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T17:48:26+08:00",
+  "updated_at": "2026-09-21T17:59:29+08:00",
   "default_same_name_limit": 4,
   "rules": [
     {
@@ -84,6 +84,27 @@
           "name_zh": "“調停者”メラクェラ",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに7枚まで入れることができる。",
           "rule_text_zh": "【永】 與此卡同名的卡，牌組中最多可放入7張。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "初音ミク“コンフリクト”",
+      "names_jp": [
+        "初音ミク“コンフリクト”"
+      ],
+      "limit": 8,
+      "limit_kind": "fixed",
+      "source_cards": [
+        {
+          "id": "PD/S29-046",
+          "file": "pd_cards.json",
+          "title_code": "PD/S22",
+          "title_name_zh": "初音未來 -Project DIVA-",
+          "name_jp": "初音ミク“コンフリクト”",
+          "name_zh": "初音ミク“コンフリクト”",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに8枚まで入れることができる。",
+          "rule_text_zh": ""
         }
       ]
     },
@@ -245,6 +266,27 @@
     },
     {
       "type": "same_name_limit",
+      "name_jp": "“ぬいぐるみ部隊”だまし神",
+      "names_jp": [
+        "“ぬいぐるみ部隊”だまし神"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "KR/SE30-47",
+          "file": "kr_cards.json",
+          "title_code": "KR/SE30",
+          "title_name_zh": "境界之輪迴",
+          "name_jp": "“ぬいぐるみ部隊”だまし神",
+          "name_zh": "“ぬいぐるみ部隊”だまし神",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
       "name_jp": "“トリック・オア・トラブル”杉並",
       "names_jp": [
         "“トリック・オア・トラブル”杉並"
@@ -261,6 +303,27 @@
           "name_zh": "“トリック・オア・トラブル”杉並",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“ハジメマシテ”ラッキービースト",
+      "names_jp": [
+        "“ハジメマシテ”ラッキービースト"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "KMN/W51-T02",
+          "file": "kmn_cards.json",
+          "title_code": "KMN/W51",
+          "title_name_zh": "動物朋友",
+          "name_jp": "“ハジメマシテ”ラッキービースト",
+          "name_zh": "“ハジメマシテ”ラッキービースト",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
         }
       ]
     },
@@ -311,6 +374,27 @@
           "title_name_zh": "STAR WARS",
           "name_jp": "“多勢の兵”ストームトルーパー",
           "name_zh": "“多勢の兵”ストームトルーパー",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“女性構成員”だまし神",
+      "names_jp": [
+        "“女性構成員”だまし神"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "KR/SE30-48",
+          "file": "kr_cards.json",
+          "title_code": "KR/SE30",
+          "title_name_zh": "境界之輪迴",
+          "name_jp": "“女性構成員”だまし神",
+          "name_zh": "“女性構成員”だまし神",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": ""
         }
@@ -412,6 +496,69 @@
     },
     {
       "type": "same_name_limit",
+      "name_jp": "“突然変異”セルヴァム",
+      "names_jp": [
+        "“突然変異”セルヴァム"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GZL/S54-T02",
+          "file": "gzl_cards.json",
+          "title_code": "GZL/S54",
+          "title_name_zh": "動畫電影《GODZILLA》",
+          "name_jp": "“突然変異”セルヴァム",
+          "name_zh": "“突然変異”セルヴァム",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“翼竜型生物”セルヴァム",
+      "names_jp": [
+        "“翼竜型生物”セルヴァム"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GZL/S54-T01",
+          "file": "gzl_cards.json",
+          "title_code": "GZL/S54",
+          "title_name_zh": "動畫電影《GODZILLA》",
+          "name_jp": "“翼竜型生物”セルヴァム",
+          "name_zh": "“翼竜型生物”セルヴァム",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "“耳澄ます”フツアの民",
+      "names_jp": [
+        "“耳澄ます”フツアの民"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GZL/SE33-07",
+          "file": "gzl_cards.json",
+          "title_code": "GZL/S54",
+          "title_name_zh": "動畫電影《GODZILLA》",
+          "name_jp": "“耳澄ます”フツアの民",
+          "name_zh": "“耳澄ます”フツアの民",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
       "name_jp": "“脱皮” トール",
       "names_jp": [
         "“脱皮” トール"
@@ -464,6 +611,90 @@
     },
     {
       "type": "same_name_limit",
+      "name_jp": "“野生動物”セルヴァム",
+      "names_jp": [
+        "“野生動物”セルヴァム"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GZL/S54-T03",
+          "file": "gzl_cards.json",
+          "title_code": "GZL/S54",
+          "title_name_zh": "動畫電影《GODZILLA》",
+          "name_jp": "“野生動物”セルヴァム",
+          "name_zh": "“野生動物”セルヴァム",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "あおぷよ",
+      "names_jp": [
+        "あおぷよ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "PY/S38-105",
+          "file": "py_cards.json",
+          "title_code": "PY/S38",
+          "title_name_zh": "魔法氣泡",
+          "name_jp": "あおぷよ",
+          "name_zh": "あおぷよ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "あかぷよ",
+      "names_jp": [
+        "あかぷよ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "PY/S38-078",
+          "file": "py_cards.json",
+          "title_code": "PY/S38",
+          "title_name_zh": "魔法氣泡",
+          "name_jp": "あかぷよ",
+          "name_zh": "あかぷよ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "きいろぷよ",
+      "names_jp": [
+        "きいろぷよ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "PY/S38-018",
+          "file": "py_cards.json",
+          "title_code": "PY/S38",
+          "title_name_zh": "魔法氣泡",
+          "name_jp": "きいろぷよ",
+          "name_zh": "きいろぷよ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
       "name_jp": "きゅうと鳴くキュゥべえ",
       "names_jp": [
         "きゅうと鳴くキュゥべえ"
@@ -478,6 +709,27 @@
           "title_name_zh": "魔法少女小圓",
           "name_jp": "きゅうと鳴くキュゥべえ",
           "name_zh": "きゅうと鳴くキュゥべえ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "みどりぷよ",
+      "names_jp": [
+        "みどりぷよ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "PY/S38-051",
+          "file": "py_cards.json",
+          "title_code": "PY/S38",
+          "title_name_zh": "魔法氣泡",
+          "name_jp": "みどりぷよ",
+          "name_zh": "みどりぷよ",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": ""
         }
@@ -579,6 +831,27 @@
     },
     {
       "type": "same_name_limit",
+      "name_jp": "クジライカ",
+      "names_jp": [
+        "クジライカ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GG/S23-087",
+          "file": "gg_cards.json",
+          "title_code": "GG/S23",
+          "title_name_zh": "翠星上的加爾岡緹亞",
+          "name_jp": "クジライカ",
+          "name_zh": "クジライカ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
       "name_jp": "ゴブリン軍楽隊",
       "names_jp": [
         "ゴブリン軍楽隊"
@@ -616,6 +889,27 @@
           "name_zh": "哥布林重裝甲步兵團",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ゴモリン",
+      "names_jp": [
+        "ゴモリン"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "KI/S44-015",
+          "file": "ki_cards.json",
+          "title_code": "KI/S44",
+          "title_name_zh": "羈絆者",
+          "name_jp": "ゴモリン",
+          "name_zh": "ゴモリン",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
         }
       ]
     },
@@ -787,6 +1081,27 @@
     },
     {
       "type": "same_name_limit",
+      "name_jp": "ヒディアーズ幼生体",
+      "names_jp": [
+        "ヒディアーズ幼生体"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GG/S23-085",
+          "file": "gg_cards.json",
+          "title_code": "GG/S23",
+          "title_name_zh": "翠星上的加爾岡緹亞",
+          "name_jp": "ヒディアーズ幼生体",
+          "name_zh": "ヒディアーズ幼生体",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
       "name_jp": "ファースト・オーダー ストームトルーパー",
       "names_jp": [
         "ファースト・オーダー ストームトルーパー"
@@ -811,6 +1126,27 @@
           "title_name_zh": "STAR WARS",
           "name_jp": "ファースト・オーダー ストームトルーパー",
           "name_zh": "ファースト・オーダー ストームトルーパー",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ホムンクルス",
+      "names_jp": [
+        "ホムンクルス"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "APO/S53-090",
+          "file": "apo_cards.json",
+          "title_code": "APO/S53",
+          "title_name_zh": "Fate/Apocrypha",
+          "name_jp": "ホムンクルス",
+          "name_zh": "ホムンクルス",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": ""
         }
@@ -853,6 +1189,27 @@
           "title_name_zh": "刀劍神域外傳 Gun Gale Online",
           "name_jp": "マシンガンたのしーなー！ ZEMAL",
           "name_zh": "マシンガンたのしーなー！ ZEMAL",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "ムガン",
+      "names_jp": [
+        "ムガン"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "GL/S52-094",
+          "file": "gl_cards.json",
+          "title_code": "GL/S52",
+          "title_name_zh": "天元突破紅蓮螺巖",
+          "name_jp": "ムガン",
+          "name_zh": "ムガン",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": ""
         }
@@ -1023,6 +1380,27 @@
           "name_zh": "指先",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "新生クリチェフスコイ",
+      "names_jp": [
+        "新生クリチェフスコイ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "DG/SE17-27",
+          "file": "dg_cards.json",
+          "title_code": "DG/S02",
+          "title_name_zh": "魔界戰記 Disgaea",
+          "name_jp": "新生クリチェフスコイ",
+          "name_zh": "新生クリチェフスコイ",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
         }
       ]
     },
@@ -1243,6 +1621,27 @@
           "name_zh": "量産型イリス",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": "【永】 與此卡同名的卡，牌組中可放入喜歡的張數。"
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "量産型フランクス",
+      "names_jp": [
+        "量産型フランクス"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "FXX/S57-014",
+          "file": "fxx_cards.json",
+          "title_code": "FXX/S57",
+          "title_name_zh": "DARLING in the FRANXX",
+          "name_jp": "量産型フランクス",
+          "name_zh": "量産型フランクス",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
         }
       ]
     },
