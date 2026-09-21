@@ -240,3 +240,12 @@ The safer path is:
 - The 34 `Ksm` cards exposed under the Summer Pockets official filter were already owned by `key_cards.json`. They were not duplicated into `smp_cards.json`.
 - Corrected one existing Granblue Fantasy translation with a duplicated quantity, three existing Key/Summer Pockets cards with malformed memory-zone wording, and three BrownDust2 cards whose `《ロックオン》` trait had been incorrectly translated.
 - Trait references inside `《》` remain Japanese, and the refresh contains zero occurrences of `化為回憶` or `送入回憶區`.
+
+## 2026-09-21 Next 50-Series Refresh
+
+- Rechecked the next 50 title files in official product order, from `imc` through `ns`, against the official card-list API.
+- Used each file's existing product-code ownership when an official category is shared by multiple local series, preventing duplicate cards across BanG Dream, Key, Kadokawa Sneaker Bunko, and Nanoha files.
+- Forty-nine files already matched the official unique-card inventory. `pjs` gained 5 official PR cards and 5 printings; all five new effect texts are fully translated line by line.
+- Corrected the trigger icon of `Snk/W62-022` from `null` to `soul` to match the current official card record.
+- Existing Chinese lines were preserved during regeneration. No old Japanese fallback line gained a safe deterministic translation in this batch, so no no-op card files were republished.
+- Trait references inside `《》` remain Japanese, and the refresh contains zero occurrences of `化為回憶` or `送入回憶區`.

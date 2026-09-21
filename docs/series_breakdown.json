@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-21T22:54:25+08:00",
+  "generated_at": "2026-09-21T23:47:04+08:00",
   "purpose": "Provide product-code breakdowns so the app can group one WS title into separate releases/boosters without changing translation files.",
   "grouping_rule": "Use card id or printing id. Product code is the substring before the final hyphen and card number, e.g. SFN/S108-001 -> SFN/S108.",
   "display_name_note": "suggested_display_name uses the primary official WS expansion name matched from the official card list API. official_expansions keeps all official names under the same product code, such as TD plus booster products.",
@@ -13729,16 +13729,16 @@
       "title_code": "PJS",
       "title_name_jp": "プロジェクトセカイ カラフルステージ！ feat.初音ミク",
       "title_name_zh": "世界計畫 繽紛舞台！",
-      "card_count": 516,
-      "printing_count": 908,
+      "card_count": 521,
+      "printing_count": 913,
       "product_count": 4,
       "products": [
         {
           "product_code": "PJS/S91",
           "suggested_display_name": "世界計畫 繽紛舞台！（プロジェクトセカイ カラフルステージ！ feat. 初音ミク）",
           "sort_index_by_card_code": 1,
-          "unique_card_count": 252,
-          "printing_count": 398,
+          "unique_card_count": 257,
+          "printing_count": 403,
           "sample_card_ids": [
             "PJS/S91-P01",
             "PJS/S91-P02",

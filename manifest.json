@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-21T14:58:00+08:00",
- "notes": "補齊近期系列新增卡與修正舊譯文",
+ "updated_at": "2026-09-21T23:46:39+08:00",
+ "notes": "核對後續50部作品；世界計畫新增5張卡並修正1張舊卡資料",
  "sets": [
   {
    "title_code": "5HY/W101",
@@ -798,7 +798,7 @@
    "title_code": "PJS",
    "title_name_zh": "世界計畫 繽紛舞台！",
    "file": "pjs_cards.json",
-   "data_version": 24,
+   "data_version": 25,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pjs_cards.json"
   },
   {
@@ -952,7 +952,7 @@
    "title_code": "Snk",
    "title_name_zh": "角川Sneaker文庫",
    "file": "snk_cards.json",
-   "data_version": 8,
+   "data_version": 9,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/snk_cards.json"
   },
   {
