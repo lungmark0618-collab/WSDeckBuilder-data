@@ -70,6 +70,7 @@ The app should keep the default same-card-name limit at 4, then apply these mach
 | メロディア | 任意張數 | MK/S33-013 |
 | 三式潜航輸送艇 まるゆ | 任意張數 | KC/S25-166 |
 | 三式潜航輸送艇 まるゆ改 | 任意張數 | KC/S31-020 |
+| 二千の分身 ナユタ | 任意張數 | NIK/S135-012 |
 | 亜人の軍勢 | 任意張數 | OVL/SE51-11 |
 | 伊吹萃香 | 任意張數 | THP/S130-T16 |
 | 分身体 狂三 | 任意張數 | DAL/W79-018 |

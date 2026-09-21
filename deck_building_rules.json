@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T17:59:29+08:00",
+  "updated_at": "2026-09-21T22:56:49+08:00",
   "default_same_name_limit": 4,
   "rules": [
     {
@@ -1273,6 +1273,27 @@
           "title_name_zh": "艦隊Collection -艦Colle-",
           "name_jp": "三式潜航輸送艇 まるゆ改",
           "name_zh": "三式潜航輸送艇 まるゆ改",
+          "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
+          "rule_text_zh": ""
+        }
+      ]
+    },
+    {
+      "type": "same_name_limit",
+      "name_jp": "二千の分身 ナユタ",
+      "names_jp": [
+        "二千の分身 ナユタ"
+      ],
+      "limit": null,
+      "limit_kind": "unlimited",
+      "source_cards": [
+        {
+          "id": "NIK/S135-012",
+          "file": "nik_cards.json",
+          "title_code": "NIK",
+          "title_name_zh": "勝利女神：妮姬",
+          "name_jp": "二千の分身 ナユタ",
+          "name_zh": "二千の分身 ナユタ",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
           "rule_text_zh": ""
         }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-21T18:01:50+08:00",
+  "generated_at": "2026-09-21T22:54:25+08:00",
   "purpose": "Provide product-code breakdowns so the app can group one WS title into separate releases/boosters without changing translation files.",
   "grouping_rule": "Use card id or printing id. Product code is the substring before the final hyphen and card number, e.g. SFN/S108-001 -> SFN/S108.",
   "display_name_note": "suggested_display_name uses the primary official WS expansion name matched from the official card list API. official_expansions keeps all official names under the same product code, such as TD plus booster products.",
@@ -1475,16 +1475,16 @@
       "title_code": "BRD",
       "title_name_jp": "ブラウンダスト2",
       "title_name_zh": "棕色塵埃2",
-      "card_count": 140,
-      "printing_count": 304,
+      "card_count": 142,
+      "printing_count": 309,
       "product_count": 1,
       "products": [
         {
           "product_code": "BRD/W139",
           "suggested_display_name": "棕色塵埃2（ブラウンダスト2）",
           "sort_index_by_card_code": 1,
-          "unique_card_count": 140,
-          "printing_count": 304,
+          "unique_card_count": 142,
+          "printing_count": 309,
           "sample_card_ids": [
             "BRD/W139-101",
             "BRD/W139-102",
@@ -12379,9 +12379,9 @@
       "title_code": "NIK",
       "title_name_jp": "勝利の女神：NIKKE",
       "title_name_zh": "勝利女神：妮姬",
-      "card_count": 151,
-      "printing_count": 355,
-      "product_count": 1,
+      "card_count": 289,
+      "printing_count": 665,
+      "product_count": 2,
       "products": [
         {
           "product_code": "NIK/S117",
@@ -12426,6 +12426,39 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        },
+        {
+          "suggested_display_name": "勝利女神：妮姬（勝利の女神：NIKKE Vol.2）",
+          "official_display_name_jp": "勝利の女神：NIKKE Vol.2",
+          "official_display_category_jp": "ブースターパック",
+          "official_display_category_zh": "補充包",
+          "official_product_names_jp": [
+            "勝利の女神：NIKKE Vol.2"
+          ],
+          "official_expansions": [
+            {
+              "official_expansion_id": 564,
+              "official_name_jp": "勝利の女神：NIKKE Vol.2",
+              "product_category_jp": "ブースターパック",
+              "product_category_zh": "補充包",
+              "priority": 457,
+              "matched_card_count_in_official_expansion": 310,
+              "official_expansion_total_cards": 310,
+              "source": "official_cardlist_searchJson"
+            }
+          ],
+          "official_name_source": "ws-tcg.com/manage/CardListUser",
+          "product_code": "NIK/S135",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 138,
+          "printing_count": 310,
+          "sample_card_ids": [
+            "NIK/S135-113",
+            "NIK/S135-114",
+            "NIK/S135-115",
+            "NIK/S135-116",
+            "NIK/S135-117"
+          ]
         }
       ]
     },
@@ -12936,8 +12969,8 @@
       "title_code": "OSK",
       "title_name_jp": "【推しの子】",
       "title_name_zh": "【我推的孩子】",
-      "card_count": 363,
-      "printing_count": 742,
+      "card_count": 365,
+      "printing_count": 747,
       "product_count": 3,
       "products": [
         {
@@ -13021,8 +13054,8 @@
           "product_code": "OSK/S133",
           "suggested_display_name": "【我推的孩子】（【推しの子】Vol.3）",
           "sort_index_by_card_code": 3,
-          "unique_card_count": 122,
-          "printing_count": 253,
+          "unique_card_count": 124,
+          "printing_count": 258,
           "sample_card_ids": [
             "OSK/S133-101",
             "OSK/S133-102",
@@ -15071,8 +15104,8 @@
       "title_code": "SFN",
       "title_name_jp": "葬送のフリーレン",
       "title_name_zh": "葬送的芙莉蓮",
-      "card_count": 348,
-      "printing_count": 763,
+      "card_count": 349,
+      "printing_count": 765,
       "product_count": 3,
       "products": [
         {
@@ -15156,14 +15189,14 @@
           "product_code": "SFN/S136",
           "suggested_display_name": "葬送的芙莉蓮（葬送のフリーレン Vol.2）",
           "sort_index_by_card_code": 3,
-          "unique_card_count": 101,
-          "printing_count": 252,
+          "unique_card_count": 102,
+          "printing_count": 254,
           "sample_card_ids": [
             "SFN/S136-P01",
+            "SFN/S136-P02",
             "SFN/S136-001",
             "SFN/S136-002",
-            "SFN/S136-003",
-            "SFN/S136-004"
+            "SFN/S136-003"
           ],
           "official_display_name_jp": "葬送のフリーレン Vol.2",
           "official_display_category_jp": "ブースターパック",

@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-21T10:04:38+08:00",
- "notes": "補齊三十二部官方現有作品卡表與初版譯文",
+ "updated_at": "2026-09-21T22:56:48+08:00",
+ "notes": "核對近期10部作品；補齊4部新增143張卡並修正7張舊譯文",
  "sets": [
   {
    "title_code": "5HY/W101",
@@ -133,7 +133,7 @@
    "title_code": "BRD/W139",
    "title_name_zh": "棕色塵埃2",
    "file": "brd_cards.json",
-   "data_version": 3,
+   "data_version": 4,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/brd_cards.json"
   },
   {
@@ -322,7 +322,7 @@
    "title_code": "GBF/S134",
    "title_name_zh": "碧藍幻想",
    "file": "gbf_cards.json",
-   "data_version": 6,
+   "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gbf_cards.json"
   },
   {
@@ -483,7 +483,7 @@
    "title_code": "Kab/W78",
    "title_name_zh": "Key",
    "file": "key_cards.json",
-   "data_version": 6,
+   "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/key_cards.json"
   },
   {
@@ -714,7 +714,7 @@
    "title_code": "NIK",
    "title_name_zh": "勝利女神：妮姬",
    "file": "nik_cards.json",
-   "data_version": 4,
+   "data_version": 5,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nik_cards.json"
   },
   {
@@ -756,7 +756,7 @@
    "title_code": "OSK",
    "title_name_zh": "【我推的孩子】",
    "file": "osk_cards.json",
-   "data_version": 20,
+   "data_version": 21,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/osk_cards.json"
   },
   {
@@ -896,7 +896,7 @@
    "title_code": "SFN",
    "title_name_zh": "葬送的芙莉蓮",
    "file": "sfn_cards.json",
-   "data_version": 7,
+   "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sfn_cards.json"
   },
   {

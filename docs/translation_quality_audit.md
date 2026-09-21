@@ -231,3 +231,12 @@ The safer path is:
 - Trait references inside `《》` were compared with the Japanese source and remain unchanged for physical-card lookup.
 - Unsafe general-purpose machine translations were not used. When the WS terminology/rule engine could not translate a complete effect line safely, the complete Japanese line was retained instead of publishing a misleading partial translation.
 - Confirmed zero occurrences of `化為回憶` and `送入回憶區`; memory-zone wording remains `放到回憶區`.
+
+## 2026-09-21 Latest 10-Series Refresh
+
+- Rechecked the ten most recent released title groups against the official card-list API: `nik`, `sfn`, `osk`, `rz`, `brd`, `gbf`, `ga`, `thp`, `ddd`, and `smp`.
+- Added 143 genuinely new unique cards and 322 printings across `nik`, `sfn`, `osk`, and `brd`. The other six title groups already matched the official card inventory.
+- All 143 new cards contain usable Chinese effect text: 86 are fully translated line by line and 57 retain only complete Japanese fallback lines where the deterministic rules remain uncertain; none have an entirely untranslated effect.
+- The 34 `Ksm` cards exposed under the Summer Pockets official filter were already owned by `key_cards.json`. They were not duplicated into `smp_cards.json`.
+- Corrected one existing Granblue Fantasy translation with a duplicated quantity, three existing Key/Summer Pockets cards with malformed memory-zone wording, and three BrownDust2 cards whose `《ロックオン》` trait had been incorrectly translated.
+- Trait references inside `《》` remain Japanese, and the refresh contains zero occurrences of `化為回憶` or `送入回憶區`.
