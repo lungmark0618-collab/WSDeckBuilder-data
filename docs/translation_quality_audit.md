@@ -214,3 +214,11 @@ The safer path is:
 3. For each file, retranslate affected cards from `text_jp`, not from the broken Chinese.
 4. Validate after each file: structure check, kana scan outside `《》` / `「」`, and card-count check.
 5. After the high-risk set is clean, resume new-series translation using this audit as a quality gate.
+
+## 2026-09-21 New 50-Series Import
+
+- Added 50 complete official title groups: 14,433 unique cards and 21,434 printings.
+- All 50 generated files passed structural validation with zero rejected cards.
+- Trait references inside `《》` were compared with the Japanese source and remain unchanged.
+- Unsafe general-purpose machine translations were rejected after spot checks found proper-name errors; published text uses the WS terminology/rule engine and falls back to the complete Japanese line when uncertain.
+- Removed all occurrences of `化為回憶` and `送入回憶區`; the required wording is `放到回憶區`.

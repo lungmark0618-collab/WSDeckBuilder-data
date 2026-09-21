@@ -1,8 +1,22 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-14T09:42:35+08:00",
- "notes": "修補五十部作品譯文用語",
+ "updated_at": "2026-09-21T17:48:25+08:00",
+ "notes": "新增50部作品初版譯文（14,433張卡）",
  "sets": [
+  {
+   "title_code": "5HY/W101",
+   "title_name_zh": "五等分的新娘",
+   "file": "5hy_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/5hy_cards.json"
+  },
+  {
+   "title_code": "AGS/W108",
+   "title_name_zh": "機戰少女Alice",
+   "file": "ags_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ags_cards.json"
+  },
   {
    "title_code": "ALL/S76",
    "title_name_zh": "突擊莉莉",
@@ -25,11 +39,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/anm_cards.json"
   },
   {
+   "title_code": "AOH/W127",
+   "title_name_zh": "青桐高中",
+   "file": "aoh_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/aoh_cards.json"
+  },
+  {
    "title_code": "AOT",
    "title_name_zh": "進擊的巨人",
    "file": "aot_cards.json",
    "data_version": 13,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/aot_cards.json"
+  },
+  {
+   "title_code": "ARI/S103",
+   "title_name_zh": "平凡職業造就世界最強",
+   "file": "ari_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ari_cards.json"
+  },
+  {
+   "title_code": "AYT/W110",
+   "title_name_zh": "妖幻三重奏",
+   "file": "ayt_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ayt_cards.json"
   },
   {
    "title_code": "AZL",
@@ -67,6 +102,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bdy_cards.json"
   },
   {
+   "title_code": "BFR/S78",
+   "title_name_zh": "怕痛的我，把防禦力點滿就對了",
+   "file": "bfr_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/bfr_cards.json"
+  },
+  {
    "title_code": "BM",
    "title_name_zh": "物語系列",
    "file": "bm_cards.json",
@@ -95,6 +137,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/cc_cards.json"
   },
   {
+   "title_code": "CCS/W113",
+   "title_name_zh": "庫洛魔法使",
+   "file": "ccs_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ccs_cards.json"
+  },
+  {
    "title_code": "CGS",
    "title_name_zh": "卡片遊戲什麼子",
    "file": "cgs_cards.json",
@@ -109,11 +158,25 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/cn_cards.json"
   },
   {
+   "title_code": "CS/S114",
+   "title_name_zh": "蠟筆小新",
+   "file": "cs_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/cs_cards.json"
+  },
+  {
    "title_code": "CSM",
    "title_name_zh": "鏈鋸人",
    "file": "csm_cards.json",
    "data_version": 3,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/csm_cards.json"
+  },
+  {
+   "title_code": "CTB/W118",
+   "title_name_zh": "足球小將翼",
+   "file": "ctb_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ctb_cards.json"
   },
   {
    "title_code": "DAL/W79",
@@ -137,6 +200,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dc_cards.json"
   },
   {
+   "title_code": "DCT/S86",
+   "title_name_zh": "D_CIDE TRAUMEREI",
+   "file": "dct_cards.json",
+   "data_version": 6,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dct_cards.json"
+  },
+  {
    "title_code": "DDD/S118",
    "title_name_zh": "膽大黨",
    "file": "ddd_cards.json",
@@ -158,6 +228,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dds_cards.json"
   },
   {
+   "title_code": "DJ/S97",
+   "title_name_zh": "D4DJ",
+   "file": "dj_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/dj_cards.json"
+  },
+  {
    "title_code": "EV",
    "title_name_zh": "福音戰士新劇場版",
    "file": "ev_cards.json",
@@ -165,11 +242,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ev_cards.json"
   },
   {
+   "title_code": "FGO/S75",
+   "title_name_zh": "Fate/Grand Order（動畫）",
+   "file": "fgo_cards.json",
+   "data_version": 6,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/fgo_cards.json"
+  },
+  {
    "title_code": "FH",
    "title_name_zh": "Fate/hollow ataraxia",
    "file": "fh_cards.json",
    "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/fh_cards.json"
+  },
+  {
+   "title_code": "Fdd/W120",
+   "title_name_zh": "富士見Fantasia文庫",
+   "file": "fkb_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/fkb_cards.json"
+  },
+  {
+   "title_code": "FT/S09",
+   "title_name_zh": "FAIRY TAIL 魔導少年",
+   "file": "ft_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ft_cards.json"
   },
   {
    "title_code": "GA01/S131",
@@ -186,6 +284,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gbf_cards.json"
   },
   {
+   "title_code": "Gby/WS02",
+   "title_name_zh": "電擊文庫",
+   "file": "gbk_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gbk_cards.json"
+  },
+  {
    "title_code": "GBS",
    "title_name_zh": "哥布林殺手",
    "file": "gbs_cards.json",
@@ -193,11 +298,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gbs_cards.json"
   },
   {
+   "title_code": "GCR/SE48",
+   "title_name_zh": "Girls Band Cry",
+   "file": "gcr_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gcr_cards.json"
+  },
+  {
+   "title_code": "GGO/S59",
+   "title_name_zh": "刀劍神域外傳 Gun Gale Online",
+   "file": "ggo_cards.json",
+   "data_version": 6,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ggo_cards.json"
+  },
+  {
    "title_code": "GIM",
    "title_name_zh": "學園偶像大師",
    "file": "gim_cards.json",
    "data_version": 11,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gim_cards.json"
+  },
+  {
+   "title_code": "GRI/S112",
+   "title_name_zh": "灰色系列",
+   "file": "gri_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gri_cards.json"
   },
   {
    "title_code": "GST",
@@ -212,6 +338,13 @@
    "file": "gt_cards.json",
    "data_version": 8,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gt_cards.json"
+  },
+  {
+   "title_code": "GU/W44",
+   "title_name_zh": "請問您今天要來點兔子嗎？？",
+   "file": "gu_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/gu_cards.json"
   },
   {
    "title_code": "HLL",
@@ -256,11 +389,32 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/isc_cards.json"
   },
   {
+   "title_code": "JJ/S66",
+   "title_name_zh": "JoJo的奇妙冒險",
+   "file": "jj_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/jj_cards.json"
+  },
+  {
+   "title_code": "KC/S25",
+   "title_name_zh": "艦隊Collection -艦Colle-",
+   "file": "kc_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kc_cards.json"
+  },
+  {
    "title_code": "Kab/W78",
    "title_name_zh": "Key",
    "file": "key_cards.json",
    "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/key_cards.json"
+  },
+  {
+   "title_code": "KF/S05",
+   "title_name_zh": "THE KING OF FIGHTERS",
+   "file": "kf_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kf_cards.json"
   },
   {
    "title_code": "KGL",
@@ -277,6 +431,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kj8_cards.json"
   },
   {
+   "title_code": "KMD/W96",
+   "title_name_zh": "小林家的龍女僕",
+   "file": "kmd_cards.json",
+   "data_version": 6,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/kmd_cards.json"
+  },
+  {
    "title_code": "KMS/W133",
    "title_name_zh": "黃金拼圖",
    "file": "kms_cards.json",
@@ -291,6 +452,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/knk_cards.json"
   },
   {
+   "title_code": "KS/W49",
+   "title_name_zh": "為美好的世界獻上祝福！",
+   "file": "ks_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ks_cards.json"
+  },
+  {
    "title_code": "LH",
    "title_name_zh": "記錄的地平線",
    "file": "lh_cards.json",
@@ -298,11 +466,46 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lh_cards.json"
   },
   {
+   "title_code": "LHS/W122",
+   "title_name_zh": "Love Live! 蓮之空女學院學園偶像俱樂部",
+   "file": "lhs_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lhs_cards.json"
+  },
+  {
+   "title_code": "LL/W24",
+   "title_name_zh": "Love Live!",
+   "file": "ll_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ll_cards.json"
+  },
+  {
+   "title_code": "LNJ/W85",
+   "title_name_zh": "Love Live! 虹咲學園學園偶像同好會",
+   "file": "lnj_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lnj_cards.json"
+  },
+  {
+   "title_code": "LOD/S74",
+   "title_name_zh": "Lost Decade",
+   "file": "lod_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lod_cards.json"
+  },
+  {
    "title_code": "LRC",
    "title_name_zh": "莉可麗絲",
    "file": "lrc_cards.json",
    "data_version": 13,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lrc_cards.json"
+  },
+  {
+   "title_code": "LSF/WE39",
+   "title_name_zh": "Love Live! Superstar!!",
+   "file": "lsp_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/lsp_cards.json"
   },
   {
    "title_code": "LSS",
@@ -333,11 +536,39 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mf_cards.json"
   },
   {
+   "title_code": "MK/S11",
+   "title_name_zh": "偵探歌劇 少女福爾摩斯",
+   "file": "mk_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mk_cards.json"
+  },
+  {
    "title_code": "MKI/W126",
    "title_name_zh": "敗北女角太多了！",
    "file": "mki_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mki_cards.json"
+  },
+  {
+   "title_code": "MM/W17",
+   "title_name_zh": "魔法少女小圓",
+   "file": "mm_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mm_cards.json"
+  },
+  {
+   "title_code": "MRd/S111",
+   "title_name_zh": "鏡之戰士",
+   "file": "mrd_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mrd_cards.json"
+  },
+  {
+   "title_code": "MTI/S83",
+   "title_name_zh": "無職轉生～到了異世界就拿出真本事～",
+   "file": "mti_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/mti_cards.json"
   },
   {
    "title_code": "BD/W125",
@@ -389,6 +620,20 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ovl_cards.json"
   },
   {
+   "title_code": "P3/S01",
+   "title_name_zh": "女神異聞錄",
+   "file": "p5_cards.json",
+   "data_version": 6,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/p5_cards.json"
+  },
+  {
+   "title_code": "PAD/S105",
+   "title_name_zh": "龍族拼圖",
+   "file": "pad_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pad_cards.json"
+  },
+  {
    "title_code": "PI/SE18",
    "title_name_zh": "Fate/kaleid liner 魔法少女☆伊莉雅",
    "file": "pi_cards.json",
@@ -424,11 +669,39 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/pxr_cards.json"
   },
   {
+   "title_code": "RKN/S115",
+   "title_name_zh": "神劍闖江湖 -明治劍客浪漫譚-",
+   "file": "rkn_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rkn_cards.json"
+  },
+  {
+   "title_code": "RSK/SE44",
+   "title_name_zh": "Rear Sekai",
+   "file": "rsk_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rsk_cards.json"
+  },
+  {
+   "title_code": "RSL/S69",
+   "title_name_zh": "少女☆歌劇 Revue Starlight",
+   "file": "rsl_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rsl_cards.json"
+  },
+  {
    "title_code": "RZ/S46",
    "title_name_zh": "Re:從零開始的異世界生活",
    "file": "rz_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/rz_cards.json"
+  },
+  {
+   "title_code": "Gso/WS02",
+   "title_name_zh": "刀劍神域",
+   "file": "sao_cards.json",
+   "data_version": 6,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sao_cards.json"
   },
   {
    "title_code": "SBY/W64",
@@ -443,6 +716,27 @@
    "file": "sfn_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sfn_cards.json"
+  },
+  {
+   "title_code": "SG/W19",
+   "title_name_zh": "戰姬絕唱SYMPHOGEAR",
+   "file": "sg_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sg_cards.json"
+  },
+  {
+   "title_code": "Fsh/W120",
+   "title_name_zh": "不起眼女主角培育法",
+   "file": "shs_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/shs_cards.json"
+  },
+  {
+   "title_code": "SKR/S73",
+   "title_name_zh": "新櫻花大戰",
+   "file": "skr_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/skr_cards.json"
   },
   {
    "title_code": "SMP/W60",
@@ -466,6 +760,13 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/spy_cards.json"
   },
   {
+   "title_code": "SS/W14",
+   "title_name_zh": "灼眼的夏娜",
+   "file": "ss_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ss_cards.json"
+  },
+  {
    "title_code": "Sst",
    "title_name_zh": "新妹魔王的契約者",
    "file": "sst_cards.json",
@@ -478,6 +779,13 @@
    "file": "ssy_cards.json",
    "data_version": 7,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/ssy_cards.json"
+  },
+  {
+   "title_code": "Dsw/S104",
+   "title_name_zh": "STAR WARS",
+   "file": "sw_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/sw_cards.json"
   },
   {
    "title_code": "TAL/S126",
@@ -543,11 +851,53 @@
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/vrg_cards.json"
   },
   {
+   "title_code": "VS/W50",
+   "title_name_zh": "ViVid Strike!",
+   "file": "vs_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/vs_cards.json"
+  },
+  {
    "title_code": "Woo",
    "title_name_zh": "兔寶的悲慘日常",
    "file": "woo_cards.json",
    "data_version": 13,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/woo_cards.json"
+  },
+  {
+   "title_code": "WTR/S85",
+   "title_name_zh": "境界觸發者",
+   "file": "wtr_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/wtr_cards.json"
+  },
+  {
+   "title_code": "YHN/W111",
+   "title_name_zh": "幻日夜羽 -鏡中暉光-",
+   "file": "yhn_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/yhn_cards.json"
+  },
+  {
+   "title_code": "YRC/W116",
+   "title_name_zh": "搖曳露營△",
+   "file": "yrc_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/yrc_cards.json"
+  },
+  {
+   "title_code": "YYS/W61",
+   "title_name_zh": "搖曳莊的幽奈小姐",
+   "file": "yys_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/yys_cards.json"
+  },
+  {
+   "title_code": "ZLS/W93",
+   "title_name_zh": "佐賀偶像是傳奇 捲土重來",
+   "file": "zls_cards.json",
+   "data_version": 5,
+   "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/zls_cards.json"
   }
  ]
 }

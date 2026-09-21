@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T21:49:43+08:00",
+  "generated_at": "2026-09-21T17:49:58+08:00",
   "purpose": "Provide product-code breakdowns so the app can group one WS title into separate releases/boosters without changing translation files.",
   "grouping_rule": "Use card id or printing id. Product code is the substring before the final hyphen and card number, e.g. SFN/S108-001 -> SFN/S108.",
   "display_name_note": "suggested_display_name uses the primary official WS expansion name matched from the official card list API. official_expansions keeps all official names under the same product code, such as TD plus booster products.",
@@ -12,6 +12,128 @@
     "https://ws-tcg.com/manage/CardListUser/detailByNoJson"
   ],
   "sets": [
+    {
+      "key": "5hy",
+      "title_code": "5HY",
+      "title_name_jp": "五等分の花嫁",
+      "title_name_zh": "五等分的新娘",
+      "card_count": 526,
+      "printing_count": 882,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "5HY/W101",
+          "suggested_display_name": "五等分的新娘（5HY/W101）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 118,
+          "printing_count": 225,
+          "sample_card_ids": [
+            "5HY/W101-P01",
+            "5HY/W101-P02",
+            "5HY/W101-P03",
+            "5HY/W101-P04",
+            "5HY/W101-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "5HY/W83",
+          "suggested_display_name": "五等分的新娘（5HY/W83）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 239,
+          "printing_count": 326,
+          "sample_card_ids": [
+            "5HY/W83-P01",
+            "5HY/W83-P02",
+            "5HY/W83-P03",
+            "5HY/W83-P04",
+            "5HY/W83-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "5HY/W90",
+          "suggested_display_name": "五等分的新娘（5HY/W90）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 117,
+          "printing_count": 223,
+          "sample_card_ids": [
+            "5HY/W90-P01",
+            "5HY/W90-P02",
+            "5HY/W90-P03",
+            "5HY/W90-P04",
+            "5HY/W90-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "5HY/WE43",
+          "suggested_display_name": "五等分的新娘（5HY/WE43）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 52,
+          "printing_count": 108,
+          "sample_card_ids": [
+            "5HY/WE43-P01",
+            "5HY/WE43-P02",
+            "5HY/WE43-P03",
+            "5HY/WE43-P04",
+            "5HY/WE43-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "ags",
+      "title_code": "AGS",
+      "title_name_jp": "アリス・ギア・アイギス",
+      "title_name_zh": "機戰少女Alice",
+      "card_count": 134,
+      "printing_count": 203,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "AGS/W108",
+          "suggested_display_name": "機戰少女Alice",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 134,
+          "printing_count": 203,
+          "sample_card_ids": [
+            "AGS/W108-P01",
+            "AGS/W108-P02",
+            "AGS/W108-P03",
+            "AGS/W108-P04",
+            "AGS/W108-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
     {
       "key": "all",
       "title_code": "ALL",
@@ -343,6 +465,37 @@
       ]
     },
     {
+      "key": "aoh",
+      "title_code": "AOH",
+      "title_name_jp": "あおぎり高校",
+      "title_name_zh": "青桐高中",
+      "card_count": 151,
+      "printing_count": 354,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "AOH/W127",
+          "suggested_display_name": "青桐高中",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 151,
+          "printing_count": 354,
+          "sample_card_ids": [
+            "AOH/W127-P01",
+            "AOH/W127-P02",
+            "AOH/W127-P03",
+            "AOH/W127-T01",
+            "AOH/W127-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "aot",
       "title_code": "AOT",
       "title_name_jp": "進撃の巨人",
@@ -449,6 +602,68 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "ari",
+      "title_code": "ARI",
+      "title_name_jp": "ありふれた職業で世界最強",
+      "title_name_zh": "平凡職業造就世界最強",
+      "card_count": 127,
+      "printing_count": 185,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "ARI/S103",
+          "suggested_display_name": "平凡職業造就世界最強",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 185,
+          "sample_card_ids": [
+            "ARI/S103-P01",
+            "ARI/S103-P02",
+            "ARI/S103-P03",
+            "ARI/S103-001",
+            "ARI/S103-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "ayt",
+      "title_code": "AYT",
+      "title_name_jp": "あやかしトライアングル",
+      "title_name_zh": "妖幻三重奏",
+      "card_count": 127,
+      "printing_count": 202,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "AYT/W110",
+          "suggested_display_name": "妖幻三重奏",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 202,
+          "sample_card_ids": [
+            "AYT/W110-101",
+            "AYT/W110-102",
+            "AYT/W110-103",
+            "AYT/W110-104",
+            "AYT/W110-105"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -1080,6 +1295,37 @@
       ]
     },
     {
+      "key": "bfr",
+      "title_code": "BFR",
+      "title_name_jp": "痛いのは嫌なので防御力に極振りしたいと思います。",
+      "title_name_zh": "怕痛的我，把防禦力點滿就對了",
+      "card_count": 136,
+      "printing_count": 187,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "BFR/S78",
+          "suggested_display_name": "怕痛的我，把防禦力點滿就對了",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 136,
+          "printing_count": 187,
+          "sample_card_ids": [
+            "BFR/S78-P01",
+            "BFR/S78-P02",
+            "BFR/S78-T01",
+            "BFR/S78-T02",
+            "BFR/S78-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "bm",
       "title_code": "BM",
       "title_name_jp": "化物語",
@@ -1333,6 +1579,57 @@
       ]
     },
     {
+      "key": "ccs",
+      "title_code": "CCS",
+      "title_name_jp": "カードキャプターさくら",
+      "title_name_zh": "庫洛魔法使",
+      "card_count": 231,
+      "printing_count": 372,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "CCS/W113",
+          "suggested_display_name": "庫洛魔法使（CCS/W113）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 102,
+          "printing_count": 203,
+          "sample_card_ids": [
+            "CCS/W113-P01",
+            "CCS/W113-P02",
+            "CCS/W113-001",
+            "CCS/W113-002",
+            "CCS/W113-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "CCS/W66",
+          "suggested_display_name": "庫洛魔法使（CCS/W66）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 129,
+          "printing_count": 169,
+          "sample_card_ids": [
+            "CCS/W66-P01",
+            "CCS/W66-P02",
+            "CCS/W66-P03",
+            "CCS/W66-P04",
+            "CCS/W66-T01"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "cgs",
       "title_code": "CGS",
       "title_name_jp": "カードゲームしよ子",
@@ -1476,6 +1773,57 @@
       ]
     },
     {
+      "key": "cs",
+      "title_code": "CS",
+      "title_name_jp": "クレヨンしんちゃん",
+      "title_name_zh": "蠟筆小新",
+      "card_count": 254,
+      "printing_count": 392,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "CS/S114",
+          "suggested_display_name": "蠟筆小新（CS/S114）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 122,
+          "printing_count": 244,
+          "sample_card_ids": [
+            "CS/S114-P01",
+            "CS/S114-P02",
+            "CS/S114-001",
+            "CS/S114-002",
+            "CS/S114-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "CS/S28",
+          "suggested_display_name": "蠟筆小新（CS/S28）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 132,
+          "printing_count": 148,
+          "sample_card_ids": [
+            "CS/S28-101",
+            "CS/S28-102",
+            "CS/S28-103",
+            "CS/S28-104",
+            "CS/S28-105"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "csm",
       "title_code": "CSM",
       "title_name_jp": "チェンソーマン",
@@ -1538,6 +1886,37 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "ctb",
+      "title_code": "CTB",
+      "title_name_jp": "『キャプテン翼』",
+      "title_name_zh": "足球小將翼",
+      "card_count": 102,
+      "printing_count": 203,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "CTB/W118",
+          "suggested_display_name": "足球小將翼",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 102,
+          "printing_count": 203,
+          "sample_card_ids": [
+            "CTB/W118-P01",
+            "CTB/W118-P02",
+            "CTB/W118-001",
+            "CTB/W118-002",
+            "CTB/W118-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -2697,6 +3076,37 @@
       ]
     },
     {
+      "key": "dct",
+      "title_code": "DCT",
+      "title_name_jp": "D_CIDE TRAUMEREI",
+      "title_name_zh": "D_CIDE TRAUMEREI",
+      "card_count": 130,
+      "printing_count": 201,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "DCT/S86",
+          "suggested_display_name": "D_CIDE TRAUMEREI",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 130,
+          "printing_count": 201,
+          "sample_card_ids": [
+            "DCT/S86-P01",
+            "DCT/S86-P02",
+            "DCT/S86-P03",
+            "DCT/S86-P04",
+            "DCT/S86-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "ddd",
       "title_code": "DDD",
       "title_name_jp": "ダンダダン",
@@ -3014,6 +3424,55 @@
       ]
     },
     {
+      "key": "dj",
+      "title_code": "DJ",
+      "title_name_jp": "D4DJ",
+      "title_name_zh": "D4DJ",
+      "card_count": 212,
+      "printing_count": 412,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "DJ/S97",
+          "suggested_display_name": "D4DJ（DJ/S97）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 209,
+          "printing_count": 409,
+          "sample_card_ids": [
+            "DJ/S97-121",
+            "DJ/S97-122",
+            "DJ/S97-123",
+            "DJ/S97-124",
+            "DJ/S97-125"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "DJ/SPR",
+          "suggested_display_name": "D4DJ（DJ/SPR）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 3,
+          "printing_count": 3,
+          "sample_card_ids": [
+            "DJ/SPR-001",
+            "DJ/SPR-002",
+            "DJ/SPR-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "ev",
       "title_code": "EV",
       "title_name_jp": "ヱヴァンゲリヲン新劇場版",
@@ -3080,6 +3539,57 @@
       ]
     },
     {
+      "key": "fgo",
+      "title_code": "FGO",
+      "title_name_jp": "Fate/Grand Order（アニメ）",
+      "title_name_zh": "Fate/Grand Order（動畫）",
+      "card_count": 234,
+      "printing_count": 310,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "FGO/S75",
+          "suggested_display_name": "Fate/Grand Order（動畫）（FGO/S75）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 129,
+          "printing_count": 165,
+          "sample_card_ids": [
+            "FGO/S75-P01",
+            "FGO/S75-P02",
+            "FGO/S75-P03",
+            "FGO/S75-P04",
+            "FGO/S75-T01"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "FGO/S87",
+          "suggested_display_name": "Fate/Grand Order（動畫）（FGO/S87）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 105,
+          "printing_count": 145,
+          "sample_card_ids": [
+            "FGO/S87-P01",
+            "FGO/S87-001",
+            "FGO/S87-002",
+            "FGO/S87-003",
+            "FGO/S87-004"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "fh",
       "title_code": "FH",
       "title_name_jp": "Fate/hollow ataraxia",
@@ -3131,6 +3641,957 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "fkb",
+      "title_code": "Fdd",
+      "title_name_jp": "富士見ファンタジア文庫",
+      "title_name_zh": "富士見Fantasia文庫",
+      "card_count": 317,
+      "printing_count": 593,
+      "product_count": 48,
+      "products": [
+        {
+          "product_code": "F35/W120",
+          "suggested_display_name": "富士見Fantasia文庫（F35/W120）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "F35/W120-052"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "F35/W65",
+          "suggested_display_name": "富士見Fantasia文庫（F35/W65）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "F35/W65-034"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fab/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fab/W120）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 5,
+          "printing_count": 13,
+          "sample_card_ids": [
+            "Fab/W120-044",
+            "Fab/W120-049",
+            "Fab/W120-051",
+            "Fab/W120-058",
+            "Fab/W120-066"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fab/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fab/W65）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 9,
+          "printing_count": 12,
+          "sample_card_ids": [
+            "Fab/W65-T07",
+            "Fab/W65-T08",
+            "Fab/W65-025",
+            "Fab/W65-026",
+            "Fab/W65-029"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fcr/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fcr/W120）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fcr/W120-012"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fdd/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fdd/W120）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 12,
+          "printing_count": 26,
+          "sample_card_ids": [
+            "Fdd/W120-P05",
+            "Fdd/W120-T07",
+            "Fdd/W120-T10",
+            "Fdd/W120-076",
+            "Fdd/W120-081"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fdd/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fdd/W65）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 18,
+          "printing_count": 26,
+          "sample_card_ids": [
+            "Fdd/W65-T09",
+            "Fdd/W65-T10",
+            "Fdd/W65-T13",
+            "Fdd/W65-043",
+            "Fdd/W65-044"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fdl/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fdl/W120）",
+          "sort_index_by_card_code": 8,
+          "unique_card_count": 22,
+          "printing_count": 51,
+          "sample_card_ids": [
+            "Fdl/W120-P07",
+            "Fdl/W120-P10",
+            "Fdl/W120-T01",
+            "Fdl/W120-T09",
+            "Fdl/W120-T19"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fdl/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fdl/W65）",
+          "sort_index_by_card_code": 9,
+          "unique_card_count": 16,
+          "printing_count": 22,
+          "sample_card_ids": [
+            "Fdl/W65-T16",
+            "Fdl/W65-T17",
+            "Fdl/W65-074",
+            "Fdl/W65-076",
+            "Fdl/W65-077"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fdy/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fdy/W120）",
+          "sort_index_by_card_code": 10,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fdy/W120-068"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fdy/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fdy/W65）",
+          "sort_index_by_card_code": 11,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "Fdy/W65-035"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ffp/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Ffp/W120）",
+          "sort_index_by_card_code": 12,
+          "unique_card_count": 17,
+          "printing_count": 36,
+          "sample_card_ids": [
+            "Ffp/W120-P03",
+            "Ffp/W120-P08",
+            "Ffp/W120-T02",
+            "Ffp/W120-T06",
+            "Ffp/W120-038"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ffp/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Ffp/W65）",
+          "sort_index_by_card_code": 13,
+          "unique_card_count": 7,
+          "printing_count": 10,
+          "sample_card_ids": [
+            "Ffp/W65-T02",
+            "Ffp/W65-023",
+            "Ffp/W65-028",
+            "Ffp/W65-030",
+            "Ffp/W65-031"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fgc/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fgc/W120）",
+          "sort_index_by_card_code": 14,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fgc/W120-025"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fgi/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fgi/W120）",
+          "sort_index_by_card_code": 15,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fgi/W120-043"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fgm/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fgm/W120）",
+          "sort_index_by_card_code": 16,
+          "unique_card_count": 5,
+          "printing_count": 12,
+          "sample_card_ids": [
+            "Fgm/W120-046",
+            "Fgm/W120-054",
+            "Fgm/W120-056",
+            "Fgm/W120-062",
+            "Fgm/W120-075"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fhc/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fhc/W65）",
+          "sort_index_by_card_code": 17,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "Fhc/W65-090"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fii/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fii/W65）",
+          "sort_index_by_card_code": 18,
+          "unique_card_count": 9,
+          "printing_count": 12,
+          "sample_card_ids": [
+            "Fii/W65-T15",
+            "Fii/W65-T19",
+            "Fii/W65-072",
+            "Fii/W65-082",
+            "Fii/W65-085"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fil/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fil/W120）",
+          "sort_index_by_card_code": 19,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fil/W120-022"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fjk/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fjk/W120）",
+          "sort_index_by_card_code": 20,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fjk/W120-064"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fkd/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fkd/W120）",
+          "sort_index_by_card_code": 21,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fkd/W120-131"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fkk/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fkk/W120）",
+          "sort_index_by_card_code": 22,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fkk/W120-053"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fkm/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fkm/W65）",
+          "sort_index_by_card_code": 23,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "Fkm/W65-095"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fkn/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fkn/W120）",
+          "sort_index_by_card_code": 24,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fkn/W120-135"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fks/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fks/W120）",
+          "sort_index_by_card_code": 25,
+          "unique_card_count": 11,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Fks/W120-P01",
+            "Fks/W120-T12",
+            "Fks/W120-002",
+            "Fks/W120-005",
+            "Fks/W120-015"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fks/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fks/W65）",
+          "sort_index_by_card_code": 26,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "Fks/W65-015"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fkz/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fkz/W65）",
+          "sort_index_by_card_code": 27,
+          "unique_card_count": 17,
+          "printing_count": 23,
+          "sample_card_ids": [
+            "Fkz/W65-P02",
+            "Fkz/W65-T01",
+            "Fkz/W65-T05",
+            "Fkz/W65-002",
+            "Fkz/W65-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fma/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fma/W120）",
+          "sort_index_by_card_code": 28,
+          "unique_card_count": 5,
+          "printing_count": 13,
+          "sample_card_ids": [
+            "Fma/W120-125",
+            "Fma/W120-133",
+            "Fma/W120-134",
+            "Fma/W120-138",
+            "Fma/W120-141"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fmr/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fmr/W65）",
+          "sort_index_by_card_code": 29,
+          "unique_card_count": 7,
+          "printing_count": 10,
+          "sample_card_ids": [
+            "Fmr/W65-T04",
+            "Fmr/W65-024",
+            "Fmr/W65-027",
+            "Fmr/W65-033",
+            "Fmr/W65-038"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Foo/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Foo/W120）",
+          "sort_index_by_card_code": 30,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Foo/W120-126"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fos/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fos/W120）",
+          "sort_index_by_card_code": 31,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fos/W120-060"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fos/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fos/W65）",
+          "sort_index_by_card_code": 32,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "Fos/W65-037"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Foy/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Foy/W120）",
+          "sort_index_by_card_code": 33,
+          "unique_card_count": 5,
+          "printing_count": 13,
+          "sample_card_ids": [
+            "Foy/W120-007",
+            "Foy/W120-008",
+            "Foy/W120-021",
+            "Foy/W120-028",
+            "Foy/W120-032"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Foy/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Foy/W65）",
+          "sort_index_by_card_code": 34,
+          "unique_card_count": 9,
+          "printing_count": 13,
+          "sample_card_ids": [
+            "Foy/W65-T03",
+            "Foy/W65-T06",
+            "Foy/W65-001",
+            "Foy/W65-004",
+            "Foy/W65-009"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fra/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fra/W120）",
+          "sort_index_by_card_code": 35,
+          "unique_card_count": 16,
+          "printing_count": 35,
+          "sample_card_ids": [
+            "Fra/W120-P06",
+            "Fra/W120-T14",
+            "Fra/W120-T15",
+            "Fra/W120-T17",
+            "Fra/W120-113"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fra/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fra/W65）",
+          "sort_index_by_card_code": 36,
+          "unique_card_count": 16,
+          "printing_count": 22,
+          "sample_card_ids": [
+            "Fra/W65-T18",
+            "Fra/W65-T20",
+            "Fra/W65-073",
+            "Fra/W65-075",
+            "Fra/W65-078"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsa/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fsa/W120）",
+          "sort_index_by_card_code": 37,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fsa/W120-009"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsh/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fsh/W120）",
+          "sort_index_by_card_code": 38,
+          "unique_card_count": 16,
+          "printing_count": 36,
+          "sample_card_ids": [
+            "Fsh/W120-P09",
+            "Fsh/W120-T03",
+            "Fsh/W120-T04",
+            "Fsh/W120-039",
+            "Fsh/W120-041"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsi/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fsi/W120）",
+          "sort_index_by_card_code": 39,
+          "unique_card_count": 10,
+          "printing_count": 23,
+          "sample_card_ids": [
+            "Fsi/W120-T05",
+            "Fsi/W120-080",
+            "Fsi/W120-085",
+            "Fsi/W120-089",
+            "Fsi/W120-090"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsi/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fsi/W65）",
+          "sort_index_by_card_code": 40,
+          "unique_card_count": 19,
+          "printing_count": 27,
+          "sample_card_ids": [
+            "Fsi/W65-P01",
+            "Fsi/W65-T11",
+            "Fsi/W65-T12",
+            "Fsi/W65-T14",
+            "Fsi/W65-042"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsl/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fsl/W120）",
+          "sort_index_by_card_code": 41,
+          "unique_card_count": 11,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Fsl/W120-P04",
+            "Fsl/W120-T08",
+            "Fsl/W120-T11",
+            "Fsl/W120-078",
+            "Fsl/W120-082"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsl/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Fsl/W65）",
+          "sort_index_by_card_code": 42,
+          "unique_card_count": 2,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fsl/W65-P03",
+            "Fsl/W65-046"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsp/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fsp/W120）",
+          "sort_index_by_card_code": 43,
+          "unique_card_count": 16,
+          "printing_count": 35,
+          "sample_card_ids": [
+            "Fsp/W120-P02",
+            "Fsp/W120-T13",
+            "Fsp/W120-T16",
+            "Fsp/W120-001",
+            "Fsp/W120-004"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fsr/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fsr/W120）",
+          "sort_index_by_card_code": 44,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Fsr/W120-061"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ftr/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Ftr/W120）",
+          "sort_index_by_card_code": 45,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Ftr/W120-026"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ftr/W65",
+          "suggested_display_name": "富士見Fantasia文庫（Ftr/W65）",
+          "sort_index_by_card_code": 46,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "Ftr/W65-017"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ftt/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Ftt/W120）",
+          "sort_index_by_card_code": 47,
+          "unique_card_count": 10,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Ftt/W120-T18",
+            "Ftt/W120-T21",
+            "Ftt/W120-115",
+            "Ftt/W120-122",
+            "Ftt/W120-124"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Fvd/W120",
+          "suggested_display_name": "富士見Fantasia文庫（Fvd/W120）",
+          "sort_index_by_card_code": 48,
+          "unique_card_count": 5,
+          "printing_count": 12,
+          "sample_card_ids": [
+            "Fvd/W120-T20",
+            "Fvd/W120-120",
+            "Fvd/W120-128",
+            "Fvd/W120-130",
+            "Fvd/W120-144"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "ft",
+      "title_code": "FT",
+      "title_name_jp": "FAIRY TAIL",
+      "title_name_zh": "FAIRY TAIL 魔導少年",
+      "card_count": 274,
+      "printing_count": 434,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "FT/S09",
+          "suggested_display_name": "FAIRY TAIL 魔導少年（FT/S09）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 126,
+          "printing_count": 142,
+          "sample_card_ids": [
+            "FT/S09-106",
+            "FT/S09-107",
+            "FT/S09-108",
+            "FT/S09-109",
+            "FT/S09-110"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "FT/S120",
+          "suggested_display_name": "FAIRY TAIL 魔導少年（FT/S120）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 102,
+          "printing_count": 236,
+          "sample_card_ids": [
+            "FT/S120-P01",
+            "FT/S120-P02",
+            "FT/S120-001",
+            "FT/S120-002",
+            "FT/S120-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "FT/SE10",
+          "suggested_display_name": "FAIRY TAIL 魔導少年（FT/SE10）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 46,
+          "printing_count": 56,
+          "sample_card_ids": [
+            "FT/SE10-46",
+            "FT/SE10-01",
+            "FT/SE10-02",
+            "FT/SE10-03",
+            "FT/SE10-04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -3916,6 +5377,904 @@
       ]
     },
     {
+      "key": "gbk",
+      "title_code": "Gby",
+      "title_name_jp": "電撃文庫",
+      "title_name_zh": "電擊文庫",
+      "card_count": 207,
+      "printing_count": 401,
+      "product_count": 50,
+      "products": [
+        {
+          "product_code": "G86/WS02",
+          "suggested_display_name": "電擊文庫（G86/WS02）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 4,
+          "printing_count": 8,
+          "sample_card_ids": [
+            "G86/WS02-T28",
+            "G86/WS02-080",
+            "G86/WS02-098",
+            "G86/WS02-107"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gas/WS02",
+          "suggested_display_name": "電擊文庫（Gas/WS02）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gas/WS02-050"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gaw/WS02",
+          "suggested_display_name": "電擊文庫（Gaw/WS02）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 14,
+          "printing_count": 27,
+          "sample_card_ids": [
+            "Gaw/WS02-P15",
+            "Gaw/WS02-T22",
+            "Gaw/WS02-T27",
+            "Gaw/WS02-T30",
+            "Gaw/WS02-T31"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gbb/WS02",
+          "suggested_display_name": "電擊文庫（Gbb/WS02）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gbb/WS02-090"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gbc/WS02",
+          "suggested_display_name": "電擊文庫（Gbc/WS02）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gbc/WS02-013"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gbd/WS02",
+          "suggested_display_name": "電擊文庫（Gbd/WS02）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 2,
+          "printing_count": 3,
+          "sample_card_ids": [
+            "Gbd/WS02-P14",
+            "Gbd/WS02-092"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gbl/WS02",
+          "suggested_display_name": "電擊文庫（Gbl/WS02）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 6,
+          "printing_count": 11,
+          "sample_card_ids": [
+            "Gbl/WS02-P08",
+            "Gbl/WS02-T26",
+            "Gbl/WS02-001",
+            "Gbl/WS02-010",
+            "Gbl/WS02-033"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gby/WS02",
+          "suggested_display_name": "電擊文庫（Gby/WS02）",
+          "sort_index_by_card_code": 8,
+          "unique_card_count": 5,
+          "printing_count": 9,
+          "sample_card_ids": [
+            "Gby/WS02-P07",
+            "Gby/WS02-T18",
+            "Gby/WS02-048",
+            "Gby/WS02-051",
+            "Gby/WS02-071"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gc3/WS02",
+          "suggested_display_name": "電擊文庫（Gc3/WS02）",
+          "sort_index_by_card_code": 9,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gc3/WS02-103"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gdc/WS02",
+          "suggested_display_name": "電擊文庫（Gdc/WS02）",
+          "sort_index_by_card_code": 10,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gdc/WS02-063"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gdr/WS02",
+          "suggested_display_name": "電擊文庫（Gdr/WS02）",
+          "sort_index_by_card_code": 11,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gdr/WS02-022"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gds/WS02",
+          "suggested_display_name": "電擊文庫（Gds/WS02）",
+          "sort_index_by_card_code": 12,
+          "unique_card_count": 4,
+          "printing_count": 8,
+          "sample_card_ids": [
+            "Gds/WS02-T16",
+            "Gds/WS02-049",
+            "Gds/WS02-058",
+            "Gds/WS02-064"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gdy/WS02",
+          "suggested_display_name": "電擊文庫（Gdy/WS02）",
+          "sort_index_by_card_code": 13,
+          "unique_card_count": 2,
+          "printing_count": 3,
+          "sample_card_ids": [
+            "Gdy/WS02-P13",
+            "Gdy/WS02-056"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gem/WS02",
+          "suggested_display_name": "電擊文庫（Gem/WS02）",
+          "sort_index_by_card_code": 14,
+          "unique_card_count": 5,
+          "printing_count": 10,
+          "sample_card_ids": [
+            "Gem/WS02-T19",
+            "Gem/WS02-040",
+            "Gem/WS02-044",
+            "Gem/WS02-069",
+            "Gem/WS02-072"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gfq/WS02",
+          "suggested_display_name": "電擊文庫（Gfq/WS02）",
+          "sort_index_by_card_code": 15,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gfq/WS02-093"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gga/WS02",
+          "suggested_display_name": "電擊文庫（Gga/WS02）",
+          "sort_index_by_card_code": 16,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gga/WS02-094"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ggg/WS02",
+          "suggested_display_name": "電擊文庫（Ggg/WS02）",
+          "sort_index_by_card_code": 17,
+          "unique_card_count": 4,
+          "printing_count": 8,
+          "sample_card_ids": [
+            "Ggg/WS02-T23",
+            "Ggg/WS02-081",
+            "Ggg/WS02-096",
+            "Ggg/WS02-104"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ggh/WS02",
+          "suggested_display_name": "電擊文庫（Ggh/WS02）",
+          "sort_index_by_card_code": 18,
+          "unique_card_count": 5,
+          "printing_count": 12,
+          "sample_card_ids": [
+            "Ggh/WS02-T39",
+            "Ggh/WS02-118",
+            "Ggh/WS02-123",
+            "Ggh/WS02-135",
+            "Ggh/WS02-147"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ggu/WS02",
+          "suggested_display_name": "電擊文庫（Ggu/WS02）",
+          "sort_index_by_card_code": 19,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Ggu/WS02-087"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ghh/WS02",
+          "suggested_display_name": "電擊文庫（Ghh/WS02）",
+          "sort_index_by_card_code": 20,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Ghh/WS02-095"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ghm/WS02",
+          "suggested_display_name": "電擊文庫（Ghm/WS02）",
+          "sort_index_by_card_code": 21,
+          "unique_card_count": 6,
+          "printing_count": 11,
+          "sample_card_ids": [
+            "Ghm/WS02-P10",
+            "Ghm/WS02-T03",
+            "Ghm/WS02-039",
+            "Ghm/WS02-043",
+            "Ghm/WS02-055"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gid/WS02",
+          "suggested_display_name": "電擊文庫（Gid/WS02）",
+          "sort_index_by_card_code": 22,
+          "unique_card_count": 14,
+          "printing_count": 26,
+          "sample_card_ids": [
+            "Gid/WS02-P02",
+            "Gid/WS02-P16",
+            "Gid/WS02-T04",
+            "Gid/WS02-T06",
+            "Gid/WS02-T10"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Giy/WS02",
+          "suggested_display_name": "電擊文庫（Giy/WS02）",
+          "sort_index_by_card_code": 23,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Giy/WS02-130"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gkb/WS02",
+          "suggested_display_name": "電擊文庫（Gkb/WS02）",
+          "sort_index_by_card_code": 24,
+          "unique_card_count": 4,
+          "printing_count": 8,
+          "sample_card_ids": [
+            "Gkb/WS02-T29",
+            "Gkb/WS02-126",
+            "Gkb/WS02-134",
+            "Gkb/WS02-146"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gkl/WS02",
+          "suggested_display_name": "電擊文庫（Gkl/WS02）",
+          "sort_index_by_card_code": 25,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gkl/WS02-015"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gkm/WS02",
+          "suggested_display_name": "電擊文庫（Gkm/WS02）",
+          "sort_index_by_card_code": 26,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gkm/WS02-088"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Glt/WS02",
+          "suggested_display_name": "電擊文庫（Glt/WS02）",
+          "sort_index_by_card_code": 27,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Glt/WS02-141"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gmf/WS02",
+          "suggested_display_name": "電擊文庫（Gmf/WS02）",
+          "sort_index_by_card_code": 28,
+          "unique_card_count": 6,
+          "printing_count": 11,
+          "sample_card_ids": [
+            "Gmf/WS02-P12",
+            "Gmf/WS02-T25",
+            "Gmf/WS02-076",
+            "Gmf/WS02-086",
+            "Gmf/WS02-105"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gmm/WS02",
+          "suggested_display_name": "電擊文庫（Gmm/WS02）",
+          "sort_index_by_card_code": 29,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gmm/WS02-061"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gmr/WS02",
+          "suggested_display_name": "電擊文庫（Gmr/WS02）",
+          "sort_index_by_card_code": 30,
+          "unique_card_count": 14,
+          "printing_count": 27,
+          "sample_card_ids": [
+            "Gmr/WS02-P06",
+            "Gmr/WS02-T32",
+            "Gmr/WS02-T33",
+            "Gmr/WS02-T38",
+            "Gmr/WS02-T41"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gms/WS02",
+          "suggested_display_name": "電擊文庫（Gms/WS02）",
+          "sort_index_by_card_code": 31,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gms/WS02-067"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gnh/WS02",
+          "suggested_display_name": "電擊文庫（Gnh/WS02）",
+          "sort_index_by_card_code": 32,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gnh/WS02-057"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gnm/WS02",
+          "suggested_display_name": "電擊文庫（Gnm/WS02）",
+          "sort_index_by_card_code": 33,
+          "unique_card_count": 6,
+          "printing_count": 11,
+          "sample_card_ids": [
+            "Gnm/WS02-P09",
+            "Gnm/WS02-T24",
+            "Gnm/WS02-075",
+            "Gnm/WS02-084",
+            "Gnm/WS02-108"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gns/WS02",
+          "suggested_display_name": "電擊文庫（Gns/WS02）",
+          "sort_index_by_card_code": 34,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gns/WS02-102"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gny/WS02",
+          "suggested_display_name": "電擊文庫（Gny/WS02）",
+          "sort_index_by_card_code": 35,
+          "unique_card_count": 4,
+          "printing_count": 8,
+          "sample_card_ids": [
+            "Gny/WS02-T12",
+            "Gny/WS02-046",
+            "Gny/WS02-054",
+            "Gny/WS02-068"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Goi/WS02",
+          "suggested_display_name": "電擊文庫（Goi/WS02）",
+          "sort_index_by_card_code": 36,
+          "unique_card_count": 12,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Goi/WS02-T13",
+            "Goi/WS02-T20",
+            "Goi/WS02-T21",
+            "Goi/WS02-041",
+            "Goi/WS02-045"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gok/WS02",
+          "suggested_display_name": "電擊文庫（Gok/WS02）",
+          "sort_index_by_card_code": 37,
+          "unique_card_count": 6,
+          "printing_count": 11,
+          "sample_card_ids": [
+            "Gok/WS02-P04",
+            "Gok/WS02-T02",
+            "Gok/WS02-008",
+            "Gok/WS02-024",
+            "Gok/WS02-030"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gom/WS02",
+          "suggested_display_name": "電擊文庫（Gom/WS02）",
+          "sort_index_by_card_code": 38,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gom/WS02-042"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gos/WS02",
+          "suggested_display_name": "電擊文庫（Gos/WS02）",
+          "sort_index_by_card_code": 39,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gos/WS02-060"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Grk/WS02",
+          "suggested_display_name": "電擊文庫（Grk/WS02）",
+          "sort_index_by_card_code": 40,
+          "unique_card_count": 12,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Grk/WS02-T14",
+            "Grk/WS02-T15",
+            "Grk/WS02-T17",
+            "Grk/WS02-078",
+            "Grk/WS02-082"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gsb/WS02",
+          "suggested_display_name": "電擊文庫（Gsb/WS02）",
+          "sort_index_by_card_code": 41,
+          "unique_card_count": 5,
+          "printing_count": 10,
+          "sample_card_ids": [
+            "Gsb/WS02-T35",
+            "Gsb/WS02-117",
+            "Gsb/WS02-121",
+            "Gsb/WS02-139",
+            "Gsb/WS02-150"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gsc/WS02",
+          "suggested_display_name": "電擊文庫（Gsc/WS02）",
+          "sort_index_by_card_code": 42,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gsc/WS02-021"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gsd/WS02",
+          "suggested_display_name": "電擊文庫（Gsd/WS02）",
+          "sort_index_by_card_code": 43,
+          "unique_card_count": 2,
+          "printing_count": 3,
+          "sample_card_ids": [
+            "Gsd/WS02-P05",
+            "Gsd/WS02-122"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gsk/WS02",
+          "suggested_display_name": "電擊文庫（Gsk/WS02）",
+          "sort_index_by_card_code": 44,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gsk/WS02-099"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gso/WS02",
+          "suggested_display_name": "電擊文庫（Gso/WS02）",
+          "sort_index_by_card_code": 45,
+          "unique_card_count": 15,
+          "printing_count": 29,
+          "sample_card_ids": [
+            "Gso/WS02-P01",
+            "Gso/WS02-P03",
+            "Gso/WS02-T34",
+            "Gso/WS02-T36",
+            "Gso/WS02-T37"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gsp/WS02",
+          "suggested_display_name": "電擊文庫（Gsp/WS02）",
+          "sort_index_by_card_code": 46,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gsp/WS02-062"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gsr/WS02",
+          "suggested_display_name": "電擊文庫（Gsr/WS02）",
+          "sort_index_by_card_code": 47,
+          "unique_card_count": 2,
+          "printing_count": 3,
+          "sample_card_ids": [
+            "Gsr/WS02-P11",
+            "Gsr/WS02-059"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gss/WS02",
+          "suggested_display_name": "電擊文庫（Gss/WS02）",
+          "sort_index_by_card_code": 48,
+          "unique_card_count": 12,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Gss/WS02-T01",
+            "Gss/WS02-T07",
+            "Gss/WS02-T09",
+            "Gss/WS02-077",
+            "Gss/WS02-079"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gtd/WS02",
+          "suggested_display_name": "電擊文庫（Gtd/WS02）",
+          "sort_index_by_card_code": 49,
+          "unique_card_count": 12,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Gtd/WS02-T05",
+            "Gtd/WS02-T08",
+            "Gtd/WS02-T11",
+            "Gtd/WS02-004",
+            "Gtd/WS02-009"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Gyf/WS02",
+          "suggested_display_name": "電擊文庫（Gyf/WS02）",
+          "sort_index_by_card_code": 50,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "Gyf/WS02-089"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "gbs",
       "title_code": "GBS",
       "title_name_jp": "ゴブリンスレイヤー",
@@ -4015,6 +6374,107 @@
       ]
     },
     {
+      "key": "gcr",
+      "title_code": "GCR",
+      "title_name_jp": "ガールズバンドクライ",
+      "title_name_zh": "Girls Band Cry",
+      "card_count": 101,
+      "printing_count": 211,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "GCR/SE48",
+          "suggested_display_name": "Girls Band Cry",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 101,
+          "printing_count": 211,
+          "sample_card_ids": [
+            "GCR/SE48-P01",
+            "GCR/SE48-P02",
+            "GCR/SE48-P03",
+            "GCR/SE48-P04",
+            "GCR/SE48-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "ggo",
+      "title_code": "GGO",
+      "title_name_jp": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン",
+      "title_name_zh": "刀劍神域外傳 Gun Gale Online",
+      "card_count": 198,
+      "printing_count": 312,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "GGO/S59",
+          "suggested_display_name": "刀劍神域外傳 Gun Gale Online（GGO/S59）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 130,
+          "printing_count": 164,
+          "sample_card_ids": [
+            "GGO/S59-P01",
+            "GGO/S59-P02",
+            "GGO/S59-P03",
+            "GGO/S59-P04",
+            "GGO/S59-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GGO/SE50",
+          "suggested_display_name": "刀劍神域外傳 Gun Gale Online（GGO/SE50）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 64,
+          "printing_count": 140,
+          "sample_card_ids": [
+            "GGO/SE50-P01",
+            "GGO/SE50-P02",
+            "GGO/SE50-P03",
+            "GGO/SE50-P04",
+            "GGO/SE50-01"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Ggg/WS02",
+          "suggested_display_name": "刀劍神域外傳 Gun Gale Online（Ggg/WS02）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 4,
+          "printing_count": 8,
+          "sample_card_ids": [
+            "Ggg/WS02-T23",
+            "Ggg/WS02-081",
+            "Ggg/WS02-096",
+            "Ggg/WS02-104"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "gim",
       "title_code": "GIM",
       "title_name_jp": "学園アイドルマスター",
@@ -4077,6 +6537,77 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "gri",
+      "title_code": "GRI",
+      "title_name_jp": "グリザイアシリーズ",
+      "title_name_zh": "灰色系列",
+      "card_count": 377,
+      "printing_count": 612,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "GRI/S112",
+          "suggested_display_name": "灰色系列（GRI/S112）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 110,
+          "printing_count": 223,
+          "sample_card_ids": [
+            "GRI/S112-P09",
+            "GRI/S112-P01",
+            "GRI/S112-P02",
+            "GRI/S112-P03",
+            "GRI/S112-P04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GRI/S72",
+          "suggested_display_name": "灰色系列（GRI/S72）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 128,
+          "printing_count": 181,
+          "sample_card_ids": [
+            "GRI/S72-P01",
+            "GRI/S72-P02",
+            "GRI/S72-P03",
+            "GRI/S72-T01",
+            "GRI/S72-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GRI/S84",
+          "suggested_display_name": "灰色系列（GRI/S84）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 139,
+          "printing_count": 208,
+          "sample_card_ids": [
+            "GRI/S84-P07",
+            "GRI/S84-P08",
+            "GRI/S84-P09",
+            "GRI/S84-001",
+            "GRI/S84-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -4176,6 +6707,137 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "gu",
+      "title_code": "GU",
+      "title_name_jp": "ご注文はうさぎですか？？",
+      "title_name_zh": "請問您今天要來點兔子嗎？？",
+      "card_count": 674,
+      "printing_count": 963,
+      "product_count": 6,
+      "products": [
+        {
+          "product_code": "GU/W44",
+          "suggested_display_name": "請問您今天要來點兔子嗎？？（GU/W44）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 143,
+          "printing_count": 179,
+          "sample_card_ids": [
+            "GU/W44-P01",
+            "GU/W44-P02",
+            "GU/W44-P03",
+            "GU/W44-P04",
+            "GU/W44-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GU/W57",
+          "suggested_display_name": "請問您今天要來點兔子嗎？？（GU/W57）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 157,
+          "printing_count": 194,
+          "sample_card_ids": [
+            "GU/W57-P01",
+            "GU/W57-P02",
+            "GU/W57-P03",
+            "GU/W57-P04",
+            "GU/W57-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GU/W88",
+          "suggested_display_name": "請問您今天要來點兔子嗎？？（GU/W88）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 132,
+          "printing_count": 195,
+          "sample_card_ids": [
+            "GU/W88-P01",
+            "GU/W88-P02",
+            "GU/W88-P03",
+            "GU/W88-P04",
+            "GU/W88-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GU/W94",
+          "suggested_display_name": "請問您今天要來點兔子嗎？？（GU/W94）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 107,
+          "printing_count": 178,
+          "sample_card_ids": [
+            "GU/W94-001",
+            "GU/W94-002",
+            "GU/W94-003",
+            "GU/W94-004",
+            "GU/W94-005"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GU/WE26",
+          "suggested_display_name": "請問您今天要來點兔子嗎？？（GU/WE26）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 67,
+          "printing_count": 75,
+          "sample_card_ids": [
+            "GU/WE26-051",
+            "GU/WE26-052",
+            "GU/WE26-053",
+            "GU/WE26-054",
+            "GU/WE26-055"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "GU/WE46",
+          "suggested_display_name": "請問您今天要來點兔子嗎？？（GU/WE46）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 68,
+          "printing_count": 142,
+          "sample_card_ids": [
+            "GU/WE46-P01",
+            "GU/WE46-P02",
+            "GU/WE46-01",
+            "GU/WE46-02",
+            "GU/WE46-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -5500,6 +8162,188 @@
       ]
     },
     {
+      "key": "jj",
+      "title_code": "JJ",
+      "title_name_jp": "ジョジョの奇妙な冒険",
+      "title_name_zh": "JoJo的奇妙冒險",
+      "card_count": 253,
+      "printing_count": 448,
+      "product_count": 3,
+      "products": [
+        {
+          "product_code": "JJ/S66",
+          "suggested_display_name": "JoJo的奇妙冒險（JJ/S66）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 130,
+          "printing_count": 188,
+          "sample_card_ids": [
+            "JJ/S66-P01",
+            "JJ/S66-P02",
+            "JJ/S66-P04",
+            "JJ/S66-T01",
+            "JJ/S66-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "JJ/SE41",
+          "suggested_display_name": "JoJo的奇妙冒險（JJ/SE41）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 61,
+          "printing_count": 129,
+          "sample_card_ids": [
+            "JJ/SE41-P01",
+            "JJ/SE41-01",
+            "JJ/SE41-02",
+            "JJ/SE41-03",
+            "JJ/SE41-04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "JJ/SE42",
+          "suggested_display_name": "JoJo的奇妙冒險（JJ/SE42）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 62,
+          "printing_count": 131,
+          "sample_card_ids": [
+            "JJ/SE42-P01",
+            "JJ/SE42-P02",
+            "JJ/SE42-01",
+            "JJ/SE42-02",
+            "JJ/SE42-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "kc",
+      "title_code": "KC",
+      "title_name_jp": "艦隊これくしょん -艦これ-",
+      "title_name_zh": "艦隊Collection -艦Colle-",
+      "card_count": 603,
+      "printing_count": 807,
+      "product_count": 5,
+      "products": [
+        {
+          "product_code": "KC/S25",
+          "suggested_display_name": "艦隊Collection -艦Colle-（KC/S25）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 201,
+          "printing_count": 262,
+          "sample_card_ids": [
+            "KC/S25-P01",
+            "KC/S25-P02",
+            "KC/S25-P03",
+            "KC/S25-P04",
+            "KC/S25-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KC/S31",
+          "suggested_display_name": "艦隊Collection -艦Colle-（KC/S31）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 108,
+          "printing_count": 158,
+          "sample_card_ids": [
+            "KC/S31-P01",
+            "KC/S31-P02",
+            "KC/S31-P03",
+            "KC/S31-P04",
+            "KC/S31-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KC/S42",
+          "suggested_display_name": "艦隊Collection -艦Colle-（KC/S42）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 110,
+          "printing_count": 135,
+          "sample_card_ids": [
+            "KC/S42-P01",
+            "KC/S42-P02",
+            "KC/S42-P03",
+            "KC/S42-001",
+            "KC/S42-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KC/S67",
+          "suggested_display_name": "艦隊Collection -艦Colle-（KC/S67）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 132,
+          "printing_count": 185,
+          "sample_card_ids": [
+            "KC/S67-P01",
+            "KC/S67-P02",
+            "KC/S67-P03",
+            "KC/S67-T01",
+            "KC/S67-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KC/SE28",
+          "suggested_display_name": "艦隊Collection -艦Colle-（KC/SE28）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 52,
+          "printing_count": 67,
+          "sample_card_ids": [
+            "KC/SE28-P01",
+            "KC/SE28-01",
+            "KC/SE28-02",
+            "KC/SE28-03",
+            "KC/SE28-04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "key",
       "title_code": "Kab",
       "title_name_jp": "Key",
@@ -6413,6 +9257,57 @@
       ]
     },
     {
+      "key": "kf",
+      "title_code": "KF",
+      "title_name_jp": "THE KING OF FIGHTERS",
+      "title_name_zh": "THE KING OF FIGHTERS",
+      "card_count": 189,
+      "printing_count": 270,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "KF/S05",
+          "suggested_display_name": "THE KING OF FIGHTERS（KF/S05）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 124,
+          "printing_count": 140,
+          "sample_card_ids": [
+            "KF/S05-103",
+            "KF/S05-104",
+            "KF/S05-105",
+            "KF/S05-106",
+            "KF/S05-107"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KF/SE43",
+          "suggested_display_name": "THE KING OF FIGHTERS（KF/SE43）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 65,
+          "printing_count": 130,
+          "sample_card_ids": [
+            "KF/SE43-P01",
+            "KF/SE43-P02",
+            "KF/SE43-01",
+            "KF/SE43-02",
+            "KF/SE43-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "kgl",
       "title_code": "KGL",
       "title_name_jp": "かぐや様は告らせたい",
@@ -6552,6 +9447,37 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "kmd",
+      "title_code": "KMD",
+      "title_name_jp": "小林さんちのメイドラゴン",
+      "title_name_zh": "小林家的龍女僕",
+      "card_count": 129,
+      "printing_count": 211,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "KMD/W96",
+          "suggested_display_name": "小林家的龍女僕",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 129,
+          "printing_count": 211,
+          "sample_card_ids": [
+            "KMD/W96-P01",
+            "KMD/W96-P02",
+            "KMD/W96-P03",
+            "KMD/W96-P04",
+            "KMD/W96-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -6699,6 +9625,137 @@
       ]
     },
     {
+      "key": "ks",
+      "title_code": "KS",
+      "title_name_jp": "この素晴らしい世界に祝福を！",
+      "title_name_zh": "為美好的世界獻上祝福！",
+      "card_count": 483,
+      "printing_count": 645,
+      "product_count": 6,
+      "products": [
+        {
+          "product_code": "KS/W49",
+          "suggested_display_name": "為美好的世界獻上祝福！（KS/W49）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 131,
+          "printing_count": 160,
+          "sample_card_ids": [
+            "KS/W49-P01",
+            "KS/W49-P02",
+            "KS/W49-P03",
+            "KS/W49-P04",
+            "KS/W49-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KS/W55",
+          "suggested_display_name": "為美好的世界獻上祝福！（KS/W55）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 108,
+          "printing_count": 135,
+          "sample_card_ids": [
+            "KS/W55-P01",
+            "KS/W55-P02",
+            "KS/W55-P03",
+            "KS/W55-P04",
+            "KS/W55-001"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KS/W75",
+          "suggested_display_name": "為美好的世界獻上祝福！（KS/W75）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 100,
+          "printing_count": 135,
+          "sample_card_ids": [
+            "KS/W75-001",
+            "KS/W75-002",
+            "KS/W75-003",
+            "KS/W75-004",
+            "KS/W75-005"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "KS/W76",
+          "suggested_display_name": "為美好的世界獻上祝福！（KS/W76）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 107,
+          "printing_count": 140,
+          "sample_card_ids": [
+            "KS/W76-P01",
+            "KS/W76-P02",
+            "KS/W76-P03",
+            "KS/W76-001",
+            "KS/W76-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Sks/W123",
+          "suggested_display_name": "為美好的世界獻上祝福！（Sks/W123）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 18,
+          "printing_count": 46,
+          "sample_card_ids": [
+            "Sks/W123-T10",
+            "Sks/W123-T13",
+            "Sks/W123-T15",
+            "Sks/W123-003",
+            "Sks/W123-010"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "Sks/W62",
+          "suggested_display_name": "為美好的世界獻上祝福！（Sks/W62）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 19,
+          "printing_count": 29,
+          "sample_card_ids": [
+            "Sks/W62-049",
+            "Sks/W62-P02",
+            "Sks/W62-P03",
+            "Sks/W62-T03",
+            "Sks/W62-T18"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "lh",
       "title_code": "LH",
       "title_name_jp": "ログ・ホライズン",
@@ -6787,6 +9844,474 @@
       ]
     },
     {
+      "key": "lhs",
+      "title_code": "LHS",
+      "title_name_jp": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ",
+      "title_name_zh": "Love Live! 蓮之空女學院學園偶像俱樂部",
+      "card_count": 122,
+      "printing_count": 276,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "LHS/W122",
+          "suggested_display_name": "Love Live! 蓮之空女學院學園偶像俱樂部",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 122,
+          "printing_count": 276,
+          "sample_card_ids": [
+            "LHS/W122-P01",
+            "LHS/W122-P02",
+            "LHS/W122-P03",
+            "LHS/W122-T01",
+            "LHS/W122-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "ll",
+      "title_code": "LL",
+      "title_name_jp": "ラブライブ！",
+      "title_name_zh": "Love Live!",
+      "card_count": 794,
+      "printing_count": 1169,
+      "product_count": 13,
+      "products": [
+        {
+          "product_code": "LL/W24",
+          "suggested_display_name": "Love Live!（LL/W24）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 142,
+          "printing_count": 195,
+          "sample_card_ids": [
+            "LL/W24-P01",
+            "LL/W24-P02",
+            "LL/W24-P03",
+            "LL/W24-P04",
+            "LL/W24-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/W28",
+          "suggested_display_name": "Love Live!（LL/W28）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 87,
+          "printing_count": 114,
+          "sample_card_ids": [
+            "LL/W28-P01",
+            "LL/W28-001",
+            "LL/W28-002",
+            "LL/W28-003",
+            "LL/W28-004"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/W34",
+          "suggested_display_name": "Love Live!（LL/W34）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 113,
+          "printing_count": 140,
+          "sample_card_ids": [
+            "LL/W34-P01",
+            "LL/W34-P02",
+            "LL/W34-P03",
+            "LL/W34-P04",
+            "LL/W34-001"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/W36",
+          "suggested_display_name": "Love Live!（LL/W36）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 141,
+          "printing_count": 179,
+          "sample_card_ids": [
+            "LL/W36-P01",
+            "LL/W36-P02",
+            "LL/W36-P03",
+            "LL/W36-P04",
+            "LL/W36-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/W68",
+          "suggested_display_name": "Love Live!（LL/W68）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 115,
+          "printing_count": 215,
+          "sample_card_ids": [
+            "LL/W68-P01",
+            "LL/W68-P02",
+            "LL/W68-P03",
+            "LL/W68-P04",
+            "LL/W68-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/WE19",
+          "suggested_display_name": "Love Live!（LL/WE19）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 31,
+          "printing_count": 40,
+          "sample_card_ids": [
+            "LL/WE19-P01",
+            "LL/WE19-P02",
+            "LL/WE19-P03",
+            "LL/WE19-P04",
+            "LL/WE19-01"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/WE24",
+          "suggested_display_name": "Love Live!（LL/WE24）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 74,
+          "printing_count": 89,
+          "sample_card_ids": [
+            "LL/WE24-P01",
+            "LL/WE24-P02",
+            "LL/WE24-P03",
+            "LL/WE24-P04",
+            "LL/WE24-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/WE25",
+          "suggested_display_name": "Love Live!（LL/WE25）",
+          "sort_index_by_card_code": 8,
+          "unique_card_count": 25,
+          "printing_count": 34,
+          "sample_card_ids": [
+            "LL/WE25-P01",
+            "LL/WE25-P02",
+            "LL/WE25-01",
+            "LL/WE25-02",
+            "LL/WE25-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/WE38",
+          "suggested_display_name": "Love Live!（LL/WE38）",
+          "sort_index_by_card_code": 9,
+          "unique_card_count": 10,
+          "printing_count": 28,
+          "sample_card_ids": [
+            "LL/WE38-P01",
+            "LL/WE38-012",
+            "LL/WE38-013",
+            "LL/WE38-014",
+            "LL/WE38-017"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LL/WE39",
+          "suggested_display_name": "Love Live!（LL/WE39）",
+          "sort_index_by_card_code": 10,
+          "unique_card_count": 20,
+          "printing_count": 56,
+          "sample_card_ids": [
+            "LL/WE39-P01",
+            "LL/WE39-P02",
+            "LL/WE39-013",
+            "LL/WE39-016",
+            "LL/WE39-017"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSF/W109",
+          "suggested_display_name": "Love Live!（LSF/W109）",
+          "sort_index_by_card_code": 11,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "LSF/W109-048"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSF/WE39",
+          "suggested_display_name": "Love Live!（LSF/WE39）",
+          "sort_index_by_card_code": 12,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "LSF/WE39-P04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SIL/W109",
+          "suggested_display_name": "Love Live!（SIL/W109）",
+          "sort_index_by_card_code": 13,
+          "unique_card_count": 34,
+          "printing_count": 76,
+          "sample_card_ids": [
+            "SIL/W109-139",
+            "SIL/W109-P02",
+            "SIL/W109-P06",
+            "SIL/W109-035",
+            "SIL/W109-036"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "lnj",
+      "title_code": "LNJ",
+      "title_name_jp": "ラブライブ！虹ヶ咲学園スクールアイドル同好会",
+      "title_name_zh": "Love Live! 虹咲學園學園偶像同好會",
+      "card_count": 351,
+      "printing_count": 597,
+      "product_count": 7,
+      "products": [
+        {
+          "product_code": "LNJ/W85",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（LNJ/W85）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 138,
+          "printing_count": 208,
+          "sample_card_ids": [
+            "LNJ/W85-P01",
+            "LNJ/W85-P02",
+            "LNJ/W85-P03",
+            "LNJ/W85-P04",
+            "LNJ/W85-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LNJ/W97",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（LNJ/W97）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 118,
+          "printing_count": 178,
+          "sample_card_ids": [
+            "LNJ/W97-P01",
+            "LNJ/W97-P02",
+            "LNJ/W97-P03",
+            "LNJ/W97-P04",
+            "LNJ/W97-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LNJ/WE38",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（LNJ/WE38）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 13,
+          "printing_count": 37,
+          "sample_card_ids": [
+            "LNJ/WE38-P03",
+            "LNJ/WE38-001",
+            "LNJ/WE38-003",
+            "LNJ/WE38-006",
+            "LNJ/WE38-010"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LNJ/WE39",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（LNJ/WE39）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 24,
+          "printing_count": 72,
+          "sample_card_ids": [
+            "LNJ/WE39-001",
+            "LNJ/WE39-002",
+            "LNJ/WE39-003",
+            "LNJ/WE39-006",
+            "LNJ/WE39-008"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSF/W109",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（LSF/W109）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "LSF/W109-048"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSF/WE39",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（LSF/WE39）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "LSF/WE39-P04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SIN/W109",
+          "suggested_display_name": "Love Live! 虹咲學園學園偶像同好會（SIN/W109）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 56,
+          "printing_count": 99,
+          "sample_card_ids": [
+            "SIN/W109-141",
+            "SIN/W109-P04",
+            "SIN/W109-P07",
+            "SIN/W109-P08",
+            "SIN/W109-P09"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "lod",
+      "title_code": "LOD",
+      "title_name_jp": "ロストディケイド",
+      "title_name_zh": "Lost Decade",
+      "card_count": 127,
+      "printing_count": 167,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "LOD/S74",
+          "suggested_display_name": "Lost Decade",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 167,
+          "sample_card_ids": [
+            "LOD/S74-P01",
+            "LOD/S74-P02",
+            "LOD/S74-P03",
+            "LOD/S74-P04",
+            "LOD/S74-T01"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "lrc",
       "title_code": "LRC",
       "title_name_jp": "リコリス・リコイル",
@@ -6871,6 +10396,109 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "lsp",
+      "title_code": "LSF",
+      "title_name_jp": "ラブライブ！スーパースター!!",
+      "title_name_zh": "Love Live! Superstar!!",
+      "card_count": 189,
+      "printing_count": 313,
+      "product_count": 5,
+      "products": [
+        {
+          "product_code": "LSF/W109",
+          "suggested_display_name": "Love Live! Superstar!!（LSF/W109）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "LSF/W109-048"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSF/WE39",
+          "suggested_display_name": "Love Live! Superstar!!（LSF/WE39）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "LSF/WE39-P04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSP/W92",
+          "suggested_display_name": "Love Live! Superstar!!（LSP/W92）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 132,
+          "printing_count": 204,
+          "sample_card_ids": [
+            "LSP/W92-P01",
+            "LSP/W92-P02",
+            "LSP/W92-P03",
+            "LSP/W92-P04",
+            "LSP/W92-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "LSP/WE38",
+          "suggested_display_name": "Love Live! Superstar!!（LSP/WE38）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 10,
+          "printing_count": 28,
+          "sample_card_ids": [
+            "LSP/WE38-P04",
+            "LSP/WE38-004",
+            "LSP/WE38-007",
+            "LSP/WE38-008",
+            "LSP/WE38-011"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SIP/W109",
+          "suggested_display_name": "Love Live! Superstar!!（SIP/W109）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 45,
+          "printing_count": 78,
+          "sample_card_ids": [
+            "SIP/W109-142",
+            "SIP/W109-P05",
+            "SIP/W109-P19",
+            "SIP/W109-P20",
+            "SIP/W109-P21"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -7480,6 +11108,177 @@
       ]
     },
     {
+      "key": "mk",
+      "title_code": "MK",
+      "title_name_jp": "探偵オペラ　ミルキィホームズ",
+      "title_name_zh": "偵探歌劇 少女福爾摩斯",
+      "card_count": 663,
+      "printing_count": 754,
+      "product_count": 8,
+      "products": [
+        {
+          "product_code": "MK/S11",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/S11）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 158,
+          "printing_count": 179,
+          "sample_card_ids": [
+            "MK/S11-106",
+            "MK/S11-107",
+            "MK/S11-108",
+            "MK/S11-109",
+            "MK/S11-110"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK/S33",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/S33）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 145,
+          "printing_count": 174,
+          "sample_card_ids": [
+            "MK/S33-P01",
+            "MK/S33-P02",
+            "MK/S33-P03",
+            "MK/S33-P04",
+            "MK/S33-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK/SE09",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/SE09）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 31,
+          "printing_count": 31,
+          "sample_card_ids": [
+            "MK/SE09-28",
+            "MK/SE09-29",
+            "MK/SE09-30",
+            "MK/SE09-31",
+            "MK/SE09-01"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK/SE11",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/SE11）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 54,
+          "printing_count": 54,
+          "sample_card_ids": [
+            "MK/SE11-37",
+            "MK/SE11-38",
+            "MK/SE11-39",
+            "MK/SE11-40",
+            "MK/SE11-41"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK/SE29",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/SE29）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 61,
+          "printing_count": 67,
+          "sample_card_ids": [
+            "MK/SE29-P01",
+            "MK/SE29-P02",
+            "MK/SE29-P03",
+            "MK/SE29-P04",
+            "MK/SE29-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK/SE34",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/SE34）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 5,
+          "printing_count": 5,
+          "sample_card_ids": [
+            "MK/SE34-P01",
+            "MK/SE34-01",
+            "MK/SE34-02",
+            "MK/SE34-03",
+            "MK/SE34-04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK/SJ01",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK/SJ01）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 62,
+          "printing_count": 80,
+          "sample_card_ids": [
+            "MK/SJ01-P01",
+            "MK/SJ01-P02",
+            "MK/SJ01-001",
+            "MK/SJ01-002",
+            "MK/SJ01-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MK2/S19",
+          "suggested_display_name": "偵探歌劇 少女福爾摩斯（MK2/S19）",
+          "sort_index_by_card_code": 8,
+          "unique_card_count": 147,
+          "printing_count": 164,
+          "sample_card_ids": [
+            "MK2/S19-P01",
+            "MK2/S19-P02",
+            "MK2/S19-P03",
+            "MK2/S19-P04",
+            "MK2/S19-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "mki",
       "title_code": "MKI",
       "title_name_jp": "負けヒロインが多すぎる！",
@@ -7531,6 +11330,179 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "mm",
+      "title_code": "MM",
+      "title_name_jp": "魔法少女まどか☆マギカ",
+      "title_name_zh": "魔法少女小圓",
+      "card_count": 496,
+      "printing_count": 606,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "MM/W17",
+          "suggested_display_name": "魔法少女小圓（MM/W17）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 131,
+          "printing_count": 151,
+          "sample_card_ids": [
+            "MM/W17-P01",
+            "MM/W17-P02",
+            "MM/W17-P03",
+            "MM/W17-P04",
+            "MM/W17-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MM/W35",
+          "suggested_display_name": "魔法少女小圓（MM/W35）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 110,
+          "printing_count": 132,
+          "sample_card_ids": [
+            "MM/W35-P01",
+            "MM/W35-P02",
+            "MM/W35-P03",
+            "MM/W35-001",
+            "MM/W35-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MR/W59",
+          "suggested_display_name": "魔法少女小圓（MR/W59）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 128,
+          "printing_count": 157,
+          "sample_card_ids": [
+            "MR/W59-P01",
+            "MR/W59-P02",
+            "MR/W59-P03",
+            "MR/W59-T01",
+            "MR/W59-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MR/W80",
+          "suggested_display_name": "魔法少女小圓（MR/W80）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 127,
+          "printing_count": 166,
+          "sample_card_ids": [
+            "MR/W80-P01",
+            "MR/W80-P02",
+            "MR/W80-T01",
+            "MR/W80-T02",
+            "MR/W80-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "mrd",
+      "title_code": "MRd",
+      "title_name_jp": "ミラー・ウォリアーズ",
+      "title_name_zh": "鏡之戰士",
+      "card_count": 122,
+      "printing_count": 244,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "MRd/S111",
+          "suggested_display_name": "鏡之戰士（MRd/S111）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 95,
+          "printing_count": 190,
+          "sample_card_ids": [
+            "MRd/S111-P02",
+            "MRd/S111-T01",
+            "MRd/S111-T02",
+            "MRd/S111-T04",
+            "MRd/S111-T05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "MRp/S111",
+          "suggested_display_name": "鏡之戰士（MRp/S111）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 27,
+          "printing_count": 54,
+          "sample_card_ids": [
+            "MRp/S111-P01",
+            "MRp/S111-T03",
+            "MRp/S111-T12",
+            "MRp/S111-T16",
+            "MRp/S111-008"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "mti",
+      "title_code": "MTI",
+      "title_name_jp": "無職転生 ～異世界行ったら本気だす～",
+      "title_name_zh": "無職轉生～到了異世界就拿出真本事～",
+      "card_count": 127,
+      "printing_count": 177,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "MTI/S83",
+          "suggested_display_name": "無職轉生～到了異世界就拿出真本事～",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 177,
+          "sample_card_ids": [
+            "MTI/S83-P01",
+            "MTI/S83-P02",
+            "MTI/S83-T01",
+            "MTI/S83-T02",
+            "MTI/S83-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -8415,6 +12387,244 @@
       ]
     },
     {
+      "key": "p5",
+      "title_code": "P3",
+      "title_name_jp": "ペルソナ",
+      "title_name_zh": "女神異聞錄",
+      "card_count": 732,
+      "printing_count": 874,
+      "product_count": 10,
+      "products": [
+        {
+          "product_code": "P3/S01",
+          "suggested_display_name": "女神異聞錄（P3/S01）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 133,
+          "printing_count": 142,
+          "sample_card_ids": [
+            "P3/S01-001",
+            "P3/S01-002",
+            "P3/S01-003",
+            "P3/S01-004",
+            "P3/S01-005"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P3/SC01",
+          "suggested_display_name": "女神異聞錄（P3/SC01）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 122,
+          "printing_count": 131,
+          "sample_card_ids": [
+            "P3/SC01-113",
+            "P3/SC01-001",
+            "P3/SC01-002",
+            "P3/SC01-003",
+            "P3/SC01-004"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P3/SE46",
+          "suggested_display_name": "女神異聞錄（P3/SE46）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 62,
+          "printing_count": 131,
+          "sample_card_ids": [
+            "P3/SE46-P01",
+            "P3/SE46-P02",
+            "P3/SE46-01",
+            "P3/SE46-02",
+            "P3/SE46-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P4/S08",
+          "suggested_display_name": "女神異聞錄（P4/S08）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 121,
+          "printing_count": 137,
+          "sample_card_ids": [
+            "P4/S08-103",
+            "P4/S08-104",
+            "P4/S08-105",
+            "P4/S08-101",
+            "P4/S08-102"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P4/SE01",
+          "suggested_display_name": "女神異聞錄（P4/SE01）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 19,
+          "printing_count": 19,
+          "sample_card_ids": [
+            "P4/SE01-019",
+            "P4/SE01-01",
+            "P4/SE01-02",
+            "P4/SE01-03",
+            "P4/SE01-04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P4/SE12",
+          "suggested_display_name": "女神異聞錄（P4/SE12）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 77,
+          "printing_count": 77,
+          "sample_card_ids": [
+            "P4/SE12-P01",
+            "P4/SE12-P02",
+            "P4/SE12-101",
+            "P4/SE12-102",
+            "P4/SE12-103"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P4/SE15",
+          "suggested_display_name": "女神異聞錄（P4/SE15）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 38,
+          "printing_count": 38,
+          "sample_card_ids": [
+            "P4/SE15-P01",
+            "P4/SE15-P02",
+            "P4/SE15-01",
+            "P4/SE15-02",
+            "P4/SE15-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P4/SPR",
+          "suggested_display_name": "女神異聞錄（P4/SPR）",
+          "sort_index_by_card_code": 8,
+          "unique_card_count": 1,
+          "printing_count": 1,
+          "sample_card_ids": [
+            "P4/SPR-001"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "P5/S45",
+          "suggested_display_name": "女神異聞錄（P5/S45）",
+          "sort_index_by_card_code": 9,
+          "unique_card_count": 128,
+          "printing_count": 165,
+          "sample_card_ids": [
+            "P5/S45-109",
+            "P5/S45-P01",
+            "P5/S45-P02",
+            "P5/S45-T01",
+            "P5/S45-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "PQ/SE21",
+          "suggested_display_name": "女神異聞錄（PQ/SE21）",
+          "sort_index_by_card_code": 10,
+          "unique_card_count": 31,
+          "printing_count": 33,
+          "sample_card_ids": [
+            "PQ/SE21-31",
+            "PQ/SE21-01",
+            "PQ/SE21-02",
+            "PQ/SE21-03",
+            "PQ/SE21-04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "pad",
+      "title_code": "PAD",
+      "title_name_jp": "パズル＆ドラゴンズ",
+      "title_name_zh": "龍族拼圖",
+      "card_count": 130,
+      "printing_count": 195,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "PAD/S105",
+          "suggested_display_name": "龍族拼圖",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 130,
+          "printing_count": 195,
+          "sample_card_ids": [
+            "PAD/S105-101",
+            "PAD/S105-102",
+            "PAD/S105-103",
+            "PAD/S105-104",
+            "PAD/S105-105"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "pi",
       "title_code": "PI",
       "title_name_jp": "Fate/kaleid liner プリズマ☆イリヤ",
@@ -9053,6 +13263,159 @@
       ]
     },
     {
+      "key": "rkn",
+      "title_code": "RKN",
+      "title_name_jp": "るろうに剣心 －明治剣客浪漫譚－",
+      "title_name_zh": "神劍闖江湖 -明治劍客浪漫譚-",
+      "card_count": 123,
+      "printing_count": 256,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "RKN/S115",
+          "suggested_display_name": "神劍闖江湖 -明治劍客浪漫譚-",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 123,
+          "printing_count": 256,
+          "sample_card_ids": [
+            "RKN/S115-P01",
+            "RKN/S115-P02",
+            "RKN/S115-T01",
+            "RKN/S115-T02",
+            "RKN/S115-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "rsk",
+      "title_code": "RSK",
+      "title_name_jp": "リアセカイ",
+      "title_name_zh": "Rear Sekai",
+      "card_count": 59,
+      "printing_count": 72,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "RSK/SE44",
+          "suggested_display_name": "Rear Sekai",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 59,
+          "printing_count": 72,
+          "sample_card_ids": [
+            "RSK/SE44-P01",
+            "RSK/SE44-P02",
+            "RSK/SE44-P03",
+            "RSK/SE44-01",
+            "RSK/SE44-02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "rsl",
+      "title_code": "RSL",
+      "title_name_jp": "少女☆歌劇 レヴュースタァライト",
+      "title_name_zh": "少女☆歌劇 Revue Starlight",
+      "card_count": 444,
+      "printing_count": 670,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "RSL/S56",
+          "suggested_display_name": "少女☆歌劇 Revue Starlight（RSL/S56）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 151,
+          "printing_count": 217,
+          "sample_card_ids": [
+            "RSL/S56-P01",
+            "RSL/S56-P02",
+            "RSL/S56-P03",
+            "RSL/S56-P04",
+            "RSL/S56-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "RSL/S69",
+          "suggested_display_name": "少女☆歌劇 Revue Starlight（RSL/S69）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 125,
+          "printing_count": 173,
+          "sample_card_ids": [
+            "RSL/S69-P08",
+            "RSL/S69-P09",
+            "RSL/S69-P10",
+            "RSL/S69-P11",
+            "RSL/S69-P12"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "RSL/S98",
+          "suggested_display_name": "少女☆歌劇 Revue Starlight（RSL/S98）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 122,
+          "printing_count": 191,
+          "sample_card_ids": [
+            "RSL/S98-P01",
+            "RSL/S98-P02",
+            "RSL/S98-P03",
+            "RSL/S98-P04",
+            "RSL/S98-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "RSL/SE38",
+          "suggested_display_name": "少女☆歌劇 Revue Starlight（RSL/SE38）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 46,
+          "printing_count": 89,
+          "sample_card_ids": [
+            "RSL/SE38-P08",
+            "RSL/SE38-P09",
+            "RSL/SE38-P10",
+            "RSL/SE38-P11",
+            "RSL/SE38-P12"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "rz",
       "title_code": "RZ",
       "title_name_jp": "Re:ゼロから始める異世界生活",
@@ -9280,6 +13643,237 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "sao",
+      "title_code": "Gso",
+      "title_name_jp": "ソードアート・オンライン",
+      "title_name_zh": "刀劍神域",
+      "card_count": 1031,
+      "printing_count": 1424,
+      "product_count": 11,
+      "products": [
+        {
+          "product_code": "Gso/WS02",
+          "suggested_display_name": "刀劍神域（Gso/WS02）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 15,
+          "printing_count": 29,
+          "sample_card_ids": [
+            "Gso/WS02-P01",
+            "Gso/WS02-P03",
+            "Gso/WS02-T34",
+            "Gso/WS02-T36",
+            "Gso/WS02-T37"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S100",
+          "suggested_display_name": "刀劍神域（SAO/S100）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 111,
+          "printing_count": 213,
+          "sample_card_ids": [
+            "SAO/S100-P01",
+            "SAO/S100-P02",
+            "SAO/S100-P03",
+            "SAO/S100-P04",
+            "SAO/S100-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S20",
+          "suggested_display_name": "刀劍神域（SAO/S20）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 129,
+          "printing_count": 150,
+          "sample_card_ids": [
+            "SAO/S20-P01",
+            "SAO/S20-P02",
+            "SAO/S20-P03",
+            "SAO/S20-P04",
+            "SAO/S20-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S26",
+          "suggested_display_name": "刀劍神域（SAO/S26）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 88,
+          "printing_count": 106,
+          "sample_card_ids": [
+            "SAO/S26-P01",
+            "SAO/S26-P02",
+            "SAO/S26-001",
+            "SAO/S26-002",
+            "SAO/S26-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S47",
+          "suggested_display_name": "刀劍神域（SAO/S47）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 125,
+          "printing_count": 149,
+          "sample_card_ids": [
+            "SAO/S47-P01",
+            "SAO/S47-P02",
+            "SAO/S47-001",
+            "SAO/S47-002",
+            "SAO/S47-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S51",
+          "suggested_display_name": "刀劍神域（SAO/S51）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 110,
+          "printing_count": 133,
+          "sample_card_ids": [
+            "SAO/S51-P01",
+            "SAO/S51-P02",
+            "SAO/S51-P03",
+            "SAO/S51-P04",
+            "SAO/S51-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S65",
+          "suggested_display_name": "刀劍神域（SAO/S65）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 130,
+          "printing_count": 170,
+          "sample_card_ids": [
+            "SAO/S65-P01",
+            "SAO/S65-P02",
+            "SAO/S65-P03",
+            "SAO/S65-P04",
+            "SAO/S65-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S71",
+          "suggested_display_name": "刀劍神域（SAO/S71）",
+          "sort_index_by_card_code": 8,
+          "unique_card_count": 110,
+          "printing_count": 211,
+          "sample_card_ids": [
+            "SAO/S71-P01",
+            "SAO/S71-P02",
+            "SAO/S71-P03",
+            "SAO/S71-P04",
+            "SAO/S71-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/S80",
+          "suggested_display_name": "刀劍神域（SAO/S80）",
+          "sort_index_by_card_code": 9,
+          "unique_card_count": 109,
+          "printing_count": 148,
+          "sample_card_ids": [
+            "SAO/S80-P01",
+            "SAO/S80-P02",
+            "SAO/S80-P03",
+            "SAO/S80-P04",
+            "SAO/S80-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/SE23",
+          "suggested_display_name": "刀劍神域（SAO/SE23）",
+          "sort_index_by_card_code": 10,
+          "unique_card_count": 66,
+          "printing_count": 74,
+          "sample_card_ids": [
+            "SAO/SE23-P01",
+            "SAO/SE23-P02",
+            "SAO/SE23-P03",
+            "SAO/SE23-P04",
+            "SAO/SE23-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SAO/SE26",
+          "suggested_display_name": "刀劍神域（SAO/SE26）",
+          "sort_index_by_card_code": 11,
+          "unique_card_count": 38,
+          "printing_count": 41,
+          "sample_card_ids": [
+            "SAO/SE26-P01",
+            "SAO/SE26-P02",
+            "SAO/SE26-01",
+            "SAO/SE26-02",
+            "SAO/SE26-03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -9555,6 +14149,279 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "sg",
+      "title_code": "SG",
+      "title_name_jp": "戦姫絶唱シンフォギア",
+      "title_name_zh": "戰姬絕唱SYMPHOGEAR",
+      "card_count": 838,
+      "printing_count": 1048,
+      "product_count": 7,
+      "products": [
+        {
+          "product_code": "SG/W19",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W19）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 125,
+          "printing_count": 141,
+          "sample_card_ids": [
+            "SG/W19-P01",
+            "SG/W19-P02",
+            "SG/W19-101",
+            "SG/W19-102",
+            "SG/W19-103"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SG/W27",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W27）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 114,
+          "printing_count": 133,
+          "sample_card_ids": [
+            "SG/W27-P01",
+            "SG/W27-P02",
+            "SG/W27-P03",
+            "SG/W27-P04",
+            "SG/W27-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SG/W39",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W39）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 123,
+          "printing_count": 146,
+          "sample_card_ids": [
+            "SG/W39-P01",
+            "SG/W39-P02",
+            "SG/W39-P03",
+            "SG/W39-P04",
+            "SG/W39-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SG/W52",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W52）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 109,
+          "printing_count": 138,
+          "sample_card_ids": [
+            "SG/W52-P01",
+            "SG/W52-P02",
+            "SG/W52-P03",
+            "SG/W52-001",
+            "SG/W52-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SG/W70",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W70）",
+          "sort_index_by_card_code": 5,
+          "unique_card_count": 117,
+          "printing_count": 153,
+          "sample_card_ids": [
+            "SG/W70-P01",
+            "SG/W70-P02",
+            "SG/W70-P03",
+            "SG/W70-P04",
+            "SG/W70-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SG/W72",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W72）",
+          "sort_index_by_card_code": 6,
+          "unique_card_count": 129,
+          "printing_count": 177,
+          "sample_card_ids": [
+            "SG/W72-001",
+            "SG/W72-002",
+            "SG/W72-003",
+            "SG/W72-004",
+            "SG/W72-005"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SG/W89",
+          "suggested_display_name": "戰姬絕唱SYMPHOGEAR（SG/W89）",
+          "sort_index_by_card_code": 7,
+          "unique_card_count": 121,
+          "printing_count": 160,
+          "sample_card_ids": [
+            "SG/W89-P01",
+            "SG/W89-P02",
+            "SG/W89-P03",
+            "SG/W89-P04",
+            "SG/W89-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "shs",
+      "title_code": "Fsh",
+      "title_name_jp": "冴えない彼女の育てかた",
+      "title_name_zh": "不起眼女主角培育法",
+      "card_count": 368,
+      "printing_count": 483,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "Fsh/W120",
+          "suggested_display_name": "不起眼女主角培育法（Fsh/W120）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 16,
+          "printing_count": 36,
+          "sample_card_ids": [
+            "Fsh/W120-P09",
+            "Fsh/W120-T03",
+            "Fsh/W120-T04",
+            "Fsh/W120-039",
+            "Fsh/W120-041"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SHS/W56",
+          "suggested_display_name": "不起眼女主角培育法（SHS/W56）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 133,
+          "printing_count": 165,
+          "sample_card_ids": [
+            "SHS/W56-P01",
+            "SHS/W56-P02",
+            "SHS/W56-P03",
+            "SHS/W56-P04",
+            "SHS/W56-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SHS/W71",
+          "suggested_display_name": "不起眼女主角培育法（SHS/W71）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 108,
+          "printing_count": 135,
+          "sample_card_ids": [
+            "SHS/W71-P01",
+            "SHS/W71-P02",
+            "SHS/W71-P03",
+            "SHS/W71-001",
+            "SHS/W71-002"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SHS/W98",
+          "suggested_display_name": "不起眼女主角培育法（SHS/W98）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 111,
+          "printing_count": 147,
+          "sample_card_ids": [
+            "SHS/W98-P01",
+            "SHS/W98-P02",
+            "SHS/W98-P03",
+            "SHS/W98-P04",
+            "SHS/W98-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "skr",
+      "title_code": "SKR",
+      "title_name_jp": "新サクラ大戦",
+      "title_name_zh": "新櫻花大戰",
+      "card_count": 127,
+      "printing_count": 171,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "SKR/S73",
+          "suggested_display_name": "新櫻花大戰",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 127,
+          "printing_count": 171,
+          "sample_card_ids": [
+            "SKR/S73-P01",
+            "SKR/S73-P02",
+            "SKR/S73-P03",
+            "SKR/S73-T01",
+            "SKR/S73-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -9852,6 +14719,97 @@
       ]
     },
     {
+      "key": "ss",
+      "title_code": "SS",
+      "title_name_jp": "灼眼のシャナ",
+      "title_name_zh": "灼眼的夏娜",
+      "card_count": 241,
+      "printing_count": 337,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "Gss/WS02",
+          "suggested_display_name": "灼眼的夏娜（Gss/WS02）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 12,
+          "printing_count": 24,
+          "sample_card_ids": [
+            "Gss/WS02-T01",
+            "Gss/WS02-T07",
+            "Gss/WS02-T09",
+            "Gss/WS02-077",
+            "Gss/WS02-079"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SS/W14",
+          "suggested_display_name": "灼眼的夏娜（SS/W14）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 127,
+          "printing_count": 143,
+          "sample_card_ids": [
+            "SS/W14-106",
+            "SS/W14-107",
+            "SS/W14-108",
+            "SS/W14-109",
+            "SS/W14-110"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SS/WE15",
+          "suggested_display_name": "灼眼的夏娜（SS/WE15）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 39,
+          "printing_count": 39,
+          "sample_card_ids": [
+            "SS/WE15-P01",
+            "SS/WE15-P02",
+            "SS/WE15-P03",
+            "SS/WE15-01",
+            "SS/WE15-02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SS/WE41",
+          "suggested_display_name": "灼眼的夏娜（SS/WE41）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 63,
+          "printing_count": 131,
+          "sample_card_ids": [
+            "SS/WE41-P01",
+            "SS/WE41-P02",
+            "SS/WE41-P03",
+            "SS/WE41-01",
+            "SS/WE41-02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "sst",
       "title_code": "Sst",
       "title_name_jp": "新妹魔王の契約者",
@@ -10035,6 +14993,97 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "sw",
+      "title_code": "Dsw",
+      "title_name_jp": "STAR WARS",
+      "title_name_zh": "STAR WARS",
+      "card_count": 383,
+      "printing_count": 569,
+      "product_count": 4,
+      "products": [
+        {
+          "product_code": "Dsw/S104",
+          "suggested_display_name": "STAR WARS（Dsw/S104）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 6,
+          "printing_count": 11,
+          "sample_card_ids": [
+            "Dsw/S104-101",
+            "Dsw/S104-002",
+            "Dsw/S104-014",
+            "Dsw/S104-025",
+            "Dsw/S104-073"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SW/S49",
+          "suggested_display_name": "STAR WARS（SW/S49）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 297,
+          "printing_count": 361,
+          "sample_card_ids": [
+            "SW/S49-P01",
+            "SW/S49-T01",
+            "SW/S49-T02",
+            "SW/S49-T03",
+            "SW/S49-T04"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SW/SE39",
+          "suggested_display_name": "STAR WARS（SW/SE39）",
+          "sort_index_by_card_code": 3,
+          "unique_card_count": 32,
+          "printing_count": 92,
+          "sample_card_ids": [
+            "SW/SE39-P01",
+            "SW/SE39-P02",
+            "SW/SE39-001",
+            "SW/SE39-002",
+            "SW/SE39-003"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "SW/SE47",
+          "suggested_display_name": "STAR WARS（SW/SE47）",
+          "sort_index_by_card_code": 4,
+          "unique_card_count": 48,
+          "printing_count": 105,
+          "sample_card_ids": [
+            "SW/SE47-P01",
+            "SW/SE47-P02",
+            "SW/SE47-P03",
+            "SW/SE47-01",
+            "SW/SE47-02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     },
@@ -10684,6 +15733,53 @@
       ]
     },
     {
+      "key": "vs",
+      "title_code": "VS",
+      "title_name_jp": "ViVid Strike!",
+      "title_name_zh": "ViVid Strike!",
+      "card_count": 127,
+      "printing_count": 156,
+      "product_count": 2,
+      "products": [
+        {
+          "product_code": "VS/W50",
+          "suggested_display_name": "ViVid Strike!（VS/W50）",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 126,
+          "printing_count": 154,
+          "sample_card_ids": [
+            "VS/W50-P01",
+            "VS/W50-P03",
+            "VS/W50-T01",
+            "VS/W50-T02",
+            "VS/W50-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        },
+        {
+          "product_code": "VS/WE48",
+          "suggested_display_name": "ViVid Strike!（VS/WE48）",
+          "sort_index_by_card_code": 2,
+          "unique_card_count": 1,
+          "printing_count": 2,
+          "sample_card_ids": [
+            "VS/WE48-62"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
       "key": "woo",
       "title_code": "Woo",
       "title_name_jp": "うーさーのその日暮らし",
@@ -10724,6 +15820,161 @@
             }
           ],
           "official_name_source": "ws-tcg.com/manage/CardListUser"
+        }
+      ]
+    },
+    {
+      "key": "wtr",
+      "title_code": "WTR",
+      "title_name_jp": "ワールドトリガー",
+      "title_name_zh": "境界觸發者",
+      "card_count": 135,
+      "printing_count": 195,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "WTR/S85",
+          "suggested_display_name": "境界觸發者",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 135,
+          "printing_count": 195,
+          "sample_card_ids": [
+            "WTR/S85-P01",
+            "WTR/S85-P02",
+            "WTR/S85-T01",
+            "WTR/S85-T02",
+            "WTR/S85-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "yhn",
+      "title_code": "YHN",
+      "title_name_jp": "幻日のヨハネ -SUNSHINE in the MIRROR-",
+      "title_name_zh": "幻日夜羽 -鏡中暉光-",
+      "card_count": 151,
+      "printing_count": 248,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "YHN/W111",
+          "suggested_display_name": "幻日夜羽 -鏡中暉光-",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 151,
+          "printing_count": 248,
+          "sample_card_ids": [
+            "YHN/W111-101",
+            "YHN/W111-102",
+            "YHN/W111-103",
+            "YHN/W111-104",
+            "YHN/W111-105"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "yrc",
+      "title_code": "YRC",
+      "title_name_jp": "ゆるキャン△",
+      "title_name_zh": "搖曳露營△",
+      "card_count": 123,
+      "printing_count": 275,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "YRC/W116",
+          "suggested_display_name": "搖曳露營△",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 123,
+          "printing_count": 275,
+          "sample_card_ids": [
+            "YRC/W116-P01",
+            "YRC/W116-P02",
+            "YRC/W116-T01",
+            "YRC/W116-T02",
+            "YRC/W116-T03"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "yys",
+      "title_code": "YYS",
+      "title_name_jp": "ゆらぎ荘の幽奈さん",
+      "title_name_zh": "搖曳莊的幽奈小姐",
+      "card_count": 131,
+      "printing_count": 165,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "YYS/W61",
+          "suggested_display_name": "搖曳莊的幽奈小姐",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 131,
+          "printing_count": 165,
+          "sample_card_ids": [
+            "YYS/W61-P01",
+            "YYS/W61-P02",
+            "YYS/W61-P03",
+            "YYS/W61-P04",
+            "YYS/W61-P05"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
+        }
+      ]
+    },
+    {
+      "key": "zls",
+      "title_code": "ZLS",
+      "title_name_jp": "ゾンビランドサガ リベンジ",
+      "title_name_zh": "佐賀偶像是傳奇 捲土重來",
+      "card_count": 130,
+      "printing_count": 183,
+      "product_count": 1,
+      "products": [
+        {
+          "product_code": "ZLS/W93",
+          "suggested_display_name": "佐賀偶像是傳奇 捲土重來",
+          "sort_index_by_card_code": 1,
+          "unique_card_count": 130,
+          "printing_count": 183,
+          "sample_card_ids": [
+            "ZLS/W93-P01",
+            "ZLS/W93-P02",
+            "ZLS/W93-P03",
+            "ZLS/W93-T01",
+            "ZLS/W93-T02"
+          ],
+          "official_display_name_jp": null,
+          "official_display_category_jp": null,
+          "official_display_category_zh": null,
+          "official_product_names_jp": [],
+          "official_expansions": [],
+          "official_name_source": null
         }
       ]
     }
