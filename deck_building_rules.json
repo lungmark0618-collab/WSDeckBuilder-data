@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T22:56:49+08:00",
+  "updated_at": "2026-09-23T00:16:16+08:00",
   "default_same_name_limit": 4,
   "rules": [
     {
@@ -1293,9 +1293,9 @@
           "title_code": "NIK",
           "title_name_zh": "勝利女神：妮姬",
           "name_jp": "二千の分身 ナユタ",
-          "name_zh": "二千の分身 ナユタ",
+          "name_zh": "兩千分身 娜由塔",
           "rule_text_jp": "このカードと同じカード名のカードは、デッキに好きな枚数入れることができる。",
-          "rule_text_zh": ""
+          "rule_text_zh": "【永】 牌組中可放入任意張數與此卡卡名相同的卡。"
         }
       ]
     },

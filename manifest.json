@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "updated_at": "2026-09-21T15:48:43+08:00",
- "notes": "核對後續五十部作品並補齊世界計畫新卡",
+ "updated_at": "2026-09-23T00:16:17+08:00",
+ "notes": "補齊勝利女神：妮姬 Vol.2 全部譯文",
  "sets": [
   {
    "title_code": "5HY/W101",
@@ -714,7 +714,7 @@
    "title_code": "NIK",
    "title_name_zh": "勝利女神：妮姬",
    "file": "nik_cards.json",
-   "data_version": 5,
+   "data_version": 6,
    "url": "https://raw.githubusercontent.com/lungmark0618-collab/WSDeckBuilder-data/main/cards/nik_cards.json"
   },
   {
