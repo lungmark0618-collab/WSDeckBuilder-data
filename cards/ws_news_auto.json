@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-09-29T05:48:53.775375+00:00",
+ "generated_at": "2026-09-30T05:38:34.501826+00:00",
  "items": [
+  {
+   "date": "2026-09-29",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［anemoi］掲載",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/26102847/ws_anemoi_BP_banner-1024x576.jpg",
+   "title_zh": "補充包［anemoi］卡表刊載",
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=565",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-09-20",
    "categories": [
@@ -71,7 +84,7 @@
     "カードリスト"
    ],
    "title_jp": "ブースターパック［「勝利の女神：NIKKE Vol.2」］掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/15164909/ws_nik_vol2-1024x576.png",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21173453/1280%C3%97720_%E7%99%BA%E5%A3%B2%E5%89%8D%EF%BD%93-1024x576.jpg",
    "title_zh": "補充包［「勝利の女神：NIKKE Vol.2」］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=564",
    "source": "official",
@@ -899,19 +912,6 @@
    "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/24184825/%E3%83%87%E3%83%83%E3%82%AD%E3%83%AC%E3%82%B7%E3%83%94%E6%8E%B2%E8%BC%89-1024x576.png",
    "title_zh": "BCF2026 札幌会場 得獎者牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-20",
-   "categories": [
-    "イベント"
-   ],
-   "title_jp": "「東方Project初心者講習会」開催決定",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/17163037/%E5%88%9D%E5%BF%83%E8%80%85%E8%AC%9B%E7%BF%92%E4%BC%9A-1-1024x576.jpg",
-   "title_zh": "「東方Project初心者講習会」 確定舉辦",
-   "url": "https://ws-tcg.com/events/4273/",
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
