@@ -1,6 +1,25 @@
 {
  "items": [
   {
+   "date": "2026-10-09",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "プレミアムブースター［お兄ちゃんはおしまい！］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/25101211/ONM_BP_banner-1024x576.jpg",
+   "title_zh": "特別補充包［お兄ちゃんはおしまい！］公開",
+   "url": "https://ws-tcg.com/products/ono_pb/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年1月22日(金)",
+    "單包、4張入、售價 660 日圓（含稅）",
+    "整盒、6包入、售價 3,960 日圓（含稅）",
+    "整箱、30盒入",
+    "卡片種類：一般65種+平行卡65種以上（暫定）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/25101829/BOX.png"
+  },
+  {
    "date": "2026-09-29",
    "categories": [
     "カードリスト"
@@ -898,19 +917,6 @@
    "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/03/18190221/anemoi-1024x522.jpg",
    "title_zh": "試打組［anemoi］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=550",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-04-24",
-   "categories": [
-    "デッキレシピ"
-   ],
-   "title_jp": "BCF2026 札幌会場 入賞者のデッキレシピを掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/24184825/%E3%83%87%E3%83%83%E3%82%AD%E3%83%AC%E3%82%B7%E3%83%94%E6%8E%B2%E8%BC%89-1024x576.png",
-   "title_zh": "BCF2026 札幌会場 得獎者牌組配方刊載",
-   "url": "https://ws-tcg.com/deckrecipe/",
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
