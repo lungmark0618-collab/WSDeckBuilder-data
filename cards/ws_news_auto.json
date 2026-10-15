@@ -1,6 +1,32 @@
 {
- "generated_at": "2026-10-09T13:27:53.891528+00:00",
+ "generated_at": "2026-10-15T11:36:59.276857+00:00",
  "items": [
+  {
+   "date": "2026-10-15",
+   "categories": [
+    "イベント"
+   ],
+   "title_jp": "マチ★アソビ vol.31 にヴァイスシュヴァルツが出展！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/15183314/WSO_machiasobi_novelty_bannar_s_a_1280x720-1024x576.png",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/5688/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
+   "date": "2026-10-15",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "ヴァイスシュヴァルツ 総合ルールを更新",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-10-09",
    "categories": [
@@ -18,7 +44,7 @@
     "整箱、30盒入",
     "卡片種類：一般65種+平行卡65種以上（暫定）"
    ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/09/25101829/BOX.png"
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/15142127/BOX.png"
   },
   {
    "date": "2026-09-29",
@@ -889,38 +915,6 @@
     "卡片種類：一般100種+平行卡119種"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/17102708/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91Vol3_%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_%E7%B5%84%E3%81%BF%E7%AB%8B%E3%81%A6-1024x882.png"
-  },
-  {
-   "date": "2026-04-30",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "ブースターパック［「Re:ゼロから始める異世界生活」Vol.4］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/30165746/0430_rz_b-1024x576.jpg",
-   "title_zh": "補充包［「Re:ゼロから始める異世界生活」Vol.4］公開",
-   "url": "https://ws-tcg.com/products/bp_rzvol-4/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年7月24日(金)",
-    "單包、8張入、售價 440 日圓（含稅）",
-    "整盒、10包入、售價 4,400 日圓（含稅）",
-    "整箱、12盒入",
-    "卡片種類：一般100種+平行卡118種"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/03165828/rz4_box_hp.png"
-  },
-  {
-   "date": "2026-04-28",
-   "categories": [
-    "カードリスト"
-   ],
-   "title_jp": "トライアルデッキ［anemoi］掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/03/18190221/anemoi-1024x522.jpg",
-   "title_zh": "試打組［anemoi］卡表刊載",
-   "url": "https://ws-tcg.com/cardlist/search/?expansion=550",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
   }
  ]
 }
