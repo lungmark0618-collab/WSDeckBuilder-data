@@ -1,6 +1,25 @@
 {
- "generated_at": "2026-10-15T11:36:59.276857+00:00",
+ "generated_at": "2026-10-16T11:31:17.242551+00:00",
  "items": [
+  {
+   "date": "2026-10-16",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/08162814/TOP%E3%83%90%E3%83%8A%E3%83%BC_1280%C3%97720_%E7%99%BA%E5%A3%B2%E5%89%8D-1024x576.jpg",
+   "title_zh": "補充包［魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance］公開",
+   "url": "https://ws-tcg.com/products/ngb_bp/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年1月29日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡100種以上"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/08163035/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%83%AA%E3%83%AA%E3%82%AB%E3%83%AB%E3%81%AA%E3%81%AE%E3%81%AF-EXCEEDS-Gun-Blaze-Vengeance.png"
+  },
   {
    "date": "2026-10-15",
    "categories": [
@@ -896,25 +915,6 @@
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
-  },
-  {
-   "date": "2026-04-30",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "ブースターパック［【推しの子】Vol.3］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/30175754/0430_osk_banner_%E7%99%BA%E5%A3%B2%E6%97%A5-1024x576.jpg",
-   "title_zh": "補充包［【推しの子】Vol.3］公開",
-   "url": "https://ws-tcg.com/products/osk_bp3/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年8月7日(金)",
-    "單包、8張入、售價 440 日圓（含稅）",
-    "整盒、10包入、售價 4,400 日圓（含稅）",
-    "整箱、12盒入",
-    "卡片種類：一般100種+平行卡119種"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/17102708/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91Vol3_%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_%E7%B5%84%E3%81%BF%E7%AB%8B%E3%81%A6-1024x882.png"
   }
  ]
 }
