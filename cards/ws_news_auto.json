@@ -1,6 +1,41 @@
 {
- "generated_at": "2026-10-16T11:31:17.242551+00:00",
+ "generated_at": "2026-10-23T11:45:48.296799+00:00",
  "items": [
+  {
+   "date": "2026-10-23",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック［魔法少女ノ魔女裁判］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/23103251/mjs_1280%C3%97720hp-1024x576.jpg",
+   "title_zh": "補充包［魔法少女ノ魔女裁判］公開",
+   "url": "https://ws-tcg.com/products/mjs_bp_ws/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年2月12日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種（RR13種）+平行卡100種以上"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/23103254/mjs_400%C3%97400%E3%82%B5%E3%82%A4%E3%82%BA.jpg"
+  },
+  {
+   "date": "2026-10-23",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "トライアルデッキ ［魔法少女ノ魔女裁判］公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/23103420/td_mjs_box.png",
+   "title_zh": "試打組［魔法少女ノ魔女裁判］公開",
+   "url": "https://ws-tcg.com/products/mjs_td_ws/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2026年12月11日(金)",
+    "整盒、售價 6,600 日圓（含稅）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/23103420/td_mjs_box.png"
+  },
   {
    "date": "2026-10-16",
    "categories": [
@@ -886,32 +921,6 @@
    "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/24184825/%E3%83%87%E3%83%83%E3%82%AD%E3%83%AC%E3%82%B7%E3%83%94%E6%8E%B2%E8%BC%89-1024x576.png",
    "title_zh": "BCF2026 東京会場 得獎者牌組配方刊載",
    "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-05-07",
-   "categories": [
-    "大会"
-   ],
-   "title_jp": "【開催中】BCF2026（ブシロードカードファイト2026）",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/18121653/BCF2026%E3%81%97%E3%82%88%E5%AD%90_P-1024x535.jpg",
-   "title_zh": "【舉辦中】BCF2026（ブシロードカードファイト2026）",
-   "url": "https://ws-tcg.com/championship/bcf2026/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-05-01",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "エラッタ更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "勘誤表更新",
-   "url": "https://ws-tcg.com/rules/errata/",
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
