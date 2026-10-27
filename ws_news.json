@@ -1,6 +1,58 @@
 {
  "items": [
   {
+   "date": "2026-10-27",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
+   "title_zh": "勘誤表更新",
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
+   "date": "2026-10-27",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［ガールズ＆パンツァー］掲載",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182227/gup_bp_1280%C3%97720_a-1024x576.jpg",
+   "title_zh": "補充包［ガールズ＆パンツァー］卡表刊載",
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=568",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
+   "date": "2026-10-27",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "トライアルデッキ［ガールズ＆パンツァー 無限軌道杯］掲載",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182227/gup_bp_1280%C3%97720_a-1024x576.jpg",
+   "title_zh": "試打組［ガールズ＆パンツァー 無限軌道杯］卡表刊載",
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=570",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
+   "date": "2026-10-27",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "トライアルデッキ［ガールズ＆パンツァー 大洗女子学園］掲載",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31182227/gup_bp_1280%C3%97720_a-1024x576.jpg",
+   "title_zh": "試打組［ガールズ＆パンツァー 大洗女子学園］卡表刊載",
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=569",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
    "date": "2026-10-23",
    "categories": [
     "商品情報"
@@ -105,7 +157,7 @@
     "カードリスト"
    ],
    "title_jp": "ブースターパック［anemoi］掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/26102847/ws_anemoi_BP_banner-1024x576.jpg",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/27170605/ws_anemoi_BP_banner-1024x576.jpg",
    "title_zh": "補充包［anemoi］卡表刊載",
    "url": "https://ws-tcg.com/cardlist/search/?expansion=565",
    "source": "official",
@@ -575,19 +627,6 @@
   {
    "date": "2026-07-03",
    "categories": [
-    "ルール"
-   ],
-   "title_jp": "エラッタ更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "勘誤表更新",
-   "url": "https://ws-tcg.com/rules/errata/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-07-03",
-   "categories": [
     "お知らせ"
    ],
    "title_jp": "全国のGiGOとBanG Dream!STORE にて夢限大みゅーたいぷのPRカードをプレゼント！",
@@ -662,7 +701,7 @@
     "商品情報"
    ],
    "title_jp": "ブースターパック anemoi 公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/26102847/ws_anemoi_BP_banner-1024x576.jpg",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/27170605/ws_anemoi_BP_banner-1024x576.jpg",
    "title_zh": null,
    "url": "https://ws-tcg.com/products/anm_bp/",
    "source": "official",
@@ -884,45 +923,6 @@
     "卡片種類：一般116種+平行卡116種以上（暫定）"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21180311/bp_gbf_box.png"
-  },
-  {
-   "date": "2026-05-20",
-   "categories": [
-    "デッキレシピ"
-   ],
-   "title_jp": "BCF2026 北九州会場 入賞者のデッキレシピを掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/24184825/%E3%83%87%E3%83%83%E3%82%AD%E3%83%AC%E3%82%B7%E3%83%94%E6%8E%B2%E8%BC%89-1024x576.png",
-   "title_zh": "BCF2026 北九州会場 得獎者牌組配方刊載",
-   "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-05-19",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "総合ルール更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "綜合規則更新",
-   "url": "https://ws-tcg.com/rules/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-05-13",
-   "categories": [
-    "デッキレシピ"
-   ],
-   "title_jp": "BCF2026 東京会場 入賞者のデッキレシピを掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/24184825/%E3%83%87%E3%83%83%E3%82%AD%E3%83%AC%E3%82%B7%E3%83%94%E6%8E%B2%E8%BC%89-1024x576.png",
-   "title_zh": "BCF2026 東京会場 得獎者牌組配方刊載",
-   "url": "https://ws-tcg.com/deckrecipe/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
   }
  ]
 }
