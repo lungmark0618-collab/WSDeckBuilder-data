@@ -1,6 +1,22 @@
 {
- "generated_at": "2026-10-27T12:19:54.215351+00:00",
+ "generated_at": "2026-10-28T13:03:31.243719+00:00",
  "items": [
+  {
+   "date": "2026-10-28",
+   "categories": [
+    "お知らせ",
+    "商品情報",
+    "大会",
+    "イベント"
+   ],
+   "title_jp": "ブシロードTCG戦略発表会2026 秋 発表内容を掲載！",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/28172601/WS01-1024x576.png",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/5791/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-10-27",
    "categories": [
@@ -905,25 +921,6 @@
     "整盒、售價 6,600 日圓（含稅）"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21180054/td_gbf_box.png"
-  },
-  {
-   "date": "2026-05-21",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "ブースターパック［グランブルーファンタジー］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21180301/gbf_bp_1280%C3%97720_a-1024x576.jpg",
-   "title_zh": "補充包［グランブルーファンタジー］公開",
-   "url": "https://ws-tcg.com/products/gbf_bp/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年6月26日(金)",
-    "單包、8張入、售價 440 日圓（含稅）",
-    "整盒、10包入、售價 4,400 日圓（含稅）",
-    "整箱、12盒入",
-    "卡片種類：一般116種+平行卡116種以上（暫定）"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21180311/bp_gbf_box.png"
   }
  ]
 }
