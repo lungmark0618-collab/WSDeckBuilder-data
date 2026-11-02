@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-10-29T13:10:42.268983+00:00",
+ "generated_at": "2026-11-02T06:17:24.425475+00:00",
  "items": [
+  {
+   "date": "2026-11-02",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
+   "title_zh": "勘誤表更新",
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-10-28",
    "categories": [
@@ -94,7 +107,7 @@
     "商品情報"
    ],
    "title_jp": "トライアルデッキ ［魔法少女ノ魔女裁判］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/23103420/td_mjs_box.png",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/10/02134024/td_mjs_box-1-1024x576.png",
    "title_zh": "試打組［魔法少女ノ魔女裁判］公開",
    "url": "https://ws-tcg.com/products/mjs_td_ws/",
    "source": "official",
@@ -907,20 +920,6 @@
     "整盒、售價 6,600 日圓（含稅）"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/04192852/td_brd_box.png"
-  },
-  {
-   "date": "2026-05-21",
-   "categories": [],
-   "title_jp": "トライアルデッキ［グランブルーファンタジー］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21180039/gbf_td_1280%C3%97720_a-1024x576.jpg",
-   "title_zh": "試打組［グランブルーファンタジー］公開",
-   "url": "https://ws-tcg.com/products/gbf_td/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年6月26日(金)",
-    "整盒、售價 6,600 日圓（含稅）"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21180054/td_gbf_box.png"
   }
  ]
 }
