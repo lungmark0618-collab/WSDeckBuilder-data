@@ -1,6 +1,38 @@
 {
- "generated_at": "2026-11-04T19:49:58.353614+00:00",
+ "generated_at": "2026-11-06T06:55:31.960558+00:00",
  "items": [
+  {
+   "date": "2026-11-06",
+   "categories": [
+    "商品情報"
+   ],
+   "title_jp": "ブースターパック MyGO!!!!! × Ave Mujica Vol.2 公開",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/11/02191215/BD_MMVol2_HP_1-1024x576.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/products/bd_mmvol2_bp/",
+   "source": "official",
+   "highlights_zh": [
+    "發售日：2027年2月26日(金)",
+    "單包、8張入、售價 440 日圓（含稅）",
+    "整盒、10包入、售價 4,400 日圓（含稅）",
+    "整箱、12盒入",
+    "卡片種類：一般100種+平行卡100種以上（暫定）"
+   ],
+   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/11/02191218/BD_MMVol2_HP_3.jpg"
+  },
+  {
+   "date": "2026-11-06",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "デッキ構築ルールを更新",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
+   "title_zh": "牌組構築規則更新",
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-11-02",
    "categories": [
@@ -885,41 +917,6 @@
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
-  },
-  {
-   "date": "2026-06-05",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "ブースターパック［ブラウンダスト2］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/04192302/ws_bd2-1024x576.jpg",
-   "title_zh": "補充包［ブラウンダスト2］公開",
-   "url": "https://ws-tcg.com/products/brd_bp/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年7月3日(金)",
-    "單包、8張入、售價 440 日圓（含稅）",
-    "整盒、10包入、售價 4,400 日圓（含稅）",
-    "整箱、12盒入",
-    "卡片種類：一般100種+平行卡100種以上（暫定）"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/02152246/BD2_400%E2%9C%95400.png"
-  },
-  {
-   "date": "2026-06-05",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "トライアルデッキ［ブラウンダスト2］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/04192302/ws_bd2-1024x576.jpg",
-   "title_zh": "試打組［ブラウンダスト2］公開",
-   "url": "https://ws-tcg.com/products/brd_td/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年7月3日(金)",
-    "整盒、售價 6,600 日圓（含稅）"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/04192852/td_brd_box.png"
   }
  ]
 }
