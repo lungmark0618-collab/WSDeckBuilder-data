@@ -1,6 +1,21 @@
 {
  "items": [
   {
+   "date": "2026-11-07",
+   "categories": [
+    "お知らせ",
+    "商品情報",
+    "イベント"
+   ],
+   "title_jp": "11.7ヴァイスシュヴァルツ特別生配信 発表内容まとめ",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/themes/ws-tcg_re/assets/img/common/noimg.jpg",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/information/5873/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
    "date": "2026-11-06",
    "categories": [
     "商品情報"
@@ -903,19 +918,6 @@
     "卡片種類：一般100種+平行卡115種"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/24172343/sfn_vol.2_box-1.png"
-  },
-  {
-   "date": "2026-06-05",
-   "categories": [
-    "ルール"
-   ],
-   "title_jp": "デッキ構築ルールを更新",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
-   "title_zh": "牌組構築規則更新",
-   "url": "https://ws-tcg.com/rules/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
   }
  ]
 }
