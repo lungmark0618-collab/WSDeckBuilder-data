@@ -1,6 +1,32 @@
 {
- "generated_at": "2026-11-10T07:25:36.668624+00:00",
+ "generated_at": "2026-11-10T19:48:07.255293+00:00",
  "items": [
+  {
+   "date": "2026-11-10",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "ヴァイスシュヴァルツ 総合ルールを更新",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
+   "title_zh": null,
+   "url": "https://ws-tcg.com/rules/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
+   "date": "2026-11-10",
+   "categories": [
+    "カードリスト"
+   ],
+   "title_jp": "ブースターパック［BanG Dream! [夢限大みゅーたいぷ]］掲載",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/07/31183310/ws_bd_ya-1024x576.jpg",
+   "title_zh": "補充包［BanG Dream! [夢限大みゅーたいぷ]］卡表刊載",
+   "url": "https://ws-tcg.com/cardlist/search/?expansion=571",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
   {
    "date": "2026-11-07",
    "categories": [
@@ -887,38 +913,6 @@
     "卡片種類：一般 112種＋平行卡 158種"
    ],
    "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/20184941/NIK_vol2.png"
-  },
-  {
-   "date": "2026-06-09",
-   "categories": [
-    "カードリスト"
-   ],
-   "title_jp": "トライアルデッキ＆ブースターパック［GA文庫］掲載",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/themes/ws-tcg_re/assets/img/common/noimg.jpg",
-   "title_zh": "試打組＆補充包［GA文庫］卡表刊載",
-   "url": "https://ws-tcg.com/cardlist/",
-   "source": "official",
-   "highlights_zh": [],
-   "detail_image_url": null
-  },
-  {
-   "date": "2026-06-05",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "ブースターパック［葬送のフリーレン Vol.2］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/04124148/%E2%91%A01280%C3%97720%E3%82%B5%E3%82%A4%E3%82%BA_%E7%99%BA%E5%A3%B2%E6%97%A5A-1024x576.jpg",
-   "title_zh": "補充包［葬送のフリーレン Vol.2］公開",
-   "url": "https://ws-tcg.com/products/sfn_bp_vol2/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年8月28日(金)",
-    "單包、8張入、售價 440 日圓（含稅）",
-    "整盒、10包入、售價 4,400 日圓（含稅）",
-    "整箱、12盒入",
-    "卡片種類：一般100種+平行卡115種"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/06/24172343/sfn_vol.2_box-1.png"
   }
  ]
 }
