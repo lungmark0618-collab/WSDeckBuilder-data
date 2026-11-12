@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "date": "2026-11-12",
+   "categories": [
+    "ルール"
+   ],
+   "title_jp": "エラッタ更新",
+   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/04/14230114/%E3%83%AB%E3%83%BC%E3%83%AB%E6%9B%B4%E6%96%B0-1024x576.png",
+   "title_zh": "勘誤表更新",
+   "url": "https://ws-tcg.com/rules/errata/",
+   "source": "official",
+   "highlights_zh": [],
+   "detail_image_url": null
+  },
+  {
    "date": "2026-11-10",
    "categories": [
     "ルール"
@@ -893,25 +906,6 @@
    "source": "official",
    "highlights_zh": [],
    "detail_image_url": null
-  },
-  {
-   "date": "2026-06-10",
-   "categories": [
-    "商品情報"
-   ],
-   "title_jp": "ブースターパック［勝利の女神：NIKKE Vol.2］公開",
-   "image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/21173453/1280%C3%97720_%E7%99%BA%E5%A3%B2%E5%89%8D%EF%BD%93-1024x576.jpg",
-   "title_zh": "補充包［勝利の女神：NIKKE Vol.2］公開",
-   "url": "https://ws-tcg.com/products/nik_bp2/",
-   "source": "official",
-   "highlights_zh": [
-    "發售日：2026年9月19日(土)",
-    "單包、8張入、售價 440 日圓（含稅）",
-    "整盒、10包入、售價 4,400 日圓（含稅）",
-    "整箱、12盒入",
-    "卡片種類：一般 112種＋平行卡 158種"
-   ],
-   "detail_image_url": "https://ws-tcg.com/wordpress/wp-content/uploads/2026/05/20184941/NIK_vol2.png"
   }
  ]
 }
